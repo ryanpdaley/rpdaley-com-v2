@@ -1,0 +1,29 @@
+.footer_body {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 6vh;
+  min-height: 40px;
+  background-color: #000;
+  color: #fff;
+  z-index: 2;
+}
+
+.social_block {
+  padding-top: 1vh;
+  padding-right: 2vh;
+  float: right;
+  display: block;
+}
+
+.social_link {
+  padding: 4px 0.5vh 0;
+  float: right;
+}
+
+.social_logo {
+  height: 4vh;
+  min-height: 35px;
+  width: auto;
+}

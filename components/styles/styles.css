@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito|Oswald');
+body {
+    font-family: 'SF Pro Text', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica',
+      'Arial', sans-serif;
+    padding: 20px 20px 60px;
+    width: 80vw;
+    margin: 0 auto;
+  }
+
+
+  .aboutBlockItem {
+    padding: 1vw;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    border-style: solid;
+    margin: .5vw 0;
+    border-radius: .5vw;
+    background-color: #fff
+}
+.aboutBlockLogo {
+    width: 20vw;
+    height: auto;
+    display:inline-block;
+    border-style: solid;
+    border-radius: 1vw;
+    max-width: 150px;
+    background-color: #000;
+    border-color: #000;
+}
+
+.aboutBlockInfo {
+    display: inline-block;
+    padding: 0 1vh;
+    width: 100%;
+}
+
+.aboutHeader {
+    width: 100%;
+    display: inline-block;
+    border-bottom: solid;
+}
+
+.aboutName {
+    float: left;
+    font-size: 4vw;
+    font-family: 'Oswald', sans-serif;
+  }
+.aboutName a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .aboutDate {
+    float: right;
+    font-size: 3vw;
+    padding: 0.5vw;
+    font-family: 'Oswald', sans-serif;
+  }
+  
+  .roleTitle {
+    font-size: 2.5vw;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .roleDescription, .roleLocation {
+    font-size: 2vw;
+    padding: 0 4vw;
+    text-indent:-2.5vw;
+    font-family: 'Nunito', sans-serif;
+  }

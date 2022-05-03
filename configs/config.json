@@ -1,0 +1,216 @@
+{
+  "school_data":
+  [
+    {
+      "name": "Lighthouse Labs",
+      "dates": "2017",
+      "logo": "/images/t_lhl.png",
+      "link": "https://www.lighthouselabs.ca/",
+      "description": [
+        {
+          "title": "Web Development Bootcamp",
+          "info":
+            [
+              "- Diploma: Web Development"
+            ],
+          "location": "Toronto, Ontario"
+        }
+      ]
+    },
+    {
+      "name": "UBC",
+      "dates": "2006 - 2010",
+      "logo": "/images/t_ubc.png",
+      "link": "https://www.ubc.ca/",
+      "description": [
+        {
+          "title": "Bachelor of Computer Science",
+          "info":
+            [
+              "- Degree: Integrated Computer Science"
+            ],
+          "location": "Vancouver, British Columbia"
+        }
+      ]
+    },
+    {
+      "name": "University of Guelph",
+      "dates": "2001 - 2005",
+      "logo": "/images/t_uog.png",
+      "link": "https://www.uoguelph.ca/",
+      "description": [
+        {
+          "title": "Bachelor of Science (Honours)",
+          "info":
+            [
+              "- Degree: Biology"
+            ],
+          "location": "Guelph, Ontario"
+        }
+      ]
+    }
+  ],
+  "work_data":
+  [
+    {
+      "name": "Bell Media",
+      "dates": "2017 - Current",
+      "logo": "/images/t_bm.png",
+      "link": "http://www.bellmedia.ca/",
+      "description": [
+        {
+          "title": "Software Developer",
+          "info":
+            [
+              "- Currently the developer for the Chromecast Receiver for all Bell Media brands",
+              "- Previous responsibilities included creating the web authentication for TSN & RDS direct to consumer (D2C), and maintaining the CraveTV property for web.",
+              "- Technologies: JavaScript, AJAX, JSON, HTML, CSS, npm, node.js, JIRA, git, Charles Proxy, Akamai Identity Services (AIS), CSG Ascendon, JWT."
+            ],
+          "location": "Toronto, Ontario"
+        },
+        {
+          "title": "Full-Stack Developer",
+          "info":
+            [
+              "- Supported CraveTV and web authentication.",
+              "- Responsibilities included integration and deployment of builds / web components to various server environments, and assisting external development agencies integrate services and platforms.",
+              "- Technologies: JavaScript, AJAX, JSON, HTML, CSS, node.js, JIRA, git, Charles Proxy."
+            ],
+          "location": "Toronto, Ontario"
+        }
+      ]
+    },
+    {
+      "name": "Apple",
+      "dates": "2012 - 2017",
+      "logo": "/images/t_apple.png",
+      "link": "https://www.apple.com/",
+      "description": [
+        {
+          "title": "Automation Engineer - In-Car Experience",
+          "info":
+            [
+              "- Designed, implemented, and maintained an automated test system to validate daily iOS builds for CarPlay.",
+              "- Designed, implemented, and maintained a system to manage software quality issue reports and alert all stakeholders in a daily email report.",
+              "- Technologies: Python, Ruby, UIA2 (JavaScript), shell scripting, HTML, CSS."
+            ],
+          "location": "Cupertino, California"
+        },
+        {
+          "title": "Software QA Engineer - Accessories QA",
+          "info":
+            [
+              "- Tested iPod / iPhone / iPad integration (wired and wireless) with car stereos.",
+              "- Responsible for writing test plans, executing tests, regressing, isolating and reporting issues found during testing."
+            ],
+          "location": "Cupertino, California"
+        }
+      ]
+    },
+    {
+      "name": "Kobo",
+      "dates": "2011 - 2012",
+      "logo": "/images/t_kobo.png",
+      "link": "https://www.kobo.com/",
+      "description": [
+        {
+          "title": "QA Analyst",
+          "info":
+            [
+              "- Represented QA and testing in all aspects of the Agile Scrum development process including Sprint Planning and daily Scrum meetings.",
+              "- Created and executed test plans and test cases (manual and automated) for user stories, including risk based regression testing.",
+              "- Technologies: shell scripting, Jira, GreenHopper, Pivotal Tracker."
+            ],
+          "location": "Toronto, Ontario"
+        }
+      ]
+    },
+    {
+      "name": "RIM / BlackBerry",
+      "dates": "2008 - 2009",
+      "logo": "/images/t_rim.png",
+      "link": "https://www.blackberry.com/",
+      "description": [
+        {
+          "title": "UBC Campus Ambassador",
+          "info":
+            [
+              "- Acted as the liaison between the University of British Columbia and Research In Motion.",
+              "- Responsible for assisting the Campus Recruitment team from RIM find and recruit potential candidates for their new graduate and co-op positions.",
+              "- Aided candidates with their applications to RIM, prepare for their interviews, and their successful transition from UBC to RIM."
+            ],
+          "location": "Vancouver, British Columbia"
+        },
+        {
+          "title": "Software Test Associate - New Product Testing (Co-op)",
+          "info":
+            [
+              "- Executed testing of new software on both production and prototype BlackBerry Wireless Handhelds.",
+              "- Responsible for performing various types of tests including integration, regression, performance and general smoke tests.",
+              "- Position demonstrated my ability to be a flexible team player who excels in an environment that requires the ability to effectively prioritize and juggle multiple concurrent projects."
+            ],
+          "location": "Waterloo, Ontario"
+        }
+      ]
+    }
+  ],
+  "extras_data":
+  [
+    {
+      "name": "Machine Learning",
+      "dates": "2017 - Current",
+      "logo": "/images/t_bm.png",
+      "link": "http://www.bellmedia.ca/",
+      "description": [
+        {
+          "title": "Software Developer",
+          "info":
+            [
+              "- Currently the developer for the Chromecast Receiver for all Bell Media brands",
+              "- Previous responsibilities included creating the web authentication for TSN & RDS direct to consumer (D2C), and maintaining the CraveTV property for web.",
+              "- Technologies: JavaScript, AJAX, JSON, HTML, CSS, npm, node.js, JIRA, git, Charles Proxy, Akamai Identity Services (AIS), CSG Ascendon, JWT."
+            ],
+          "location": "Toronto, Ontario"
+        },
+        {
+          "title": "Full-Stack Developer",
+          "info":
+            [
+              "- Supported CraveTV and web authentication.",
+              "- Responsibilities included integration and deployment of builds / web components to various server environments, and assisting external development agencies integrate services and platforms.",
+              "- Technologies: JavaScript, AJAX, JSON, HTML, CSS, node.js, JIRA, git, Charles Proxy."
+            ],
+          "location": "Toronto, Ontario"
+        }
+      ]
+    }
+  ],
+  "footer_data":
+  [
+    
+    {"name": "github", "link": "https://github.com/ryanpdaley", "logo": "../images/github.png"},
+    {"name": "facebook", "link": "https://www.facebook.com/ryandaley", "logo": "../images/fb.svg"},
+    {"name": "linkedin", "link": "https://www.linkedin.com/in/ryandaley/", "logo": "../images/linkedin.png"},
+    {"name": "instagram", "link": "https://www.instagram.com/rdinca/", "logo": "../images/instagram.png"},
+    {"name": "telegram", "link": "https://t.me/rdaley", "logo": "../images/telegram.png"},
+    {"name": "twitter", "link": "https://twitter.com/TweetRye/", "logo": "../images/twitter.png"}
+  ],
+
+  "link_map": {
+    "apple":"https://www.apple.com/",
+    "bellmedia":"http://www.bellmedia.ca/",
+    "facebook": "https://www.facebook.com/ryandaley",
+    "github": "https://github.com/ryanpdaley",
+    "instagram": "https://www.instagram.com/rdinca/",
+    "kobo":"https://www.kobo.com/",
+    "lhl":"https://www.lighthouselabs.ca",
+    "linkedin": "https://www.linkedin.com/in/ryandaley/",
+    "twitter": "https://twitter.com/TweetRye/",
+    "readme":"https://github.com/ryanpdaley/rpdaley/blob/master/README.md",
+    "repo": "https://github.com/ryanpdaley/rpdaley",
+    "resume":"https://resume.creddle.io/resume/dm8ntc5k58y",
+    "rim":"https://www.blackberry.com/",
+    "ubc":"https://www.ubc.ca",
+    "uoguelph":"https://www.uoguelph.ca"
+  }
+}
