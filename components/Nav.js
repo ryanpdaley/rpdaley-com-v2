@@ -1,7 +1,12 @@
 import Link from 'next/link';
+import styled from 'styled-components';
+
+const NavStyle = styled.nav`
+  background-color: red;
+`;
 
 const Nav = () => (
-  <nav>
+  <NavStyle>
     <Link href="/">
       <a>Home</a>
     </Link>
@@ -14,7 +19,7 @@ const Nav = () => (
     <Link href="/ideas">
       <a>Ideas</a>
     </Link>
-  </nav>
+  </NavStyle>
 );
 
 export default Nav;
