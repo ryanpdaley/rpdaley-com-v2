@@ -7,6 +7,7 @@ import nProgress from 'nprogress';
 import '../components/styles/nprogress.css';
 import '../components/styles/styles.css';
 import '../components/styles/footer.css';
+import '../components/styles/header.css';
 import * as gtag from '../lib/gtag';
 
 Router.events.on('routeChangeStart', () => nProgress.start());
