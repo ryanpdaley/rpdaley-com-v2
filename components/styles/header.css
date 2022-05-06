@@ -1,0 +1,40 @@
+.logoWraper {
+    max-width: 30rem;
+    margin: 0 auto;
+    position: relative;
+    z-index: 10;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+.logoBar {
+    font-size: 3.33333rem;
+    margin-bottom: 0.495rem;
+    font-family: 'Oswald';
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #fff;
+}
+
+.thick-header-line:before, .thick-header-line:after{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 10rem;
+    height: 7px;
+    background-color: #fff;
+    top: 60%;
+    margin-bottom: -4px;
+}
+.thick-header-line:before{
+	left: -10rem;
+}
+.thick-header-line:after{
+	right: -10rem;
+}
+
+.h1red {
+	color: red;
+	font-size: 6rem;
+}
