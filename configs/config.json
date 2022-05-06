@@ -8,9 +8,7 @@
       "description": [
         {
           "title": "Web Development Bootcamp",
-          "info": [
-            "- Diploma: Web Development"
-          ],
+          "info": ["- Diploma: Web Development"],
           "location": "Toronto, Ontario"
         }
       ]
@@ -23,9 +21,7 @@
       "description": [
         {
           "title": "Bachelor of Computer Science",
-          "info": [
-            "- Degree: Integrated Computer Science"
-          ],
+          "info": ["- Degree: Integrated Computer Science"],
           "location": "Vancouver, British Columbia"
         }
       ]
@@ -38,9 +34,7 @@
       "description": [
         {
           "title": "Bachelor of Science (Honours)",
-          "info": [
-            "- Degree: Biology"
-          ],
+          "info": ["- Degree: Biology"],
           "location": "Guelph, Ontario"
         }
       ]
@@ -144,28 +138,33 @@
   ],
   "extras_data": [
     {
-      "name": "Machine Learning",
-      "dates": "2017 - Current",
-      "logo": "/images/t_bm.png",
-      "link": "http://www.bellmedia.ca/",
+      "name": "University of Toronto",
+      "dates": "2020",
+      "logo": "/images/t_uot.png",
+      "link": "https://www.utoronto.ca/",
       "description": [
         {
-          "title": "Software Developer",
-          "info": [
-            "- Currently the developer for the Chromecast Receiver for all Bell Media brands",
-            "- Previous responsibilities included creating the web authentication for TSN & RDS direct to consumer (D2C), and maintaining the CraveTV property for web.",
-            "- Technologies: JavaScript, AJAX, JSON, HTML, CSS, npm, node.js, JIRA, git, Charles Proxy, Akamai Identity Services (AIS), CSG Ascendon, JWT."
-          ],
+          "title": "SCS 3253 - Machine Learning",
+          "info": ["- Instructor: Michael Ciniello"],
           "location": "Toronto, Ontario"
+        }
+      ]
+    },
+    {
+      "name": "Stanford University",
+      "dates": "2013-2015",
+      "logo": "/images/t_stanford.png",
+      "link": "https://www.stanford.edu/",
+      "description": [
+        {
+          "title": "DSN 102 - Design Execution: Bringing Ideas to Life",
+          "info": ["- Instructor: Peter Macdonald"],
+          "location": "Stanford, California"
         },
         {
-          "title": "Full-Stack Developer",
-          "info": [
-            "- Supported CraveTV and web authentication.",
-            "- Responsibilities included integration and deployment of builds / web components to various server environments, and assisting external development agencies integrate services and platforms.",
-            "- Technologies: JavaScript, AJAX, JSON, HTML, CSS, node.js, JIRA, git, Charles Proxy."
-          ],
-          "location": "Toronto, Ontario"
+          "title": "DSN 101 - Ideation: The History and Theory of Design",
+          "info": ["- Instructor: Barry Katz"],
+          "location": "Stanford, California"
         }
       ]
     }

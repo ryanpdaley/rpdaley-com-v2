@@ -6,7 +6,7 @@ import Page from '../components/Page';
 import siteConfigs from '../configs/config.json';
 
 const AboutBlockStyles = styled.div`
-  background: green;
+  /* background: green; */
 `;
 
 const AboutBlocks = ({ aboutData }) => (
@@ -19,11 +19,13 @@ const AboutBlocks = ({ aboutData }) => (
 
 const About = () => (
   <Page>
-    <div className="page_body">
-      <div className="page_subHeading">Work</div>
+    <div className="aboutBody">
+      <h2 className="page_subHeading">Work</h2>
       <AboutBlocks aboutData={siteConfigs.work_data} />
-      <div className="page_subHeading">Education</div>
+      <h2 className="page_subHeading">Education</h2>
       <AboutBlocks aboutData={siteConfigs.school_data} />
+      <h2 className="page_subHeading">Courses</h2>
+      <AboutBlocks aboutData={siteConfigs.extras_data} />
     </div>
     <div className="resumeLink">
       <Link href="/link/resume">Link to Resume</Link>

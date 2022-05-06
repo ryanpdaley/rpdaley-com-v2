@@ -5,8 +5,8 @@ import Header from './Header';
 
 const BodyStyle = styled.div`
   position: relative;
-  max-width: 1000px;
-  margin: 10vh auto;
+  margin: 130px auto 30px;
+  font-family: Nunito, sans-serif;
 `;
 
 const Page = ({ children }) => (
