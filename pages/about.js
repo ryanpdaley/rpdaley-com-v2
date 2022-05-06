@@ -5,9 +5,7 @@ import AboutBlock from '../components/AboutBlock';
 import Page from '../components/Page';
 import siteConfigs from '../configs/config.json';
 
-const AboutBlockStyles = styled.div`
-  /* background: green; */
-`;
+const AboutBlockStyles = styled.div``;
 
 const AboutBlocks = ({ aboutData }) => (
   <AboutBlockStyles>
