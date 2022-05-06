@@ -8,6 +8,38 @@ body {
     margin: 0 auto;
   }
 
+  /* .navItem {
+    padding: 0 10px;
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-family: 'Oswald';
+  } */
+
+  .navItem:link ,.navItem:visited {
+    background-color: red;
+    font-family: 'Oswald';
+    font-size: 1.5rem;
+    color: white;
+    padding: 5px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+  .navItem:hover {
+    background-color: black;
+  }
+
+  .navItem_active, .navItem:active {
+    background-color: #fff;
+    color: black;
+    font-family: 'Oswald';
+    font-size: 1.5rem;
+    padding: 5px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
 
   .aboutBlockItem {
     padding: 1vw;
