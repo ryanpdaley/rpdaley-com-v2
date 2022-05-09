@@ -138,6 +138,22 @@
   ],
   "extras_data": [
     {
+      "name": "Wes Bos",
+      "dates": "2022",
+      "logo": "/images/t_wesBos.png",
+      "link": "https://advancedreact.com/",
+      "description": [
+        {
+          "title": "Fullstack Advanced React and GraphQL",
+          "info": [
+            "- Created by: Wes Bos",
+            "- Training Course using React.js, Next.js, GraphQL, Node.js, Apollo, and Keystone "
+          ],
+          "location": "Online"
+        }
+      ]
+    },
+    {
       "name": "University of Toronto",
       "dates": "2020",
       "logo": "/images/t_uot.png",
