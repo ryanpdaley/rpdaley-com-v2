@@ -138,6 +138,22 @@
   ],
   "extras_data": [
     {
+      "name": "Wes Bos",
+      "dates": "2022",
+      "logo": "/images/t_wesBos.png",
+      "link": "https://advancedreact.com/",
+      "description": [
+        {
+          "title": "Fullstack Advanced React and GraphQL",
+          "info": [
+            "- Created by: Wes Bos",
+            "- Training Course using React.js, Next.js, GraphQL, Node.js, Apollo, and Keystone "
+          ],
+          "location": "Online"
+        }
+      ]
+    },
+    {
       "name": "University of Toronto",
       "dates": "2020",
       "logo": "/images/t_uot.png",
@@ -169,6 +185,210 @@
       ]
     }
   ],
+  "uses_data": {
+    "useAffiliateLinks": true,
+    "lastUpdated": "May 17, 2022",
+    "usesData": [
+      {
+        "section": "Software",
+        "items": [
+          {
+            "itemName": "Visual Studio Code",
+            "itemVersion": "1.66.2",
+            "itemLink": "https://code.visualstudio.com/",
+            "aLink": null,
+            "itemDescription": "This is my current editor. I'm a recent convert from Sublime Text which I had been using for nearly five years."
+          },
+          {
+            "itemName": "GIMP",
+            "itemVersion": "2.10.30",
+            "itemLink": "https://www.gimp.org/",
+            "aLink": null,
+            "itemDescription": "I don't do much image manipulation, but when I do GIMP is what I use."
+          },
+          {
+            "itemName": "Tower",
+            "itemVersion": "8.1",
+            "itemLink": "https://www.git-tower.com/",
+            "aLink": null,
+            "itemDescription": "Sometimes it's nice to visulize what is happening in a complex git project. Started using Tower at one of my previous jobs, and now I swear by it."
+          },
+          {
+            "itemName": "Google Chrome",
+            "itemVersion": "101.0.4951.54",
+            "itemLink": "https://www.google.ca/chrome/",
+            "aLink": null,
+            "itemDescription": "I use both Google Chrome, and Apple Safari, but I find that Chrome has more / better extensions for development, and more developer support."
+          },
+          {
+            "itemName": "FileZilla",
+            "itemVersion": "3.59.0",
+            "itemLink": "https://filezilla-project.org/",
+            "aLink": null,
+            "itemDescription": "Similar to Tower, FileZilla isn't required... but it is definiatly nice to sometimes visulize file structures when transfering / deploying code."
+          },
+          {
+            "itemName": "Postman",
+            "itemVersion": "9.16.0",
+            "itemLink": "https://www.postman.com/",
+            "aLink": null,
+            "itemDescription": "Pretty sure everyone who does anything involviong APIs uses Postman. Testing / developing backend services, and developing / validating frontend responses is much easier with Postman"
+          },
+          {
+            "itemName": "Charles aka 'Charles Proxy'",
+            "itemVersion": "4.6.2",
+            "itemLink": "https://www.charlesproxy.com/",
+            "aLink": null,
+            "itemDescription": "I use Charles to intecept / modify requests and responses for API testing / development."
+          }
+        ]
+      },
+      {
+        "section": "Hardware",
+        "items": [
+          {
+            "itemName": "Apple MacBook Pro (15-inch, 2016)",
+            "itemVersion": null,
+            "itemLink": "https://www.apple.com/ca/macbook-pro/",
+            "aLink": "https://amzn.to/3kVtKxY",
+            "itemDescription": "This is my main personal computer. It's a little old, but it's not currently limiting development in any way... so we continue on!"
+          },
+          {
+            "itemName": "Apple Mac mini (M1, 2020)",
+            "itemVersion": null,
+            "itemLink": "https://www.apple.com/ca/mac-mini/",
+            "aLink": "https://amzn.to/3sOaEyj",
+            "itemDescription": "I have a couple of these around the house. I use them as HTPCs, hosts for local services, etc."
+          },
+          {
+            "itemName": "Apple iPhone 12 Pro Max",
+            "itemVersion": null,
+            "itemLink": "https://support.apple.com/kb/SP832?locale=en_US",
+            "aLink": null,
+            "itemDescription": "iPhone best fits my needs. Use the best tools for you."
+          },
+          {
+            "itemName": "2 x LG 27-inch UltraFine Display 5K (27MD5KLB)",
+            "itemVersion": null,
+            "itemLink": "https://www.lg.com/ca_en/desktop-monitors/lg-27md5klb-b",
+            "aLink": "https://amzn.to/3KXZop2",
+            "itemDescription": "I am currently using two of these as my development monitors. They are big and clean, so I am able to keep everything needed open and visible"
+          },
+          {
+            "itemName": "Focusrite Scarlett 2i4",
+            "itemVersion": null,
+            "itemLink": "https://amzn.to/3wfMiOF",
+            "aLink": "https://amzn.to/3wfMiOF",
+            "itemDescription": "My audio interface that is no longer made... turns my KRK monitors into Desktop speakers, and allows me to easily connect and control headphones / microphones."
+          },
+          {
+            "itemName": "Logitech MX Master",
+            "itemVersion": null,
+            "itemLink": "https://www.logitech.com/en-ca/products/mice/mx-master-3.910-005647.html",
+            "aLink": "https://amzn.to/3P8u1vn",
+            "itemDescription": "I have a love-hate relationship with Logitech mice... when they work, they are the best, but they sometimes go rogue - randomly disconnect, jitter when they aren't being touched, scrolling stops working until I re-pair it... but this is my favourite mouse, and I'll replace it with the same one if it breaks / dissappears."
+          },
+
+          {
+            "itemName": "Apple Magic Trackpad 2",
+            "itemVersion": null,
+            "itemLink": "https://www.apple.com/ca/shop/product/MK2D3AM/A/magic-trackpad-white-multi-touch-surface",
+            "aLink": "https://amzn.to/3sOcuzd",
+            "itemDescription": "This is task dependant... sometimes this trackpad feels more 'right' when doing development than the MX Master. I have no idea why."
+          },
+          {
+            "itemName": "Samsung Portable SSD T5",
+            "itemVersion": null,
+            "itemLink": "https://semiconductor.samsung.com/consumer-storage/portable-ssd/t5/",
+            "aLink": "https://amzn.to/3kWU9va",
+            "itemDescription": "I have a couple of these with random backups of projects, photos, and media. They are fast and small..."
+          },
+          {
+            "itemName": "KRK Rokit 6 G2",
+            "itemVersion": null,
+            "itemLink": "https://www.krkmusic.com/ROKIT-Powered-G4-Studio-Monitors",
+            "aLink": "https://amzn.to/3wpB4Ya",
+            "itemDescription": "Studio monitors that I use as desktop speakers. Apparently there has been 2 generations since mine were made... mine are blue."
+          },
+          {
+            "itemName": "WASD v2 Keyboard",
+            "itemVersion": null,
+            "itemLink": "https://www.wasdkeyboards.com/wasd-v3-104-key-custom-mechanical-keyboard.html",
+            "aLink": null,
+            "itemDescription": "I custom made this keyboard. I made it pretty ugly... on purpose. (It has the letters of my name in lime green, and the spacebar has a picture of a spaceship on it.)"
+          },
+          {
+            "itemName": "Satechi USB-C hub",
+            "itemVersion": null,
+            "itemLink": "https://satechi.net/products/satechi-aluminum-multi-port-adapter-4k",
+            "aLink": "https://amzn.to/3KUBf2F",
+            "itemDescription": "This is a hub that I use to connect wired Internet, and USB-A devices to my laptop."
+          }
+        ]
+      },
+      {
+        "section": "Accessories",
+        "items": [
+          {
+            "itemName": "Apple iPad Pro Max",
+            "itemVersion": null,
+            "itemLink": "https://www.apple.com/ca/ipad-pro/",
+            "aLink": "https://amzn.to/3kSpzTF",
+            "itemDescription": "When I first started working at Apple, I couldn't see the use case for tablets... I use this mostly as a bed / couch / patio Internet / email / media device."
+          },
+          {
+            "itemName": "Apple AirPods Pro",
+            "itemVersion": null,
+            "itemLink": "https://www.apple.com/ca/shop/product/MLWK3AM/A/airpods-pro",
+            "aLink": "https://amzn.to/3N3cvGS",
+            "itemDescription": "I have a ton of headphones / earphones. Current ones on / attached to my desk: AirPods Pro, Shure SE846, V-MODA Crossfade M-80 (with BoomPro Microphone), Audio-Technica BPHS1, and Sony WH-1000XM3. I rotate them depending on the task / comfort..."
+          },
+          {
+            "itemName": "Shure SE846",
+            "itemVersion": null,
+            "itemLink": "https://www.shure.com/en-US/products/earphones/se846_wired",
+            "aLink": "https://amzn.to/3FWp3xK",
+            "itemDescription": "I have a ton of headphones / earphones. Current ones on / attached to my desk: AirPods Pro, Shure SE846, V-MODA Crossfade M-80 (with BoomPro Microphone), Audio-Technica BPHS1, and Sony WH-1000XM3. I rotate them depending on the task / comfort..."
+          },
+          {
+            "itemName": "V-MODA Crossfade M-80 (with BoomPro Microphone)",
+            "itemVersion": null,
+            "itemLink": "https://www.v-moda.com/",
+            "aLink": "https://amzn.to/39wFgxq",
+            "itemDescription": "I have a ton of headphones / earphones. Current ones on / attached to my desk: AirPods Pro, Shure SE846, V-MODA Crossfade M-80 (with BoomPro Microphone), Audio-Technica BPHS1, and Sony WH-1000XM3. I rotate them depending on the task / comfort..."
+          },
+          {
+            "itemName": "Audio-Technica BPHS1",
+            "itemVersion": null,
+            "itemLink": "https://www.audio-technica.com/en-us/bphs1",
+            "aLink": "https://amzn.to/3lh2qu7",
+            "itemDescription": "I have a ton of headphones / earphones. Current ones on / attached to my desk: AirPods Pro, Shure SE846, V-MODA Crossfade M-80 (with BoomPro Microphone), Audio-Technica BPHS1, and Sony WH-1000XM3. I rotate them depending on the task / comfort..."
+          },
+          {
+            "itemName": "Sony WH-1000XM3",
+            "itemVersion": null,
+            "itemLink": "https://www.sony.ca/en/electronics/headband-headphones/wh-1000xm3",
+            "aLink": "https://amzn.to/39OYdvo",
+            "itemDescription": "I have a ton of headphones / earphones. Current ones on / attached to my desk: AirPods Pro, Shure SE846, V-MODA Crossfade M-80 (with BoomPro Microphone), Audio-Technica BPHS1, and Sony WH-1000XM3. I rotate them depending on the task / comfort..."
+          },
+          {
+            "itemName": "Brother DCP-7065DN",
+            "itemVersion": null,
+            "itemLink": "https://www.brother.ca/en/p/DCP7065DN",
+            "aLink": null,
+            "itemDescription": "Older black and white laser printer"
+          },
+          {
+            "itemName": "Canon PRO-100",
+            "itemVersion": null,
+            "itemLink": "https://www.canon.ca/en/product?name=PIXMA_PRO-100&category=/en/products/Printers/Desktop",
+            "aLink": "https://amzn.to/39Oks4B",
+            "itemDescription": "Photo printer... it prints up to 11x17."
+          }
+        ]
+      }
+    ]
+  },
   "footer_data": [
     {
       "name": "github",
@@ -220,6 +440,11 @@
     {
       "name": "Ideas",
       "relLink": "/ideas",
+      "isActive": false
+    },
+    {
+      "name": "Uses",
+      "relLink": "/uses",
       "isActive": false
     }
   ],
