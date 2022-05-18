@@ -27,7 +27,9 @@ const Social = ({ socialData }) => {
 
 const Footer = () => (
   <div className="footer_body">
-    <Social socialData={siteConfigs.footer_data} />
+    <div className="social_block">
+      <Social socialData={siteConfigs.footer_data} />
+    </div>
   </div>
 );
 
