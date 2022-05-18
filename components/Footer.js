@@ -1,9 +1,5 @@
 import siteConfigs from '../configs/config.json';
-import { event } from '../lib/gtag';
-
-const captureClick = (info) => {
-  event('click', 'Link Out', info.name, info.link);
-};
+import captureClick from '../lib/rtools';
 
 const socialLink = (data) => (
   <div className="social_link" key={data.name}>

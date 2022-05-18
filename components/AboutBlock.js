@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import { PropTypes } from 'prop-types';
 import styled from 'styled-components';
+import captureClick from '../lib/rtools';
 
 const StyledHR = styled.hr`
   width: 70%;
@@ -31,10 +32,18 @@ const Description = ({ data }) => {
 
 const AboutBlock = ({ block }) => {
   const { description, name, dates, logo, link } = block;
+  const clickInfo = { name, link };
   return (
     <div className="aboutBlockItem">
       <div className="aboutBlockLogo">
-        <a href={link} target="_blank" rel="noreferrer">
+        <a
+          href={link}
+          target="_blank"
+          onClick={() => {
+            captureClick(clickInfo);
+          }}
+          rel="noreferrer"
+        >
           <Image src={logo} layout="responsive" height={200} width={200} />
         </a>
       </div>
