@@ -19,11 +19,11 @@ const decodeUrl = (path) => {
 
 const getPageDescription = (path, data) => {
   if (data['metaDescriptions'].hasOwnProperty(path)) {
-    return data['metaDescriptions'][path]
+    return data['metaDescriptions'][path];
   } else {
-    return data['metaDescriptions']["default"]
+    return data['metaDescriptions']['default'];
   }
-}
+};
 
 const getStructuredData = () => {
   const structuredData = JSON.stringify({
@@ -37,6 +37,7 @@ const getStructuredData = () => {
       'https://www.linkedin.com/in/ryandaley/',
       'https://twitter.com/TweetRye/',
       'https://t.me/rdaley',
+      'https://github.com/ryanpdaley',
     ],
   });
   return structuredData;
@@ -45,7 +46,7 @@ const getStructuredData = () => {
 const HeadRP = () => {
   const { asPath } = useRouter();
   const metaConfigs = siteConfigs['meta_data'];
-  const pageDescription = getPageDescription(asPath, metaConfigs)
+  const pageDescription = getPageDescription(asPath, metaConfigs);
   return (
     <Head>
       <title>{decodeUrl(asPath)}</title>
@@ -72,10 +73,7 @@ const HeadRP = () => {
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content={metaConfigs.metaUrl} />
       <meta property="twitter:title" content={metaConfigs.metaTitle} />
-      <meta
-        property="twitter:description"
-        content={pageDescription}
-      />
+      <meta property="twitter:description" content={pageDescription} />
       <meta property="twitter:image" content={metaConfigs.metaImage} />
       <script
         type="application/ld+json"
