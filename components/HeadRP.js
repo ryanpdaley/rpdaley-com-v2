@@ -17,6 +17,14 @@ const decodeUrl = (path) => {
   }
 };
 
+const getPageDescription = (path, data) => {
+  if (data['metaDescriptions'].hasOwnProperty(path)) {
+    return data['metaDescriptions'][path]
+  } else {
+    return data['metaDescriptions']["default"]
+  }
+}
+
 const getStructuredData = () => {
   const structuredData = JSON.stringify({
     '@context': 'http://schema.org',
@@ -37,6 +45,7 @@ const getStructuredData = () => {
 const HeadRP = () => {
   const { asPath } = useRouter();
   const metaConfigs = siteConfigs['meta_data'];
+  const pageDescription = getPageDescription(asPath, metaConfigs)
   return (
     <Head>
       <title>{decodeUrl(asPath)}</title>
@@ -48,7 +57,7 @@ const HeadRP = () => {
       <meta name="theme-color" content="#000000" />
 
       <meta name="title" content={metaConfigs.metaTitle} />
-      <meta name="description" content={metaConfigs.metaDescription} />
+      <meta name="description" content={pageDescription} />
       <meta
         name="keywords"
         content="Daley, Ryan, RP, Shopify, BellMedia, Apple, Kobo, UBC, UofG, Toronto, Vancouver, Guelph, Cupertino"
@@ -57,7 +66,7 @@ const HeadRP = () => {
       <meta property="og:type" content="website" />
       <meta property="og:url" content={metaConfigs.metaUrl} />
       <meta property="og:title" content={metaConfigs.metaTitle} />
-      <meta property="og:description" content={metaConfigs.metaDescription} />
+      <meta property="og:description" content={pageDescription} />
       <meta property="og:image" content={metaConfigs.metaImage} />
 
       <meta property="twitter:card" content="summary_large_image" />
@@ -65,7 +74,7 @@ const HeadRP = () => {
       <meta property="twitter:title" content={metaConfigs.metaTitle} />
       <meta
         property="twitter:description"
-        content={metaConfigs.metaDescription}
+        content={pageDescription}
       />
       <meta property="twitter:image" content={metaConfigs.metaImage} />
       <script
