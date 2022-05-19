@@ -42,8 +42,21 @@
   ],
   "work_data": [
     {
+      "name": "Shopify",
+      "dates": "2022 - Current",
+      "logo": "/images/t_shopify.png",
+      "link": "https://www.shopify.ca/",
+      "description": [
+        {
+          "title": "Software Developer",
+          "info": ["- Working on the Core - Optimize Team"],
+          "location": "Remote (Toronto, Ontario)"
+        }
+      ]
+    },
+    {
       "name": "Bell Media",
-      "dates": "2017 - Current",
+      "dates": "2017 - 2022",
       "logo": "/images/t_bm.png",
       "link": "http://www.bellmedia.ca/",
       "description": [
@@ -447,22 +460,5 @@
       "relLink": "/uses",
       "isActive": false
     }
-  ],
-  "link_map": {
-    "apple": "https://www.apple.com/",
-    "bellmedia": "http://www.bellmedia.ca/",
-    "facebook": "https://www.facebook.com/ryandaley",
-    "github": "https://github.com/ryanpdaley",
-    "instagram": "https://www.instagram.com/rdinca/",
-    "kobo": "https://www.kobo.com/",
-    "lhl": "https://www.lighthouselabs.ca",
-    "linkedin": "https://www.linkedin.com/in/ryandaley/",
-    "twitter": "https://twitter.com/TweetRye/",
-    "readme": "https://github.com/ryanpdaley/rpdaley/blob/master/README.md",
-    "repo": "https://github.com/ryanpdaley/rpdaley",
-    "resume": "https://resume.creddle.io/resume/dm8ntc5k58y",
-    "rim": "https://www.blackberry.com/",
-    "ubc": "https://www.ubc.ca",
-    "uoguelph": "https://www.uoguelph.ca"
-  }
+  ]
 }

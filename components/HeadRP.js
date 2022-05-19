@@ -42,11 +42,11 @@ const HeadRP = () => {
       <meta charSet="utf-8" />
       <meta
         name="description"
-        content="Ryan Daley (RP Daley) is a Web Application Developer at Bell Media. He was formerly an Automation Engineer at Apple Inc., and was an early employee at Kobo (Rakuten Kobo). He holds degrees from The University of British Columbia and The University of Guelph. He currently resides in Toronto, Canada."
+        content="Ryan Daley (RP Daley) is a Software Developer at Shopify. He was previously a Web Application Developer at Bell Media, where he created the Chromecast project. He was formerly an Automation Engineer at Apple Inc. within the CarPlay team and was an early employee at Kobo (Rakuten Kobo). He holds degrees from The University of British Columbia and The University of Guelph. He currently resides in Toronto, Canada."
       />
       <meta
         name="keywords"
-        content="Daley, Ryan, RP, Toronto, BellMedia, Apple, Kobo, UBC, uog, Guelph, Oakville, Lighthouse"
+        content="Daley, Ryan, RP, Shopify, BellMedia, Apple, Kobo, UBC, UofG, Toronto, Vancouver, Guelph, Cupertino"
       />
       <meta name="author" content="RP Daley" />
       <meta
