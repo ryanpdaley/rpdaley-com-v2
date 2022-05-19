@@ -14,7 +14,6 @@ const ResumeInfo = styled.div`
 `;
 
 export default function Resume() {
-  console.log(resumeThumb);
   return (
     <Page>
       <ResumeInfo>Link to most recent resume:</ResumeInfo>
