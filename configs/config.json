@@ -1,4 +1,10 @@
 {
+  "meta_data": {
+    "metaTitle": "RP Daley",
+    "metaDescription": "Ryan Daley (RP Daley) is a Software Developer at Shopify who resides in Toronto, Canada.",
+    "metaImage": "https://v2.rpdaley.com/images/metaImage.jpeg",
+    "metaUrl": "https://www.rpdaley.com"
+  },
   "school_data": [
     {
       "name": "Lighthouse Labs",
@@ -406,32 +412,32 @@
     {
       "name": "github",
       "link": "https://github.com/ryanpdaley",
-      "logo": "../images/github.png"
+      "logo": "/images/github.png"
     },
     {
       "name": "facebook",
       "link": "https://www.facebook.com/ryandaley",
-      "logo": "../images/fb.svg"
+      "logo": "/images/fb.svg"
     },
     {
       "name": "linkedin",
       "link": "https://www.linkedin.com/in/ryandaley/",
-      "logo": "../images/linkedin.png"
+      "logo": "/images/linkedin.png"
     },
     {
       "name": "instagram",
       "link": "https://www.instagram.com/rdinca/",
-      "logo": "../images/instagram.png"
+      "logo": "/images/instagram.png"
     },
     {
       "name": "telegram",
       "link": "https://t.me/rdaley",
-      "logo": "../images/telegram.png"
+      "logo": "/images/telegram.png"
     },
     {
       "name": "twitter",
       "link": "https://twitter.com/TweetRye/",
-      "logo": "../images/twitter.png"
+      "logo": "/images/twitter.png"
     }
   ],
   "nav_data": [
