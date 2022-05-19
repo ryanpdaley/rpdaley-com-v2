@@ -48,7 +48,18 @@ const AboutBlock = ({ block }) => {
       </div>
       <div className="aboutBlockInfo">
         <div className="aboutHeader">
-          <div className="aboutName">{name}</div>
+          <div className="aboutName">
+            <a
+              href={link}
+              target="_blank"
+              onClick={() => {
+                captureClick(clickInfo);
+              }}
+              rel="noreferrer"
+            >
+              {name}
+            </a>
+          </div>
           <div className="aboutDate">{dates}</div>
         </div>
         <Description data={description} />
