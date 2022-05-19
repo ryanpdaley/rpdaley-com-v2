@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import { PropTypes } from 'prop-types';
 import styled from 'styled-components';
 import captureClick from '../lib/rtools';
@@ -44,7 +43,7 @@ const AboutBlock = ({ block }) => {
           }}
           rel="noreferrer"
         >
-          <Image src={logo} layout="responsive" height={200} width={200} />
+          <img src={logo} alt={name} height={150} width={150}></img>
         </a>
       </div>
       <div className="aboutBlockInfo">
