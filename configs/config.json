@@ -459,7 +459,7 @@
     {
       "name": "Contact",
       "relLink": "/contact",
-      "isActive": true
+      "isActive": false
     },
     {
       "name": "Ideas",
