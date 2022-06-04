@@ -72,7 +72,7 @@ body {
 }
 
 .aboutBlockLogo {
-  width: 20vw;
+  width: 200px;
   height: auto;
   display: inline-block;
   border-style: solid;
@@ -127,10 +127,37 @@ body {
   font-family: 'Nunito', sans-serif;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 700px) {
   .aboutBlockLogo {
     display: none;
   }
 }
 
-@media screen and (max-width: 1000px) {}
+@media screen and (min-width: 1000px) {
+
+  .aboutBody {
+    max-width: 900px;
+    margin: 20px auto;
+  }
+
+  .page_subHeading {
+    font-size: 60px;
+  }
+
+  .aboutName {
+    font-size: 40px;
+  }
+
+  .aboutDate {
+    font-size: 30px;
+  }
+
+  .roleTitle {
+    font-size: 25px;
+  }
+
+  .roleDescription,
+  .roleLocation {
+    font-size: 20px;
+  }
+}
