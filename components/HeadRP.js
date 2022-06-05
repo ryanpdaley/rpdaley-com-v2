@@ -10,19 +10,18 @@ const decodeUrl = (path) => {
   const subCount = sub.length;
   if (subCount === 3) {
     return `${siteName} - ${capitalize(sub[1])}`;
-  } else if (subCount === 4) {
-    return `${siteName} - ${capitalize(sub[1])}: ${capitalize(sub[2])}`;
-  } else {
-    return `${siteName}`;
   }
+  if (subCount === 4) {
+    return `${siteName} - ${capitalize(sub[1])}: ${capitalize(sub[2])}`;
+  }
+  return `${siteName}`;
 };
 
 const getPageDescription = (path, data) => {
-  if (data['metaDescriptions'].hasOwnProperty(path)) {
-    return data['metaDescriptions'][path];
-  } else {
-    return data['metaDescriptions']['default'];
+  if (Object.prototype.hasOwnProperty.call(data.metaDescriptions, path)) {
+    return data.metaDescriptions[path];
   }
+  return data.metaDescriptions.default;
 };
 
 const getStructuredData = () => {
@@ -45,7 +44,7 @@ const getStructuredData = () => {
 
 const HeadRP = () => {
   const { asPath } = useRouter();
-  const metaConfigs = siteConfigs['meta_data'];
+  const metaConfigs = siteConfigs.meta_data;
   const pageDescription = getPageDescription(asPath, metaConfigs);
   return (
     <Head>

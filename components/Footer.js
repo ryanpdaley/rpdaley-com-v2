@@ -1,5 +1,5 @@
 import siteConfigs from '../configs/config.json';
-import captureClick from '../lib/rtools';
+import { captureClick } from '../lib/rtools';
 
 const socialLink = (data) => (
   <div className="social_link" key={data.name}>

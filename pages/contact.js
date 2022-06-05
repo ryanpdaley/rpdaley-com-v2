@@ -4,19 +4,25 @@ import Page from '../components/Page';
 import * as gtag from '../lib/gtag';
 
 export default class Contact extends Component {
-  state = { message: '' };
+  constructor(props) {
+    super(props);
+    this.state = {
+      message: '',
+    };
+  }
 
   handleInput = (e) => {
     this.setState({ message: e.target.value });
   };
 
   handleSubmit = (e) => {
+    const { message } = this.state;
     e.preventDefault();
 
     gtag.event({
       action: 'submit_form',
       category: 'Contact',
-      label: this.state.message,
+      label: message,
     });
 
     this.setState({ message: '' });
@@ -26,13 +32,6 @@ export default class Contact extends Component {
     return (
       <Page>
         <h1>This is the Contact page</h1>
-        <form onSubmit={this.handleSubmit}>
-          <label>
-            <span>Message:</span>
-            <textarea onChange={this.handleInput} value={this.state.message} />
-          </label>
-          <button type="submit">submit</button>
-        </form>
       </Page>
     );
   }

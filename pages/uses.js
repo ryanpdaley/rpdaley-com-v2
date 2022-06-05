@@ -1,7 +1,7 @@
 import { PropTypes } from 'prop-types';
 import Page from '../components/Page';
 import siteConfigs from '../configs/config.json';
-import captureClick from '../lib/rtools';
+import { captureClick } from '../lib/rtools';
 
 const UsesItem = ({ item, affiliateLinks }) => {
   let { itemLink, itemVersion } = item;

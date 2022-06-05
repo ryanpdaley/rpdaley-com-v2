@@ -18,7 +18,7 @@ export default function Resume() {
     <Page>
       <ResumeInfo>Link to most recent resume:</ResumeInfo>
       <ImageStyle href="/static/rpdaleyResume.pdf" alt="Link to Current Resume">
-        <img src={resumeThumb.src} alt="Link to Current Resume"></img>
+        <img src={resumeThumb.src} alt="Link to Current Resume" />
       </ImageStyle>
     </Page>
   );

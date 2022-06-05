@@ -1,6 +1,6 @@
 import { PropTypes } from 'prop-types';
 import styled from 'styled-components';
-import captureClick from '../lib/rtools';
+import { captureClick } from '../lib/rtools';
 
 const StyledHR = styled.hr`
   width: 70%;
@@ -43,7 +43,7 @@ const AboutBlock = ({ block }) => {
           }}
           rel="noreferrer"
         >
-          <img src={logo} alt={name} height={150} width={150}></img>
+          <img src={logo} alt={name} height={150} width={150} />
         </a>
       </div>
       <div className="aboutBlockInfo">
