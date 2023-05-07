@@ -7,13 +7,16 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "static": "next build && next export"
+    "static": "next build && next export",
+    "analyze": "ANALYZE=true next build"
   },
   "author": "RP Daley",
   "dependencies": {
+    "@next/bundle-analyzer": "^12.1.6",
     "babel-core": "^7.0.0-bridge.0",
     "babel-plugin-styled-components": "^1.12.0",
     "next": "^12.1.5",
+    "next-compose-plugins": "^2.2.1",
     "nprogress": "^0.2.0",
     "prop-types": "^15.7.2",
     "react": "^18.0.0",

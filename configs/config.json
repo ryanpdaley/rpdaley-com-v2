@@ -14,7 +14,7 @@
     {
       "name": "Lighthouse Labs",
       "dates": "2017",
-      "logo": "/images/t_lhl.png",
+      "logo": "/images/t_lhl.webp",
       "link": "https://www.lighthouselabs.ca/",
       "description": [
         {
@@ -27,7 +27,7 @@
     {
       "name": "UBC",
       "dates": "2006 - 2010",
-      "logo": "/images/t_ubc.png",
+      "logo": "/images/t_ubc.webp",
       "link": "https://www.ubc.ca/",
       "description": [
         {
@@ -40,7 +40,7 @@
     {
       "name": "University of Guelph",
       "dates": "2001 - 2005",
-      "logo": "/images/t_uog.png",
+      "logo": "/images/t_uog.webp",
       "link": "https://www.uoguelph.ca/",
       "description": [
         {
@@ -55,7 +55,7 @@
     {
       "name": "Shopify",
       "dates": "2022 - Current",
-      "logo": "/images/t_shopify.png",
+      "logo": "/images/t_shopify.webp",
       "link": "https://www.shopify.ca/",
       "description": [
         {
@@ -68,7 +68,7 @@
     {
       "name": "Bell Media",
       "dates": "2017 - 2022",
-      "logo": "/images/t_bm.png",
+      "logo": "/images/t_bm.webp",
       "link": "http://www.bellmedia.ca/",
       "description": [
         {
@@ -94,7 +94,7 @@
     {
       "name": "Apple",
       "dates": "2012 - 2017",
-      "logo": "/images/t_apple.png",
+      "logo": "/images/t_apple.webp",
       "link": "https://www.apple.com/",
       "description": [
         {
@@ -119,7 +119,7 @@
     {
       "name": "Kobo",
       "dates": "2011 - 2012",
-      "logo": "/images/t_kobo.png",
+      "logo": "/images/t_kobo.webp",
       "link": "https://www.kobo.com/",
       "description": [
         {
@@ -136,7 +136,7 @@
     {
       "name": "RIM / BlackBerry",
       "dates": "2008 - 2009",
-      "logo": "/images/t_rim.png",
+      "logo": "/images/t_rim.webp",
       "link": "https://www.blackberry.com/",
       "description": [
         {
@@ -164,7 +164,7 @@
     {
       "name": "Wes Bos",
       "dates": "2022",
-      "logo": "/images/t_wesBos.png",
+      "logo": "/images/t_wesBos.webp",
       "link": "https://advancedreact.com/",
       "description": [
         {
@@ -180,7 +180,7 @@
     {
       "name": "University of Toronto",
       "dates": "2020",
-      "logo": "/images/t_uot.png",
+      "logo": "/images/t_uot.webp",
       "link": "https://www.utoronto.ca/",
       "description": [
         {
@@ -193,7 +193,7 @@
     {
       "name": "Stanford University",
       "dates": "2013-2015",
-      "logo": "/images/t_stanford.png",
+      "logo": "/images/t_stanford.webp",
       "link": "https://www.stanford.edu/",
       "description": [
         {
@@ -417,32 +417,32 @@
     {
       "name": "github",
       "link": "https://github.com/ryanpdaley",
-      "logo": "/images/github.png"
+      "logo": "/images/github.webp"
     },
     {
       "name": "facebook",
       "link": "https://www.facebook.com/ryandaley",
-      "logo": "/images/fb.svg"
+      "logo": "/images/fb.webp"
     },
     {
       "name": "linkedin",
       "link": "https://www.linkedin.com/in/ryandaley/",
-      "logo": "/images/linkedin.png"
+      "logo": "/images/linkedin.webp"
     },
     {
       "name": "instagram",
       "link": "https://www.instagram.com/rdinca/",
-      "logo": "/images/instagram.png"
+      "logo": "/images/instagram.webp"
     },
     {
       "name": "telegram",
       "link": "https://t.me/rdaley",
-      "logo": "/images/telegram.png"
+      "logo": "/images/telegram.webp"
     },
     {
       "name": "twitter",
       "link": "https://twitter.com/TweetRye/",
-      "logo": "/images/twitter.png"
+      "logo": "/images/twitter.webp"
     }
   ],
   "nav_data": [
