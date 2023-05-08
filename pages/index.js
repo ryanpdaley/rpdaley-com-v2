@@ -4,10 +4,11 @@ export default function Home() {
   return (
     <Page>
       <h1>Home</h1>
-      <p>Ryan Daley (RP Daley) is a Software Developer at Shopify.</p>
+      <p>Ryan Daley (RP Daley) is a Software Developer in Toronto.</p>
       <p>
-        He was previously a Web Application Developer at Bell Media, where he
-        created the Chromecast project.
+        He was previously a Developer at Shopify working in data and analytics,
+        and a Web Application Developer at Bell Media, where he created the
+        Chromecast project.
       </p>
       <p>Other previous roles include:</p>
       <ul>
@@ -22,7 +23,7 @@ export default function Home() {
         He holds degrees from The University of British Columbia and The
         University of Guelph.
       </p>
-      <p>He currently resides in Toronto, Canada.</p>
+      <p>He currently resides in Toronto, with his wife and dog!</p>
     </Page>
   );
 }

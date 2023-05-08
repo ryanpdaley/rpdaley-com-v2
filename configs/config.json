@@ -2,7 +2,7 @@
   "meta_data": {
     "metaTitle": "RP Daley",
     "metaDescriptions": {
-      "default": "Ryan Daley (RP Daley) is a Software Developer at Shopify who resides in Toronto, Canada.",
+      "default": "Ryan Daley (RP Daley) is a Software Developer who resides in Toronto, Canada.",
       "/about/": "Information about Ryan Daley (RP Daley) including Employment, Eductaion, and Courses",
       "/contact/": "Contact page for Ryan Daley",
       "/uses/": "Non-exhaustive page of items that I use for development including Hardware, Software, Accessories, and Furnature"
@@ -54,13 +54,18 @@
   "work_data": [
     {
       "name": "Shopify",
-      "dates": "2022 - Current",
+      "dates": "2022 - 2023",
       "logo": "/images/t_shopify.webp",
       "link": "https://www.shopify.ca/",
       "description": [
         {
-          "title": "Software Developer",
-          "info": ["- Working on the Core - Optimize Team"],
+          "title": "Developer",
+          "info": [
+            "- Was a member of the Core-Optimize-Analyze team which developed the Analytics and Reports of the Admin panel for Shopify Merchants",
+            "- Areas of focus included: the Customer Cohort Report, and Merchant Benchmarks.",
+            "- Contributed code to the Shopify/web, Shopify/shopify, Shopify/polaris, and Shopify/polaris-viz repositories",
+            "- Technologies: React, Typescript, GraphQL, Sass, Ruby on Rails, Storybook.js, Polaris"
+          ],
           "location": "Remote (Toronto, Ontario)"
         }
       ]
@@ -74,7 +79,7 @@
         {
           "title": "Software Developer",
           "info": [
-            "- Currently the developer for the Chromecast Receiver for all Bell Media brands",
+            "- Most recently the lead developer for the Chromecast Receiver for all Bell Media brands",
             "- Previous responsibilities included creating the web authentication for TSN & RDS direct to consumer (D2C), and maintaining the CraveTV property for web.",
             "- Technologies: JavaScript, AJAX, JSON, HTML, CSS, npm, node.js, JIRA, git, Charles Proxy, Akamai Identity Services (AIS), CSG Ascendon, JWT."
           ],
@@ -162,6 +167,22 @@
   ],
   "extras_data": [
     {
+      "name": "Epic React",
+      "dates": "2023 - Present",
+      "logo": "/images/t_epicreact.webp",
+      "link": "https://www.epicreact.dev/",
+      "description": [
+        {
+          "title": "Epic React",
+          "info": [
+            "- Created by: Kent C. Dodds",
+            "- Training Course focused on React. Chapters include: React Fundamentals, React Hooks, Advanced React Hooks, Advanced React Patterns, React Performance, Testing React Apps, React Suspense, and Build an Epic React App"
+          ],
+          "location": "Online"
+        }
+      ]
+    },
+    {
       "name": "Wes Bos",
       "dates": "2022",
       "logo": "/images/t_wesBos.webp",
@@ -218,49 +239,49 @@
         "items": [
           {
             "itemName": "Visual Studio Code",
-            "itemVersion": "1.66.2",
+            "itemVersion": null,
             "itemLink": "https://code.visualstudio.com/",
             "aLink": null,
             "itemDescription": "This is my current editor. I'm a recent convert from Sublime Text, which I had been using for nearly five years."
           },
           {
             "itemName": "GIMP",
-            "itemVersion": "2.10.30",
+            "itemVersion": null,
             "itemLink": "https://www.gimp.org/",
             "aLink": null,
             "itemDescription": "I don't do much image manipulation, but GIMP is what I use when I do."
           },
           {
             "itemName": "Tower",
-            "itemVersion": "8.1",
+            "itemVersion": null,
             "itemLink": "https://www.git-tower.com/",
             "aLink": null,
             "itemDescription": "Sometimes, it's nice to visualize what is happening in a complex git project. I started using Tower at one of my previous jobs, and now I swear by it."
           },
           {
             "itemName": "Google Chrome",
-            "itemVersion": "101.0.4951.54",
+            "itemVersion": null,
             "itemLink": "https://www.google.ca/chrome/",
             "aLink": null,
             "itemDescription": "I use Google Chrome and Apple Safari, but I find that Chrome has more / better extensions for development and more developer support."
           },
           {
             "itemName": "FileZilla",
-            "itemVersion": "3.59.0",
+            "itemVersion": null,
             "itemLink": "https://filezilla-project.org/",
             "aLink": null,
             "itemDescription": "Similar to Tower, FileZilla isn't required... but it is nice sometimes to visualize file structures when transferring/deploying code."
           },
           {
             "itemName": "Postman",
-            "itemVersion": "9.16.0",
+            "itemVersion": null,
             "itemLink": "https://www.postman.com/",
             "aLink": null,
             "itemDescription": "Pretty sure everyone who does anything involving APIs uses Postman. Postman makes testing / developing backend services and developing/validating front-end responses much more manageable."
           },
           {
             "itemName": "Charles aka 'Charles Proxy'",
-            "itemVersion": "4.6.2",
+            "itemVersion": null,
             "itemLink": "https://www.charlesproxy.com/",
             "aLink": null,
             "itemDescription": "I use Charles to intercept/modify requests and responses for API testing/development."
