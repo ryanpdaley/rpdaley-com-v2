@@ -18,13 +18,13 @@ const ResumeInfo = styled.div`
 export default function Resume() {
   const clickInfo = {
     name: 'resume_download',
-    link: '/static/rpdaleyResume.pdf',
+    link: '/static/rpdaley_resume_2023.pdf',
   };
   return (
     <Page>
       <ResumeInfo>Link to most recent resume:</ResumeInfo>
       <ImageStyle
-        href="/static/rpdaleyResume.pdf"
+        href={clickInfo.link}
         alt="Link to Current Resume"
         target="_blank"
         onClick={() => {
