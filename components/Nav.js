@@ -1,8 +1,8 @@
-import Link from "next/link";
-import { PropTypes } from "prop-types";
-import styled from "styled-components";
-import { useRouter } from "next/router";
-import siteConfigs from "../configs/config.json";
+import Link from 'next/link';
+import { PropTypes } from 'prop-types';
+import styled from 'styled-components';
+import { useRouter } from 'next/router';
+import siteConfigs from '../configs/config.json';
 
 const NavStyle = styled.nav`
   background-color: red;
@@ -15,7 +15,7 @@ const NavBlock = ({ navData }) => {
   const router = useRouter();
   if (navData.isActive === true) {
     const pageClassName =
-      router.pathname === navData.relLink ? "navItem_active" : "navItem";
+      router.pathname === navData.relLink ? 'navItem_active' : 'navItem';
     return (
       <Link href={navData.relLink} className={pageClassName}>
         {navData.name}

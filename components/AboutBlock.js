@@ -1,7 +1,7 @@
-import { PropTypes } from "prop-types";
-import Image from "next/image";
-import styled from "styled-components";
-import { captureClick } from "../lib/rtools";
+import { PropTypes } from 'prop-types';
+import Image from 'next/image';
+import styled from 'styled-components';
+import { captureClick } from '../lib/rtools';
 
 const StyledHR = styled.hr`
   width: 70%;

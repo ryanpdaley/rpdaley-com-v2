@@ -1,7 +1,7 @@
-import styled from "styled-components";
-import Link from "next/link";
-import Nav from "./Nav";
-import HeadRP from "./HeadRP";
+import styled from 'styled-components';
+import Link from 'next/link';
+import Nav from './Nav';
+import HeadRP from './HeadRP';
 
 const HeaderStyles = styled.div`
   background: black;
@@ -17,7 +17,7 @@ const HeaderStyles = styled.div`
 const Header = () => (
   <HeaderStyles>
     <HeadRP />
-    <Link href="/" style={{ textDecoration: "none" }}>
+    <Link href="/" style={{ textDecoration: 'none' }}>
       <div className="logoWraper">
         <h1 className="thick-header-line uppercase logoBar white">
           RP Daley<span className="h1red">.</span>com

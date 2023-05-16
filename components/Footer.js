@@ -1,6 +1,6 @@
-import Image from "next/image";
-import siteConfigs from "../configs/config.json";
-import { captureClick } from "../lib/rtools";
+import Image from 'next/image';
+import siteConfigs from '../configs/config.json';
+import { captureClick } from '../lib/rtools';
 
 const socialLink = (data) => (
   <div className="social_link" key={data.name}>
