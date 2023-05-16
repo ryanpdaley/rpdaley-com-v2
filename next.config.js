@@ -9,6 +9,9 @@ const nextConfig = {
   compiler: {
     styledComponents: true,
   },
+  images: {
+    unoptimized: true,
+  },
 };
 
 module.exports = withPlugins([[withBundleAnalyzer], nextConfig]);

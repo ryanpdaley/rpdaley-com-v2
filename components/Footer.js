@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import siteConfigs from '../configs/config.json';
 import { captureClick } from '../lib/rtools';
 
@@ -11,7 +12,13 @@ const socialLink = (data) => (
       }}
       rel="noreferrer"
     >
-      <img src={data.logo} alt={data.name} className="social_logo" />
+      <Image
+        src={data.logo}
+        alt={data.name}
+        width={75}
+        height={75}
+        className="social_logo"
+      />
     </a>
   </div>
 );

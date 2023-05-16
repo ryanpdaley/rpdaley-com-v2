@@ -1,4 +1,5 @@
 import { PropTypes } from 'prop-types';
+import Image from 'next/image';
 import styled from 'styled-components';
 import { captureClick } from '../lib/rtools';
 
@@ -9,8 +10,7 @@ const StyledHR = styled.hr`
 
 const Description = ({ data }) => {
   const descriptionBlock = [];
-  // eslint-disable-next-line no-plusplus
-  for (let i = 0; i < data.length; i++) {
+  for (let i = 0; i < data.length; i += 1) {
     descriptionBlock.push(
       <div className="aboutBlockWrapper" key={i}>
         <div className="roleTitle">{data[i].title}</div>
@@ -43,7 +43,7 @@ const AboutBlock = ({ block }) => {
           }}
           rel="noreferrer"
         >
-          <img src={logo} alt={name} height={150} width={150} />
+          <Image src={logo} alt={name} height={150} width={150} />
         </a>
       </div>
       <div className="aboutBlockInfo">

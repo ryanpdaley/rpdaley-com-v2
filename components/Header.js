@@ -17,7 +17,7 @@ const HeaderStyles = styled.div`
 const Header = () => (
   <HeaderStyles>
     <HeadRP />
-    <Link href="/">
+    <Link href="/" style={{ textDecoration: 'none' }}>
       <div className="logoWraper">
         <h1 className="thick-header-line uppercase logoBar white">
           RP Daley<span className="h1red">.</span>com

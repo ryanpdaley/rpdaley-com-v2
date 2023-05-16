@@ -17,8 +17,8 @@ const NavBlock = ({ navData }) => {
     const pageClassName =
       router.pathname === navData.relLink ? 'navItem_active' : 'navItem';
     return (
-      <Link href={navData.relLink}>
-        <a className={pageClassName}>{navData.name}</a>
+      <Link href={navData.relLink} className={pageClassName}>
+        {navData.name}
       </Link>
     );
   }
