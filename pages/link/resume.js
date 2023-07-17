@@ -22,7 +22,7 @@ export default function Resume() {
   };
   return (
     <Page>
-      <ResumeInfo>Link to most recent resume:</ResumeInfo>
+      <ResumeInfo>Link to my most recent resume:</ResumeInfo>
       <ImageStyle
         href={clickInfo.link}
         alt="Link to Current Resume"
