@@ -464,6 +464,11 @@
       "name": "twitter",
       "link": "https://twitter.com/TweetRye/",
       "logo": "/images/twitter.webp"
+    },
+    {
+      "name": "threads",
+      "link": "https://www.threads.net/@rdinca",
+      "logo": "/images/threads.webp"
     }
   ],
   "nav_data": [
@@ -491,6 +496,11 @@
       "name": "Uses",
       "relLink": "/uses",
       "isActive": true
+    },
+    {
+      "name": "Recipes",
+      "relLink": "https://recipes.rpdaley.com",
+      "isActive": false
     }
   ]
 }
