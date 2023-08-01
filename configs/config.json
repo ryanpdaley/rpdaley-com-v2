@@ -3,9 +3,9 @@
     "metaTitle": "RP Daley",
     "metaDescriptions": {
       "default": "Ryan Daley (RP Daley) is a Software Developer who resides in Toronto, Canada.",
-      "/about/": "Information about Ryan Daley (RP Daley) including Employment, Eductaion, and Courses",
+      "/about/": "Information about Ryan Daley (RP Daley) including Employment, Education, and Courses",
       "/contact/": "Contact page for Ryan Daley",
-      "/uses/": "Non-exhaustive page of items that I use for development including Hardware, Software, Accessories, and Furnature"
+      "/uses/": "Non-exhaustive page of items that I use for development including Hardware, Software, Accessories, and Furniture"
     },
     "metaImage": "https://v2.rpdaley.com/images/metaImage.jpeg",
     "metaUrl": "https://www.rpdaley.com"
@@ -461,9 +461,14 @@
       "logo": "/images/telegram.webp"
     },
     {
-      "name": "twitter",
-      "link": "https://twitter.com/TweetRye/",
-      "logo": "/images/twitter.webp"
+      "name": "x",
+      "link": "https://x.com/TweetRye/",
+      "logo": "/images/x.webp"
+    },
+    {
+      "name": "threads",
+      "link": "https://www.threads.net/@rdinca",
+      "logo": "/images/threads.webp"
     }
   ],
   "nav_data": [
@@ -491,6 +496,11 @@
       "name": "Uses",
       "relLink": "/uses",
       "isActive": true
+    },
+    {
+      "name": "Recipes",
+      "relLink": "https://recipes.rpdaley.com",
+      "isActive": false
     }
   ]
 }
