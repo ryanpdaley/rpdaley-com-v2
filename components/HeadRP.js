@@ -35,6 +35,7 @@ const getStructuredData = () => {
       'https://www.instagram.com/rdinca/',
       'https://www.linkedin.com/in/ryandaley/',
       'https://twitter.com/TweetRye/',
+      'https://x.com/TweetRye/',
       'https://t.me/rdaley',
       'https://github.com/ryanpdaley',
     ],
