@@ -1,7 +1,7 @@
-import { PropTypes } from 'prop-types';
-import Image from 'next/image';
-import styled from 'styled-components';
-import { captureClick } from '../lib/rtools';
+import Image from "next/image";
+import styled from "styled-components";
+import { captureClick } from "../lib/rtools";
+import { AboutBlockType } from "../types";
 
 const StyledHR = styled.hr`
   width: 70%;
@@ -29,7 +29,7 @@ const Description = ({ data }) => {
   return descriptionBlock;
 };
 
-const AboutBlock = ({ block }) => {
+const AboutBlock = ({ block }: AboutBlockType) => {
   const { description, name, dates, logo, link } = block;
   const clickInfo = { name, link };
   return (
@@ -66,10 +66,6 @@ const AboutBlock = ({ block }) => {
       </div>
     </div>
   );
-};
-
-AboutBlock.propTypes = {
-  block: PropTypes.object,
 };
 
 export default AboutBlock;
