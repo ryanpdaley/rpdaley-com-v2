@@ -1,7 +1,6 @@
 import Image from "next/image";
 import styled from "styled-components";
 import { captureClick } from "../lib/rtools";
-import { AboutBlockType } from "../types";
 import fetchConfig from "../lib/configs";
 import { useEffect, useState } from "react";
 
@@ -39,8 +38,8 @@ const AboutBlock = ({ aboutData }) => {
       const { description, name, dates, logo, link } = block;
       const clickInfo = { name, link };
       return (
-        <>
-          <div className="aboutBlockItem" key={index}>
+        <div key={index}>
+          <div className="aboutBlockItem">
             <div className="aboutBlockLogo">
               <a
                 href={link}
@@ -72,7 +71,7 @@ const AboutBlock = ({ aboutData }) => {
               <Description data={description} />
             </div>
           </div>
-        </>
+        </div>
       );
     })
   )
