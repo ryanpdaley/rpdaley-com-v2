@@ -1,6 +1,7 @@
-import Image from 'next/image';
-import siteConfigs from '../configs/config.json';
-import { captureClick } from '../lib/rtools';
+import Image from "next/image";
+import { captureClick } from "../lib/rtools";
+import fetchConfig from "../lib/configs";
+import { useEffect, useState } from "react";
 
 const socialLink = (data) => (
   <div className="social_link" key={data.name}>
@@ -28,12 +29,23 @@ const Social = ({ socialData }) => {
   return socialLinks;
 };
 
-const Footer = () => (
-  <div className="footer_body">
-    <div className="social_block">
-      <Social socialData={siteConfigs.footer_data} />
+const Footer = () => {
+  const [footerData, setFooterData] = useState(null);
+
+  useEffect(() => {
+    fetchConfig("footer_data").then((data) => {
+      setFooterData(data);
+    });
+  }, []);
+
+  return (
+    <div className="footer_body">
+      <div className="social_block">
+        {footerData && <Social socialData={footerData} />}
+      </div>
     </div>
-  </div>
-);
+  )
+
+};
 
 export default Footer;

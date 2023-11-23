@@ -1,8 +1,8 @@
 import Link from "next/link";
 import styled from "styled-components";
 import { useRouter } from "next/router";
-import siteConfigs from "../configs/config.json";
-import { NavBlockType } from "../types";
+import fetchConfig from "../lib/configs";
+import { useEffect, useState } from "react";
 
 const NavStyle = styled.nav`
   background-color: red;
@@ -11,25 +11,31 @@ const NavStyle = styled.nav`
   top: 100px;
 `;
 
-const NavBlock = ({ navData }: NavBlockType) => {
+const NavBlock = ({ navData }) => {
   const router = useRouter();
-  if (navData.isActive === true) {
-    const pageClassName =
-      router.pathname === navData.relLink ? "navItem_active" : "navItem";
-    return (
-      <Link href={navData.relLink} className={pageClassName}>
-        {navData.name}
-      </Link>
-    );
-  }
+  return navData.map((navDataItem, index) => {
+    if (navDataItem.isActive === true) {
+      const pageClassName =
+        router.pathname === navDataItem.relLink ? "navItem_active" : "navItem";
+      return (
+        <Link key={index} href={navDataItem.relLink} className={pageClassName}>
+          {navDataItem.name}
+        </Link>
+      );
+    }
+  });
 };
 
-const Nav = () => (
-  <NavStyle>
-    {siteConfigs.nav_data.map((navItem) => (
-      <NavBlock key={navItem.name} navData={navItem} />
-    ))}
-  </NavStyle>
-);
+const Nav = () => {
+  const [navData, setNavData] = useState(null);
+
+  useEffect(() => {
+    fetchConfig("nav_data").then((data) => {
+      setNavData(data);
+    });
+  }, []);
+
+  return <NavStyle>{navData && <NavBlock navData={navData} />}</NavStyle>;
+};
 
 export default Nav;
