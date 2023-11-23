@@ -4,10 +4,7 @@ import Script from 'next/script';
 import { useRouter, Router } from 'next/router';
 import { PropTypes } from 'prop-types';
 import nProgress from 'nprogress';
-import '../components/styles/nprogress.css';
-import '../components/styles/styles.css';
-import '../components/styles/footer.css';
-import '../components/styles/header.css';
+import '../index.css';
 import * as gtag from '../lib/gtag';
 import Page from '../components/Page';
 
