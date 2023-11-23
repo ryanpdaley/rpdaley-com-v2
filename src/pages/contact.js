@@ -1,5 +1,4 @@
 import { Component } from 'react';
-import Page from '../components/Page';
 
 import * as gtag from '../lib/gtag';
 
@@ -30,9 +29,9 @@ export default class Contact extends Component {
 
   render() {
     return (
-      <Page>
+      <>
         <h1>This is the Contact page</h1>
-      </Page>
+      </>
     );
   }
 }

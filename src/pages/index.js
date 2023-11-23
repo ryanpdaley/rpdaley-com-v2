@@ -1,9 +1,7 @@
-import Page from '../components/Page';
-
 export default function Home() {
   return (
-    <Page>
-      <h1>Home</h1>
+    <>
+    <h1>Home</h1>
       <p>Ryan Daley (RP Daley) is a Software Developer in Toronto.</p>
       <p>
         He was previously a Developer at Shopify working in data and analytics,
@@ -24,6 +22,7 @@ export default function Home() {
         University of Guelph.
       </p>
       <p>He currently resides in Toronto, with his wife and dog!</p>
-    </Page>
+    </>
+      
   );
 }

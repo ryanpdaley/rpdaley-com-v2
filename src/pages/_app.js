@@ -9,6 +9,7 @@ import '../components/styles/styles.css';
 import '../components/styles/footer.css';
 import '../components/styles/header.css';
 import * as gtag from '../lib/gtag';
+import Page from '../components/Page';
 
 Router.events.on('routeChangeStart', () => nProgress.start());
 Router.events.on('routeChangeComplete', () => nProgress.done());
@@ -50,7 +51,10 @@ const App = ({ Component, pageProps }) => {
           `,
         }}
       />
+      <Page>
       <Component {...pageProps} />
+      </Page>
+      
     </>
   );
 };

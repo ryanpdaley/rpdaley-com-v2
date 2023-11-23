@@ -1,10 +1,5 @@
-import Page from "../components/Page";
 import UsesComponent from "../components/Uses";
 
-const Uses = () => (
-  <Page>
-    <UsesComponent />
-  </Page>
-);
+const Uses = () => (<UsesComponent />);
 
 export default Uses;

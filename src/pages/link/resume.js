@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 import Image from 'next/image';
-import Page from '../../components/Page';
-import resumeThumb from '../../public/images/resumeThumb.png';
+import resumeThumb from '../../../public/images/resumeThumb.png';
 import { captureClick } from '../../lib/rtools';
 
 const ImageStyle = styled.a`
@@ -21,7 +20,7 @@ export default function Resume() {
     link: '/static/rpdaley_resume_2023.pdf',
   };
   return (
-    <Page>
+    <>
       <ResumeInfo>Link to my most recent resume:</ResumeInfo>
       <ImageStyle
         href={clickInfo.link}
@@ -39,6 +38,6 @@ export default function Resume() {
           alt="Link to Current Resume"
         />
       </ImageStyle>
-    </Page>
+    </>
   );
 }
