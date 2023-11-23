@@ -1,0 +1,23 @@
+{
+  "metadata": {
+    "link": "/configs/meta.json"
+  },
+  "school_data": {
+    "link": "/configs/school.json"
+  },
+  "work_data": {
+    "link": "/configs/work.json"
+  },
+  "extras_data": {
+    "link": "/configs/extras.json"
+  },
+  "uses_data": {
+    "link": "/configs/uses.json"
+  },
+  "footer_data": {
+    "link": "/configs/footer.json"
+  },
+  "nav_data": {
+    "link": "/configs/nav.json"
+  }
+}

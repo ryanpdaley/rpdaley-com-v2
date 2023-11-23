@@ -1,0 +1,44 @@
+{
+  "title": "School",
+  "data": [
+    {
+      "name": "Lighthouse Labs",
+      "dates": "2017",
+      "logo": "/images/t_lhl.webp",
+      "link": "https://www.lighthouselabs.ca/",
+      "description": [
+        {
+          "title": "Web Development Bootcamp",
+          "info": ["- Diploma: Web Development"],
+          "location": "Toronto, Ontario"
+        }
+      ]
+    },
+    {
+      "name": "UBC",
+      "dates": "2006 - 2010",
+      "logo": "/images/t_ubc.webp",
+      "link": "https://www.ubc.ca/",
+      "description": [
+        {
+          "title": "Bachelor of Computer Science",
+          "info": ["- Degree: Integrated Computer Science"],
+          "location": "Vancouver, British Columbia"
+        }
+      ]
+    },
+    {
+      "name": "University of Guelph",
+      "dates": "2001 - 2005",
+      "logo": "/images/t_uog.webp",
+      "link": "https://www.uoguelph.ca/",
+      "description": [
+        {
+          "title": "Bachelor of Science (Honours)",
+          "info": ["- Degree: Biology"],
+          "location": "Guelph, Ontario"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "name": "github",
+    "link": "https://github.com/ryanpdaley",
+    "logo": "/images/github.webp"
+  },
+  {
+    "name": "facebook",
+    "link": "https://www.facebook.com/ryandaley",
+    "logo": "/images/fb.webp"
+  },
+  {
+    "name": "linkedin",
+    "link": "https://www.linkedin.com/in/ryandaley/",
+    "logo": "/images/linkedin.webp"
+  },
+  {
+    "name": "instagram",
+    "link": "https://www.instagram.com/rdinca/",
+    "logo": "/images/instagram.webp"
+  },
+  {
+    "name": "telegram",
+    "link": "https://t.me/rdaley",
+    "logo": "/images/telegram.webp"
+  },
+  {
+    "name": "x",
+    "link": "https://x.com/TweetRye/",
+    "logo": "/images/x.webp"
+  },
+  {
+    "name": "threads",
+    "link": "https://www.threads.net/@rdinca",
+    "logo": "/images/threads.webp"
+  }
+]
