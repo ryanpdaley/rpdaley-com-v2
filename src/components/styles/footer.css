@@ -19,8 +19,13 @@
 }
 
 .social_link {
-  padding: 0 0.5vh;
+  padding: 0.5vh;
   float: right;
+}
+.social_link:hover {
+  background-color: black;
+  filter: invert(1);
+  border-radius: 5px;
 }
 
 .social_logo {
