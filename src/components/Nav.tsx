@@ -1,24 +1,23 @@
 import Link from "next/link";
-import styled from "styled-components";
 import { useRouter } from "next/router";
 import fetchConfig from "../lib/configs";
 import { useEffect, useState } from "react";
 
-const NavStyle = styled.nav`
-  background-color: red;
-  position: fixed;
-  width: 100%;
-  top: 100px;
-`;
+// const NavStyle = styled.nav`
+//   background-color: red;
+//   position: fixed;
+//   width: 100%;
+//   top: 100px;
+// `;
 
 const NavBlock = ({ navData }) => {
   const router = useRouter();
   return navData.map((navDataItem, index) => {
     if (navDataItem.isActive === true) {
-      const pageClassName =
-        router.pathname === navDataItem.relLink ? "navItem_active" : "navItem";
+      const isActive =
+        router.pathname === navDataItem.relLink ? true : false;
       return (
-        <Link key={index} href={navDataItem.relLink} className={pageClassName}>
+        <Link key={index} href={navDataItem.relLink} className={isActive ? 'bg-white text-2xl text-black text-center h-full px-6 inline-block hover:bg-black hover:text-white' : 'bg-red-500 text-2xl text-white text-center h-full px-6 inline-block hover:bg-black'}>
           {navDataItem.name}
         </Link>
       );
@@ -35,7 +34,7 @@ const Nav = () => {
     });
   }, []);
 
-  return <NavStyle>{navData && <NavBlock navData={navData} />}</NavStyle>;
+  return <div className='fixed bg-red-500 w-full top-24 h-9 block'>{navData && <NavBlock navData={navData} />}</div>;
 };
 
 export default Nav;
