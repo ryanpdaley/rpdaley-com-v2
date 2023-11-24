@@ -3,30 +3,29 @@ import { captureClick } from "../lib/rtools";
 import fetchConfig from "../lib/configs";
 import { useEffect, useState } from "react";
 
-const socialLink = (data) => (
-  <div className="social_link" key={data.name}>
-    <a
-      href={data.link}
-      target="_blank"
-      onClick={() => {
-        captureClick(data);
-      }}
-      rel="noreferrer"
-    >
-      <Image
-        src={data.logo}
-        alt={data.name}
-        width={75}
-        height={75}
-        className="social_logo"
-      />
-    </a>
-  </div>
-);
-
-const Social = ({ socialData }) => {
-  const socialLinks = socialData.map(socialLink);
-  return socialLinks;
+const SocialItems = ({ socialData }) => {
+  return socialData.map((socialLink) => {
+    return (
+      <div className='p-1 float-right h-full rounded-sm hover:bg-white' key={socialLink.name}>
+        <a
+          href={socialLink.link}
+          target="_blank"
+          onClick={() => {
+            captureClick(socialLink);
+          }}
+          rel="noreferrer"
+        >
+          <Image
+            src={socialLink.logo}
+            alt={socialLink.name}
+            width={75}
+            height={75}
+            className='h-10 w-auto pb-2 hover:invert'
+          />
+        </a>
+      </div>
+    )
+  });
 };
 
 const Footer = () => {
@@ -39,9 +38,9 @@ const Footer = () => {
   }, []);
 
   return (
-    <div className="footer_body">
-      <div className="social_block">
-        {footerData && <Social socialData={footerData} />}
+    <div className='fixed bottom-0 left-0 w-full h-12 bg-black'>
+      <div className='pt-2 pr-2 float-right block'>
+        {footerData && <SocialItems socialData={footerData} />}
       </div>
     </div>
   )
