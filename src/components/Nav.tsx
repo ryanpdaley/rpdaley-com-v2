@@ -3,13 +3,6 @@ import { useRouter } from "next/router";
 import fetchConfig from "../lib/configs";
 import { useEffect, useState } from "react";
 
-// const NavStyle = styled.nav`
-//   background-color: red;
-//   position: fixed;
-//   width: 100%;
-//   top: 100px;
-// `;
-
 const NavBlock = ({ navData }) => {
   const router = useRouter();
   return navData.map((navDataItem, index) => {
