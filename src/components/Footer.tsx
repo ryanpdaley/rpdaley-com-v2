@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 const SocialItems = ({ socialData }) => {
   return socialData.map((socialLink) => {
     return (
-      <div className='p-1 float-right h-full rounded-sm hover:bg-white' key={socialLink.name}>
+      <div className='p-1 float-right h-full rounded hover:bg-white' key={socialLink.name}>
         <a
           href={socialLink.link}
           target="_blank"
