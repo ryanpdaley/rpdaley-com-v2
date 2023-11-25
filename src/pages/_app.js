@@ -5,6 +5,7 @@ import { useRouter, Router } from 'next/router';
 import { PropTypes } from 'prop-types';
 import nProgress from 'nprogress';
 import '../index.css';
+import '../nprogress.css';
 import * as gtag from '../lib/gtag';
 import Page from '../components/Page';
 
