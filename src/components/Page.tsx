@@ -1,17 +1,10 @@
-import styled from "styled-components";
 import Footer from "./Footer";
 import Header from "./Header";
-
-const BodyStyle = styled.div`
-  position: relative;
-  margin: 130px auto 30px;
-  font-family: Nunito, sans-serif;
-`;
 
 const Page = ({ children }) => (
   <div>
     <Header />
-    <BodyStyle>{children}</BodyStyle>
+    <div className='pt-36 w-9/12 mx-auto'>{children}</div>
     <Footer />
   </div>
 );
