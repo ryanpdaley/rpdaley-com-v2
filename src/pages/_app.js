@@ -1,17 +1,34 @@
 /* eslint-disable react/jsx-props-no-spreading */
-import { useEffect } from 'react';
-import Script from 'next/script';
-import { useRouter, Router } from 'next/router';
-import { PropTypes } from 'prop-types';
-import nProgress from 'nprogress';
-import '../index.css';
-import '../nprogress.css';
-import * as gtag from '../lib/gtag';
-import Page from '../components/Page';
+import { useEffect } from "react";
+import Script from "next/script";
+import { useRouter, Router } from "next/router";
+import { PropTypes } from "prop-types";
+import nProgress from "nprogress";
+import "../index.css";
+import "../nprogress.css";
+import * as gtag from "../lib/gtag";
+import Page from "../components/Page";
+import { Oswald, Nunito, Lato } from "next/font/google";
 
-Router.events.on('routeChangeStart', () => nProgress.start());
-Router.events.on('routeChangeComplete', () => nProgress.done());
-Router.events.on('routeChangeError', () => nProgress.done());
+const oswald = Oswald({
+  subsets: ["latin"],
+  variable: "--font-oswald",
+});
+
+const nunito = Nunito({
+  subsets: ["latin"],
+  variable: "--font-nunito",
+});
+
+const lato = Lato({
+  subsets: ["latin"],
+  variable: "--font-lato",
+  weight: "100",
+});
+
+Router.events.on("routeChangeStart", () => nProgress.start());
+Router.events.on("routeChangeComplete", () => nProgress.done());
+Router.events.on("routeChangeError", () => nProgress.done());
 
 const App = ({ Component, pageProps }) => {
   const router = useRouter();
@@ -19,16 +36,18 @@ const App = ({ Component, pageProps }) => {
     const handleRouteChange = (url) => {
       gtag.pageview(url);
     };
-    router.events.on('routeChangeComplete', handleRouteChange);
-    router.events.on('hashChangeComplete', handleRouteChange);
+    router.events.on("routeChangeComplete", handleRouteChange);
+    router.events.on("hashChangeComplete", handleRouteChange);
     return () => {
-      router.events.off('routeChangeComplete', handleRouteChange);
-      router.events.off('hashChangeComplete', handleRouteChange);
+      router.events.off("routeChangeComplete", handleRouteChange);
+      router.events.off("hashChangeComplete", handleRouteChange);
     };
   }, [router.events]);
 
   return (
-    <>
+    <main
+      className={`${oswald.variable} ${nunito.variable} ${lato.variable} font-sans`}
+    >
       {/* Global Site Tag (gtag.js) - Google Analytics */}
       <Script
         strategy="afterInteractive"
@@ -50,10 +69,9 @@ const App = ({ Component, pageProps }) => {
         }}
       />
       <Page>
-      <Component {...pageProps} />
+        <Component {...pageProps} />
       </Page>
-      
-    </>
+    </main>
   );
 };
 
