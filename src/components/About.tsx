@@ -75,7 +75,7 @@ const AboutBlock = ({ aboutData }) => {
       const parsedDates = parseDate(dates);
       return (
         <div key={index}>
-          <div className='flex flex-row p-1 items-center border-2 rounded-md border-zinc-600 my-1'>
+          <div className='flex flex-row p-1 items-center border-2 rounded-lg border-zinc-600 my-1'>
             <div className='basis-1/5'>
               <a
                 href={link}
@@ -86,7 +86,7 @@ const AboutBlock = ({ aboutData }) => {
                 rel="noreferrer"
                 className='hover:blur-sm'
               >
-                <Image src={logo} alt={name} height={150} width={150} className="mx-auto border-2 rounded border-black bg-black" />
+                <Image src={logo} alt={name} height={150} width={150} className="mx-auto border-2 rounded-lg border-black bg-black" />
               </a>
             </div>
             <div className='basis-4/5 px-10 py-2'>
