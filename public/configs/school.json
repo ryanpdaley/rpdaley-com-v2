@@ -3,40 +3,58 @@
   "data": [
     {
       "name": "Lighthouse Labs",
-      "dates": "2017",
+      "dates": [2017],
       "logo": "/images/t_lhl.webp",
       "link": "https://www.lighthouselabs.ca/",
       "description": [
         {
           "title": "Web Development Bootcamp",
-          "info": ["- Diploma: Web Development"],
-          "location": "Toronto, Ontario"
+          "info": ["Diploma: Web Development"],
+          "technologies": [],
+          "location": {
+            "isRemote": false,
+            "city": "Toronto",
+            "provState": "Ontario",
+            "country": "Canada"
+          }
         }
       ]
     },
     {
       "name": "UBC",
-      "dates": "2006 - 2010",
+      "dates": [2006, 2010],
       "logo": "/images/t_ubc.webp",
       "link": "https://www.ubc.ca/",
       "description": [
         {
           "title": "Bachelor of Computer Science",
-          "info": ["- Degree: Integrated Computer Science"],
-          "location": "Vancouver, British Columbia"
+          "info": ["Degree: Integrated Computer Science"],
+          "technologies": [],
+          "location": {
+            "isRemote": false,
+            "city": "Vancouver",
+            "provState": "British Columbia",
+            "country": "Canada"
+          }
         }
       ]
     },
     {
       "name": "University of Guelph",
-      "dates": "2001 - 2005",
+      "dates": [2001, 2005],
       "logo": "/images/t_uog.webp",
       "link": "https://www.uoguelph.ca/",
       "description": [
         {
           "title": "Bachelor of Science (Honours)",
-          "info": ["- Degree: Biology"],
-          "location": "Guelph, Ontario"
+          "info": ["Degree: Biology"],
+          "technologies": [],
+          "location": {
+            "isRemote": false,
+            "city": "Guelph",
+            "provState": "Ontario",
+            "country": "Canada"
+          }
         }
       ]
     }

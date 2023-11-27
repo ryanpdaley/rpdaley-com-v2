@@ -1,66 +1,96 @@
 {
-  "title": "Courses / Certificates",
+  "title": "Courses",
   "data": [
     {
       "name": "Epic React",
-      "dates": "2023 - Present",
+      "dates": [2023],
       "logo": "/images/t_epicreact.webp",
       "link": "https://www.epicreact.dev/",
       "description": [
         {
           "title": "Epic React",
           "info": [
-            "- Created by: Kent C. Dodds",
-            "- Training Course focused on React. Chapters include: React Fundamentals, React Hooks, Advanced React Hooks, Advanced React Patterns, React Performance, Testing React Apps, React Suspense, and Build an Epic React App"
+            "Created by: Kent C. Dodds",
+            "Training Course focused on React. Chapters include: React Fundamentals, React Hooks, Advanced React Hooks, Advanced React Patterns, React Performance, Testing React Apps, React Suspense, and Build an Epic React App"
           ],
-          "location": "Online"
+          "technologies": [],
+          "location": {
+            "isRemote": true,
+            "city": "Toronto",
+            "provState": "Ontario",
+            "country": "Canada"
+          }
         }
       ]
     },
     {
       "name": "Wes Bos",
-      "dates": "2022",
+      "dates": [2022],
       "logo": "/images/t_wesBos.webp",
       "link": "https://advancedreact.com/",
       "description": [
         {
           "title": "Fullstack Advanced React and GraphQL",
           "info": [
-            "- Created by: Wes Bos",
-            "- Training Course using React.js, Next.js, GraphQL, Node.js, Apollo, and Keystone "
+            "Created by: Wes Bos",
+            "Training Course using React.js, Next.js, GraphQL, Node.js, Apollo, and Keystone "
           ],
-          "location": "Online"
+          "technologies": [],
+          "location": {
+            "isRemote": true,
+            "city": "Toronto",
+            "provState": "Ontario",
+            "country": "Canada"
+          }
         }
       ]
     },
     {
       "name": "University of Toronto",
-      "dates": "2020",
+      "dates": [2020],
       "logo": "/images/t_uot.webp",
       "link": "https://www.utoronto.ca/",
       "description": [
         {
           "title": "SCS 3253 - Machine Learning",
-          "info": ["- Instructor: Michael Ciniello"],
-          "location": "Toronto, Ontario"
+          "info": ["Instructor: Michael Ciniello"],
+          "technologies": [],
+          "location": {
+            "isRemote": false,
+            "city": "Toronto",
+            "provState": "Ontario",
+            "country": "Canada"
+          }
         }
       ]
     },
     {
       "name": "Stanford University",
-      "dates": "2013-2015",
+      "dates": [2013, 2015],
       "logo": "/images/t_stanford.webp",
       "link": "https://www.stanford.edu/",
       "description": [
         {
           "title": "DSN 102 - Design Execution: Bringing Ideas to Life",
-          "info": ["- Instructor: Peter Macdonald"],
-          "location": "Stanford, California"
+          "info": ["Instructor: Peter Macdonald"],
+          "technologies": [],
+          "location": {
+            "isRemote": false,
+            "city": "Stanford",
+            "provState": "California",
+            "country": "USA"
+          }
         },
         {
           "title": "DSN 101 - Ideation: The History and Theory of Design",
-          "info": ["- Instructor: Barry Katz"],
-          "location": "Stanford, California"
+          "info": ["Instructor: Barry Katz"],
+          "technologies": [],
+          "location": {
+            "isRemote": false,
+            "city": "Stanford",
+            "provState": "California",
+            "country": "USA"
+          }
         }
       ]
     }
