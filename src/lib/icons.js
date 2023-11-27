@@ -141,7 +141,7 @@ const buildIcons = (icons) => {
             const label = iconMap[iconObj]['label'];
             const url = iconMap[iconObj]['url']
             return (
-                <div key={index} className='inline-block text-2xl'>
+                <div key={index} className='inline-block text-2xl hover:text-red-500 px-1'>
                     <a href={url} target="_blank" title={label} onClick={() => {
                         captureClick({ label, url });
                     }}
