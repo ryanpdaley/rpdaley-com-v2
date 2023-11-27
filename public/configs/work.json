@@ -3,113 +3,200 @@
   "data": [
     {
       "name": "Shopify",
-      "dates": "2022 - 2023",
+      "dates": [2022, 2023],
       "logo": "/images/t_shopify.webp",
       "link": "https://www.shopify.ca/",
       "description": [
         {
           "title": "Developer",
           "info": [
-            "- Was a member of the Core-Optimize-Analyze team which developed the Analytics and Reports of the Admin panel for Shopify Merchants",
-            "- Areas of focus included: the Customer Cohort Report, and Merchant Benchmarks.",
-            "- Contributed code to the Shopify/web, Shopify/shopify, Shopify/polaris, and Shopify/polaris-viz repositories",
-            "- Technologies: React, Typescript, GraphQL, Sass, Ruby on Rails, Storybook.js, Polaris"
+            "Was a member of the Core-Optimize-Analyze team which developed the Analytics and Reports of the Admin panel for Shopify Merchants",
+            "Areas of focus included: the Customer Cohort Report, and Merchant Benchmarks.",
+            "Contributed code to the Shopify/web, Shopify/shopify, Shopify/polaris, and Shopify/polaris-viz repositories",
+            "Technologies: React, Typescript, GraphQL, Sass, Ruby on Rails, Storybook.js, Polaris"
           ],
-          "location": "Remote (Toronto, Ontario)"
+          "technologies": [
+            "react",
+            "typescript",
+            "graphql",
+            "sass",
+            "rubyonrails",
+            "storybookjs",
+            "polaris"
+          ],
+          "location": {
+            "isRemote": true,
+            "city": "Toronto",
+            "provState": "Ontario",
+            "country": "Canada"
+          }
         }
       ]
     },
     {
       "name": "Bell Media",
-      "dates": "2017 - 2022",
+      "dates": [2017, 2022],
       "logo": "/images/t_bm.webp",
       "link": "http://www.bellmedia.ca/",
       "description": [
         {
           "title": "Software Developer",
           "info": [
-            "- Most recently the lead developer for the Chromecast Receiver for all Bell Media brands",
-            "- Previous responsibilities included creating the web authentication for TSN & RDS direct to consumer (D2C), and maintaining the CraveTV property for web.",
-            "- Technologies: JavaScript, AJAX, JSON, HTML, CSS, npm, node.js, JIRA, git, Charles Proxy, Akamai Identity Services (AIS), CSG Ascendon, JWT."
+            "Most recently the lead developer for the Chromecast Receiver for all Bell Media brands",
+            "Previous responsibilities included creating the web authentication for TSN & RDS direct to consumer (D2C), and maintaining the CraveTV property for web.",
+            "Technologies: JavaScript, AJAX, JSON, HTML, CSS, npm, node.js, JIRA, git, Charles Proxy, Akamai Identity Services (AIS), CSG Ascendon, JWT."
           ],
-          "location": "Toronto, Ontario"
+          "technologies": [
+            "javascript",
+            "python",
+            "sqlite",
+            "graphql",
+            "json",
+            "html",
+            "css",
+            "npm",
+            "node",
+            "jira",
+            "github",
+            "ais",
+            "jwt"
+          ],
+          "location": {
+            "isRemote": false,
+            "city": "Toronto",
+            "provState": "Ontario",
+            "country": "Canada"
+          }
         },
         {
           "title": "Full-Stack Developer",
           "info": [
-            "- Supported CraveTV and web authentication.",
-            "- Responsibilities included integration and deployment of builds / web components to various server environments, and assisting external development agencies integrate services and platforms.",
-            "- Technologies: JavaScript, AJAX, JSON, HTML, CSS, node.js, JIRA, git, Charles Proxy."
+            "Supported CraveTV and web authentication.",
+            "Responsibilities included integration and deployment of builds / web components to various server environments, and assisting external development agencies integrate services and platforms.",
+            "Technologies: JavaScript, AJAX, JSON, HTML, CSS, node.js, JIRA, git, Charles Proxy."
           ],
-          "location": "Toronto, Ontario"
+          "technologies": [
+            "javascript",
+            "json",
+            "html",
+            "css",
+            "node",
+            "jira",
+            "github"
+          ],
+          "location": {
+            "isRemote": false,
+            "city": "Toronto",
+            "provState": "Ontario",
+            "country": "Canada"
+          }
         }
       ]
     },
     {
       "name": "Apple",
-      "dates": "2012 - 2017",
+      "dates": [2012, 2017],
       "logo": "/images/t_apple.webp",
       "link": "https://www.apple.com/",
       "description": [
         {
           "title": "Automation Engineer - In-Car Experience",
           "info": [
-            "- Designed, implemented, and maintained an automated test system to validate daily iOS builds for CarPlay.",
-            "- Designed, implemented, and maintained a system to manage software quality issue reports and alert all stakeholders in a daily email report.",
-            "- Technologies: Python, Ruby, UIA2 (JavaScript), shell scripting, HTML, CSS."
+            "Designed, implemented, and maintained an automated test system to validate daily iOS builds for CarPlay.",
+            "Designed, implemented, and maintained a system to manage software quality issue reports and alert all stakeholders in a daily email report.",
+            "Technologies: Python, Ruby, UIA2 (JavaScript), shell scripting, HTML, CSS."
           ],
-          "location": "Cupertino, California"
+          "technologies": [
+            "python",
+            "ruby",
+            "javascript",
+            "shell",
+            "html",
+            "css",
+            "arduino",
+            "raspberrypi"
+          ],
+          "location": {
+            "isRemote": false,
+            "city": "Cupertino",
+            "provState": "California",
+            "country": "USA"
+          }
         },
         {
           "title": "Software QA Engineer - Accessories QA",
           "info": [
-            "- Tested iPod / iPhone / iPad integration (wired and wireless) with car stereos.",
-            "- Responsible for writing test plans, executing tests, regressing, isolating and reporting issues found during testing."
+            "Tested iPod / iPhone / iPad integration (wired and wireless) with car stereos.",
+            "Responsible for writing test plans, executing tests, regressing, isolating and reporting issues found during testing."
           ],
-          "location": "Cupertino, California"
+          "technologies": ["ruby", "shell"],
+          "location": {
+            "isRemote": false,
+            "city": "Cupertino",
+            "provState": "California",
+            "country": "USA"
+          }
         }
       ]
     },
     {
       "name": "Kobo",
-      "dates": "2011 - 2012",
+      "dates": [2011, 2012],
       "logo": "/images/t_kobo.webp",
       "link": "https://www.kobo.com/",
       "description": [
         {
           "title": "QA Analyst",
           "info": [
-            "- Represented QA and testing in all aspects of the Agile Scrum development process including Sprint Planning and daily Scrum meetings.",
-            "- Created and executed test plans and test cases (manual and automated) for user stories, including risk based regression testing.",
-            "- Technologies: shell scripting, Jira, GreenHopper, Pivotal Tracker."
+            "Represented QA and testing in all aspects of the Agile Scrum development process including Sprint Planning and daily Scrum meetings.",
+            "Created and executed test plans and test cases (manual and automated) for user stories, including risk based regression testing.",
+            "Technologies: shell scripting, Jira, GreenHopper, Pivotal Tracker."
           ],
-          "location": "Toronto, Ontario"
+          "technologies": ["shell", "jira", "pivotaltracker"],
+          "location": {
+            "isRemote": false,
+            "city": "Toronto",
+            "provState": "Ontario",
+            "country": "Canada"
+          }
         }
       ]
     },
     {
       "name": "RIM / BlackBerry",
-      "dates": "2008 - 2009",
+      "dates": [2008, 2009],
       "logo": "/images/t_rim.webp",
       "link": "https://www.blackberry.com/",
       "description": [
         {
           "title": "UBC Campus Ambassador",
           "info": [
-            "- Acted as the liaison between the University of British Columbia and Research In Motion.",
-            "- Responsible for assisting the Campus Recruitment team from RIM find and recruit potential candidates for their new graduate and co-op positions.",
-            "- Aided candidates with their applications to RIM, prepare for their interviews, and their successful transition from UBC to RIM."
+            "Acted as the liaison between the University of British Columbia and Research In Motion.",
+            "Responsible for assisting the Campus Recruitment team from RIM find and recruit potential candidates for their new graduate and co-op positions.",
+            "Aided candidates with their applications to RIM, prepare for their interviews, and their successful transition from UBC to RIM."
           ],
-          "location": "Vancouver, British Columbia"
+          "technologies": [],
+          "location": {
+            "isRemote": false,
+            "city": "Vancouver",
+            "provState": "British Columbia",
+            "country": "Canada"
+          }
         },
         {
           "title": "Software Test Associate - New Product Testing (Co-op)",
           "info": [
-            "- Executed testing of new software on both production and prototype BlackBerry Wireless Handhelds.",
-            "- Responsible for performing various types of tests including integration, regression, performance and general smoke tests.",
-            "- Position demonstrated my ability to be a flexible team player who excels in an environment that requires the ability to effectively prioritize and juggle multiple concurrent projects."
+            "Executed testing of new software on both production and prototype BlackBerry Wireless Handhelds.",
+            "Responsible for performing various types of tests including integration, regression, performance and general smoke tests.",
+            "Position demonstrated my ability to be a flexible team player who excels in an environment that requires the ability to effectively prioritize and juggle multiple concurrent projects."
           ],
-          "location": "Waterloo, Ontario"
+          "technologies": ["blackberry"],
+          "location": {
+            "isRemote": false,
+            "city": "Waterloo",
+            "provState": "Ontario",
+            "country": "Canada"
+          }
         }
       ]
     }
