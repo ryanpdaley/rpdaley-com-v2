@@ -2,25 +2,6 @@
   "title": "School",
   "data": [
     {
-      "name": "Lighthouse Labs",
-      "dates": [2017],
-      "logo": "/images/t_lhl.webp",
-      "link": "https://www.lighthouselabs.ca/",
-      "description": [
-        {
-          "title": "Web Development Bootcamp",
-          "info": ["Diploma: Web Development"],
-          "technologies": [],
-          "location": {
-            "isRemote": false,
-            "city": "Toronto",
-            "provState": "Ontario",
-            "country": "Canada"
-          }
-        }
-      ]
-    },
-    {
       "name": "UBC",
       "dates": [2006, 2010],
       "logo": "/images/t_ubc.webp",
@@ -28,7 +9,12 @@
       "description": [
         {
           "title": "Bachelor of Computer Science",
-          "info": ["Degree: Integrated Computer Science"],
+          "dataList": [
+            {
+              "type": "list-item",
+              "message": "Degree: Integrated Computer Science"
+            }
+          ],
           "technologies": [],
           "location": {
             "isRemote": false,
@@ -47,7 +33,12 @@
       "description": [
         {
           "title": "Bachelor of Science (Honours)",
-          "info": ["Degree: Biology"],
+          "dataList": [
+            {
+              "type": "list-item",
+              "message": "Degree: Biology"
+            }
+          ],
           "technologies": [],
           "location": {
             "isRemote": false,

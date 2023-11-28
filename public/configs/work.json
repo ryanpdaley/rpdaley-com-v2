@@ -9,11 +9,24 @@
       "description": [
         {
           "title": "Developer",
-          "info": [
-            "Was a member of the Core-Optimize-Analyze team which developed the Analytics and Reports of the Admin panel for Shopify Merchants",
-            "Areas of focus included: the Customer Cohort Report, and Merchant Benchmarks.",
-            "Contributed code to the Shopify/web, Shopify/shopify, Shopify/polaris, and Shopify/polaris-viz repositories",
-            "Technologies: React, Typescript, GraphQL, Sass, Ruby on Rails, Storybook.js, Polaris"
+          "dataList": [
+            {
+              "type": "list-item",
+              "message": "Member of the Core-Optimize-Analyze team at Shopify which is responsible for Analytics and Reports for Shopify Merchants."
+            },
+            { "type": "list-item", "message": "Delivered features include:" },
+            {
+              "type": "indent",
+              "message": "Customer Cohort Report - allows merchants to view customer / sales data using cohort data and visualization."
+            },
+            {
+              "type": "indent",
+              "message": "Merchant Benchmarks - allows merchants to compare their shop to similar shops based on store size, location, products, etc."
+            },
+            {
+              "type": "technologies",
+              "message": "React, Typescript, GraphQL, Sass, Ruby on Rails, Storybook.js, Polaris"
+            }
           ],
           "technologies": [
             "react",
@@ -41,10 +54,23 @@
       "description": [
         {
           "title": "Software Developer",
-          "info": [
-            "Most recently the lead developer for the Chromecast Receiver for all Bell Media brands",
-            "Previous responsibilities included creating the web authentication for TSN & RDS direct to consumer (D2C), and maintaining the CraveTV property for web.",
-            "Technologies: JavaScript, AJAX, JSON, HTML, CSS, npm, node.js, JIRA, git, Charles Proxy, Akamai Identity Services (AIS), CSG Ascendon, JWT."
+          "dataList": [
+            {
+              "type": "list-item",
+              "message": "Creator and lead developer for all Chromecast development, consulting developer for all externally developed video apps, and creator of the content validation tool for Crave, CTV, and Noovo."
+            },
+            {
+              "type": "list-item",
+              "message": "Chromecast project achieved viewership in the hundreds of millions of minutes watched per month (x00,000,000), and ad revenue in the millions of dollars per month ($x,000,000)."
+            },
+            {
+              "type": "list-item",
+              "message": "Content validation tool verified the availability of more than 50,000 items several times a day, and confirmed the appearance and removal of the delta items on the quarter hour."
+            },
+            {
+              "type": "technologies",
+              "message": "JavaScript, Python, SQLite, GraphQL, AJAX, JSON, HTML, CSS, npm, node.js, JIRA, git, Charles Proxy, Akamai Identity Services (AIS), CSG Ascendon, JWT."
+            }
           ],
           "technologies": [
             "javascript",
@@ -70,10 +96,19 @@
         },
         {
           "title": "Full-Stack Developer",
-          "info": [
-            "Supported CraveTV and web authentication.",
-            "Responsibilities included integration and deployment of builds / web components to various server environments, and assisting external development agencies integrate services and platforms.",
-            "Technologies: JavaScript, AJAX, JSON, HTML, CSS, node.js, JIRA, git, Charles Proxy."
+          "dataList": [
+            {
+              "type": "list-item",
+              "message": "Supported (now legacy) CraveTV and web authentication."
+            },
+            {
+              "type": "list-item",
+              "message": "Responsibilities included creating the web authentication for TSN & RDS direct to consumer (D2C), integration and deployment of builds/web components to various server environments, and assisting external development agencies in integrating services and platforms."
+            },
+            {
+              "type": "technologies",
+              "message": "JavaScript, AJAX, JSON, HTML, CSS, node.js, JIRA, git, Charles Proxy."
+            }
           ],
           "technologies": [
             "javascript",
@@ -101,10 +136,19 @@
       "description": [
         {
           "title": "Automation Engineer - In-Car Experience",
-          "info": [
-            "Designed, implemented, and maintained an automated test system to validate daily iOS builds for CarPlay.",
-            "Designed, implemented, and maintained a system to manage software quality issue reports and alert all stakeholders in a daily email report.",
-            "Technologies: Python, Ruby, UIA2 (JavaScript), shell scripting, HTML, CSS."
+          "dataList": [
+            {
+              "type": "list-item",
+              "message": "Architected, implemented, and maintained an automated test system to validate daily iOS builds for CarPlay."
+            },
+            {
+              "type": "list-item",
+              "message": "System used robotics to validate hardware-software interactions, simulated a suite of standardized CarPlay activities, and filed tickets (Radars) if crashes, hangs, or memory leaks were found."
+            },
+            {
+              "type": "technologies",
+              "message": "Python, Ruby, UIA2 (JavaScript based), shell scripting, HTML, CSS, Arduino, Raspberry Pi."
+            }
           ],
           "technologies": [
             "python",
@@ -125,9 +169,15 @@
         },
         {
           "title": "Software QA Engineer - Accessories QA",
-          "info": [
-            "Tested iPod / iPhone / iPad integration (wired and wireless) with car stereos.",
-            "Responsible for writing test plans, executing tests, regressing, isolating and reporting issues found during testing."
+          "dataList": [
+            {
+              "type": "list-item",
+              "message": "Responsible for testing iPod / iPhone / iPad integration (wired and wireless) with automotive head units."
+            },
+            {
+              "type": "list-item",
+              "message": "Duties included: writing test plans, executing tests, regressing, isolating and reporting issues found during testing."
+            }
           ],
           "technologies": ["ruby", "shell"],
           "location": {
@@ -147,10 +197,19 @@
       "description": [
         {
           "title": "QA Analyst",
-          "info": [
-            "Represented QA and testing in all aspects of the Agile Scrum development process including Sprint Planning and daily Scrum meetings.",
-            "Created and executed test plans and test cases (manual and automated) for user stories, including risk based regression testing.",
-            "Technologies: shell scripting, Jira, GreenHopper, Pivotal Tracker."
+          "dataList": [
+            {
+              "type": "list-item",
+              "message": "Represented QA and testing in all aspects of the Agile Scrum development process including Sprint Planning and daily Scrum meetings."
+            },
+            {
+              "type": "list-item",
+              "message": "Created and executed test plans and test cases (manual and automated) for user stories, including risk based regression testing."
+            },
+            {
+              "type": "technologies",
+              "message": "shell scripting, Jira, GreenHopper, Pivotal Tracker."
+            }
           ],
           "technologies": ["shell", "jira", "pivotaltracker"],
           "location": {
@@ -170,10 +229,19 @@
       "description": [
         {
           "title": "UBC Campus Ambassador",
-          "info": [
-            "Acted as the liaison between the University of British Columbia and Research In Motion.",
-            "Responsible for assisting the Campus Recruitment team from RIM find and recruit potential candidates for their new graduate and co-op positions.",
-            "Aided candidates with their applications to RIM, prepare for their interviews, and their successful transition from UBC to RIM."
+          "dataList": [
+            {
+              "type": "list-item",
+              "message": "Acted as the liaison between the University of British Columbia and Research In Motion."
+            },
+            {
+              "type": "list-item",
+              "message": "Responsible for assisting the Campus Recruitment team from RIM find and recruit potential candidates for their new graduate and co-op positions."
+            },
+            {
+              "type": "list-item",
+              "message": "Aided candidates with their applications to RIM, prepare for their interviews, and their successful transition from UBC to RIM."
+            }
           ],
           "technologies": [],
           "location": {
@@ -185,10 +253,19 @@
         },
         {
           "title": "Co-op: Software Test Associate - New Product Testing",
-          "info": [
-            "Executed testing of new software on both production and prototype BlackBerry Wireless Handhelds.",
-            "Responsible for performing various types of tests including integration, regression, performance and general smoke tests.",
-            "Position demonstrated my ability to be a flexible team player who excels in an environment that requires the ability to effectively prioritize and juggle multiple concurrent projects."
+          "dataList": [
+            {
+              "type": "list-item",
+              "message": "Executed testing of new software on both production and prototype BlackBerry Wireless Handhelds."
+            },
+            {
+              "type": "list-item",
+              "message": "Responsible for performing various types of tests including integration, regression, performance and general smoke tests."
+            },
+            {
+              "type": "list-item",
+              "message": "Position demonstrated my ability to be a flexible team player who excels in an environment that requires the ability to effectively prioritize and juggle multiple concurrent projects."
+            }
           ],
           "technologies": ["blackberry"],
           "location": {
