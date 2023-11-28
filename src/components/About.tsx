@@ -14,6 +14,9 @@ const parseDate = (dates) => {
     return dates[0];
   } else if (dates.length === 2) {
     let sorted = dates.sort();
+    if (sorted[0] === 0) {
+      return `In progress (${sorted[1]})`
+    }
     return `${sorted[0]} - ${sorted[1]}`;
   } else {
     return []
@@ -21,6 +24,7 @@ const parseDate = (dates) => {
 }
 
 const parseLocation = (location) => {
+  console.log("location", location)
   const countryIcon = (<div className="inline-block px-1">
     {flagMap[location.country.toLowerCase()]}
   </div>
@@ -28,7 +32,7 @@ const parseLocation = (location) => {
 
   return (
     <div className="block">
-      <span className="inline-block font-bold">- Location: </span>
+      <span className="inline-block font-bold">Location: </span>
       <div className='inline-block'>
         <span>{countryIcon}{location.city}, {location.provState} </span>
       </div>
@@ -39,10 +43,29 @@ const parseLocation = (location) => {
   )
 }
 
+const parseData = (dataList) => {
+  console.log("dataList", dataList);
+  return (dataList.map((dataListItem, index) => {
+    switch (dataListItem.type) {
+      case "list-item":
+        return (<div key={index}>• {dataListItem.message}</div>)
+      case "indent":
+        return (<div key={index} className='pl-10'>- {dataListItem.message}</div>)
+      case "technologies":
+        return (<div key={index}><span className='font-bold'>Technologies: </span>{dataListItem.message}</div>)
+      default:
+        return (<div key={index}>{dataListItem.message}</div>)
+    }
+
+  }))
+};
+
+
 const DescriptionBlock = ({ data }) => {
   return data.map((descriptionItem, index) => {
-    const { title, info, technologies, location } = descriptionItem
+    const { title, dataList, technologies, location } = descriptionItem
     const parsedLocation = parseLocation(location);
+    const details = parseData(dataList);
     return (
       <div className='font-nunito' key={index}>
         {index !== 0 && (
@@ -56,9 +79,7 @@ const DescriptionBlock = ({ data }) => {
           </div>
         </div>)}
         <div className='w-4/5 mx-auto'>
-          {info.map((roleItem, roleItemIndex) => (
-            <div key={roleItemIndex}>- {roleItem}</div>
-          ))}
+          <div>{details}</div>
           <div className="roleLocation">{parsedLocation}</div>
         </div>
       </div>
@@ -84,7 +105,7 @@ const AboutBlock = ({ aboutData }) => {
                   captureClick(clickInfo);
                 }}
                 rel="noreferrer"
-                className='hover:blur-sm'
+                className='hover:blur-sm px-1'
               >
                 <Image src={logo} alt={name} height={150} width={150} className="mx-auto border-2 rounded-lg border-black bg-black" />
               </a>
