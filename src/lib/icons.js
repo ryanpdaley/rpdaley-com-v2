@@ -165,7 +165,10 @@ const buildIcons = (icons) => {
       const label = iconMap[iconObj]["label"];
       const url = iconMap[iconObj]["url"];
       return (
-        <div key={index} className="inline-block hover:text-red-500 px-1">
+        <div
+          key={index}
+          className="inline-block hover:text-red-500 hover:rotate-12 px-1"
+        >
           <a
             href={url}
             target="_blank"
