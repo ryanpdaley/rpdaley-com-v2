@@ -1,4 +1,3 @@
-/* eslint-disable react/jsx-props-no-spreading */
 import { useEffect } from "react";
 import Script from "next/script";
 import { useRouter, Router } from "next/router";
