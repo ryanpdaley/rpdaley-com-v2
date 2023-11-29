@@ -1,0 +1,53 @@
+{
+  "title": "School",
+  "data": [
+    {
+      "name": "UBC",
+      "dates": [2006, 2010],
+      "logo": "/images/t_ubc.webp",
+      "link": "https://www.ubc.ca/",
+      "description": [
+        {
+          "title": "Bachelor of Computer Science",
+          "dataList": [
+            {
+              "type": "list-item",
+              "message": "Degree: Integrated Computer Science"
+            }
+          ],
+          "technologies": [],
+          "location": {
+            "isRemote": false,
+            "city": "Vancouver",
+            "provState": "British Columbia",
+            "country": "Canada"
+          }
+        }
+      ]
+    },
+    {
+      "name": "University of Guelph",
+      "dates": [2001, 2005],
+      "logo": "/images/t_uog.webp",
+      "link": "https://www.uoguelph.ca/",
+      "description": [
+        {
+          "title": "Bachelor of Science (Honours)",
+          "dataList": [
+            {
+              "type": "list-item",
+              "message": "Degree: Biology"
+            }
+          ],
+          "technologies": [],
+          "location": {
+            "isRemote": false,
+            "city": "Guelph",
+            "provState": "Ontario",
+            "country": "Canada"
+          }
+        }
+      ]
+    }
+  ]
+}

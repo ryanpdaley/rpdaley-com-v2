@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Home",
+    "relLink": "/",
+    "isActive": true
+  },
+  {
+    "name": "About Me",
+    "relLink": "/about",
+    "isActive": true
+  },
+  {
+    "name": "Contact",
+    "relLink": "/contact",
+    "isActive": false
+  },
+  {
+    "name": "Ideas",
+    "relLink": "/ideas",
+    "isActive": false
+  },
+  {
+    "name": "Uses",
+    "relLink": "/uses",
+    "isActive": false
+  },
+  {
+    "name": "Recipes",
+    "relLink": "https://recipes.rpdaley.com",
+    "isActive": true
+  }
+]

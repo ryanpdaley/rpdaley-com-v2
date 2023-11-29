@@ -1,0 +1,293 @@
+{
+  "title": "Courses",
+  "data": [
+    {
+      "name": "Epic Web",
+      "dates": [2023, 0],
+      "logo": "/images/t_epicwebdev.webp",
+      "link": "https://www.epicweb.dev/",
+      "description": [
+        {
+          "title": "Epic Web",
+          "dataList": [
+            {
+              "type": "list-item",
+              "message": "Created by: Kent C. Dodds"
+            },
+            {
+              "type": "list-item",
+              "message": "Training Course focused on 'Shipping Modern Full-Stack Web Applications'."
+            },
+            {
+              "type": "list-item",
+              "message": "Sections include:"
+            },
+            {
+              "type": "indent",
+              "message": "Full Stack Foundations"
+            },
+            {
+              "type": "indent",
+              "message": "Professional Web Forms"
+            },
+            {
+              "type": "indent",
+              "message": "Data Modeling Deep Dive"
+            },
+            {
+              "type": "indent",
+              "message": "Authentication Strategies & Implementation"
+            },
+            {
+              "type": "indent",
+              "message": "Web Application Testing"
+            }
+          ],
+          "technologies": [],
+          "location": {
+            "isRemote": true,
+            "city": "Toronto",
+            "provState": "Ontario",
+            "country": "Canada"
+          }
+        }
+      ]
+    },
+    {
+      "name": "HarvardX",
+      "dates": [2023, 0],
+      "logo": "/images/t_harvard.webp",
+      "link": "https://learning.edx.org/course/course-v1:HarvardX+CS50CS+Cybersecurity/home",
+      "description": [
+        {
+          "title": "CS50's Introduction to Cybersecurity",
+          "dataList": [
+            {
+              "type": "list-item",
+              "message": "Taught by: David J. Malan"
+            },
+            {
+              "type": "list-item",
+              "message": "Online course from Harvard University via edX."
+            },
+            {
+              "type": "list-item",
+              "message": "Sections include:"
+            },
+            {
+              "type": "indent",
+              "message": "Securing Accounts"
+            },
+            {
+              "type": "indent",
+              "message": "Securing Data"
+            },
+            {
+              "type": "indent",
+              "message": "Securing Systems"
+            },
+            {
+              "type": "indent",
+              "message": "Securing Software"
+            },
+            {
+              "type": "indent",
+              "message": "Preserving Privacy"
+            }
+          ],
+          "technologies": [],
+          "location": {
+            "isRemote": true,
+            "city": "Toronto",
+            "provState": "Ontario",
+            "country": "Canada"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Epic React",
+      "dates": [2023, 0],
+      "logo": "/images/t_epicreact.webp",
+      "link": "https://www.epicreact.dev/",
+      "description": [
+        {
+          "title": "Epic React",
+          "dataList": [
+            {
+              "type": "list-item",
+              "message": "Created by: Kent C. Dodds"
+            },
+            {
+              "type": "list-item",
+              "message": "Training Course focused on React."
+            },
+            {
+              "type": "list-item",
+              "message": "Sections include:"
+            },
+            {
+              "type": "indent",
+              "message": "React Fundamentals"
+            },
+            {
+              "type": "indent",
+              "message": "React Hooks"
+            },
+            {
+              "type": "indent",
+              "message": "Advanced React Hooks"
+            },
+            {
+              "type": "indent",
+              "message": "Advanced React Patterns"
+            },
+            {
+              "type": "indent",
+              "message": "React Performance"
+            },
+            {
+              "type": "indent",
+              "message": "Testing React Apps"
+            },
+            {
+              "type": "indent",
+              "message": "React Suspense"
+            },
+            {
+              "type": "indent",
+              "message": "Build an Epic React App"
+            }
+          ],
+          "technologies": [],
+          "location": {
+            "isRemote": true,
+            "city": "Toronto",
+            "provState": "Ontario",
+            "country": "Canada"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Wes Bos",
+      "dates": [2022],
+      "logo": "/images/t_wesBos.webp",
+      "link": "https://www.advancedreact.com/",
+      "description": [
+        {
+          "title": "Fullstack Advanced React and GraphQL",
+          "dataList": [
+            {
+              "type": "list-item",
+              "message": "Created by: Wes Bos"
+            },
+            {
+              "type": "list-item",
+              "message": "Training Course focused on using React and GraphQL"
+            },
+            {
+              "type": "technologies",
+              "message": "React, Next.js, GraphQL, Node, Apollo, and Keystone"
+            }
+          ],
+          "technologies": [],
+          "location": {
+            "isRemote": true,
+            "city": "Toronto",
+            "provState": "Ontario",
+            "country": "Canada"
+          }
+        }
+      ]
+    },
+    {
+      "name": "University of Toronto",
+      "dates": [2020],
+      "logo": "/images/t_uot.webp",
+      "link": "https://www.utoronto.ca/",
+      "description": [
+        {
+          "title": "SCS 3253 - Machine Learning",
+          "dataList": [
+            {
+              "type": "list-item",
+              "message": "Instructor: Michael Ciniello"
+            }
+          ],
+          "technologies": [],
+          "location": {
+            "isRemote": false,
+            "city": "Toronto",
+            "provState": "Ontario",
+            "country": "Canada"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Lighthouse Labs",
+      "dates": [2017],
+      "logo": "/images/t_lhl.webp",
+      "link": "https://www.lighthouselabs.ca/",
+      "description": [
+        {
+          "title": "Web Development Bootcamp",
+          "dataList": [
+            {
+              "type": "list-item",
+              "message": "Diploma: Web Development"
+            }
+          ],
+          "technologies": [],
+          "location": {
+            "isRemote": false,
+            "city": "Toronto",
+            "provState": "Ontario",
+            "country": "Canada"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Stanford University",
+      "dates": [2013, 2015],
+      "logo": "/images/t_stanford.webp",
+      "link": "https://www.stanford.edu/",
+      "description": [
+        {
+          "title": "DSN 102 - Design Execution: Bringing Ideas to Life",
+          "dataList": [
+            {
+              "type": "list-item",
+              "message": "Instructor: Peter Macdonald"
+            }
+          ],
+          "technologies": [],
+          "location": {
+            "isRemote": false,
+            "city": "Stanford",
+            "provState": "California",
+            "country": "USA"
+          }
+        },
+        {
+          "title": "DSN 101 - Ideation: The History and Theory of Design",
+          "dataList": [
+            {
+              "type": "list-item",
+              "message": "Instructor: Barry Katz"
+            }
+          ],
+          "technologies": [],
+          "location": {
+            "isRemote": false,
+            "city": "Stanford",
+            "provState": "California",
+            "country": "USA"
+          }
+        }
+      ]
+    }
+  ]
+}
