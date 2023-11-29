@@ -2,7 +2,6 @@
 import { useEffect } from "react";
 import Script from "next/script";
 import { useRouter, Router } from "next/router";
-import { PropTypes } from "prop-types";
 import nProgress from "nprogress";
 import "../index.css";
 import "../nprogress.css";
@@ -80,14 +79,8 @@ App.getInitialProps = async function ({ Component, ctx }) {
   if (Component.getInitialProps) {
     pageProps = await Component.getInitialProps(ctx);
   }
-  pageProps.query = ctx.query;
 
   return { pageProps };
-};
-
-App.propTypes = {
-  Component: PropTypes.any,
-  pageProps: PropTypes.any,
 };
 
 export default App;
