@@ -1,5 +1,5 @@
 import UsesComponent from "../components/Uses";
 
-const Uses = () => (<UsesComponent />);
+const Uses = () => <UsesComponent />;
 
 export default Uses;

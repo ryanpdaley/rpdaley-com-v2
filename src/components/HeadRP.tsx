@@ -1,13 +1,13 @@
 /* eslint-disable react/no-danger */
-import Head from 'next/head';
-import { useRouter } from 'next/router';
-import fetchConfig from '../lib/configs';
-import { capitalize } from '../lib/rtools';
-import { useEffect, useState } from 'react';
+import Head from "next/head";
+import { useRouter } from "next/router";
+import fetchConfig from "../lib/configs";
+import { capitalize } from "../lib/rtools";
+import { useEffect, useState } from "react";
 
 const decodeUrl = (path) => {
   const siteName = process.env.NEXT_PUBLIC_SITE_NAME;
-  const sub = path.split('/');
+  const sub = path.split("/");
   const subCount = sub.length;
   if (subCount === 3) {
     return `${siteName} - ${capitalize(sub[1])}`;
@@ -27,18 +27,18 @@ const getPageDescription = (path, data) => {
 
 const getStructuredData = () => {
   const structuredData = JSON.stringify({
-    '@context': 'http://schema.org',
-    '@type': 'Person',
-    name: 'Ryan Daley',
-    url: 'https://www.rpdaley.com',
+    "@context": "http://schema.org",
+    "@type": "Person",
+    name: "Ryan Daley",
+    url: "https://www.rpdaley.com",
     sameAs: [
-      'https://www.facebook.com/ryandaley',
-      'https://www.instagram.com/rdinca/',
-      'https://www.linkedin.com/in/ryandaley/',
-      'https://twitter.com/TweetRye/',
-      'https://x.com/TweetRye/',
-      'https://t.me/rdaley',
-      'https://github.com/ryanpdaley',
+      "https://www.facebook.com/ryandaley",
+      "https://www.instagram.com/rdinca/",
+      "https://www.linkedin.com/in/ryandaley/",
+      "https://twitter.com/TweetRye/",
+      "https://x.com/TweetRye/",
+      "https://t.me/rdaley",
+      "https://github.com/ryanpdaley",
     ],
   });
   return structuredData;
@@ -52,10 +52,9 @@ const HeadRP = () => {
   useEffect(() => {
     fetchConfig("metadata").then((data) => {
       setMetaData(data);
-      setPageDescription(getPageDescription(asPath, data))
+      setPageDescription(getPageDescription(asPath, data));
     });
   }, []);
-
 
   return (
     <>
@@ -95,7 +94,6 @@ const HeadRP = () => {
         </Head>
       )}
     </>
-
   );
 };
 
