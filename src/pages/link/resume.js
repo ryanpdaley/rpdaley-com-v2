@@ -4,17 +4,6 @@ import resumeThumb from "../../../public/images/thumb_resume.webp";
 import atsResumeThumb from "../../../public/images/thumb_resume_ats.webp";
 import { captureClick } from "../../lib/rtools";
 
-// const ImageStyle = styled.a`
-//   width: 50vw;
-//   display: block;
-//   margin: 2vh auto 0;
-// `;
-
-// const ResumeInfo = styled.div`
-//   padding-top: 5vh;
-//   font-size: 2rem;
-// `;
-
 export default function Resume() {
   const resumeClickInfo = {
     name: "resume_download",
