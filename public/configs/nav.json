@@ -5,7 +5,7 @@
     "isActive": true
   },
   {
-    "name": "About",
+    "name": "About Me",
     "relLink": "/about",
     "isActive": true
   },
@@ -22,11 +22,11 @@
   {
     "name": "Uses",
     "relLink": "/uses",
-    "isActive": true
+    "isActive": false
   },
   {
     "name": "Recipes",
     "relLink": "https://recipes.rpdaley.com",
-    "isActive": false
+    "isActive": true
   }
 ]
