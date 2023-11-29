@@ -24,7 +24,6 @@ const parseDate = (dates) => {
 }
 
 const parseLocation = (location) => {
-  console.log("location", location)
   const countryIcon = (<div className="inline-block px-1">
     {flagMap[location.country.toLowerCase()]}
   </div>
@@ -44,7 +43,6 @@ const parseLocation = (location) => {
 }
 
 const parseData = (dataList) => {
-  console.log("dataList", dataList);
   return (dataList.map((dataListItem, index) => {
     switch (dataListItem.type) {
       case "list-item":
