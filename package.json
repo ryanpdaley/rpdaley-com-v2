@@ -56,5 +56,9 @@
       "wesbos",
       "next"
     ]
-  }
+  },
+  "eslintIgnore": [
+    "next-env.d.ts",
+    "src/types.ts"
+  ]
 }
