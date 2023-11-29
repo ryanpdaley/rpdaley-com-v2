@@ -184,7 +184,11 @@
             },
             {
               "type": "list-item",
-              "message": "Training Course using React.js, Next.js, GraphQL, Node.js, Apollo, and Keystone"
+              "message": "Training Course focused on using React and GraphQL"
+            },
+            {
+              "type": "technologies",
+              "message": "React, Next.js, GraphQL, Node, Apollo, and Keystone"
             }
           ],
           "technologies": [],
