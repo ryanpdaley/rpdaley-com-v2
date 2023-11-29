@@ -1,43 +1,73 @@
-import styled from 'styled-components';
-import Image from 'next/image';
-import resumeThumb from '../../../public/images/resumeThumb.png';
-import { captureClick } from '../../lib/rtools';
+import Image from "next/image";
+import Link from "next/link";
+import resumeThumb from "../../../public/images/thumb_resume.webp";
+import atsResumeThumb from "../../../public/images/thumb_resume_ats.webp";
+import { captureClick } from "../../lib/rtools";
 
-const ImageStyle = styled.a`
-  width: 50vw;
-  display: block;
-  margin: 2vh auto 0;
-`;
+// const ImageStyle = styled.a`
+//   width: 50vw;
+//   display: block;
+//   margin: 2vh auto 0;
+// `;
 
-const ResumeInfo = styled.div`
-  padding-top: 5vh;
-  font-size: 2rem;
-`;
+// const ResumeInfo = styled.div`
+//   padding-top: 5vh;
+//   font-size: 2rem;
+// `;
 
 export default function Resume() {
-  const clickInfo = {
-    name: 'resume_download',
-    link: '/static/rpdaley_resume_2023.pdf',
+  const resumeClickInfo = {
+    name: "resume_download",
+    link: "/static/rpdaley_resume_2023.pdf",
+  };
+  const atsClickInfo = {
+    name: "ats_resume_download",
+    link: "/static/ats_rpdaley_resume_2023.pdf",
   };
   return (
-    <>
-      <ResumeInfo>Link to my most recent resume:</ResumeInfo>
-      <ImageStyle
-        href={clickInfo.link}
-        alt="Link to Current Resume"
+    <div className="mx-auto w-3/4 grid grid-cols-1 divide-y-2 divide-slate-500">
+      <div className="text-2xl">Resumes:</div>
+
+      <Link
+        href={resumeClickInfo.link}
+        alt="Current Resume"
         target="_blank"
         onClick={() => {
-          captureClick(clickInfo);
+          captureClick(resumeClickInfo);
         }}
         rel="noreferrer"
+        className="py-2"
       >
-        <Image
-          src={resumeThumb.src}
-          width={600}
-          height={776}
-          alt="Link to Current Resume"
-        />
-      </ImageStyle>
-    </>
+        <div className="mx-auto w-3/4 px-5 py-1 hover:scale-105">
+          <div className="text-lg">Current resume:</div>
+          <Image
+            src={resumeThumb.src}
+            width={600}
+            height={776}
+            alt="Link to Current Resume"
+          />
+        </div>
+      </Link>
+      <Link
+        href={atsClickInfo.link}
+        alt="Current Resume"
+        target="_blank"
+        onClick={() => {
+          captureClick(atsClickInfo);
+        }}
+        rel="noreferrer"
+        className="py-2"
+      >
+        <div className="mx-auto w-3/4 px-5 py-1 hover:scale-105">
+          <div className="text-lg">ATS resume:</div>
+          <Image
+            src={atsResumeThumb.src}
+            width={600}
+            height={776}
+            alt="Link to ATS Resume"
+          />
+        </div>
+      </Link>
+    </div>
   );
 }
