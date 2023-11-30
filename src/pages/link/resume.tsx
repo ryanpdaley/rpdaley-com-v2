@@ -19,7 +19,7 @@ export default function Resume() {
 
       <Link
         href={resumeClickInfo.link}
-        alt="Current Resume"
+        title="Current Resume"
         target="_blank"
         onClick={() => {
           captureClick(resumeClickInfo);
@@ -39,7 +39,7 @@ export default function Resume() {
       </Link>
       <Link
         href={atsClickInfo.link}
-        alt="Current Resume"
+        title="Current Resume"
         target="_blank"
         onClick={() => {
           captureClick(atsClickInfo);
