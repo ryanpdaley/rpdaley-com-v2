@@ -1,7 +1,7 @@
-import { event } from './gtag';
+import { event } from "./gtag";
 
 export function captureClick(info) {
-  event('click', 'Link Out', info.name, info.link);
+  event("click", "Link Out", info.name, info.link);
 }
 
 export function capitalize(str) {
