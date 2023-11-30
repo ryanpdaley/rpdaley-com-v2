@@ -1,26 +1,26 @@
-import Image from "next/image";
-import { captureClick } from "../lib/rtools";
-import fetchConfig from "../lib/configs";
-import { useEffect, useState } from "react";
-import IconString from "../lib/icons";
+import Image from 'next/image';
+import { useEffect, useState } from 'react';
+import { captureClick } from '../lib/rtools';
+import fetchConfig from '../lib/configs';
+import IconString from '../lib/icons';
 
 const flagMap = {
-  canada: "🇨🇦",
-  usa: "🇺🇸",
+  canada: '🇨🇦',
+  usa: '🇺🇸',
 };
 
 const parseDate = (dates) => {
   if (dates.length === 1) {
     return dates[0];
-  } else if (dates.length === 2) {
-    let sorted = dates.sort();
+  }
+  if (dates.length === 2) {
+    const sorted = dates.sort();
     if (sorted[0] === 0) {
       return `In progress (${sorted[1]})`;
     }
     return `${sorted[0]} - ${sorted[1]}`;
-  } else {
-    return [];
   }
+  return [];
 };
 
 const parseLocation = (location) => {
@@ -36,7 +36,7 @@ const parseLocation = (location) => {
       <div className="inline-block">
         <span>
           {countryIcon}
-          {location.city}, {location.provState}{" "}
+          {location.city}, {location.provState}{' '}
         </span>
       </div>
       {location.isRemote && (
@@ -46,18 +46,18 @@ const parseLocation = (location) => {
   );
 };
 
-const parseData = (dataList) => {
-  return dataList.map((dataListItem, index) => {
+const parseData = (dataList) =>
+  dataList.map((dataListItem, index) => {
     switch (dataListItem.type) {
-      case "list-item":
+      case 'list-item':
         return <div key={index}>• {dataListItem.message}</div>;
-      case "indent":
+      case 'indent':
         return (
           <div key={index} className="pl-10">
             - {dataListItem.message}
           </div>
         );
-      case "technologies":
+      case 'technologies':
         return (
           <div key={index}>
             <span className="font-bold">Technologies: </span>
@@ -68,10 +68,9 @@ const parseData = (dataList) => {
         return <div key={index}>{dataListItem.message}</div>;
     }
   });
-};
 
-const DescriptionBlock = ({ data }) => {
-  return data.map((descriptionItem, index) => {
+const DescriptionBlock = ({ data }) =>
+  data.map((descriptionItem, index) => {
     const { title, dataList, technologies, location } = descriptionItem;
     const parsedLocation = parseLocation(location);
     const details = parseData(dataList);
@@ -98,7 +97,6 @@ const DescriptionBlock = ({ data }) => {
       </div>
     );
   });
-};
 
 const AboutBlock = ({ aboutData }) => {
   const { data } = aboutData;

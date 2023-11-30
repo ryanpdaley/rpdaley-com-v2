@@ -1,41 +1,38 @@
-import Image from "next/image";
-import { captureClick } from "../lib/rtools";
-import fetchConfig from "../lib/configs";
-import { useEffect, useState } from "react";
+import Image from 'next/image';
+import { useEffect, useState } from 'react';
+import { captureClick } from '../lib/rtools';
+import fetchConfig from '../lib/configs';
 
-const SocialItems = ({ socialData }) => {
-  return socialData.map((socialLink) => {
-    return (
-      <div
-        className="p-1 float-right h-full rounded hover:bg-white"
-        key={socialLink.name}
+const SocialItems = ({ socialData }) =>
+  socialData.map((socialLink) => (
+    <div
+      className="p-1 float-right h-full rounded hover:bg-white"
+      key={socialLink.name}
+    >
+      <a
+        href={socialLink.link}
+        target="_blank"
+        onClick={() => {
+          captureClick(socialLink);
+        }}
+        rel="noreferrer"
       >
-        <a
-          href={socialLink.link}
-          target="_blank"
-          onClick={() => {
-            captureClick(socialLink);
-          }}
-          rel="noreferrer"
-        >
-          <Image
-            src={socialLink.logo}
-            alt={socialLink.name}
-            width={75}
-            height={75}
-            className="h-10 w-auto pb-2 hover:invert"
-          />
-        </a>
-      </div>
-    );
-  });
-};
+        <Image
+          src={socialLink.logo}
+          alt={socialLink.name}
+          width={75}
+          height={75}
+          className="h-10 w-auto pb-2 hover:invert"
+        />
+      </a>
+    </div>
+  ));
 
 const Footer = () => {
   const [footerData, setFooterData] = useState(null);
 
   useEffect(() => {
-    fetchConfig("footer_data").then((data) => {
+    fetchConfig('footer_data').then((data) => {
       setFooterData(data);
     });
   }, []);

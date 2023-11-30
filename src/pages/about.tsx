@@ -1,4 +1,4 @@
-import AboutComponent from "../components/About";
+import AboutComponent from '../components/About';
 
 const About = () => (
   <div className="aboutBody">
