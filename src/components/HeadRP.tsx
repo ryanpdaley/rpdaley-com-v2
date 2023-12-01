@@ -53,10 +53,10 @@ const HeadRP = () => {
       setMetaData(data);
       setPageDescription(getPageDescription(asPath, data));
     });
-  }, []);
+  }, [asPath]);
 
   return (
-    <>
+    <div>
       {metaData && (
         <Head>
           <title>{decodeUrl(asPath)}</title>
@@ -92,7 +92,7 @@ const HeadRP = () => {
           />
         </Head>
       )}
-    </>
+    </div>
   );
 };
 

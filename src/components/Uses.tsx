@@ -95,7 +95,7 @@ const UsesComponent = () => {
     });
   }, []);
 
-  return <>{usesPageData && <UsesBlock usesPageData={usesPageData} />}</>;
+  return <div>{usesPageData && <UsesBlock usesPageData={usesPageData} />}</div>;
 };
 
 export default UsesComponent;

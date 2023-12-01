@@ -162,7 +162,7 @@ const AboutComponent = ({ section }) => {
   }, [section]);
 
   return (
-    <>
+    <div>
       {aboutData && (
         <div className="max-w-screen-lg mx-auto">
           <h2 className="text-3xl py-0 px-2 border-b-4 border-zinc-600 w-2/6">
@@ -171,7 +171,7 @@ const AboutComponent = ({ section }) => {
           <AboutBlock aboutData={aboutData} />
         </div>
       )}
-    </>
+    </div>
   );
 };
 

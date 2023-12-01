@@ -22,7 +22,7 @@ const NavBlock = ({ navData }) => {
         </Link>
       );
     }
-    return <></>;
+    return '';
   });
 };
 
