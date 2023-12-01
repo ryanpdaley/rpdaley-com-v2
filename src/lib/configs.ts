@@ -4,7 +4,7 @@ const ROOT_CONFIG = '/configs/root.json';
 export default function fetchConfig(dataSource) {
   return new Promise((resolve) => {
     fetch(`${ROOT_URL}${ROOT_CONFIG}`)
-      .then((rootData, err) => rootData.json())
+      .then((rootData) => rootData.json())
       .then((rootDataJson) => {
         // eslint-disable-next-line no-prototype-builtins
         if (rootDataJson.hasOwnProperty(dataSource)) {
