@@ -222,7 +222,7 @@ const AboutComponent = ({
           <h2 className="text-3xl py-0 px-2 border-b-4 border-zinc-600 w-2/6">
             {aboutData.title}
           </h2>
-          <div className="flex flex-row flex-wrap justify-center lg:block">
+          <div className="flex flex-row flex-wrap justify-center md:block">
             <AboutBlock
               aboutData={aboutData}
               selectedBlock={selectedBlock}
