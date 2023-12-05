@@ -117,16 +117,9 @@ const AboutBlock = ({
         {isMobileView ? (
           <div className="block">
             <div className={`items-center p-1 `}>
-              <Image
-                src={logo}
-                alt={name}
-                height={150}
-                width={150}
-                className={`mx-auto border-2 rounded-lg ${
-                  selected
-                    ? 'bg-red-500 border-red-500'
-                    : 'bg-black border-black'
-                } `}
+              <a
+                className="z-5"
+                href={`#${selectedBlock}_desc`}
                 onClick={() => {
                   if (selected) {
                     setSelectedBlock(null);
@@ -144,7 +137,19 @@ const AboutBlock = ({
                   }
                   captureClick(clickInfo);
                 }}
-              />
+              >
+                <Image
+                  src={logo}
+                  alt={name}
+                  height={150}
+                  width={150}
+                  className={`mx-auto border-2 rounded-lg ${
+                    selected
+                      ? 'bg-red-500 border-red-500'
+                      : 'bg-black border-black'
+                  } `}
+                />
+              </a>
             </div>
           </div>
         ) : (
@@ -225,11 +230,14 @@ const AboutComponent = ({
               setSelectedInfo={setSelectedInfo}
               isMobileView={isMobileView}
             />
-            <div>
+            <div className="-z-10">
               {isMobileView &&
               selectedInfo !== null &&
               selectedInfo.blockId === selectedBlock ? (
-                <div className="w-full py-2">
+                <div
+                  className="w-full -mt-32 pt-32 pb-2"
+                  id={`${selectedBlock}_desc`}
+                >
                   <div className="w-full inline-block border-b-2">
                     <div className="float-left font-oswald text-4xl">
                       <a
