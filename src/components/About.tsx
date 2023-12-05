@@ -98,62 +98,111 @@ const DescriptionBlock = ({ data }) =>
     );
   });
 
-const AboutBlock = ({ aboutData }) => {
+const AboutBlock = ({
+  aboutData,
+  selectedBlock,
+  setSelectedBlock,
+  isMobileView,
+  setSelectedInfo,
+}) => {
   const { data } = aboutData;
   return data.map((block, index) => {
     const { description, name, dates, logo, link } = block;
     const clickInfo = { name, link };
     const parsedDates = parseDate(dates);
+    const blockId = `about_${name.toLowerCase().replace(/\s/g, '')}`;
+    const selected = selectedBlock === blockId;
     return (
-      <div key={index}>
-        <div className="flex flex-row p-1 items-center border-2 rounded-lg border-zinc-600 my-1">
-          <div className="basis-1/5">
-            <a
-              href={link}
-              target="_blank"
-              onClick={() => {
-                captureClick(clickInfo);
-              }}
-              rel="noreferrer"
-              className="hover:blur-sm px-1"
-            >
+      <div key={index} id={blockId}>
+        {isMobileView ? (
+          <div className="block">
+            <div className={`items-center p-1 `}>
               <Image
                 src={logo}
                 alt={name}
                 height={150}
                 width={150}
-                className="mx-auto border-2 rounded-lg border-black bg-black"
+                className={`mx-auto border-2 rounded-lg ${
+                  selected
+                    ? 'bg-red-500 border-red-500'
+                    : 'bg-black border-black'
+                } `}
+                onClick={() => {
+                  if (selected) {
+                    setSelectedBlock(null);
+                    setSelectedInfo(null);
+                  } else {
+                    setSelectedBlock(blockId);
+                    setSelectedInfo({
+                      blockId,
+                      link,
+                      clickInfo,
+                      name,
+                      parsedDates,
+                      description,
+                    });
+                  }
+                  captureClick(clickInfo);
+                }}
               />
-            </a>
-          </div>
-          <div className="basis-4/5 px-10 py-2">
-            <div className="w-full inline-block border-b-2">
-              <div className="float-left font-oswald text-4xl">
-                <a
-                  href={link}
-                  target="_blank"
-                  onClick={() => {
-                    captureClick(clickInfo);
-                  }}
-                  rel="noreferrer"
-                >
-                  {name}
-                </a>
-              </div>
-              <div className="float-right font-oswald text-4xl">
-                {parsedDates}
-              </div>
             </div>
-            <DescriptionBlock data={description} />
           </div>
-        </div>
+        ) : (
+          <div className="flex flex-row p-1 items-center border-2 rounded-lg border-zinc-600 my-1">
+            <div className="basis-1/5">
+              <a
+                href={link}
+                target="_blank"
+                onClick={() => {
+                  captureClick(clickInfo);
+                }}
+                rel="noreferrer"
+                className="hover:blur-sm px-1"
+              >
+                <Image
+                  src={logo}
+                  alt={name}
+                  height={150}
+                  width={150}
+                  className="mx-auto border-2 rounded-lg border-black bg-black"
+                />
+              </a>
+            </div>
+            <div className="basis-4/5 px-10 py-2">
+              <div className="w-full inline-block border-b-2">
+                <div className="float-left font-oswald text-4xl">
+                  <a
+                    href={link}
+                    target="_blank"
+                    onClick={() => {
+                      captureClick(clickInfo);
+                    }}
+                    rel="noreferrer"
+                  >
+                    {name}
+                  </a>
+                </div>
+                <div className="float-right font-oswald text-4xl">
+                  {parsedDates}
+                </div>
+              </div>
+              <DescriptionBlock data={description} />
+            </div>
+          </div>
+        )}
       </div>
     );
   });
 };
 
-const AboutComponent = ({ section }) => {
+const AboutComponent = ({
+  section,
+  selectedBlock,
+  setSelectedBlock,
+  isMobileView,
+}) => {
   const [aboutData, setAboutData] = useState(null);
+  const [selectedInfo, setSelectedInfo] = useState(null);
 
   useEffect(() => {
     fetchConfig(section).then((data) => {
@@ -168,7 +217,43 @@ const AboutComponent = ({ section }) => {
           <h2 className="text-3xl py-0 px-2 border-b-4 border-zinc-600 w-2/6">
             {aboutData.title}
           </h2>
-          <AboutBlock aboutData={aboutData} />
+          <div className="flex flex-row flex-wrap justify-center lg:block">
+            <AboutBlock
+              aboutData={aboutData}
+              selectedBlock={selectedBlock}
+              setSelectedBlock={setSelectedBlock}
+              setSelectedInfo={setSelectedInfo}
+              isMobileView={isMobileView}
+            />
+            <div>
+              {isMobileView &&
+              selectedInfo !== null &&
+              selectedInfo.blockId === selectedBlock ? (
+                <div className="w-full py-2">
+                  <div className="w-full inline-block border-b-2">
+                    <div className="float-left font-oswald text-4xl">
+                      <a
+                        href={selectedInfo.link}
+                        target="_blank"
+                        onClick={() => {
+                          captureClick(selectedInfo.clickInfo);
+                        }}
+                        rel="noreferrer"
+                      >
+                        {selectedInfo.name}
+                      </a>
+                    </div>
+                    <div className="float-right font-oswald text-4xl">
+                      {selectedInfo.parsedDates}
+                    </div>
+                  </div>
+                  <DescriptionBlock data={selectedInfo.description} />
+                </div>
+              ) : (
+                ''
+              )}
+            </div>
+          </div>
         </div>
       )}
     </div>
