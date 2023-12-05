@@ -1,5 +1,3 @@
-import { captureClick } from "./rtools";
-
 import { TbBrandTypescript } from "react-icons/tb";
 import {
   FaReact,
@@ -29,6 +27,7 @@ import {
   SiBlackberry,
 } from "react-icons/si";
 import { DiRuby } from "react-icons/di";
+import { captureClick } from "./rtools";
 
 const iconMap = {
   react: {
@@ -158,12 +157,12 @@ const iconMap = {
   },
 };
 
-const buildIcons = (icons) => {
-  return icons.map((iconObj, index) => {
+const buildIcons = (icons) =>
+  icons.map((iconObj, index) => {
     if (iconObj in iconMap) {
-      const Icon = iconMap[iconObj]["icon"];
-      const label = iconMap[iconObj]["label"];
-      const url = iconMap[iconObj]["url"];
+      const Icon = iconMap[iconObj].icon;
+      const { label } = iconMap[iconObj];
+      const { url } = iconMap[iconObj];
       return (
         <div
           key={index}
@@ -177,14 +176,15 @@ const buildIcons = (icons) => {
               captureClick({ label, url });
             }}
             rel="noreferrer"
+            aria-label={label}
           >
             <Icon />
           </a>
         </div>
       );
     }
+    return "";
   });
-};
 
 export default function IconString({ data }) {
   return <div className="icons block">{buildIcons(data)}</div>;

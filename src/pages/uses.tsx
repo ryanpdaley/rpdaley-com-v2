@@ -1,4 +1,4 @@
-import UsesComponent from "../components/Uses";
+import UsesComponent from '../components/Uses';
 
 const Uses = () => <UsesComponent />;
 

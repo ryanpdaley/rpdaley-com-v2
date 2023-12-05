@@ -1,6 +1,6 @@
-import { useEffect, useState } from "react";
-import fetchConfig from "../lib/configs";
-import { captureClick } from "../lib/rtools";
+import { useEffect, useState } from 'react';
+import fetchConfig from '../lib/configs';
+import { captureClick } from '../lib/rtools';
 
 const UsesItem = ({ item, affiliateLinks }) => {
   let { itemLink, itemVersion } = item;
@@ -10,7 +10,7 @@ const UsesItem = ({ item, affiliateLinks }) => {
   if (itemVersion !== null) {
     itemVersion = ` (v${itemVersion})`;
   } else {
-    itemVersion = "";
+    itemVersion = '';
   }
   const clickInfo = { name: item.name, link: itemLink };
   return (
@@ -48,7 +48,7 @@ const UsesSection = ({ usesData, affiliateLinks }) => (
 );
 
 const UsesBlock = ({ usesPageData }) => {
-  const clickInfo = { name: "uses.tech", link: "https://uses.tech/" };
+  const clickInfo = { name: 'uses.tech', link: 'https://uses.tech/' };
   const { useAffiliateLinks, usesData, lastUpdated } = usesPageData;
   return (
     <div className="usesBody">
@@ -56,7 +56,7 @@ const UsesBlock = ({ usesPageData }) => {
         <h1 className="usesBodyIntroHeader">Things I use:</h1>
         <div className="usesBodyIntroBody">
           <p>
-            Random list of things I use... See{" "}
+            Random list of things I use... See{' '}
             <a
               href="https://uses.tech/"
               target="_blank"
@@ -66,7 +66,7 @@ const UsesBlock = ({ usesPageData }) => {
               }}
             >
               uses.tech
-            </a>{" "}
+            </a>{' '}
             for more info.
           </p>
         </div>
@@ -90,12 +90,12 @@ const UsesComponent = () => {
   const [usesPageData, setUsesPageData] = useState(null);
 
   useEffect(() => {
-    fetchConfig("uses_data").then((data) => {
+    fetchConfig('uses_data').then((data) => {
       setUsesPageData(data);
     });
   }, []);
 
-  return <>{usesPageData && <UsesBlock usesPageData={usesPageData} />}</>;
+  return <div>{usesPageData && <UsesBlock usesPageData={usesPageData} />}</div>;
 };
 
 export default UsesComponent;
