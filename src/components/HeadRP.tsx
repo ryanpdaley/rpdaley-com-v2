@@ -87,7 +87,6 @@ const HeadRP = () => {
           <meta property="twitter:image" content={metaData.metaImage} />
           <script
             type="application/ld+json"
-            // eslint-disable-next-line react/no-danger
             dangerouslySetInnerHTML={{ __html: getStructuredData() }}
             key="item-jsonld"
           />
