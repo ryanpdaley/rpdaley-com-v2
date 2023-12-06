@@ -1,5 +1,5 @@
-const ROOT_URL = "https://www.rpdaley.com";
-const ROOT_CONFIG = "/configs/root.json";
+const ROOT_URL = 'https://www.rpdaley.com';
+const ROOT_CONFIG = '/configs/root.json';
 
 export default function fetchConfig(dataSource) {
   return new Promise((resolve) => {
