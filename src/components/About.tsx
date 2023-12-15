@@ -222,20 +222,24 @@ const AboutComponent = ({
           <h2 className="text-5xl py-2  my-4 px-4 border-b-4 border-red-500 w-2/6 font-oswald">
             {aboutData.title}
           </h2>
-          <div className="flex flex-row flex-wrap justify-center md:block">
-            <AboutBlock
-              aboutData={aboutData}
-              selectedBlock={selectedBlock}
-              setSelectedBlock={setSelectedBlock}
-              setSelectedInfo={setSelectedInfo}
-              isMobileView={isMobileView}
-            />
-            <div className="-z-10">
-              {isMobileView &&
-              selectedInfo !== null &&
-              selectedInfo.blockId === selectedBlock ? (
+          <div className="block">
+            <div className="flex flex-row flex-wrap justify-center md:block">
+              <AboutBlock
+                aboutData={aboutData}
+                selectedBlock={selectedBlock}
+                setSelectedBlock={setSelectedBlock}
+                setSelectedInfo={setSelectedInfo}
+                isMobileView={isMobileView}
+              />
+            </div>
+          </div>
+          <div className="block">
+            {isMobileView &&
+            selectedInfo !== null &&
+            selectedInfo.blockId === selectedBlock ? (
+              <div className="-z-10">
                 <div
-                  className="w-full -mt-32 pt-32 pb-2 min-w-390"
+                  className="w-full -mt-32 pt-32 pb-2"
                   id={`${selectedBlock}_desc`}
                 >
                   <div className="w-full inline-block border-b-2">
@@ -257,10 +261,10 @@ const AboutComponent = ({
                   </div>
                   <DescriptionBlock data={selectedInfo.description} />
                 </div>
-              ) : (
-                ''
-              )}
-            </div>
+              </div>
+            ) : (
+              ''
+            )}
           </div>
         </div>
       )}
