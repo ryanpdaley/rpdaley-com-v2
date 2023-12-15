@@ -8,7 +8,7 @@ const Header = () => (
     <div className="flex items-center">
       <div className="hidden md:block py-1 content-none grow bg-white mx-10 max-w-sm" />
       <Link href="/" style={{ textDecoration: 'none' }} className="py-6 grow">
-        <div className="text-white text-4xl text-center whitespace-nowrap font-sans font-thin uppercase tracking-widest md:text-5xl">
+        <div className="text-white text-4xl text-center whitespace-nowrap font-sans uppercase tracking-widest md:text-6xl font-oswald">
           <h1>
             RP DALEY<span className="text-red-500">.</span>COM
           </h1>

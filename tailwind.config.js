@@ -7,10 +7,11 @@ module.exports = {
       oswald: ['var(--font-oswald)'],
       lato: ['var(--font-lato)'],
     },
-    minWidth: {
-      390: '390px',
+    extend: {
+      height: {
+        rdfull: '80vh',
+      },
     },
-    extend: {},
   },
   plugins: [],
 };
