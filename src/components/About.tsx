@@ -169,7 +169,7 @@ const AboutBlock = ({
                   alt={name}
                   height={150}
                   width={150}
-                  className="mx-auto border-2 rounded-lg border-black bg-black"
+                  className="mx-auto border-2 rounded-lg border-black bg-black hover:rotate-12 px-1"
                 />
               </a>
             </div>
@@ -219,7 +219,7 @@ const AboutComponent = ({
     <div>
       {aboutData && (
         <div className="max-w-screen-lg mx-auto">
-          <h2 className="text-3xl py-0 px-2 border-b-4 border-zinc-600 w-2/6">
+          <h2 className="text-5xl py-2  my-4 px-4 border-b-4 border-red-500 w-2/6 font-oswald">
             {aboutData.title}
           </h2>
           <div className="flex flex-row flex-wrap justify-center md:block">
