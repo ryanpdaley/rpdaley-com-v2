@@ -25,6 +25,11 @@
     "isActive": false
   },
   {
+    "name": "Resume",
+    "relLink": "/link/resume",
+    "isActive": true
+  },
+  {
     "name": "Recipes",
     "relLink": "/recipes",
     "isActive": true
