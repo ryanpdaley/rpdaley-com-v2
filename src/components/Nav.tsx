@@ -14,8 +14,8 @@ const NavBlock = ({ navData }) => {
           href={navDataItem.relLink}
           className={
             isActive
-              ? 'bg-white text-2xl text-black text-center h-full px-6 inline-block hover:bg-black hover:text-white'
-              : 'bg-red-500 text-2xl text-white text-center h-full px-6 inline-block hover:bg-black'
+              ? 'bg-white text-2xl text-black text-center h-full px-6 inline-block hover:bg-black hover:text-white font-oswald'
+              : 'bg-red-500 text-2xl text-white text-center h-full px-6 inline-block hover:bg-black font-oswald'
           }
         >
           {navDataItem.name}
