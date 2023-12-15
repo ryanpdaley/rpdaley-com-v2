@@ -235,7 +235,7 @@ const AboutComponent = ({
               selectedInfo !== null &&
               selectedInfo.blockId === selectedBlock ? (
                 <div
-                  className="w-full -mt-32 pt-32 pb-2"
+                  className="w-full -mt-32 pt-32 pb-2 min-w-390"
                   id={`${selectedBlock}_desc`}
                 >
                   <div className="w-full inline-block border-b-2">
