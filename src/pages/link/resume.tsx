@@ -29,9 +29,9 @@ const ResumeBlock = ({ resumeObj }) => (
     className="py-2"
   >
     <div className="mx-auto w-3/4 px-5 py-1 hover:scale-105">
-      <div className="text-lg">{resumeObj.title}:</div>
+      <div className="text-2xl font-oswald">{resumeObj.title}:</div>
       <Image
-        src={resumeThumb.src}
+        src={resumeObj.img}
         width={600}
         height={776}
         alt={`Link to ${resumeObj.title}`}
@@ -43,7 +43,7 @@ const ResumeBlock = ({ resumeObj }) => (
 export default function Resume() {
   return (
     <div className="mx-auto w-3/4 grid grid-cols-1 divide-y-2 divide-slate-500">
-      <div className="text-2xl">Resumes:</div>
+      <div className="text-5xl font-oswald">Resumes:</div>
       <ResumeBlock resumeObj={resumeInfo} />
       <ResumeBlock resumeObj={atsResumeInfo} />
     </div>
