@@ -1,6 +1,6 @@
 {
   "useAffiliateLinks": true,
-  "lastUpdated": "June 4, 2022",
+  "lastUpdated": "Dec 20, 2023",
   "usesData": [
     {
       "section": "Software",
@@ -20,13 +20,6 @@
           "itemDescription": "I don't do much image manipulation, but GIMP is what I use when I do."
         },
         {
-          "itemName": "Tower",
-          "itemVersion": null,
-          "itemLink": "https://www.git-tower.com/",
-          "aLink": null,
-          "itemDescription": "Sometimes, it's nice to visualize what is happening in a complex git project. I started using Tower at one of my previous jobs, and now I swear by it."
-        },
-        {
           "itemName": "Google Chrome",
           "itemVersion": null,
           "itemLink": "https://www.google.ca/chrome/",
@@ -38,7 +31,7 @@
           "itemVersion": null,
           "itemLink": "https://filezilla-project.org/",
           "aLink": null,
-          "itemDescription": "Similar to Tower, FileZilla isn't required... but it is nice sometimes to visualize file structures when transferring/deploying code."
+          "itemDescription": "FileZilla isn't required... but it is nice sometimes to visualize file structures when transferring/deploying code."
         },
         {
           "itemName": "Postman",
@@ -60,11 +53,11 @@
       "section": "Hardware",
       "items": [
         {
-          "itemName": "Apple MacBook Pro (15-inch, 2016)",
+          "itemName": "Apple MacBook Pro (MPHG3LL/A)",
           "itemVersion": null,
-          "itemLink": "https://www.apple.com/ca/macbook-pro/",
+          "itemLink": "https://everymac.com/systems/apple/macbook_pro/specs/macbook-pro-m2-max-12-core-cpu-30-core-gpu-14-2023-specs.html",
           "aLink": "https://amzn.to/3kVtKxY",
-          "itemDescription": "This is my main personal computer. It's a bit old, but it's not currently limiting development in any way... so we continue on!"
+          "itemDescription": "This is my main personal computer."
         },
         {
           "itemName": "Apple Mac mini (M1, 2020)",
@@ -131,11 +124,11 @@
           "itemDescription": "I custom-made this keyboard. I made it pretty ugly... on purpose. (It has the letters of my name in lime green, and the spacebar has a picture of a spaceship on it.)"
         },
         {
-          "itemName": "Satechi USB-C hub",
+          "itemName": "OWC Thunderbolt 3 Pro Dock",
           "itemVersion": null,
-          "itemLink": "https://satechi.net/products/satechi-aluminum-multi-port-adapter-4k",
-          "aLink": "https://amzn.to/3KUBf2F",
-          "itemDescription": "This is a hub that I use to connect wired Internet and USB-A devices to my laptop."
+          "itemLink": "https://www.owc.com/solutions/thunderbolt-pro-dock",
+          "aLink": "https://a.co/d/7aUozjC",
+          "itemDescription": "This is a hub that I use to connect wired Internet, CFexpress cards, and USB-A devices to my laptop."
         }
       ]
     },
@@ -150,46 +143,39 @@
           "itemDescription": "When I first started working at Apple, I couldn't see the use case for tablets... I use this mainly as a bed/couch/patio Internet/email/media device."
         },
         {
-          "itemName": "Apple AirPods Pro",
+          "itemName": "Sony NW-ZX300",
           "itemVersion": null,
-          "itemLink": "https://www.apple.com/ca/shop/product/MLWK3AM/A/airpods-pro",
-          "aLink": "https://amzn.to/3N3cvGS",
-          "itemDescription": "I have a ton of headphones/earphones. Current ones on / attached to my desk: AirPods Pro, Shure SE846, V-MODA Crossfade M-80 (with BoomPro Microphone), Audio-Technica BPHS1, and Sony WH-1000XM3. I rotate them depending on the task/comfort…"
+          "itemLink": "https://www.whathifi.com/sony/nw-zx300/review",
+          "aLink": null,
+          "itemDescription": "A non-connected music device with 512GB of FLAC / HD music that I listen to while working"
+        },
+        {
+          "itemName": "Apple AirPods Pro ",
+          "itemVersion": null,
+          "itemLink": "https://www.apple.com/ca/airpods-pro/",
+          "aLink": "https://a.co/d/c1KM3lo",
+          "itemDescription": "These are my 'general' headphones..."
         },
         {
           "itemName": "Shure SE846",
           "itemVersion": null,
           "itemLink": "https://www.shure.com/en-US/products/earphones/se846_wired",
           "aLink": "https://amzn.to/3FWp3xK",
-          "itemDescription": "I have a ton of headphones/earphones. Current ones on / attached to my desk: AirPods Pro, Shure SE846, V-MODA Crossfade M-80 (with BoomPro Microphone), Audio-Technica BPHS1, and Sony WH-1000XM3. I rotate them depending on the task/comfort…"
-        },
-        {
-          "itemName": "V-MODA Crossfade M-80 (with BoomPro Microphone)",
-          "itemVersion": null,
-          "itemLink": "https://www.v-moda.com/",
-          "aLink": "https://amzn.to/39wFgxq",
-          "itemDescription": "I have a ton of headphones/earphones. Current ones on / attached to my desk: AirPods Pro, Shure SE846, V-MODA Crossfade M-80 (with BoomPro Microphone), Audio-Technica BPHS1, and Sony WH-1000XM3. I rotate them depending on the task/comfort…"
+          "itemDescription": "These are sometimes connected to my NW-ZX300 via the balanced 4.4mm connection"
         },
         {
           "itemName": "Audio-Technica BPHS1",
           "itemVersion": null,
           "itemLink": "https://www.audio-technica.com/en-us/bphs1",
           "aLink": "https://amzn.to/3lh2qu7",
-          "itemDescription": "I have a ton of headphones/earphones. Current ones on / attached to my desk: AirPods Pro, Shure SE846, V-MODA Crossfade M-80 (with BoomPro Microphone), Audio-Technica BPHS1, and Sony WH-1000XM3. I rotate them depending on the task/comfort…"
+          "itemDescription": "These are what I use on video calls. They are comfortable, and have a broadcast quality mic..."
         },
         {
           "itemName": "Sony WH-1000XM3",
           "itemVersion": null,
           "itemLink": "https://www.sony.ca/en/electronics/headband-headphones/wh-1000xm3",
           "aLink": "https://amzn.to/39OYdvo",
-          "itemDescription": "I have a ton of headphones/earphones. Current ones on / attached to my desk: AirPods Pro, Shure SE846, V-MODA Crossfade M-80 (with BoomPro Microphone), Audio-Technica BPHS1, and Sony WH-1000XM3. I rotate them depending on the task/comfort…"
-        },
-        {
-          "itemName": "Brother DCP-7065DN",
-          "itemVersion": null,
-          "itemLink": "https://www.brother.ca/en/p/DCP7065DN",
-          "aLink": null,
-          "itemDescription": "Older black and white laser printer"
+          "itemDescription": "My other 'general' headphones. These have really good noise cancellation, so they are good for GSD."
         },
         {
           "itemName": "Canon PRO-100",

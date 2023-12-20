@@ -653,6 +653,10 @@ video {
   height: 100vh;
 }
 
+.w-1\/6 {
+  width: 16.666667%;
+}
+
 .w-2\/6 {
   width: 33.333333%;
 }
@@ -814,6 +818,10 @@ video {
   padding: 0.25rem;
 }
 
+.p-5 {
+  padding: 1.25rem;
+}
+
 .px-1 {
   padding-left: 0.25rem;
   padding-right: 0.25rem;
@@ -890,6 +898,10 @@ video {
   text-align: center;
 }
 
+.font-lato {
+  font-family: var(--font-lato);
+}
+
 .font-nunito {
   font-family: var(--font-nunito);
 }
@@ -920,6 +932,11 @@ video {
 
 .text-lg {
   font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
   line-height: 1.75rem;
 }
 

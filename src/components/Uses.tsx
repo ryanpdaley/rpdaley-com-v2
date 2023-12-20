@@ -17,7 +17,7 @@ const UsesItem = ({ item, affiliateLinks }) => {
     <li>
       <span>
         <a
-          className="usesSectionItem"
+          className="font-oswald text-lg px-5 hover:text-red-500"
           href={itemLink}
           target="_blank"
           rel="noreferrer"
@@ -29,16 +29,16 @@ const UsesItem = ({ item, affiliateLinks }) => {
         </a>
         {itemVersion}
       </span>
-      <div className="usesSectionDescription">
-        &#8669; {item.itemDescription}
-      </div>
+      <div className="font-nunito px-10">&#8669; {item.itemDescription}</div>
     </li>
   );
 };
 
 const UsesSection = ({ usesData, affiliateLinks }) => (
   <div>
-    <h2 className="usesSectionName">{usesData.section}</h2>
+    <h2 className="text-2xl py-2  my-4 px-4 border-b-4 border-red-500 w-1/6 font-oswald">
+      {usesData.section}
+    </h2>
     <ul>
       {usesData.items.map((item, j) => (
         <UsesItem item={item} key={j} affiliateLinks={affiliateLinks} />
@@ -51,25 +51,26 @@ const UsesBlock = ({ usesPageData }) => {
   const clickInfo = { name: 'uses.tech', link: 'https://uses.tech/' };
   const { useAffiliateLinks, usesData, lastUpdated } = usesPageData;
   return (
-    <div className="usesBody">
-      <div className="usesBodyIntro">
-        <h1 className="usesBodyIntroHeader">Things I use:</h1>
-        <div className="usesBodyIntroBody">
-          <p>
-            Random list of things I use... See{' '}
-            <a
-              href="https://uses.tech/"
-              target="_blank"
-              rel="noreferrer"
-              onClick={() => {
-                captureClick(clickInfo);
-              }}
-            >
-              uses.tech
-            </a>{' '}
-            for more info.
-          </p>
-        </div>
+    <div className="max-w-screen-lg mx-auto">
+      <h1 className="text-5xl py-2  my-4 px-4 border-b-4 border-red-500 w-2/6 font-oswald">
+        Things I use:
+      </h1>
+      <div className="px-10 font-nunito text-xl">
+        <p>
+          Random list of things I use... See{' '}
+          <a
+            href="https://uses.tech/"
+            target="_blank"
+            rel="noreferrer"
+            onClick={() => {
+              captureClick(clickInfo);
+            }}
+            className="hover:text-red-500"
+          >
+            uses.tech
+          </a>{' '}
+          for more info.
+        </p>
       </div>
       {usesData.map((item, i) => (
         <UsesSection
@@ -79,9 +80,10 @@ const UsesBlock = ({ usesPageData }) => {
         />
       ))}
       <hr />
-      <span className="usesLastUpdated">
-        This page was last updated: {lastUpdated}
-      </span>
+      <div className="p-5 block font-lato font-bold">
+        <span className="inline-block">This page was last updated:</span>
+        <span className="inline-block text-red-500">{lastUpdated}</span>
+      </div>
     </div>
   );
 };
