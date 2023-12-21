@@ -36,7 +36,7 @@ const UsesItem = ({ item, affiliateLinks }) => {
 
 const UsesSection = ({ usesData, affiliateLinks }) => (
   <div>
-    <h2 className="text-2xl py-2  my-4 px-4 border-b-4 border-red-500 w-1/6 font-oswald">
+    <h2 className="text-2xl py-2  my-4 px-4 border-b-4 border-red-500 w-1/3 font-oswald">
       {usesData.section}
     </h2>
     <ul>
@@ -52,7 +52,7 @@ const UsesBlock = ({ usesPageData }) => {
   const { useAffiliateLinks, usesData, lastUpdated } = usesPageData;
   return (
     <div className="max-w-screen-lg mx-auto">
-      <h1 className="text-5xl py-2  my-4 px-4 border-b-4 border-red-500 w-2/6 font-oswald">
+      <h1 className="text-5xl py-2  my-4 px-4 border-b-4 border-red-500 md:w-1/2 font-oswald">
         Things I use:
       </h1>
       <div className="px-10 font-nunito text-xl">
