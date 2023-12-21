@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react';
 import { captureClick } from '../lib/rtools';
 import fetchConfig from '../lib/configs';
 import IconString from '../lib/icons';
+import { useMobile } from '../hooks/useMobile';
 
 const flagMap = {
   canada: '🇨🇦',
@@ -200,14 +201,10 @@ const AboutBlock = ({
   });
 };
 
-const AboutComponent = ({
-  section,
-  selectedBlock,
-  setSelectedBlock,
-  isMobileView,
-}) => {
+const AboutComponent = ({ section, selectedBlock, setSelectedBlock }) => {
   const [aboutData, setAboutData] = useState(null);
   const [selectedInfo, setSelectedInfo] = useState(null);
+  const isMobile = useMobile();
 
   useEffect(() => {
     fetchConfig(section).then((data) => {
@@ -229,12 +226,12 @@ const AboutComponent = ({
                 selectedBlock={selectedBlock}
                 setSelectedBlock={setSelectedBlock}
                 setSelectedInfo={setSelectedInfo}
-                isMobileView={isMobileView}
+                isMobileView={isMobile}
               />
             </div>
           </div>
           <div className="block">
-            {isMobileView &&
+            {isMobile &&
             selectedInfo !== null &&
             selectedInfo.blockId === selectedBlock ? (
               <div className="-z-10">
