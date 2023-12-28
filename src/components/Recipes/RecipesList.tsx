@@ -2,9 +2,9 @@ import Link from 'next/link';
 import { useEffect, useState } from 'react';
 
 const RECIPE_ROOT_CONFIG = 'https://rpdaley.com/configs/recipes/root.json';
-const RecipeListView = ({ recipeData }) => (
+const RecipeListView = ({ recipeListData }) => (
   <div>
-    {recipeData.map((element, index) => {
+    {recipeListData.map((element, index) => {
       const link = `recipes/${element.route}`;
       return (
         <div key={index}>
@@ -16,14 +16,18 @@ const RecipeListView = ({ recipeData }) => (
 );
 
 const RecipesList = () => {
-  const [recipeData, setRecipeData] = useState(null);
+  const [recipeListData, setRecipeListData] = useState(null);
   useEffect(() => {
     fetch(RECIPE_ROOT_CONFIG)
       .then((rootData) => rootData.json())
       .then((rootDataJson) => {
-        setRecipeData(rootDataJson);
+        setRecipeListData(rootDataJson);
       });
   }, []);
-  return <div>{recipeData && <RecipeListView recipeData={recipeData} />}</div>;
+  return (
+    <div>
+      {recipeListData && <RecipeListView recipeListData={recipeListData} />}
+    </div>
+  );
 };
 export default RecipesList;
