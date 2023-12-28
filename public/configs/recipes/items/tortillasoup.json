@@ -1,0 +1,203 @@
+{
+  "info": {
+    "title": "Tortilla Soup",
+    "makes": null,
+    "prepTime": {
+      "value": 10,
+      "unit": "minutes"
+    },
+    "cookTime": {
+      "value": 30,
+      "unit": "minutes"
+    },
+    "description": "Tortilla Soup!",
+    "source": {
+      "label": "Becki and Chris",
+      "url": "https://www.beckiandchris.com/blog/tortilla-soup"
+    }
+  },
+  "ingredients": [
+    {
+      "items": [
+        {
+          "name": "Chicken breasts",
+          "measurement": 2,
+          "measurementUnit": null,
+          "qualifierString": "boneless skinless",
+          "isConvertibleUnit": false
+        },
+        {
+          "name": "Onion",
+          "measurement": 1,
+          "measurementUnit": null,
+          "qualifierString": "chopped",
+          "isConvertibleUnit": false
+        },
+        {
+          "name": "Garlic cloves",
+          "measurement": 3,
+          "measurementUnit": null,
+          "qualifierString": "minced",
+          "isConvertibleUnit": false
+        },
+        {
+          "name": "Olive oil",
+          "measurement": 1,
+          "measurementUnit": "tablespoon",
+          "qualifierString": null,
+          "isConvertibleUnit": true
+        },
+        {
+          "name": "Chili powder",
+          "measurement": 3,
+          "measurementUnit": "teaspoons",
+          "qualifierString": null,
+          "isConvertibleUnit": true
+        },
+        {
+          "name": "Dried oregano",
+          "measurement": 1,
+          "measurementUnit": "teaspoon",
+          "qualifierString": null,
+          "isConvertibleUnit": true
+        },
+        {
+          "name": "Cumin powder",
+          "measurement": 3,
+          "measurementUnit": "teaspoons",
+          "qualifierString": null,
+          "isConvertibleUnit": true
+        },
+        {
+          "name": "Crushed tomatoes",
+          "measurement": 1,
+          "measurementUnit": "can",
+          "qualifierString": "28oz",
+          "isConvertibleUnit": false
+        },
+        {
+          "name": "Chicken broth",
+          "measurement": 1,
+          "measurementUnit": "L",
+          "qualifierString": null,
+          "isConvertibleUnit": true
+        },
+        {
+          "name": "Corn",
+          "measurement": 1,
+          "measurementUnit": "can",
+          "qualifierString": null,
+          "isConvertibleUnit": false
+        },
+        {
+          "name": "Green chili peppers",
+          "measurement": 1,
+          "measurementUnit": "can",
+          "qualifierString": "4oz",
+          "isConvertibleUnit": false
+        },
+        {
+          "name": "Black beans",
+          "measurement": 1,
+          "measurementUnit": "can",
+          "qualifierString": "15oz; rinsed and drained",
+          "isConvertibleUnit": false
+        },
+        {
+          "name": "Cilantro",
+          "measurement": 0.25,
+          "measurementUnit": "cup",
+          "qualifierString": "chopped",
+          "isConvertibleUnit": true
+        },
+        {
+          "name": "Tortilla chips",
+          "measurement": null,
+          "measurementUnit": null,
+          "qualifierString": null,
+          "isConvertibleUnit": false
+        },
+        {
+          "name": "Monterey jack cheese",
+          "measurement": null,
+          "measurementUnit": null,
+          "qualifierString": "Shredded",
+          "isConvertibleUnit": false
+        },
+        {
+          "name": "Avocado",
+          "measurement": 1,
+          "measurementUnit": null,
+          "qualifierString": null,
+          "isConvertibleUnit": false
+        },
+        {
+          "name": "Sour cream",
+          "measurement": null,
+          "measurementUnit": null,
+          "qualifierString": null,
+          "isOptional": true,
+          "isConvertibleUnit": false
+        }
+      ]
+    }
+  ],
+  "directions": [
+    "Chop the chicken breasts into cubes and cook them. Put aside",
+    "In a large pot, sauté onion in oil. Once onion is cooked add garlic, chili powder, oregano, cumin and stir.",
+    "Add crushed tomatoes, chicken broth, corn, black beans, cilantro, cooked chicken, and bring to a boil.",
+    "Turn heat down and simmer for 10-15 minutes, stirring every so often.",
+    "Serve with chips, avocado, cheese and sour cream on top."
+  ],
+  "structuredData": {
+    "@context": "https://schema.org/",
+    "@type": "Recipe",
+    "name": "Tortilla Soup",
+    "author": { "@type": "Person", "name": "Ryan Daley" },
+    "description": "Tortilla Soup!",
+    "prepTime": "PT10M",
+    "cookTime": "PT30M",
+    "totalTime": "PT40M",
+    "recipeIngredient": [
+      "2 Chicken breasts (boneless skinless)",
+      "1 Onion (chopped)",
+      "3 Garlic cloves (minced)",
+      "1 tablespoon Olive oil",
+      "3 teaspoons Chili powder",
+      "1 teaspoon Dried oregano",
+      "3 teaspoons Cumin powder",
+      "1 can Crushed tomatoes (28oz)",
+      "1 L Chicken broth",
+      "1 can Corn",
+      "1 can Green chili peppers (4oz)",
+      "1 can Black beans (15oz; rinsed and drained)",
+      "¼ cup Cilantro (chopped)",
+      "Tortilla chips",
+      "Monterey jack cheese (Shredded)",
+      "1 Avocado",
+      "[optional] Sour cream"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "Chop the chicken breasts into cubes and cook them. Put aside"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "In a large pot, sauté onion in oil. Once onion is cooked add garlic, chili powder, oregano, cumin and stir."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Add crushed tomatoes, chicken broth, corn, black beans, cilantro, cooked chicken, and bring to a boil."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Turn heat down and simmer for 10-15 minutes, stirring every so often."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Serve with chips, avocado, cheese and sour cream on top."
+      }
+    ]
+  }
+}

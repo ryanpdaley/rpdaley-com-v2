@@ -1,0 +1,151 @@
+{
+  "info": {
+    "title": "Brown Rice Salad",
+    "makes": "6 servings as a side",
+    "prepTime": {
+      "value": 15,
+      "unit": "minutes"
+    },
+    "cookTime": {
+      "value": 15,
+      "unit": "minutes"
+    },
+    "description": "Cook time and Prep time don't include the time to prepare rice!",
+    "source": {
+      "label": "Lost Instagram recipe",
+      "url": null
+    }
+  },
+  "ingredients": [
+    {
+      "subHeading": "Salad",
+      "items": [
+        {
+          "name": "Brown rice",
+          "measurement": 3,
+          "measurementUnit": "cups",
+          "qualifierString": "cooked",
+          "isConvertibleUnit": true
+        },
+        {
+          "name": "Spring onion stalks",
+          "measurement": [4, 5],
+          "measurementUnit": null,
+          "qualifierString": "finely diced",
+          "isConvertibleUnit": false
+        },
+        {
+          "name": "Red bell pepper",
+          "measurement": 0.5,
+          "measurementUnit": null,
+          "qualifierString": "diced",
+          "isConvertibleUnit": false
+        },
+        {
+          "name": "Green bell pepper",
+          "measurement": 0.5,
+          "measurementUnit": null,
+          "qualifierString": "diced",
+          "isConvertibleUnit": false
+        },
+        {
+          "name": "Sunflower seeds",
+          "measurement": 200,
+          "measurementUnit": "g",
+          "qualifierString": "toasted",
+          "isConvertibleUnit": true
+        },
+        {
+          "name": "Raw cashews",
+          "measurement": 200,
+          "measurementUnit": "g",
+          "qualifierString": "toasted",
+          "isConvertibleUnit": true
+        },
+        {
+          "name": "Currants",
+          "measurement": 4,
+          "measurementUnit": "tablespoons",
+          "qualifierString": "optional",
+          "isConvertibleUnit": true
+        }
+      ]
+    },
+    {
+      "subHeading": "Dressing",
+      "items": [
+        {
+          "name": "Sunflower oil",
+          "measurement": 4,
+          "measurementUnit": "tablespoons",
+          "qualifierString": null,
+          "isConvertibleUnit": true
+        },
+        {
+          "name": "Soy sauce",
+          "measurement": 6,
+          "measurementUnit": "tablespoons",
+          "qualifierString": null,
+          "isConvertibleUnit": true
+        },
+        {
+          "name": "Cloves garlic",
+          "measurement": [2, 3],
+          "measurementUnit": null,
+          "qualifierString": "minced",
+          "isConvertibleUnit": false
+        },
+        {
+          "name": "Chopped parsley",
+          "measurement": 1,
+          "measurementUnit": "tablespoon",
+          "qualifierString": null,
+          "isConvertibleUnit": true
+        }
+      ]
+    }
+  ],
+  "directions": [
+    "Combine all salad ingredients except cashews and sunflower seeds",
+    "Combine all dressing ingredients in a jar and shake.",
+    "When ready to serve, add the nuts, dressing and mix to combine."
+  ],
+  "structuredData": {
+    "@context": "https://schema.org/",
+    "@type": "Recipe",
+    "name": "Brown Rice Salad",
+    "author": { "@type": "Person", "name": "Ryan Daley" },
+    "description": "Cook time and Prep time don't include the time to prepare rice!",
+    "prepTime": "PT15M",
+    "cookTime": "PT15M",
+    "totalTime": "PT30M",
+    "recipeYield": "6 servings as a side",
+    "recipeIngredient": [
+      "3 cups Brown rice (cooked)",
+      "4-5 Spring onion stalks (finely diced)",
+      "½ Red bell pepper (diced)",
+      "½ Green bell pepper (diced)",
+      "200 g Sunflower seeds (toasted)",
+      "200 g Raw cashews (toasted)",
+      "4 tablespoons Currants (optional)",
+      "4 tablespoons Sunflower oil",
+      "6 tablespoons Soy sauce",
+      "2-3 Cloves garlic (minced)",
+      "1 tablespoon Chopped parsley"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "Combine all salad ingredients except cashews and sunflower seeds"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Combine all dressing ingredients in a jar and shake."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "When ready to serve, add the nuts, dressing and mix to combine."
+      }
+    ]
+  }
+}

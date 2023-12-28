@@ -1,0 +1,165 @@
+{
+  "info": {
+    "title": "Garden Gold Soup",
+    "makes": "Serves 8",
+    "prepTime": {
+      "value": 15,
+      "unit": "minutes"
+    },
+    "cookTime": {
+      "value": 60,
+      "unit": "minutes"
+    },
+    "description": "Garden Gold Soup Garden Gold Soup Garden Gold Soup Garden Gold Soup Garden Gold Soup Garden Gold Soup Garden Gold Soup",
+    "source": null
+  },
+  "ingredients": [
+    {
+      "subHeading": null,
+      "items": [
+        {
+          "name": "Carrots",
+          "measurement": 1,
+          "measurementUnit": "pound",
+          "qualifierString": "medium sized",
+          "isConvertibleUnit": true
+        },
+        {
+          "name": "Potatoes",
+          "measurement": 3,
+          "measurementUnit": null,
+          "qualifierString": "medium; peeled",
+          "isConvertibleUnit": false
+        },
+        {
+          "name": "Celery stalks",
+          "measurement": 3,
+          "measurementUnit": null,
+          "qualifierString": "with leaves",
+          "isConvertibleUnit": false
+        },
+        {
+          "name": "Onions",
+          "measurement": 2,
+          "measurementUnit": null,
+          "qualifierString": "medium",
+          "isConvertibleUnit": false
+        },
+        {
+          "name": "Salt",
+          "measurement": 2.5,
+          "measurementUnit": "teaspoons",
+          "qualifierString": null,
+          "isConvertibleUnit": true
+        },
+        {
+          "name": "Instant chicken bouillon granules",
+          "measurement": 2,
+          "measurementUnit": "teaspoons",
+          "qualifierString": null,
+          "isConvertibleUnit": true
+        },
+        {
+          "name": "Dried dill weed",
+          "measurement": 0.25,
+          "measurementUnit": "teaspoon",
+          "qualifierString": null,
+          "isConvertibleUnit": true
+        },
+        {
+          "name": "Pepper",
+          "measurement": 0.25,
+          "measurementUnit": "teaspoon",
+          "qualifierString": null,
+          "isConvertibleUnit": true
+        },
+        {
+          "name": "Milk",
+          "measurement": 2,
+          "measurementUnit": "cups",
+          "qualifierString": null,
+          "isConvertibleUnit": true
+        },
+        {
+          "name": "Butter",
+          "measurement": 0.25,
+          "measurementUnit": "cup",
+          "qualifierString": "or margarine",
+          "isConvertibleUnit": true
+        },
+        {
+          "name": "Water",
+          "measurement": 4,
+          "measurementUnit": "cups",
+          "qualifierString": null,
+          "isConvertibleUnit": true
+        }
+      ]
+    }
+  ],
+  "directions": [
+    "Cut up the carrots, potatoes, celery, and onions and place in 3-Quart saucepan",
+    "Add Salt, Instant chicken bouillon granules, Dried dill weed, Pepper and Water",
+    "Simmer covered for 45 - 60 minutes (or until tender)",
+    "Strain and reserve 2 cups of liquid",
+    "Using an immersion blender process until smooth",
+    "Stir in Butter and Milk",
+    "Add some amount of reserve liquid to desired consistency",
+    "Cover and heat to desired serving temperature"
+  ],
+  "structuredData": {
+    "@context": "https://schema.org/",
+    "@type": "Recipe",
+    "name": "Garden Gold Soup",
+    "author": { "@type": "Person", "name": "Ryan Daley" },
+    "description": "Garden Gold Soup Garden Gold Soup Garden Gold Soup Garden Gold Soup Garden Gold Soup Garden Gold Soup Garden Gold Soup",
+    "prepTime": "PT15M",
+    "cookTime": "PT1H",
+    "totalTime": "PT1H15M",
+    "recipeYield": "Serves 8",
+    "recipeIngredient": [
+      "1 pound Carrots (medium sized)",
+      "3 Potatoes (medium; peeled)",
+      "3 Celery stalks (with leaves)",
+      "2 Onions (medium)",
+      "2½ teaspoons Salt",
+      "2 teaspoons Instant chicken bouillon granules",
+      "¼ teaspoon Dried dill weed",
+      "¼ teaspoon Pepper",
+      "2 cups Milk",
+      "¼ cup Butter (or margarine)",
+      "4 cups Water"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "Cut up the carrots, potatoes, celery, and onions and place in 3-Quart saucepan"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Add Salt, Instant chicken bouillon granules, Dried dill weed, Pepper and Water"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Simmer covered for 45 - 60 minutes (or until tender)"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Strain and reserve 2 cups of liquid"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Using an immersion blender process until smooth"
+      },
+      { "@type": "HowToStep", "text": "Stir in Butter and Milk" },
+      {
+        "@type": "HowToStep",
+        "text": "Add some amount of reserve liquid to desired consistency"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Cover and heat to desired serving temperature"
+      }
+    ]
+  }
+}

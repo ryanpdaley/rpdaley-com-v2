@@ -1,0 +1,200 @@
+{
+  "info": {
+    "title": "Sheet Pan Cashew Chicken",
+    "makes": "4 servings",
+    "prepTime": {
+      "value": 30,
+      "unit": "minutes"
+    },
+    "cookTime": {
+      "value": 25,
+      "unit": "minutes"
+    },
+    "description": "It's not news that I love a good sheet pan meal, and these recipes are some of the most frequently requested from y'all as well! Clean up is a breeze, minimal preparation is required and your meal prep for the week is taken care of…what more could you need?",
+    "source": {
+      "label": "Goodness with G",
+      "url": "https://www.goodnesswithg.com/blog/sheet-pan-cashew-chicken"
+    }
+  },
+  "ingredients": [
+    {
+      "subHeading": "Chicken & Veggies",
+      "items": [
+        {
+          "name": "boneless, skinless chicken breasts",
+          "measurement": 3,
+          "measurementUnit": null,
+          "qualifierString": "cut into 1/2-1 inch pieces",
+          "isConvertibleUnit": false
+        },
+        {
+          "name": "Broccoli florets",
+          "measurement": 2,
+          "measurementUnit": "cups",
+          "qualifierString": null,
+          "isConvertibleUnit": true
+        },
+        {
+          "name": "Red bell pepper",
+          "measurement": 1,
+          "measurementUnit": null,
+          "qualifierString": "diced",
+          "isConvertibleUnit": false
+        },
+        {
+          "name": "Unsalted cashews",
+          "measurement": 1,
+          "measurementUnit": "cup",
+          "qualifierString": null,
+          "isConvertibleUnit": true
+        },
+        {
+          "name": "cilantro",
+          "measurement": null,
+          "measurementUnit": null,
+          "qualifierString": null,
+          "isConvertibleUnit": false,
+          "isOptional": true
+        },
+        {
+          "name": "lime wedges",
+          "measurement": null,
+          "measurementUnit": null,
+          "qualifierString": null,
+          "isConvertibleUnit": false,
+          "isOptional": true
+        },
+        {
+          "name": "rice",
+          "measurement": null,
+          "measurementUnit": null,
+          "qualifierString": null,
+          "isConvertibleUnit": false,
+          "isOptional": true
+        }
+      ]
+    },
+    {
+      "subHeading": "Sauce",
+      "items": [
+        {
+          "name": "Sriracha",
+          "measurement": 3,
+          "measurementUnit": "tablespoons",
+          "qualifierString": null,
+          "isConvertibleUnit": true
+        },
+        {
+          "name": "Soy sauce",
+          "measurement": 2,
+          "measurementUnit": "tablespoons",
+          "qualifierString": "or coconut aminos",
+          "isConvertibleUnit": true
+        },
+        {
+          "name": "Rice vinegar",
+          "measurement": 2,
+          "measurementUnit": "tablespoons",
+          "qualifierString": null,
+          "isConvertibleUnit": true
+        },
+        {
+          "name": "Toasted sesame oil",
+          "measurement": 2,
+          "measurementUnit": "tablespoons",
+          "qualifierString": null,
+          "isConvertibleUnit": true
+        },
+        {
+          "name": "Honey",
+          "measurement": 1,
+          "measurementUnit": "tablespoon",
+          "qualifierString": null,
+          "isConvertibleUnit": true
+        },
+        {
+          "name": "Garlic cloves",
+          "measurement": 2,
+          "measurementUnit": null,
+          "qualifierString": "minced",
+          "isConvertibleUnit": false
+        },
+        {
+          "name": "Fresh ginger",
+          "measurement": 1,
+          "measurementUnit": "inch",
+          "qualifierString": "peeled & minced",
+          "isConvertibleUnit": true
+        }
+      ]
+    }
+  ],
+  "directions": [
+    "Preheat oven to 425 degrees",
+    "Line a large baking sheet with parchment paper",
+    "Add chicken, broccoli, bell pepper and cashews",
+    "Mix together all of the sauce ingredients in a small bowl",
+    "Pour 3/4 of the sauce on the chicken and veggies, and toss to coat evenly",
+    "Roast for 25 minutes, tossing halfway through",
+    "Top chicken and veggies with remaining sauce, and toss",
+    "Serve with rice of choice, and top with lime juice and cilantro"
+  ],
+  "structuredData": {
+    "@context": "https://schema.org/",
+    "@type": "Recipe",
+    "name": "Sheet Pan Cashew Chicken",
+    "author": { "@type": "Person", "name": "Ryan Daley" },
+    "description": "It's not news that I love a good sheet pan meal, and these recipes are some of the most frequently requested from y'all as well! Clean up is a breeze, minimal preparation is required and your meal prep for the week is taken care of…what more could you need?",
+    "prepTime": "PT30M",
+    "cookTime": "PT25M",
+    "totalTime": "PT55M",
+    "recipeYield": "4 servings",
+    "recipeIngredient": [
+      "3 boneless, skinless chicken breasts (cut into 1/2-1 inch pieces)",
+      "2 cups Broccoli florets",
+      "1 Red bell pepper (diced)",
+      "1 cup Unsalted cashews",
+      "[optional] cilantro",
+      "[optional] lime wedges",
+      "[optional] rice",
+      "3 tablespoons Sriracha",
+      "2 tablespoons Soy sauce (or coconut aminos)",
+      "2 tablespoons Rice vinegar",
+      "2 tablespoons Toasted sesame oil",
+      "1 tablespoon Honey",
+      "2 Garlic cloves (minced)",
+      "1 inch Fresh ginger (peeled & minced)"
+    ],
+    "recipeInstructions": [
+      { "@type": "HowToStep", "text": "Preheat oven to 425 degrees" },
+      {
+        "@type": "HowToStep",
+        "text": "Line a large baking sheet with parchment paper"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Add chicken, broccoli, bell pepper and cashews"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Mix together all of the sauce ingredients in a small bowl"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Pour 3/4 of the sauce on the chicken and veggies, and toss to coat evenly"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Roast for 25 minutes, tossing halfway through"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Top chicken and veggies with remaining sauce, and toss"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Serve with rice of choice, and top with lime juice and cilantro"
+      }
+    ]
+  }
+}

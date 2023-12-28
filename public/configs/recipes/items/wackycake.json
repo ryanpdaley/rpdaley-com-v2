@@ -1,0 +1,208 @@
+{
+  "info": {
+    "title": "Wacky Cake",
+    "makes": null,
+    "prepTime": {
+      "value": 15,
+      "unit": "minutes"
+    },
+    "cookTime": {
+      "value": 35,
+      "unit": "minutes"
+    },
+    "description": "It's Wacky Cake",
+    "source": {
+      "label": "Family Recipe",
+      "url": null
+    }
+  },
+  "ingredients": [
+    {
+      "subHeading": "Cake",
+      "items": [
+        {
+          "name": "All-purpose flour",
+          "measurement": 1.5,
+          "measurementUnit": "cups",
+          "qualifierString": null,
+          "isConvertibleUnit": true
+        },
+        {
+          "name": "White sugar",
+          "measurement": 1,
+          "measurementUnit": "cup",
+          "qualifierString": null,
+          "isConvertibleUnit": true
+        },
+        {
+          "name": "Baking powder",
+          "measurement": 1,
+          "measurementUnit": "teaspoon",
+          "qualifierString": null,
+          "isConvertibleUnit": true
+        },
+        {
+          "name": "Baking soda",
+          "measurement": 1,
+          "measurementUnit": "tablespoon",
+          "qualifierString": null,
+          "isConvertibleUnit": true
+        },
+        {
+          "name": "Salt",
+          "measurement": 0.5,
+          "measurementUnit": "teaspoon",
+          "qualifierString": null,
+          "isConvertibleUnit": true
+        },
+        {
+          "name": "Cocoa",
+          "measurement": 3,
+          "measurementUnit": "tablespoons",
+          "qualifierString": null,
+          "isConvertibleUnit": true
+        },
+        {
+          "name": "Vinegar",
+          "measurement": 1,
+          "measurementUnit": "tablespoon",
+          "qualifierString": null,
+          "isConvertibleUnit": true
+        },
+        {
+          "name": "Vanilla",
+          "measurement": 2,
+          "measurementUnit": "teaspoons",
+          "qualifierString": null,
+          "isConvertibleUnit": true
+        },
+        {
+          "name": "Butter",
+          "measurement": 5,
+          "measurementUnit": "tablespoons",
+          "qualifierString": "melted",
+          "isConvertibleUnit": true
+        },
+        {
+          "name": "Water",
+          "measurement": 1,
+          "measurementUnit": "cup",
+          "qualifierString": "tepid",
+          "isConvertibleUnit": true
+        }
+      ]
+    },
+    {
+      "subHeading": "Icing",
+      "items": [
+        {
+          "name": "Icing sugar",
+          "measurement": [1.5, 2],
+          "measurementUnit": "cups",
+          "qualifierString": null,
+          "isConvertibleUnit": true
+        },
+        {
+          "name": "Butter",
+          "measurement": 4,
+          "measurementUnit": "tablespoons",
+          "qualifierString": "softened or margarine",
+          "isConvertibleUnit": true
+        },
+        {
+          "name": "Cocoa",
+          "measurement": [2, 4],
+          "measurementUnit": "tablespoons",
+          "qualifierString": null,
+          "isConvertibleUnit": true
+        },
+        {
+          "name": "Milk",
+          "measurement": null,
+          "measurementUnit": null,
+          "qualifierString": null,
+          "isConvertibleUnit": false
+        },
+        {
+          "name": "Ground coffee",
+          "measurement": null,
+          "measurementUnit": null,
+          "qualifierString": null,
+          "isConvertibleUnit": false,
+          "isOptional": true
+        }
+      ]
+    }
+  ],
+  "directions": [
+    "Sift dry ingredients into an 8x8-inch tin",
+    "In one corner put vinegar",
+    "In another corner put the vanilla",
+    "In a third corner put the melted butter",
+    "Pour the water evenly over the tin",
+    "Mix thoroughly",
+    "Bake at 325° F for 30 to 35 minutes",
+    "While baking, make the frosting",
+    "For the frosting - Beat sugar, butter and cocoa with a bit of milk to desired consistency",
+    "Mix in a bit of coffee into the frosting to taste",
+    "Frost the cake when cool."
+  ],
+  "structuredData": {
+    "@context": "https://schema.org/",
+    "@type": "Recipe",
+    "name": "Wacky Cake",
+    "author": { "@type": "Person", "name": "Ryan Daley" },
+    "description": "It's Wacky Cake",
+    "prepTime": "PT15M",
+    "cookTime": "PT35M",
+    "totalTime": "PT50M",
+    "recipeIngredient": [
+      "1½ cups All-purpose flour",
+      "1 cup White sugar",
+      "1 teaspoon Baking powder",
+      "1 tablespoon Baking soda",
+      "½ teaspoon Salt",
+      "3 tablespoons Cocoa",
+      "1 tablespoon Vinegar",
+      "2 teaspoons Vanilla",
+      "5 tablespoons Butter (melted)",
+      "1 cup Water (tepid)",
+      "1½-2 cups Icing sugar",
+      "4 tablespoons Butter (softened or margarine)",
+      "2-4 tablespoons Cocoa",
+      " Milk",
+      "[optional] Ground coffee"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "Sift dry ingredients into an 8x8-inch tin"
+      },
+      { "@type": "HowToStep", "text": "In one corner put vinegar" },
+      { "@type": "HowToStep", "text": "In another corner put the vanilla" },
+      {
+        "@type": "HowToStep",
+        "text": "In a third corner put the melted butter"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Pour the water evenly over the tin"
+      },
+      { "@type": "HowToStep", "text": "Mix thoroughly" },
+      {
+        "@type": "HowToStep",
+        "text": "Bake at 325° F for 30 to 35 minutes"
+      },
+      { "@type": "HowToStep", "text": "While baking, make the frosting" },
+      {
+        "@type": "HowToStep",
+        "text": "For the frosting - Beat sugar, butter and cocoa with a bit of milk to desired consistency"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Mix in a bit of coffee into the frosting to taste"
+      },
+      { "@type": "HowToStep", "text": "Frost the cake when cool." }
+    ]
+  }
+}

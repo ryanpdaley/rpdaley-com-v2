@@ -1,0 +1,47 @@
+[
+  {
+    "title": "Garden Gold Soup",
+    "src": "gardengoldsoup.json",
+    "route": "gardengoldsoup"
+  },
+  {
+    "title": "Wacky Cake",
+    "src": "wackycake.json",
+    "route": "wackycake"
+  },
+  {
+    "title": "Banana Banana Bread",
+    "src": "bananabananabread.json",
+    "route": "bananabananabread"
+  },
+  {
+    "title": "Sheet Pan Cashew Chicken",
+    "src": "sheetpancashewchicken.json",
+    "route": "sheetpancashewchicken"
+  },
+  {
+    "title": "Brown Rice Salad",
+    "src": "brownricesalad.json",
+    "route": "brownricesalad"
+  },
+  {
+    "title": "Shakshuka",
+    "src": "shakshuka.json",
+    "route": "shakshuka"
+  },
+  {
+    "title": "Classic Waffles",
+    "src": "classicwaffles.json",
+    "route": "classicwaffles"
+  },
+  {
+    "title": "One Skillet 'Egg Roll in a Bowl'",
+    "src": "eggrollinabowl.json",
+    "route": "eggrollinabowl"
+  },
+  {
+    "title": "Tortilla Soup",
+    "src": "tortillasoup.json",
+    "route": "tortillasoup"
+  }
+]
