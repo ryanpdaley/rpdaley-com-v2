@@ -1,12 +1,12 @@
 import { useRouter } from 'next/router';
-import RecipesComponent from '../../components/Recipes/Recipes';
+import RecipeComponent from '../../components/Recipes/Recipe';
 
 const Recipe = () => {
   const router = useRouter();
   const recipeId = router.query.id;
   return (
     <div className="h-full">
-      <RecipesComponent id={recipeId} />
+      <RecipeComponent id={recipeId} />
     </div>
   );
 };

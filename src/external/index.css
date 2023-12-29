@@ -621,6 +621,10 @@ video {
   display: flex;
 }
 
+.table {
+  display: table;
+}
+
 .grid {
   display: grid;
 }
@@ -651,10 +655,6 @@ video {
 
 .h-full {
   height: 100%;
-}
-
-.h-screen {
-  height: 100vh;
 }
 
 .w-1\/2 {
@@ -715,6 +715,10 @@ video {
 
 .list-inside {
   list-style-position: inside;
+}
+
+.list-decimal {
+  list-style-type: decimal;
 }
 
 .list-disc {
@@ -790,6 +794,10 @@ video {
 
 .border-b-4 {
   border-bottom-width: 4px;
+}
+
+.border-solid {
+  border-style: solid;
 }
 
 .border-black {
@@ -990,6 +998,10 @@ video {
 
 .underline {
   text-decoration-line: underline;
+}
+
+.filter {
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
 .content-none {
