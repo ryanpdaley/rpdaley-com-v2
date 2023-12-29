@@ -3,9 +3,9 @@ import { convertDecimals } from '../lib/formatters';
 import { RecipeInfoProps } from '../types';
 
 const Description = ({ recipeInfo }: RecipeInfoProps) => (
-  <div>
-    <div className="text-2xl">Description:</div>
-    <div className="recipe-description">
+  <div className="pb-2">
+    <div className="text-xl">Description:</div>
+    <div className="px-5">
       <p>{recipeInfo.description}</p>
     </div>
   </div>
@@ -14,7 +14,7 @@ const Description = ({ recipeInfo }: RecipeInfoProps) => (
 const MetaInfo = ({ recipeInfo }: RecipeInfoProps) => {
   const yieldBlock =
     recipeInfo.makes !== null ? (
-      <div>
+      <div className="flex-auto text-center">
         <strong>Yields: </strong>
         {recipeInfo.makes}
       </div>
@@ -22,7 +22,7 @@ const MetaInfo = ({ recipeInfo }: RecipeInfoProps) => {
 
   const cookTimeBlock =
     recipeInfo.cookTime && recipeInfo.cookTime !== null ? (
-      <div>
+      <div className="flex-auto text-center">
         <strong>Cook Time: </strong>
         {`${convertDecimals(recipeInfo.cookTime.value)} ${
           recipeInfo.cookTime.unit
@@ -32,7 +32,7 @@ const MetaInfo = ({ recipeInfo }: RecipeInfoProps) => {
 
   const prepTimeBlock =
     recipeInfo.prepTime && recipeInfo.prepTime !== null ? (
-      <div>
+      <div className="flex-auto text-center">
         <strong>Prep Time: </strong>
         {`${convertDecimals(recipeInfo.prepTime.value)} ${
           recipeInfo.prepTime.unit
@@ -40,16 +40,11 @@ const MetaInfo = ({ recipeInfo }: RecipeInfoProps) => {
       </div>
     ) : null;
 
-  const blockCount =
-    (yieldBlock ? 1 : 0) + (cookTimeBlock ? 1 : 0) + (prepTimeBlock ? 1 : 0);
-
   return (
-    <div className="recipe-data">
-      <div className={`grid grid-cols-${blockCount}`}>
-        {yieldBlock}
-        {cookTimeBlock}
-        {prepTimeBlock}
-      </div>
+    <div className="flex gap-4 divide-x divide-dotted content-center py-2">
+      {yieldBlock}
+      {cookTimeBlock}
+      {prepTimeBlock}
     </div>
   );
 };
@@ -59,10 +54,10 @@ const SourceBlock = ({ recipeInfo }: RecipeInfoProps) => {
   const sourceURL = recipeInfo.source?.url;
   if (sourceLabel === undefined) return '';
   return (
-    <div>
-      <div>Source:</div>
+    <div className="w-full text-right px-5">
+      <strong>Source: </strong>
       {sourceURL === null || sourceURL === undefined ? (
-        <div>{sourceLabel}</div>
+        <div className="inline-block">{sourceLabel}</div>
       ) : (
         <Link
           href={sourceURL}
@@ -75,7 +70,7 @@ const SourceBlock = ({ recipeInfo }: RecipeInfoProps) => {
           //   }}
           target="_blank"
         >
-          <div>{sourceLabel}</div>
+          <div className="inline-block">{sourceLabel}</div>
         </Link>
       )}
     </div>
@@ -85,9 +80,11 @@ const SourceBlock = ({ recipeInfo }: RecipeInfoProps) => {
 const RecipeInfo = ({ recipeInfo }) => {
   console.log(recipeInfo);
   return (
-    <div className="border-solid border-2">
-      <Description recipeInfo={recipeInfo} />
-      <MetaInfo recipeInfo={recipeInfo} />
+    <div>
+      <div className="border-solid border-2 rounded-lg m-2 p-2 divide-y divide-solid">
+        <Description recipeInfo={recipeInfo} />
+        <MetaInfo recipeInfo={recipeInfo} />
+      </div>
       <SourceBlock recipeInfo={recipeInfo} />
     </div>
   );
