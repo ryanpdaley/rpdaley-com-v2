@@ -1,5 +1,7 @@
+import { useEffect } from 'react';
 import { parseItem } from '../../../lib/formatters';
 import { IngredientSectionProps, RecipeIngredientsProps } from '../../../types';
+import { event as gaEvent } from '../../../../../lib/gtag';
 
 const IngredientsSection = ({
   ingredientSection,
@@ -16,12 +18,17 @@ const IngredientsSection = ({
       const filteredList = checkedItems.filter((item) => item !== value);
       setCheckedItems(filteredList);
     }
-    // eventGA({
-    //   category: "userAction",
-    //   action: "ingredient_Checked",
-    //   label: JSON.stringify(checkedItems),
-    // });
   };
+
+  useEffect(() => {
+    console.log(checkedItems);
+    gaEvent({
+      action: 'ingredient_Checked',
+      category: 'User Action',
+      label: 'Ingredients',
+      value: JSON.stringify(checkedItems),
+    });
+  }, [checkedItems]);
 
   return (
     <div>

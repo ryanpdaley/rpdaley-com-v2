@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { convertDecimals } from '../lib/formatters';
 import { RecipeInfoProps } from '../types';
+import { captureClick } from '../../../lib/rtools';
 
 const Description = ({ recipeInfo }: RecipeInfoProps) => (
   <div className="pb-2">
@@ -53,6 +54,7 @@ const SourceBlock = ({ recipeInfo }: RecipeInfoProps) => {
   const sourceLabel = recipeInfo.source?.label;
   const sourceURL = recipeInfo.source?.url;
   if (sourceLabel === undefined) return '';
+  const clickInfo = { sourceLabel, sourceURL };
   return (
     <div className="w-full text-right px-5">
       <strong>Source: </strong>
@@ -61,13 +63,9 @@ const SourceBlock = ({ recipeInfo }: RecipeInfoProps) => {
       ) : (
         <Link
           href={sourceURL}
-          //   onClick={() => {
-          //     eventGA({
-          //       category: 'userAction',
-          //       action: 'link_clicked',
-          //       label: sourceURL,
-          //     });
-          //   }}
+          onClick={() => {
+            captureClick(clickInfo);
+          }}
           target="_blank"
         >
           <div className="inline-block">{sourceLabel}</div>
