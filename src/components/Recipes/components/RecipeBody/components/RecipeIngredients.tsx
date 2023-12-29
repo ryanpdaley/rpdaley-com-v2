@@ -26,7 +26,7 @@ const IngredientsSection = ({
   return (
     <div>
       {ingredientSection.subHeading && (
-        <div>{ingredientSection.subHeading}</div>
+        <div className="text-lg px-5">{ingredientSection.subHeading}:</div>
       )}
       <table>
         <tbody>
@@ -35,7 +35,7 @@ const IngredientsSection = ({
             const isChecked = checkedItems.includes(rowItem);
             return (
               <tr key={label}>
-                <td>
+                <td className="pl-10 pr-5 align-top">
                   {/* <Tooltip content="Select to add to Shopping List"> */}
                   <input
                     type="checkbox"
@@ -67,7 +67,7 @@ const RecipeIngredients = ({
   console.log(recipeIngredients);
   return (
     <div className="block">
-      <div>Ingredients</div>
+      <div className="text-xl pl-2">Ingredients:</div>
       {recipeIngredients.map((ingredientSection, index) => (
         <IngredientsSection
           ingredientSection={ingredientSection}
