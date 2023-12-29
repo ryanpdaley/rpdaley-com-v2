@@ -984,6 +984,10 @@ video {
   vertical-align: top;
 }
 
+.align-middle {
+  vertical-align: middle;
+}
+
 .font-lato {
   font-family: var(--font-lato);
 }
