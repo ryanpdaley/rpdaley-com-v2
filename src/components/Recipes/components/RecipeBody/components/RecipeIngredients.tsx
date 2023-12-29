@@ -63,20 +63,17 @@ const RecipeIngredients = ({
   recipeIngredients,
   checkedItems,
   setCheckedItems,
-}: RecipeIngredientsProps) => {
-  console.log(recipeIngredients);
-  return (
-    <div className="block">
-      <div className="text-xl pl-2">Ingredients:</div>
-      {recipeIngredients.map((ingredientSection, index) => (
-        <IngredientsSection
-          ingredientSection={ingredientSection}
-          checkedItems={checkedItems}
-          setCheckedItems={setCheckedItems}
-          key={index}
-        />
-      ))}
-    </div>
-  );
-};
+}: RecipeIngredientsProps) => (
+  <div className="block">
+    <div className="text-xl pl-2">Ingredients:</div>
+    {recipeIngredients.map((ingredientSection, index) => (
+      <IngredientsSection
+        ingredientSection={ingredientSection}
+        checkedItems={checkedItems}
+        setCheckedItems={setCheckedItems}
+        key={index}
+      />
+    ))}
+  </div>
+);
 export default RecipeIngredients;
