@@ -77,16 +77,13 @@ const SourceBlock = ({ recipeInfo }: RecipeInfoProps) => {
   );
 };
 
-const RecipeInfo = ({ recipeInfo }) => {
-  console.log(recipeInfo);
-  return (
-    <div>
-      <div className="border-solid border-2 rounded-lg m-2 p-2 divide-y divide-solid">
-        <Description recipeInfo={recipeInfo} />
-        <MetaInfo recipeInfo={recipeInfo} />
-      </div>
-      <SourceBlock recipeInfo={recipeInfo} />
+const RecipeInfo = ({ recipeInfo }) => (
+  <div>
+    <div className="border-solid border-2 rounded-lg m-2 p-2 divide-y divide-solid">
+      <Description recipeInfo={recipeInfo} />
+      <MetaInfo recipeInfo={recipeInfo} />
     </div>
-  );
-};
+    <SourceBlock recipeInfo={recipeInfo} />
+  </div>
+);
 export default RecipeInfo;

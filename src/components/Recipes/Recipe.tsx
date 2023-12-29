@@ -4,23 +4,20 @@ import RecipeBody from './components/RecipeBody/RecipeBody';
 
 const RECIPE_ROOT_DIR = 'https://rpdaley.com/configs/recipes/items';
 
-const RecipeView = ({ recipeData, checkedItems, setCheckedItems }) => {
-  console.log(recipeData);
-  return (
-    <div className="block">
-      <div className="text-3xl">{recipeData.info.title}</div>
-      <div className="border-solid border-2">
-        <RecipeInfo recipeInfo={recipeData.info} />
-        <RecipeBody
-          recipeDirections={recipeData.directions}
-          recipeIngredients={recipeData.ingredients}
-          checkedItems={checkedItems}
-          setCheckedItems={setCheckedItems}
-        />
-      </div>
+const RecipeView = ({ recipeData, checkedItems, setCheckedItems }) => (
+  <div className="block">
+    <div className="text-3xl">{recipeData.info.title}</div>
+    <div className="border-solid border-2">
+      <RecipeInfo recipeInfo={recipeData.info} />
+      <RecipeBody
+        recipeDirections={recipeData.directions}
+        recipeIngredients={recipeData.ingredients}
+        checkedItems={checkedItems}
+        setCheckedItems={setCheckedItems}
+      />
     </div>
-  );
-};
+  </div>
+);
 
 const RecipeComponent = ({ id }) => {
   const [recipeData, setRecipeData] = useState(null);
