@@ -40,7 +40,7 @@ const RecipeComponent = ({ id }) => {
       });
   }, [id]);
   return (
-    <div>
+    <div className="max-w-screen-xl mx-auto">
       {recipeData && (
         <RecipeView
           recipeData={recipeData}
