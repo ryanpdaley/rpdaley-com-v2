@@ -1,0 +1,164 @@
+{
+  "info": {
+    "title": "Shakshuka",
+    "makes": "6 servings",
+    "prepTime": {
+      "value": 10,
+      "unit": "minutes"
+    },
+    "cookTime": {
+      "value": 20,
+      "unit": "minutes"
+    },
+    "description": "Shakshuka is a North African and Middle Eastern meal of poached eggs in a simmering tomato sauce with spices. It's easy, healthy and takes less than 30 minutes to make.",
+    "source": {
+      "label": "downshiftology",
+      "url": "https://downshiftology.com/recipes/shakshuka/"
+    }
+  },
+  "ingredients": [
+    {
+      "subHeading": null,
+      "items": [
+        {
+          "name": "Olive oil",
+          "measurement": 2,
+          "measurementUnit": "tablespoons",
+          "qualifierString": null,
+          "isConvertibleUnit": true
+        },
+        {
+          "name": "Medium onion",
+          "measurement": 1,
+          "measurementUnit": null,
+          "qualifierString": "diced",
+          "isConvertibleUnit": false
+        },
+        {
+          "name": "Red bell pepper",
+          "measurement": 1,
+          "measurementUnit": null,
+          "qualifierString": "seeded and diced",
+          "isConvertibleUnit": false
+        },
+        {
+          "name": "Cloves garlic",
+          "measurement": 4,
+          "measurementUnit": null,
+          "qualifierString": "finely chopped",
+          "isConvertibleUnit": false
+        },
+        {
+          "name": "Paprika",
+          "measurement": 2,
+          "measurementUnit": "teaspoons",
+          "qualifierString": null,
+          "isConvertibleUnit": true
+        },
+        {
+          "name": "Cumin",
+          "measurement": 1,
+          "measurementUnit": "teaspoon",
+          "qualifierString": null,
+          "isConvertibleUnit": true
+        },
+        {
+          "name": "Chili powder",
+          "measurement": 0.25,
+          "measurementUnit": "teaspoon",
+          "qualifierString": null,
+          "isConvertibleUnit": true
+        },
+        {
+          "name": "28-ounce can tomatoes",
+          "measurement": 1,
+          "measurementUnit": null,
+          "qualifierString": "whole peeled or diced",
+          "isConvertibleUnit": false
+        },
+        {
+          "name": "Large eggs",
+          "measurement": 6,
+          "measurementUnit": null,
+          "qualifierString": null,
+          "isConvertibleUnit": false
+        },
+        {
+          "name": "Salt and Pepper",
+          "measurement": null,
+          "measurementUnit": null,
+          "qualifierString": null,
+          "isConvertibleUnit": false
+        },
+        {
+          "name": "small bunch fresh cilantro",
+          "measurement": 1,
+          "measurementUnit": null,
+          "qualifierString": "chopped",
+          "isConvertibleUnit": false
+        },
+        {
+          "name": "small bunch fresh parsley",
+          "measurement": 1,
+          "measurementUnit": null,
+          "qualifierString": "chopped",
+          "isConvertibleUnit": false
+        }
+      ]
+    }
+  ],
+  "directions": [
+    "Heat olive oil in a large sauté pan on medium heat. Add the chopped bell pepper and onion and cook for 5 minutes or until the onion becomes translucent.",
+    "Add garlic and spices and cook an additional minute.",
+    "Pour the can of tomatoes and juice into the pan and break down the tomatoes using a large spoon. Season with salt and pepper and bring the sauce to a simmer.",
+    "Use your large spoon to make small wells in the sauce and crack the eggs into each well. Cover the pan and cook for 5-8 minutes, or until the eggs are done to your liking.",
+    "Garnish with chopped cilantro and parsley."
+  ],
+  "structuredData": {
+    "@context": "https://schema.org/",
+    "@type": "Recipe",
+    "name": "Shakshuka",
+    "author": { "@type": "Person", "name": "Ryan Daley" },
+    "description": "Shakshuka is a North African and Middle Eastern meal of poached eggs in a simmering tomato sauce with spices. It's easy, healthy and takes less than 30 minutes to make.",
+    "prepTime": "PT10M",
+    "cookTime": "PT20M",
+    "totalTime": "PT30M",
+    "recipeYield": "6 servings",
+    "recipeIngredient": [
+      "2 tablespoons Olive oil",
+      "1 Medium onion (diced)",
+      "1 Red bell pepper (seeded and diced)",
+      "4 Cloves garlic (finely chopped)",
+      "2 teaspoons Paprika",
+      "1 teaspoon Cumin",
+      "¼ teaspoon Chili powder",
+      "1 28-ounce can tomatoes (whole peeled or diced)",
+      "6 Large eggs",
+      " Salt and Pepper",
+      "1 small bunch fresh cilantro (chopped)",
+      "1 small bunch fresh parsley (chopped)"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "Heat olive oil in a large sauté pan on medium heat. Add the chopped bell pepper and onion and cook for 5 minutes or until the onion becomes translucent."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Add garlic and spices and cook an additional minute."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Pour the can of tomatoes and juice into the pan and break down the tomatoes using a large spoon. Season with salt and pepper and bring the sauce to a simmer."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Use your large spoon to make small wells in the sauce and crack the eggs into each well. Cover the pan and cook for 5-8 minutes, or until the eggs are done to your liking."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Garnish with chopped cilantro and parsley."
+      }
+    ]
+  }
+}

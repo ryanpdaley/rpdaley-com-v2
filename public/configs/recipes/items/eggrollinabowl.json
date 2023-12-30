@@ -1,0 +1,169 @@
+{
+  "info": {
+    "title": "One Skillet 'Egg Roll in a Bowl'",
+    "makes": "Serves 4",
+    "prepTime": {
+      "value": 5,
+      "unit": "minutes"
+    },
+    "cookTime": {
+      "value": 20,
+      "unit": "minutes"
+    },
+    "description": "All of the delicious flavors of your favorite fried Chinese restaurant appetizer come together in a lighter, faster, one skillet meal! This 'Egg Roll in a Bowl' is a quick and healthy dinner that's ready in about 20 minutes!",
+    "source": {
+      "label": "The Seasoned Mom",
+      "url": "https://www.theseasonedmom.com/egg-roll-in-a-bowl/"
+    }
+  },
+  "ingredients": [
+    {
+      "items": [
+        {
+          "name": "Ground turkey breast",
+          "measurement": 1,
+          "measurementUnit": "pound",
+          "qualifierString": "substitute with ground chicken, ground beef, or ground pork",
+          "isConvertibleUnit": true
+        },
+        {
+          "name": "Sweet onion",
+          "measurement": 1,
+          "measurementUnit": null,
+          "qualifierString": "diced",
+          "isConvertibleUnit": false
+        },
+        {
+          "name": "Sesame oil",
+          "measurement": 1,
+          "measurementUnit": "tablespoon",
+          "qualifierString": null,
+          "isConvertibleUnit": true
+        },
+        {
+          "name": "Rice vinegar",
+          "measurement": 1,
+          "measurementUnit": "tablespoon",
+          "qualifierString": null,
+          "isConvertibleUnit": true
+        },
+        {
+          "name": "Minced garlic",
+          "measurement": 2,
+          "measurementUnit": "teaspoons",
+          "qualifierString": null,
+          "isConvertibleUnit": true
+        },
+        {
+          "name": "Ground ginger",
+          "measurement": 1,
+          "measurementUnit": "teaspoon",
+          "qualifierString": null,
+          "isConvertibleUnit": true
+        },
+        {
+          "name": "Soy sauce",
+          "measurement": 0.25,
+          "measurementUnit": "cups",
+          "qualifierString": "low sodium",
+          "isConvertibleUnit": false
+        },
+        {
+          "name": "Coleslaw mix",
+          "measurement": 16,
+          "measurementUnit": "ounces",
+          "qualifierString": "1 bag",
+          "isConvertibleUnit": true
+        },
+        {
+          "name": "Grated carrots",
+          "measurement": 0.5,
+          "measurementUnit": "cup",
+          "qualifierString": "or matchstick",
+          "isConvertibleUnit": true
+        },
+        {
+          "name": "Green onions",
+          "measurement": 2,
+          "measurementUnit": null,
+          "qualifierString": "thinly sliced",
+          "isConvertibleUnit": false
+        },
+        {
+          "name": "Salt",
+          "measurement": null,
+          "measurementUnit": null,
+          "qualifierString": "to taste",
+          "isConvertibleUnit": false,
+          "isOptional": true
+        },
+        {
+          "name": "Pepper",
+          "measurement": null,
+          "measurementUnit": null,
+          "qualifierString": "to taste",
+          "isConvertibleUnit": false,
+          "isOptional": true
+        },
+        {
+          "name": "Hoisin sauce",
+          "measurement": 1,
+          "measurementUnit": "tablespoon",
+          "qualifierString": null,
+          "isConvertibleUnit": true,
+          "isOptional": true
+        }
+      ]
+    }
+  ],
+  "directions": [
+    "Heat a large skillet over medium-high heat. Add ground meat and cook, stirring, until no longer pink. Drain; return meat to skillet.",
+    "Add diced onion, sesame oil, and rice vinegar to the skillet. Cook, stirring, for a few more minutes (until onion is tender).",
+    "Add garlic, ginger, soy sauce, hoisin sauce (optional), coleslaw mix, and carrots to the skillet. Cook, stirring, for about 5-7 more minutes, or until cabbage is wilted.",
+    "Remove skillet from the heat. Stir in green onions and season with salt and pepper, to taste."
+  ],
+  "structuredData": {
+    "@context": "https://schema.org/",
+    "@type": "Recipe",
+    "name": "One Skillet 'Egg Roll in a Bowl'",
+    "author": { "@type": "Person", "name": "Ryan Daley" },
+    "description": "All of the delicious flavors of your favorite fried Chinese restaurant appetizer come together in a lighter, faster, one skillet meal! This 'Egg Roll in a Bowl' is a quick and healthy dinner that's ready in about 20 minutes!",
+    "prepTime": "PT5M",
+    "cookTime": "PT20M",
+    "totalTime": "PT25M",
+    "recipeYield": "Serves 4",
+    "recipeIngredient": [
+      "1 pound Ground turkey breast (substitute with ground chicken, ground beef, or ground pork)",
+      "1 Sweet onion (diced)",
+      "1 tablespoon Sesame oil",
+      "1 tablespoon Rice vinegar",
+      "2 teaspoons Minced garlic",
+      "1 teaspoon Ground ginger",
+      "¼ cups Soy sauce (low sodium)",
+      "16 ounces Coleslaw mix (1 bag)",
+      "½ cup Grated carrots (or matchstick)",
+      "2 Green onions (thinly sliced)",
+      "[optional] Salt (to taste)",
+      "[optional] Pepper (to taste)",
+      "[optional]1 tablespoon Hoisin sauce"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "Heat a large skillet over medium-high heat. Add ground meat and cook, stirring, until no longer pink. Drain; return meat to skillet."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Add diced onion, sesame oil, and rice vinegar to the skillet. Cook, stirring, for a few more minutes (until onion is tender)."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Add garlic, ginger, soy sauce, hoisin sauce (optional), coleslaw mix, and carrots to the skillet. Cook, stirring, for about 5-7 more minutes, or until cabbage is wilted."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Remove skillet from the heat. Stir in green onions and season with salt and pepper, to taste."
+      }
+    ]
+  }
+}

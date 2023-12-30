@@ -1,0 +1,143 @@
+{
+  "info": {
+    "title": "Banana Banana Bread",
+    "makes": null,
+    "prepTime": {
+      "value": 15,
+      "unit": "minutes"
+    },
+    "cookTime": {
+      "value": 1.25,
+      "unit": "hours"
+    },
+    "description": "This banana bread recipe creates the most delicious, moist loaf with loads of banana flavor. Why compromise the banana flavor? Friends and family love my recipe and say it's by far the best! It tastes wonderful toasted. Enjoy!",
+    "source": {
+      "label": "allrecipes.com",
+      "url": "https://www.allrecipes.com/recipe/20144/banana-banana-bread/"
+    }
+  },
+  "ingredients": [
+    {
+      "subHeading": null,
+      "items": [
+        {
+          "name": "All-purpose flour",
+          "measurement": 2,
+          "measurementUnit": "cups",
+          "qualifierString": null,
+          "isConvertibleUnit": true
+        },
+        {
+          "name": "Baking soda",
+          "measurement": 1,
+          "measurementUnit": "teaspoon",
+          "qualifierString": null,
+          "isConvertibleUnit": true
+        },
+        {
+          "name": "Salt",
+          "measurement": 0.25,
+          "measurementUnit": "teaspoon",
+          "qualifierString": null,
+          "isConvertibleUnit": true
+        },
+        {
+          "name": "Brown sugar",
+          "measurement": 0.75,
+          "measurementUnit": "cup",
+          "qualifierString": null,
+          "isConvertibleUnit": true
+        },
+        {
+          "name": "Butter",
+          "measurement": 0.5,
+          "measurementUnit": "cup",
+          "qualifierString": null,
+          "isConvertibleUnit": true
+        },
+        {
+          "name": "Large Eggs",
+          "measurement": 2,
+          "measurementUnit": null,
+          "qualifierString": "beaten",
+          "isConvertibleUnit": false
+        },
+        {
+          "name": "Mashed overripe bananas",
+          "measurement": 2.25,
+          "measurementUnit": "cups",
+          "qualifierString": null,
+          "isConvertibleUnit": true
+        }
+      ]
+    }
+  ],
+  "directions": [
+    "Preheat the oven to 350 degrees F (175 degrees C)",
+    "Lightly grease a 9x5-inch loaf pan",
+    "Combine flour, baking soda, and salt in large bowl #1",
+    "Beat brown sugar and butter with an electric mixer in large bowl #2 until smooth",
+    "Stir eggs and mashed bananas into bowl #2 until well blended",
+    "Stir bowl #2 into bowl #1 until just combined",
+    "Pour batter into the prepared loaf pan",
+    "Bake in the preheated oven until a toothpick inserted into the center comes out clean - about 60 minutes.",
+    "Let bread cool in pan for 10 minutes, then turn out onto a wire rack to cool completely."
+  ],
+  "structuredData": {
+    "@context": "https://schema.org/",
+    "@type": "Recipe",
+    "name": "Banana Banana Bread",
+    "author": { "@type": "Person", "name": "Ryan Daley" },
+    "description": "This banana bread recipe creates the most delicious, moist loaf with loads of banana flavor. Why compromise the banana flavor? Friends and family love my recipe and say it's by far the best! It tastes wonderful toasted. Enjoy!",
+    "prepTime": "PT15M",
+    "cookTime": "PT1H30M",
+    "totalTime": "PT1H45M",
+    "recipeIngredient": [
+      "2 cups All-purpose flour",
+      "1 teaspoon Baking soda",
+      "¼ teaspoon Salt",
+      "¾ cup Brown sugar",
+      "½ cup Butter",
+      "2 Large Eggs (beaten)",
+      "2¼ cups Mashed overripe bananas"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "Preheat the oven to 350 degrees F (175 degrees C)"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Lightly grease a 9x5-inch loaf pan"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Combine flour, baking soda, and salt in large bowl #1"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Beat brown sugar and butter with an electric mixer in large bowl #2 until smooth"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Stir eggs and mashed bananas into bowl #2 until well blended"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Stir bowl #2 into bowl #1 until just combined"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Pour batter into the prepared loaf pan"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Bake in the preheated oven until a toothpick inserted into the center comes out clean - about 60 minutes."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Let bread cool in pan for 10 minutes, then turn out onto a wire rack to cool completely."
+      }
+    ]
+  }
+}

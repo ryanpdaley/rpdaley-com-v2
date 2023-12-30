@@ -1,0 +1,132 @@
+{
+  "info": {
+    "title": "Classic Waffles",
+    "makes": "10 to 12 waffles",
+    "prepTime": {
+      "value": 10,
+      "unit": "minutes"
+    },
+    "cookTime": {
+      "value": 15,
+      "unit": "minutes"
+    },
+    "description": "These waffles turn out lovely and crispy. Perfect for any day of the week!",
+    "source": {
+      "label": "allrecipes.com",
+      "url": "https://www.allrecipes.com/recipe/20513/classic-waffles/"
+    }
+  },
+  "ingredients": [
+    {
+      "subHeading": null,
+      "items": [
+        {
+          "name": "All-purpose flour",
+          "measurement": 2,
+          "measurementUnit": "cups",
+          "qualifierString": null,
+          "isConvertibleUnit": true
+        },
+        {
+          "name": "White sugar",
+          "measurement": 2,
+          "measurementUnit": "tablespoons",
+          "qualifierString": null,
+          "isConvertibleUnit": true
+        },
+        {
+          "name": "Baking powder",
+          "measurement": 4,
+          "measurementUnit": "teaspoons",
+          "qualifierString": null,
+          "isConvertibleUnit": true
+        },
+        {
+          "name": "Salt",
+          "measurement": 1,
+          "measurementUnit": "teaspoon",
+          "qualifierString": null,
+          "isConvertibleUnit": true
+        },
+        {
+          "name": "Eggs",
+          "measurement": 2,
+          "measurementUnit": null,
+          "qualifierString": null,
+          "isConvertibleUnit": false
+        },
+        {
+          "name": "Milk",
+          "measurement": 1.5,
+          "measurementUnit": "cups",
+          "qualifierString": "warm",
+          "isConvertibleUnit": true
+        },
+        {
+          "name": "Vanilla",
+          "measurement": 1,
+          "measurementUnit": "teaspoon",
+          "qualifierString": null,
+          "isConvertibleUnit": true
+        },
+        {
+          "name": "Butter",
+          "measurement": 0.33,
+          "measurementUnit": "cup",
+          "qualifierString": "melted",
+          "isConvertibleUnit": true
+        }
+      ]
+    }
+  ],
+  "directions": [
+    "Preheat waffle iron to desired temperature",
+    "In a large bowl, mix together flour, salt, baking powder and sugar; set aside",
+    "In a separate bowl, beat the eggs. Stir in the milk, butter and vanilla",
+    "Pour the milk mixture into the flour mixture; beat until blended",
+    "Cook the waffles until golden and crisp"
+  ],
+  "structuredData": {
+    "@context": "https://schema.org/",
+    "@type": "Recipe",
+    "name": "Classic Waffles",
+    "author": { "@type": "Person", "name": "Ryan Daley" },
+    "description": "These waffles turn out lovely and crispy. Perfect for any day of the week!",
+    "prepTime": "PT10M",
+    "cookTime": "PT15M",
+    "totalTime": "PT25M",
+    "recipeYield": "10 to 12 waffles",
+    "recipeIngredient": [
+      "2 cups All-purpose flour",
+      "2 tablespoons White sugar",
+      "4 teaspoons Baking powder",
+      "1 teaspoon Salt",
+      "2 Eggs",
+      "1½ cups Milk (warm)",
+      "1 teaspoon Vanilla",
+      "⅓ cup Butter (melted)"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "Preheat waffle iron to desired temperature"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "In a large bowl, mix together flour, salt, baking powder and sugar; set aside"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "In a separate bowl, beat the eggs. Stir in the milk, butter and vanilla"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Pour the milk mixture into the flour mixture; beat until blended"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Cook the waffles until golden and crisp"
+      }
+    ]
+  }
+}
