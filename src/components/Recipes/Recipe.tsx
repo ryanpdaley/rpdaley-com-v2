@@ -7,17 +7,19 @@ import RecipeBody from './components/RecipeBody/RecipeBody';
 const RECIPE_ROOT_DIR = 'https://rpdaley.com/configs/recipes/items';
 
 const RecipeView = ({ recipeData, checkedItems, setCheckedItems }) => (
-  <div className="block">
+  <div className="block pb-2">
     <div className="py-2">
       <Link className="text-4xl inline-block align-middle" href="/recipes">
-        <IoArrowBack />
+        <div className="border-solid border-2 rounded-md mx-2">
+          <IoArrowBack />
+        </div>
       </Link>
       <div className="text-3xl inline-block align-middle">
         {recipeData.info.title}
       </div>
     </div>
 
-    <div className="border-solid border-2">
+    <div className="md:border-solid md:border-2">
       <RecipeInfo recipeInfo={recipeData.info} />
       <RecipeBody
         recipeDirections={recipeData.directions}
