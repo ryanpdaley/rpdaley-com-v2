@@ -32,7 +32,9 @@ const IngredientsSection = ({
   return (
     <div>
       {ingredientSection.subHeading && (
-        <div className="text-lg px-5">{ingredientSection.subHeading}:</div>
+        <div className="text-lg px-5 font-medium font-oswald">
+          {ingredientSection.subHeading}:
+        </div>
       )}
       <table>
         <tbody>
@@ -71,7 +73,9 @@ const RecipeIngredients = ({
   setCheckedItems,
 }: RecipeIngredientsProps) => (
   <div className="block">
-    <div className="text-xl pl-2">Ingredients:</div>
+    <div className="text-xl ml-2 font-medium underline decoration-double font-oswald">
+      Ingredients:
+    </div>
     {recipeIngredients.map((ingredientSection, index) => (
       <IngredientsSection
         ingredientSection={ingredientSection}

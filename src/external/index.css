@@ -618,6 +618,10 @@ video {
   margin-top: -8rem;
 }
 
+.ml-2 {
+  margin-left: 0.5rem;
+}
+
 .block {
   display: block;
 }
@@ -957,10 +961,6 @@ video {
   padding-left: 2.5rem;
 }
 
-.pl-2 {
-  padding-left: 0.5rem;
-}
-
 .pr-2 {
   padding-right: 0.5rem;
 }
@@ -1047,6 +1047,10 @@ video {
   font-weight: 700;
 }
 
+.font-medium {
+  font-weight: 500;
+}
+
 .font-semibold {
   font-weight: 600;
 }
@@ -1080,6 +1084,10 @@ video {
 
 .underline {
   text-decoration-line: underline;
+}
+
+.decoration-double {
+  text-decoration-style: double;
 }
 
 .filter {

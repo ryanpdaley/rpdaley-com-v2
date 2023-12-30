@@ -5,7 +5,7 @@ import { captureClick } from '../../../lib/rtools';
 
 const Description = ({ recipeInfo }: RecipeInfoProps) => (
   <div className="pb-2">
-    <div className="text-xl">Description:</div>
+    <div className="text-xl font-oswald">Description:</div>
     <div className="px-5">
       <p>{recipeInfo.description}</p>
     </div>
@@ -16,7 +16,7 @@ const MetaInfo = ({ recipeInfo }: RecipeInfoProps) => {
   const yieldBlock =
     recipeInfo.makes !== null ? (
       <div className="flex-auto text-center">
-        <strong>Yields: </strong>
+        <strong className="font-oswald">Yields: </strong>
         {recipeInfo.makes}
       </div>
     ) : null;
@@ -24,7 +24,7 @@ const MetaInfo = ({ recipeInfo }: RecipeInfoProps) => {
   const cookTimeBlock =
     recipeInfo.cookTime && recipeInfo.cookTime !== null ? (
       <div className="flex-auto text-center">
-        <strong>Cook Time: </strong>
+        <strong className="font-oswald">Cook Time: </strong>
         {`${convertDecimals(recipeInfo.cookTime.value)} ${
           recipeInfo.cookTime.unit
         }`}
@@ -34,7 +34,7 @@ const MetaInfo = ({ recipeInfo }: RecipeInfoProps) => {
   const prepTimeBlock =
     recipeInfo.prepTime && recipeInfo.prepTime !== null ? (
       <div className="flex-auto text-center">
-        <strong>Prep Time: </strong>
+        <strong className="font-oswald">Prep Time: </strong>
         {`${convertDecimals(recipeInfo.prepTime.value)} ${
           recipeInfo.prepTime.unit
         }`}

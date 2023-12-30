@@ -14,7 +14,7 @@ const RecipeView = ({ recipeData, checkedItems, setCheckedItems }) => (
           <IoArrowBack />
         </div>
       </Link>
-      <div className="text-3xl inline-block align-middle">
+      <div className="text-3xl inline-block align-middle font-oswald">
         {recipeData.info.title}
       </div>
     </div>
