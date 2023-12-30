@@ -21,7 +21,6 @@ const IngredientsSection = ({
   };
 
   useEffect(() => {
-    console.log(checkedItems);
     gaEvent({
       action: 'ingredient_Checked',
       category: 'User Action',
