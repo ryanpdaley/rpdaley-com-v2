@@ -5,6 +5,7 @@ import RecipeInfo from './components/RecipeInfo';
 import RecipeBody from './components/RecipeBody/RecipeBody';
 
 const RECIPE_ROOT_DIR = 'https://rpdaley.com/configs/recipes/items';
+const RECIPE_ROOT_CONFIG = 'https://rpdaley.com/configs/recipes/root.json';
 
 const RecipeView = ({ recipeData, checkedItems, setCheckedItems }) => (
   <div className="block pb-2">
@@ -31,24 +32,54 @@ const RecipeView = ({ recipeData, checkedItems, setCheckedItems }) => (
   </div>
 );
 
+const ErrorView = ({ id }) => (
+  <div>
+    <div className="text-4xl p-5">
+      No &apos;{id}&apos; Recipe Found.{' '}
+      <Link className="underline" href="/recipes">
+        Back to all recipes.
+      </Link>
+    </div>
+  </div>
+);
+
 const RecipeComponent = ({ id }) => {
   const [recipeData, setRecipeData] = useState(null);
   const [checkedItems, setCheckedItems] = useState<string[]>([]);
+  const [recipeRoute, setRecipeRoute] = useState(null);
+
   useEffect(() => {
-    fetch(`${RECIPE_ROOT_DIR}/${id}.json`)
+    fetch(RECIPE_ROOT_CONFIG)
       .then((rootData) => rootData.json())
       .then((rootDataJson) => {
-        setRecipeData(rootDataJson);
+        rootDataJson.forEach((element) => {
+          if (element.route === id[0]) {
+            setRecipeRoute(element.route);
+          }
+        });
       });
   }, [id]);
+
+  useEffect(() => {
+    if (recipeRoute) {
+      fetch(`${RECIPE_ROOT_DIR}/${recipeRoute}.json`)
+        .then((rootData) => rootData.json())
+        .then((rootDataJson) => {
+          setRecipeData(rootDataJson);
+        });
+    }
+  }, [recipeRoute]);
+
   return (
     <div className="max-w-screen-xl mx-auto">
-      {recipeData && (
+      {recipeData && recipeRoute ? (
         <RecipeView
           recipeData={recipeData}
           checkedItems={checkedItems}
           setCheckedItems={setCheckedItems}
         />
+      ) : (
+        <ErrorView id={id} />
       )}
     </div>
   );
