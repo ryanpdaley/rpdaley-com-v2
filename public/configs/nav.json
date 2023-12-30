@@ -32,6 +32,6 @@
   {
     "name": "Recipes",
     "relLink": "/recipes",
-    "isActive": false
+    "isActive": true
   }
 ]
