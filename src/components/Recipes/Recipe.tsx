@@ -46,7 +46,6 @@ const ErrorView = ({ id }) => (
 const RecipeComponent = ({ id }) => {
   const [recipeData, setRecipeData] = useState(null);
   const [checkedItems, setCheckedItems] = useState<string[]>([]);
-  const [recipeRoute, setRecipeRoute] = useState(null);
 
   useEffect(() => {
     fetch(RECIPE_ROOT_CONFIG)
@@ -54,32 +53,24 @@ const RecipeComponent = ({ id }) => {
       .then((rootDataJson) => {
         rootDataJson.forEach((element) => {
           if (element.route === id[0]) {
-            setRecipeRoute(element.route);
+            fetch(`${RECIPE_ROOT_DIR}/${element.route}.json`)
+              .then((recipeFetchData) => recipeFetchData.json())
+              .then((recipeFetchJson) => {
+                setRecipeData(recipeFetchJson);
+              });
           }
         });
       });
   }, [id]);
 
-  useEffect(() => {
-    if (recipeRoute) {
-      fetch(`${RECIPE_ROOT_DIR}/${recipeRoute}.json`)
-        .then((rootData) => rootData.json())
-        .then((rootDataJson) => {
-          setRecipeData(rootDataJson);
-        });
-    }
-  }, [recipeRoute]);
-
   return (
     <div className="max-w-screen-xl mx-auto">
-      {recipeData && recipeRoute ? (
+      {recipeData && (
         <RecipeView
           recipeData={recipeData}
           checkedItems={checkedItems}
           setCheckedItems={setCheckedItems}
         />
-      ) : (
-        <ErrorView id={id} />
       )}
     </div>
   );
