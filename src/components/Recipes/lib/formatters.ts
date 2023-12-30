@@ -14,14 +14,14 @@ export const convertDecimals = (measurement: number): string => {
 };
 
 export const getMeasurementString = (
-  measurement: null | number | number[]
+  measurement: null | number | number[],
 ): string => {
   if (measurement == null || measurement === undefined) {
     return '';
   }
   if (Array.isArray(measurement) && measurement.length === 2) {
     return `${convertDecimals(measurement[0])}-${convertDecimals(
-      measurement[1]
+      measurement[1],
     )}`;
   }
   if (typeof measurement === 'number') {
