@@ -2,16 +2,24 @@ import Link from 'next/link';
 import { useEffect, useState } from 'react';
 
 const RECIPE_ROOT_CONFIG = 'https://rpdaley.com/configs/recipes/root.json';
+
 const RecipeListView = ({ recipeListData }) => (
   <div>
-    {recipeListData.map((element, index) => {
-      const link = `recipes/${element.route}`;
-      return (
-        <div key={index}>
-          <Link href={link}>{element.title}</Link>
-        </div>
-      );
-    })}
+    <div className="text-3xl inline-block align-middle font-oswald">
+      Recipes:
+    </div>
+    <ul className="list-disc list-inside pl-10">
+      {recipeListData.map((element, index) => {
+        const link = `recipes/${element.route}`;
+        return (
+          <li key={index} className="-indent-8 px-8">
+            <Link href={link} className="hover:text-red-500">
+              {element.title}
+            </Link>
+          </li>
+        );
+      })}
+    </ul>
   </div>
 );
 
