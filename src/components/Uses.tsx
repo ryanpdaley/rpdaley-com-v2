@@ -52,7 +52,7 @@ const UsesBlock = ({ usesPageData }) => {
   const { useAffiliateLinks, usesData, lastUpdated } = usesPageData;
   return (
     <div className="max-w-screen-lg mx-auto">
-      <h1 className="text-5xl py-2  my-4 px-4 border-b-4 border-red-500 md:w-1/2 font-oswald">
+      <h1 className="text-3xl md:text-5xl py-2  my-4 px-4 border-b-4 border-red-500 md:w-1/2 font-oswald">
         Things I use:
       </h1>
       <div className="px-10 font-nunito text-xl">

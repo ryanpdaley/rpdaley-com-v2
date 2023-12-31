@@ -216,7 +216,7 @@ const AboutComponent = ({ section, selectedBlock, setSelectedBlock }) => {
     <div>
       {aboutData && (
         <div className="max-w-screen-lg mx-auto">
-          <h2 className="text-5xl py-2  my-4 px-4 border-b-4 border-red-500 w-2/6 font-oswald">
+          <h2 className="text-3xl md:text-5xl py-2  my-4 px-4 border-b-4 border-red-500 w-2/6 font-oswald">
             {aboutData.title}
           </h2>
           <div className="block">
