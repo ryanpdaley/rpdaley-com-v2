@@ -23,8 +23,13 @@ const NavItems = ({ navData, isMobile }) => {
 
   const elements = navData.map((navDataItem, index) => {
     const style = isMobile ? styles.mobile : styles.default;
+    // This will probably break if more nav items contain deeper paths
+    const navPath =
+      router.pathname.split('/')[1] === 'link'
+        ? router.pathname
+        : `/${router.pathname.split('/')[1]}`;
     if (navDataItem.isActive === true) {
-      const isActive = router.pathname === navDataItem.relLink;
+      const isActive = navPath === navDataItem.relLink;
       return (
         <Link
           key={index}
