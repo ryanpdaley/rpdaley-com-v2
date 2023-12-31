@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { useEffect, useState } from 'react';
+import { FaChevronDown, FaChevronUp } from 'react-icons/fa';
 import fetchConfig from '../lib/configs';
 import { useMobile } from '../hooks/useMobile';
 
@@ -48,7 +49,10 @@ const NavItems = ({ navData, isMobile }) => {
             tabIndex={0}
             type="button"
           >
-            Navigation
+            <div className="inline-block">Navigation</div>
+            <div className="inline-block align-middle mx-2">
+              {isMenuOpen ? <FaChevronUp /> : <FaChevronDown />}
+            </div>
           </button>
           {isMenuOpen ? (
             <div className="block fixed w-full text-2xl bg-red-500">
