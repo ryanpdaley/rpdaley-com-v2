@@ -4,7 +4,7 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
 });
 
 const nextConfig = {
-  // output: 'export',
+  output: 'export',
   reactStrictMode: true,
   trailingSlash: true,
   compiler: {
@@ -12,10 +12,6 @@ const nextConfig = {
   },
   images: {
     unoptimized: true,
-  },
-  i18n: {
-    locales: ['en'],
-    defaultLocale: 'en',
   },
 };
 
