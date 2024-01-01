@@ -43,10 +43,10 @@
     "@babel/generator" "^7.23.6"
     "@babel/helper-compilation-targets" "^7.23.6"
     "@babel/helper-module-transforms" "^7.23.3"
-    "@babel/helpers" "^7.23.6"
+    "@babel/helpers" "^7.23.7"
     "@babel/parser" "^7.23.6"
     "@babel/template" "^7.22.15"
-    "@babel/traverse" "^7.23.6"
+    "@babel/traverse" "^7.23.7"
     "@babel/types" "^7.23.6"
     convert-source-map "^2.0.0"
     debug "^4.1.0"
@@ -259,7 +259,7 @@
   integrity sha512-wCfsbN4nBidDRhpDhvcKlzHWCTlgJYUUdSJfzXb2NuBssDSIjc3xcb+znA7l+zYsFljAcGM0aFkN40cR3lXiGA==
   dependencies:
     "@babel/template" "^7.22.15"
-    "@babel/traverse" "^7.23.6"
+    "@babel/traverse" "^7.23.7"
     "@babel/types" "^7.23.6"
 
 "@babel/highlight@^7.23.4":
