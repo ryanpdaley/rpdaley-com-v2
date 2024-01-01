@@ -147,7 +147,7 @@ const AboutBlock = ({
                   className={`mx-auto border-2 rounded-lg ${
                     selected
                       ? 'bg-red-500 border-red-500'
-                      : 'bg-black border-black'
+                      : 'bg-black border-black hover:blur-sm'
                   } `}
                 />
               </a>
