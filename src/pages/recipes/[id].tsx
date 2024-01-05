@@ -16,13 +16,10 @@ export async function getStaticPaths() {
   }));
   return { paths, fallback: false };
 }
+
 // `getStaticPaths` requires using `getStaticProps`
 export async function getStaticProps({ params }) {
-  const request = await fetch(
-    `https://rpdaley.com/configs/recipes/items/${params.id}.json`,
-  );
-  const recipe = await request.json();
   return {
-    props: { data: recipe },
+    props: { recipeId: params.id },
   };
 }
