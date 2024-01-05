@@ -15,29 +15,39 @@ const Description = ({ recipeInfo }: RecipeInfoProps) => (
 const MetaInfo = ({ recipeInfo }: RecipeInfoProps) => {
   const yieldBlock =
     recipeInfo.makes !== null ? (
-      <div className="flex-auto text-center">
-        <strong className="font-oswald">Yields: </strong>
-        {recipeInfo.makes}
+      <div className="flex-auto text-center block">
+        <span className="inline-block">
+          <strong className="font-oswald">Yields: </strong>
+        </span>
+        <span className="inline-block pl-1">{recipeInfo.makes}</span>
       </div>
     ) : null;
 
   const cookTimeBlock =
     recipeInfo.cookTime && recipeInfo.cookTime !== null ? (
-      <div className="flex-auto text-center">
-        <strong className="font-oswald">Cook Time: </strong>
-        {`${convertDecimals(recipeInfo.cookTime.value)} ${
-          recipeInfo.cookTime.unit
-        }`}
+      <div className="flex-auto text-center block">
+        <span className="inline-block">
+          <strong className="font-oswald">Cook Time: </strong>
+        </span>
+        <span className="inline-block pl-1">
+          {`${convertDecimals(recipeInfo.cookTime.value)} ${
+            recipeInfo.cookTime.unit
+          }`}
+        </span>
       </div>
     ) : null;
 
   const prepTimeBlock =
     recipeInfo.prepTime && recipeInfo.prepTime !== null ? (
-      <div className="flex-auto text-center">
-        <strong className="font-oswald">Prep Time: </strong>
-        {`${convertDecimals(recipeInfo.prepTime.value)} ${
-          recipeInfo.prepTime.unit
-        }`}
+      <div className="flex-auto text-center block">
+        <span className="inline-block">
+          <strong className="font-oswald">Prep Time: </strong>
+        </span>
+        <span className="inline-block pl-1">
+          {`${convertDecimals(recipeInfo.prepTime.value)} ${
+            recipeInfo.prepTime.unit
+          }`}
+        </span>
       </div>
     ) : null;
 
