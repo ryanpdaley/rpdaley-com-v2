@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import { useEffect, useState } from 'react';
+import router from 'next/router';
 import { captureClick } from '../lib/rtools';
 import fetchConfig from '../lib/configs';
 import IconString from '../lib/icons';
@@ -211,6 +212,12 @@ const AboutComponent = ({ section, selectedBlock, setSelectedBlock }) => {
       setAboutData(data);
     });
   }, [section]);
+
+  useEffect(() => {
+    if (!isMobile) {
+      router.replace('/about', undefined, { shallow: true });
+    }
+  }, [isMobile]);
 
   return (
     <div>
