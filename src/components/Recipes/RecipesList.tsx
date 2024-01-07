@@ -33,7 +33,7 @@ const RecipesList = () => {
       });
   }, []);
   return (
-    <div>
+    <div className="flex justify-center items-center md:justify-start">
       {recipeListData && <RecipeListView recipeListData={recipeListData} />}
     </div>
   );
