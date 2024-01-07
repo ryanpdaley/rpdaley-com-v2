@@ -5,7 +5,6 @@ import RecipeInfo from './components/RecipeInfo';
 import RecipeBody from './components/RecipeBody/RecipeBody';
 
 const RECIPE_ROOT_DIR = 'https://rpdaley.com/configs/recipes/items';
-const RECIPE_ROOT_CONFIG = 'https://rpdaley.com/configs/recipes/root.json';
 
 const RecipeView = ({ recipeData, checkedItems, setCheckedItems }) => (
   <div className="block pb-2">
@@ -32,36 +31,17 @@ const RecipeView = ({ recipeData, checkedItems, setCheckedItems }) => (
   </div>
 );
 
-const ErrorView = ({ id }) => (
-  <div>
-    <div className="text-4xl p-5">
-      No &apos;{id}&apos; Recipe Found.{' '}
-      <Link className="underline" href="/recipes">
-        Back to all recipes.
-      </Link>
-    </div>
-  </div>
-);
-
-const RecipeComponent = ({ id }) => {
+const RecipeComponent = ({ data }) => {
+  const { recipeId } = data;
   const [recipeData, setRecipeData] = useState(null);
   const [checkedItems, setCheckedItems] = useState<string[]>([]);
-
   useEffect(() => {
-    fetch(RECIPE_ROOT_CONFIG)
-      .then((rootData) => rootData.json())
-      .then((rootDataJson) => {
-        rootDataJson.forEach((element) => {
-          if (element.route === id[0]) {
-            fetch(`${RECIPE_ROOT_DIR}/${element.route}.json`)
-              .then((recipeFetchData) => recipeFetchData.json())
-              .then((recipeFetchJson) => {
-                setRecipeData(recipeFetchJson);
-              });
-          }
-        });
+    fetch(`${RECIPE_ROOT_DIR}/${recipeId}.json`)
+      .then((recipeFetchData) => recipeFetchData.json())
+      .then((recipeFetchJson) => {
+        setRecipeData(recipeFetchJson);
       });
-  }, [id]);
+  }, [recipeId]);
 
   return (
     <div className="max-w-screen-xl mx-auto">

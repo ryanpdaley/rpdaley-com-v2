@@ -43,7 +43,7 @@ const ResumeBlock = ({ resumeObj }) => (
 export default function Resume() {
   return (
     <div className="mx-auto w-3/4 grid grid-cols-1 divide-y-2 divide-slate-500">
-      <div className="text-5xl font-oswald">Resumes:</div>
+      <div className="text-3xl md:text-5xl font-oswald">Resumes:</div>
       <ResumeBlock resumeObj={resumeInfo} />
       <ResumeBlock resumeObj={atsResumeInfo} />
     </div>

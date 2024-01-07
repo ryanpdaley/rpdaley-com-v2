@@ -42,6 +42,15 @@ const App = ({ Component, pageProps }) => {
     };
   }, [router.events]);
 
+  useEffect(() => {
+    gtag.event({
+      action: 'metadata',
+      category: 'metadata',
+      label: 'Site Version',
+      value: gtag.GA_APP_VERSION,
+    });
+  });
+
   return (
     <main
       className={`${oswald.variable} ${nunito.variable} ${lato.variable} font-sans`}

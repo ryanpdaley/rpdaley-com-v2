@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import { useEffect, useState } from 'react';
+import router from 'next/router';
 import { captureClick } from '../lib/rtools';
 import fetchConfig from '../lib/configs';
 import IconString from '../lib/icons';
@@ -147,7 +148,7 @@ const AboutBlock = ({
                   className={`mx-auto border-2 rounded-lg ${
                     selected
                       ? 'bg-red-500 border-red-500'
-                      : 'bg-black border-black'
+                      : 'bg-black border-black hover:blur-sm'
                   } `}
                 />
               </a>
@@ -212,11 +213,17 @@ const AboutComponent = ({ section, selectedBlock, setSelectedBlock }) => {
     });
   }, [section]);
 
+  useEffect(() => {
+    if (!isMobile) {
+      router.replace('/about', undefined, { shallow: true });
+    }
+  }, [isMobile]);
+
   return (
     <div>
       {aboutData && (
         <div className="max-w-screen-lg mx-auto">
-          <h2 className="text-5xl py-2  my-4 px-4 border-b-4 border-red-500 w-2/6 font-oswald">
+          <h2 className="text-3xl md:text-5xl py-2  my-4 px-4 border-b-4 border-red-500 w-2/6 font-oswald">
             {aboutData.title}
           </h2>
           <div className="block">

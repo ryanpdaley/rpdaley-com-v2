@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { useEffect, useState } from 'react';
+import { FaChevronDown, FaChevronUp } from 'react-icons/fa';
 import fetchConfig from '../lib/configs';
 import { useMobile } from '../hooks/useMobile';
 
@@ -22,8 +23,13 @@ const NavItems = ({ navData, isMobile }) => {
 
   const elements = navData.map((navDataItem, index) => {
     const style = isMobile ? styles.mobile : styles.default;
+    // This will probably break if more nav items contain deeper paths
+    const navPath =
+      router.pathname.split('/')[1] === 'link'
+        ? router.pathname
+        : `/${router.pathname.split('/')[1]}`;
     if (navDataItem.isActive === true) {
-      const isActive = router.pathname === navDataItem.relLink;
+      const isActive = navPath === navDataItem.relLink;
       return (
         <Link
           key={index}
@@ -48,7 +54,10 @@ const NavItems = ({ navData, isMobile }) => {
             tabIndex={0}
             type="button"
           >
-            Navigation
+            <div className="inline-block">Navigation</div>
+            <div className="inline-block align-middle mx-2">
+              {isMenuOpen ? <FaChevronUp /> : <FaChevronDown />}
+            </div>
           </button>
           {isMenuOpen ? (
             <div className="block fixed w-full text-2xl bg-red-500">
