@@ -31,7 +31,7 @@ Router.events.on('routeChangeError', () => nProgress.done());
 const App = ({ Component, pageProps }) => {
   const router = useRouter();
   useEffect(() => {
-    const handleRouteChange = (url) => {
+    const handleRouteChange = (url: string) => {
       gtag.pageview(url);
     };
     router.events.on('routeChangeComplete', handleRouteChange);
