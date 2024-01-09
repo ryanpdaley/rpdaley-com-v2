@@ -1,42 +1,36 @@
 import RecipeBody from './RecipeBody/RecipeBody';
 import RecipeInfo from './RecipeInfo';
 
-const RecipePrintView = ({ recipeData, checkedItems, setCheckedItems }) => {
-  console.log('RecipePrintView');
-  return (
-    <div>
-      <RecipeBody
-        recipeDirections={recipeData.directions}
-        recipeIngredients={recipeData.ingredients}
-        checkedItems={checkedItems}
-        setCheckedItems={setCheckedItems}
-      />
-    </div>
-  );
-};
+const RecipePrintView = ({ recipeData, checkedItems, setCheckedItems }) => (
+  <div>
+    <RecipeBody
+      recipeDirections={recipeData.directions}
+      recipeIngredients={recipeData.ingredients}
+      checkedItems={checkedItems}
+      setCheckedItems={setCheckedItems}
+    />
+  </div>
+);
 
-const ShoppingListPrintView = ({ checkedItems }) => {
-  console.log('ShoppingListPrintView');
-  return (
-    <div className="block">
-      <div className="text-2xl ml-2 mb-2 font-medium underline decoration-double font-oswald">
-        Shopping List:
-      </div>
-      <div>
-        {checkedItems.map((item, index) => (
-          <div key={index} className="ml-4">
-            <input
-              type="checkbox"
-              defaultChecked={false}
-              className="align-middle"
-            />
-            <span className="ml-2 align-middle">{item}</span>
-          </div>
-        ))}
-      </div>
+const ShoppingListPrintView = ({ checkedItems }) => (
+  <div className="block">
+    <div className="text-2xl ml-2 mb-2 font-medium underline decoration-double font-oswald">
+      Shopping List:
     </div>
-  );
-};
+    <div>
+      {checkedItems.map((item, index) => (
+        <div key={index} className="ml-4">
+          <input
+            type="checkbox"
+            defaultChecked={false}
+            className="align-middle"
+          />
+          <span className="ml-2 align-middle">{item}</span>
+        </div>
+      ))}
+    </div>
+  </div>
+);
 
 const RecipePrintViews = ({
   type,
