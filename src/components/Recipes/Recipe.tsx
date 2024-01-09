@@ -49,7 +49,7 @@ const RecipeView = ({
         </div>
       </div>
     ),
-    []
+    [],
   );
 
   const reactToPrintTriggerShoppingList = useCallback(
@@ -63,7 +63,7 @@ const RecipeView = ({
         </div>
       </div>
     ),
-    []
+    [],
   );
 
   return (
@@ -94,7 +94,7 @@ const RecipeView = ({
               content={reactToPrintContentShoppingList}
               documentTitle={`${recipeData.info.title.replace(
                 /\s/g,
-                ''
+                '',
               )}-ShoppingList`}
               trigger={reactToPrintTriggerShoppingList}
             />
