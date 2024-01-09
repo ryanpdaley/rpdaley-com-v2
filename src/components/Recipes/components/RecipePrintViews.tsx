@@ -1,12 +1,7 @@
 import RecipeBody from './RecipeBody/RecipeBody';
 import RecipeInfo from './RecipeInfo';
 
-const RecipePrintView = ({
-  recipeData,
-  checkedItems,
-  setCheckedItems,
-  ref,
-}) => {
+const RecipePrintView = ({ recipeData, checkedItems, setCheckedItems }) => {
   console.log('RecipePrintView');
   return (
     <div>
@@ -20,12 +15,7 @@ const RecipePrintView = ({
   );
 };
 
-const ShoppingListPrintView = ({
-  recipeData,
-  checkedItems,
-  setCheckedItems,
-  ref,
-}) => {
+const ShoppingListPrintView = ({ checkedItems }) => {
   console.log('ShoppingListPrintView');
   return (
     <div className="block">
@@ -53,9 +43,8 @@ const RecipePrintViews = ({
   recipeData,
   checkedItems,
   setCheckedItems,
-  ref,
 }) => (
-  <div>
+  <div className="p-8">
     <div className="text-3xl inline-block align-middle font-oswald">
       {recipeData.info.title}
     </div>
@@ -65,16 +54,10 @@ const RecipePrintViews = ({
         recipeData={recipeData}
         checkedItems={checkedItems}
         setCheckedItems={setCheckedItems}
-        ref={ref}
       />
     )}
     {type === 'shoppingList' && (
-      <ShoppingListPrintView
-        recipeData={recipeData}
-        checkedItems={checkedItems}
-        setCheckedItems={setCheckedItems}
-        ref={ref}
-      />
+      <ShoppingListPrintView checkedItems={checkedItems} />
     )}
   </div>
 );

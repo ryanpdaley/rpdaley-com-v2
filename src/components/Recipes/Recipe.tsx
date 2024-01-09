@@ -18,6 +18,10 @@ const RecipeView = ({
   componentRefRecipe,
   componentRefShoppingList,
 }) => {
+  const shoppingListIsActive = checkedItems.length > 0;
+  const shoppingListActiveElements = shoppingListIsActive
+    ? 'cursor-pointer hover:text-red-500'
+    : 'cursor-not-allowed';
   const reactToPrintContentRecipe = useCallback(() => {
     gaEvent({
       action: 'Recipe Printed',
@@ -54,16 +58,20 @@ const RecipeView = ({
 
   const reactToPrintTriggerShoppingList = useCallback(
     () => (
-      <div className="block text-xl border-solid border-2 rounded-md px-2 m-1 cursor-pointer hover:text-red-500">
+      <button
+        type="button"
+        disabled={!shoppingListIsActive}
+        className={`block text-xl border-solid border-2 rounded-md px-2 m-1 ${shoppingListActiveElements}`}
+      >
         <div className="inline-block px-1 align-middle">
           <FaShoppingBasket />
         </div>
         <div className="inline-block align-middle font-oswald">
           Print Shopping List
         </div>
-      </div>
+      </button>
     ),
-    [],
+    [shoppingListActiveElements, shoppingListIsActive],
   );
 
   return (
@@ -81,32 +89,31 @@ const RecipeView = ({
 
       <div className="md:border-solid md:border-2">
         <RecipeInfo recipeInfo={recipeData.info} />
-        <div className="block text-right">
-          <div className="inline-block">
-            <ReactToPrint
-              content={reactToPrintContentRecipe}
-              documentTitle={recipeData.info.title.replace(/\s/g, '')}
-              trigger={reactToPrintTriggerRecipe}
-            />
-          </div>
-          <div className="inline-block">
-            <ReactToPrint
-              content={reactToPrintContentShoppingList}
-              documentTitle={`${recipeData.info.title.replace(
-                /\s/g,
-                '',
-              )}-ShoppingList`}
-              trigger={reactToPrintTriggerShoppingList}
-            />
-          </div>
-        </div>
-
         <RecipeBody
           recipeDirections={recipeData.directions}
           recipeIngredients={recipeData.ingredients}
           checkedItems={checkedItems}
           setCheckedItems={setCheckedItems}
         />
+      </div>
+      <div className="block text-right">
+        <div className="inline-block">
+          <ReactToPrint
+            content={reactToPrintContentRecipe}
+            documentTitle={recipeData.info.title.replace(/\s/g, '')}
+            trigger={reactToPrintTriggerRecipe}
+          />
+        </div>
+        <div className="inline-block">
+          <ReactToPrint
+            content={reactToPrintContentShoppingList}
+            documentTitle={`${recipeData.info.title.replace(
+              /\s/g,
+              '',
+            )}-ShoppingList`}
+            trigger={reactToPrintTriggerShoppingList}
+          />
+        </div>
       </div>
     </div>
   );
@@ -145,7 +152,6 @@ const RecipeComponent = ({ data }) => {
                 recipeData={recipeData}
                 checkedItems={checkedItems}
                 setCheckedItems={setCheckedItems}
-                ref={componentRefRecipe}
               />
             </div>
           </div>
@@ -156,7 +162,6 @@ const RecipeComponent = ({ data }) => {
                 recipeData={recipeData}
                 checkedItems={checkedItems}
                 setCheckedItems={setCheckedItems}
-                ref={componentRefShoppingList}
               />
             </div>
           </div>
