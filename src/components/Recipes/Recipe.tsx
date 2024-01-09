@@ -21,7 +21,7 @@ const RecipeView = ({
   const shoppingListIsActive = checkedItems.length > 0;
   const shoppingListActiveElements = shoppingListIsActive
     ? 'cursor-pointer hover:text-red-500'
-    : 'cursor-not-allowed';
+    : 'cursor-not-allowed text-gray-400';
   const reactToPrintContentRecipe = useCallback(() => {
     gaEvent({
       action: 'Recipe Printed',
@@ -61,7 +61,7 @@ const RecipeView = ({
       <button
         type="button"
         disabled={!shoppingListIsActive}
-        className={`block text-xl border-solid border-2 rounded-md px-2 m-1 ${shoppingListActiveElements}`}
+        className={`block text-xl border-solid border-2 rounded-md px-2 m-1 ${shoppingListActiveElements} `}
       >
         <div className="inline-block px-1 align-middle">
           <FaShoppingBasket />
