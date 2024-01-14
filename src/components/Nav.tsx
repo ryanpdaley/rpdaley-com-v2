@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { useEffect, useState } from 'react';
-import { FaChevronDown, FaChevronUp } from 'react-icons/fa';
+import { FaChevronDown } from 'react-icons/fa';
 import fetchConfig from '../lib/configs';
 import { useMobile } from '../hooks/useMobile';
 
@@ -55,8 +55,12 @@ const NavItems = ({ navData, isMobile }) => {
             type="button"
           >
             <div className="inline-block">Navigation</div>
-            <div className="inline-block align-middle mx-2">
-              {isMenuOpen ? <FaChevronUp /> : <FaChevronDown />}
+            <div
+              className={`inline-block align-middle mx-2 duration-200 transition ${
+                isMenuOpen ? 'rotate-180' : ''
+              }`}
+            >
+              <FaChevronDown />
             </div>
           </button>
           {isMenuOpen ? (
