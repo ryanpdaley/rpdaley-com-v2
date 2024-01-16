@@ -221,7 +221,6 @@ const AboutComponent = ({
     null,
   );
   const isMobile: boolean = useMobile();
-  console.log(section, selectedBlock);
 
   useEffect(() => {
     fetchConfig(section).then((data) => {
