@@ -5,6 +5,12 @@ import { FaChevronDown } from 'react-icons/fa';
 import fetchConfig from '../lib/configs';
 import { useMobile } from '../hooks/useMobile';
 
+type NavData = {
+  name: string;
+  relLink: string;
+  isActive: boolean;
+};
+
 const NavItems = ({ navData, isMobile }) => {
   const router = useRouter();
   const [isMenuOpen, setMenuOpen] = useState(false);
@@ -21,7 +27,7 @@ const NavItems = ({ navData, isMobile }) => {
     },
   };
 
-  const elements = navData.map((navDataItem, index) => {
+  const elements = navData.map((navDataItem: NavData, index: Key) => {
     const style = isMobile ? styles.mobile : styles.default;
     // This will probably break if more nav items contain deeper paths
     const navPath =
@@ -65,7 +71,7 @@ const NavItems = ({ navData, isMobile }) => {
           </button>
           {isMenuOpen ? (
             <div className="block fixed w-full text-2xl bg-red-500">
-              {elements.map((element, index) => (
+              {elements.map((element: null | ReactElement, index: Key) => (
                 <div key={index}>{element}</div>
               ))}
             </div>
@@ -79,7 +85,7 @@ const NavItems = ({ navData, isMobile }) => {
 };
 
 const Nav = () => {
-  const [navData, setNavData] = useState(null);
+  const [navData, setNavData] = useState<NavData | null>(null);
   const isMobile = useMobile();
 
   useEffect(() => {

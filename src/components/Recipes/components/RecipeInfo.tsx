@@ -85,7 +85,7 @@ const SourceBlock = ({ recipeInfo }: RecipeInfoProps) => {
   );
 };
 
-const RecipeInfo = ({ recipeInfo }) => (
+const RecipeInfo = ({ recipeInfo }: RecipeInfoProps) => (
   <div>
     <div className="border-solid border-2 rounded-lg m-2 p-2 divide-y divide-solid">
       <Description recipeInfo={recipeInfo} />

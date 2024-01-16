@@ -1,3 +1,4 @@
+import { RecipeBodyType } from '../../types';
 import RecipeDirections from './components/RecipeDirections';
 import RecipeIngredients from './components/RecipeIngredients';
 
@@ -6,7 +7,7 @@ const RecipeBody = ({
   recipeIngredients,
   checkedItems,
   setCheckedItems,
-}) => (
+}: RecipeBodyType) => (
   <div className="md:flex md:flex-row md:gap-4 divide-y-2 divide-dotted md:divide-x-2 md:divide-y-0">
     <div className="md:basis-1/3 pb-2">
       <RecipeIngredients

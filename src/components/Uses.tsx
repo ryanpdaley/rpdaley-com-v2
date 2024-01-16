@@ -1,6 +1,23 @@
-import { useEffect, useState } from 'react';
+import { Key, useEffect, useState } from 'react';
 import fetchConfig from '../lib/configs';
 import { captureClick } from '../lib/rtools';
+
+interface UsesDataItem {
+  itemName: string;
+  itemVersion: null | string;
+  itemLink: null | string;
+  aLink: null | string;
+  itemDescription: string;
+}
+
+type UsesData = {
+  useAffiliateLinks: boolean;
+  lastUpdated: string;
+  usesData: {
+    section: string;
+    items: UsesDataItem[];
+  }[];
+};
 
 const UsesItem = ({ item, affiliateLinks }) => {
   let { itemLink, itemVersion } = item;
@@ -47,9 +64,9 @@ const UsesSection = ({ usesData, affiliateLinks }) => (
   </div>
 );
 
-const UsesBlock = ({ usesPageData }) => {
+const UsesBlock = ({ useAffiliateLinks, usesData, lastUpdated }: UsesData) => {
   const clickInfo = { name: 'uses.tech', link: 'https://uses.tech/' };
-  const { useAffiliateLinks, usesData, lastUpdated } = usesPageData;
+  // const { useAffiliateLinks, usesData, lastUpdated } = usesPageData;
   return (
     <div className="max-w-screen-lg mx-auto">
       <h1 className="text-3xl md:text-5xl py-2  my-4 px-4 border-b-4 border-red-500 md:w-1/2 font-oswald">
@@ -72,7 +89,7 @@ const UsesBlock = ({ usesPageData }) => {
           for more info.
         </p>
       </div>
-      {usesData.map((item, i) => (
+      {usesData.map((item, i: Key) => (
         <UsesSection
           usesData={item}
           affiliateLinks={useAffiliateLinks}
@@ -89,7 +106,7 @@ const UsesBlock = ({ usesPageData }) => {
 };
 
 const UsesComponent = () => {
-  const [usesPageData, setUsesPageData] = useState(null);
+  const [usesPageData, setUsesPageData] = useState<UsesData | null>(null);
 
   useEffect(() => {
     fetchConfig('uses_data').then((data) => {
@@ -97,7 +114,7 @@ const UsesComponent = () => {
     });
   }, []);
 
-  return <div>{usesPageData && <UsesBlock usesPageData={usesPageData} />}</div>;
+  return <div>{usesPageData && <UsesBlock {...usesPageData} />}</div>;
 };
 
 export default UsesComponent;

@@ -2,26 +2,34 @@ import Link from 'next/link';
 import { useEffect, useState } from 'react';
 
 const RECIPE_ROOT_CONFIG = 'https://rpdaley.com/configs/recipes/root.json';
+type RecipeListType = {
+  title: string;
+  src: string;
+  route: string;
+}[];
 
-const RecipeListView = ({ recipeListData }) => (
-  <div>
-    <div className="text-3xl inline-block align-middle font-oswald">
-      Recipes:
+const RecipeListView = (recipeListData: RecipeListType) => {
+  const recipeList = Object.values(recipeListData);
+  return (
+    <div>
+      <div className="text-3xl inline-block align-middle font-oswald">
+        Recipes:
+      </div>
+      <ul className="list-disc list-inside pl-10">
+        {recipeList.map((element, index) => {
+          const link = `recipes/${element.route}`;
+          return (
+            <li key={index} className="-indent-8 px-8">
+              <Link href={link} className="hover:text-red-500">
+                {element.title}
+              </Link>
+            </li>
+          );
+        })}
+      </ul>
     </div>
-    <ul className="list-disc list-inside pl-10">
-      {recipeListData.map((element, index) => {
-        const link = `recipes/${element.route}`;
-        return (
-          <li key={index} className="-indent-8 px-8">
-            <Link href={link} className="hover:text-red-500">
-              {element.title}
-            </Link>
-          </li>
-        );
-      })}
-    </ul>
-  </div>
-);
+  );
+};
 
 const RecipesList = () => {
   const [recipeListData, setRecipeListData] = useState(null);
@@ -34,7 +42,7 @@ const RecipesList = () => {
   }, []);
   return (
     <div className="flex justify-center items-center md:justify-start">
-      {recipeListData && <RecipeListView recipeListData={recipeListData} />}
+      {recipeListData && <RecipeListView {...recipeListData} />}
     </div>
   );
 };

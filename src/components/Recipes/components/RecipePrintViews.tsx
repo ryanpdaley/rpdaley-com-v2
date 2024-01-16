@@ -1,5 +1,14 @@
+import { Key } from 'react';
+import { RecipeDataType, SetCheckedItems } from '../types';
 import RecipeBody from './RecipeBody/RecipeBody';
 import RecipeInfo from './RecipeInfo';
+
+type RecipePrintViewType = {
+  type: 'recipe' | 'shoppingList';
+  recipeData: RecipeDataType;
+  checkedItems: string[];
+  setCheckedItems: SetCheckedItems;
+};
 
 const RecipePrintView = ({ recipeData, checkedItems, setCheckedItems }) => (
   <div>
@@ -18,7 +27,7 @@ const ShoppingListPrintView = ({ checkedItems }) => (
       Shopping List:
     </div>
     <div>
-      {checkedItems.map((item, index) => (
+      {checkedItems.map((item: string, index: Key) => (
         <div key={index} className="ml-4">
           <input
             type="checkbox"
@@ -37,7 +46,7 @@ const RecipePrintViews = ({
   recipeData,
   checkedItems,
   setCheckedItems,
-}) => (
+}: RecipePrintViewType) => (
   <div className="p-8">
     <div className="text-3xl inline-block align-middle font-oswald">
       {recipeData.info.title}

@@ -2,7 +2,7 @@ import { useState } from 'react';
 import AboutComponent from '../components/About';
 
 const About = () => {
-  const [selectedBlock, setSelectedBlock] = useState(null);
+  const [selectedBlock, setSelectedBlock] = useState<string | null>(null);
 
   return (
     <div className="aboutBody">
