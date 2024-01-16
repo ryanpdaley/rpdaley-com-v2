@@ -1,12 +1,4 @@
-import {
-  Dispatch,
-  RefObject,
-  SetStateAction,
-  useCallback,
-  useEffect,
-  useRef,
-  useState,
-} from 'react';
+import { RefObject, useCallback, useEffect, useRef, useState } from 'react';
 import Link from 'next/link';
 import { IoArrowBack } from 'react-icons/io5';
 import ReactToPrint from 'react-to-print';
@@ -16,14 +8,14 @@ import RecipeInfo from './components/RecipeInfo';
 import RecipeBody from './components/RecipeBody/RecipeBody';
 import RecipePrintViews from './components/RecipePrintViews';
 import { event as gaEvent } from '../../lib/gtag';
-import { RecipeDataType } from './types';
+import { RecipeDataType, SetCheckedItems } from './types';
 
 const RECIPE_ROOT_DIR = 'https://rpdaley.com/configs/recipes/items';
 
-type RecipePrintViewsType = {
+type RecipeViewsType = {
   recipeData: RecipeDataType;
   checkedItems: string[];
-  setCheckedItems: Dispatch<SetStateAction<string[]>>;
+  setCheckedItems: SetCheckedItems;
   componentRefRecipe: RefObject<HTMLDivElement>;
   componentRefShoppingList: RefObject<HTMLDivElement>;
 };
@@ -34,7 +26,7 @@ const RecipeView = ({
   setCheckedItems,
   componentRefRecipe,
   componentRefShoppingList,
-}: RecipePrintViewsType) => {
+}: RecipeViewsType) => {
   const shoppingListIsActive = checkedItems.length > 0;
   const shoppingListActiveElements = shoppingListIsActive
     ? 'cursor-pointer hover:text-red-500'

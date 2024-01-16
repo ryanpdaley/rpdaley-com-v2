@@ -1,14 +1,6 @@
-import { Dispatch, SetStateAction } from 'react';
-import { IngredientSection } from '../../types';
+import { RecipeBodyType } from '../../types';
 import RecipeDirections from './components/RecipeDirections';
 import RecipeIngredients from './components/RecipeIngredients';
-
-type RecipeBodyType = {
-  recipeDirections: string[];
-  recipeIngredients: IngredientSection[];
-  checkedItems: string[];
-  setCheckedItems: Dispatch<SetStateAction<string[]>>;
-};
 
 const RecipeBody = ({
   recipeDirections,

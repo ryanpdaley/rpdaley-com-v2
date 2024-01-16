@@ -34,13 +34,13 @@ export type RecipeInfoProps = { recipeInfo: RecipeInfo };
 export type RecipeIngredientsProps = {
   recipeIngredients: IngredientSection[];
   checkedItems: string[];
-  setCheckedItems: Dispatch<SetStateAction<string[]>>;
+  setCheckedItems: SetCheckedItems;
 };
 
 export type IngredientSectionProps = {
   ingredientSection: IngredientSection;
   checkedItems: string[];
-  setCheckedItems: Dispatch<SetStateAction<string[]>>;
+  setCheckedItems: SetCheckedItems;
 };
 
 export type StructuredDataType = {
@@ -64,4 +64,15 @@ export type RecipeDataType = {
   ingredients: IngredientSection[];
   directions: string[];
   structuredData: StructuredDataType;
+};
+
+export type SetCheckedItems = Dispatch<SetStateAction<string[]>>;
+
+type RecipeDirections = string[];
+
+export type RecipeBodyType = {
+  recipeDirections: RecipeDirections;
+  recipeIngredients: IngredientSection[];
+  checkedItems: string[];
+  setCheckedItems: SetCheckedItems;
 };

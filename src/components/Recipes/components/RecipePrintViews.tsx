@@ -1,5 +1,5 @@
-import { Dispatch, Key, SetStateAction } from 'react';
-import { RecipeDataType } from '../types';
+import { Key } from 'react';
+import { RecipeDataType, SetCheckedItems } from '../types';
 import RecipeBody from './RecipeBody/RecipeBody';
 import RecipeInfo from './RecipeInfo';
 
@@ -7,7 +7,7 @@ type RecipePrintViewType = {
   type: 'recipe' | 'shoppingList';
   recipeData: RecipeDataType;
   checkedItems: string[];
-  setCheckedItems: Dispatch<SetStateAction<string[]>>;
+  setCheckedItems: SetCheckedItems;
 };
 
 const RecipePrintView = ({ recipeData, checkedItems, setCheckedItems }) => (
