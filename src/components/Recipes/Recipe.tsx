@@ -16,20 +16,9 @@ import RecipeInfo from './components/RecipeInfo';
 import RecipeBody from './components/RecipeBody/RecipeBody';
 import RecipePrintViews from './components/RecipePrintViews';
 import { event as gaEvent } from '../../lib/gtag';
-import {
-  IngredientSection,
-  RecipeInfo as RecipeInfoType,
-  StructuredDataType,
-} from './types';
+import { RecipeDataType } from './types';
 
 const RECIPE_ROOT_DIR = 'https://rpdaley.com/configs/recipes/items';
-
-type RecipeDataType = {
-  info: RecipeInfoType;
-  ingredients: IngredientSection[];
-  directions: string[];
-  structuredData: StructuredDataType;
-};
 
 type RecipePrintViewsType = {
   recipeData: RecipeDataType;

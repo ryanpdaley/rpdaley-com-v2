@@ -58,3 +58,10 @@ export type StructuredDataType = {
     text: string;
   }[];
 };
+
+export type RecipeDataType = {
+  info: RecipeInfo;
+  ingredients: IngredientSection[];
+  directions: string[];
+  structuredData: StructuredDataType;
+};
