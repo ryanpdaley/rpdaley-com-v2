@@ -3,8 +3,14 @@ import { useEffect, useState } from 'react';
 import { captureClick } from '../lib/rtools';
 import fetchConfig from '../lib/configs';
 
+type FooterData = {
+  name: string;
+  link: string;
+  logo: string;
+};
+
 const SocialItems = ({ socialData }) =>
-  socialData.map((socialLink) => (
+  socialData.map((socialLink: FooterData) => (
     <div
       className="p-1 float-right h-full rounded hover:bg-white"
       key={socialLink.name}
@@ -29,7 +35,7 @@ const SocialItems = ({ socialData }) =>
   ));
 
 const Footer = () => {
-  const [footerData, setFooterData] = useState(null);
+  const [footerData, setFooterData] = useState<FooterData | null>(null);
 
   useEffect(() => {
     fetchConfig('footer_data').then((data) => {

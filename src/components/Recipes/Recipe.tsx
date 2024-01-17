@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useRef, useState } from 'react';
+import { RefObject, useCallback, useEffect, useRef, useState } from 'react';
 import Link from 'next/link';
 import { IoArrowBack } from 'react-icons/io5';
 import ReactToPrint from 'react-to-print';
@@ -8,8 +8,17 @@ import RecipeInfo from './components/RecipeInfo';
 import RecipeBody from './components/RecipeBody/RecipeBody';
 import RecipePrintViews from './components/RecipePrintViews';
 import { event as gaEvent } from '../../lib/gtag';
+import { RecipeDataType, SetCheckedItems } from './types';
 
 const RECIPE_ROOT_DIR = 'https://rpdaley.com/configs/recipes/items';
+
+type RecipeViewsType = {
+  recipeData: RecipeDataType;
+  checkedItems: string[];
+  setCheckedItems: SetCheckedItems;
+  componentRefRecipe: RefObject<HTMLDivElement>;
+  componentRefShoppingList: RefObject<HTMLDivElement>;
+};
 
 const RecipeView = ({
   recipeData,
@@ -17,7 +26,7 @@ const RecipeView = ({
   setCheckedItems,
   componentRefRecipe,
   componentRefShoppingList,
-}) => {
+}: RecipeViewsType) => {
   const shoppingListIsActive = checkedItems.length > 0;
   const shoppingListActiveElements = shoppingListIsActive
     ? 'cursor-pointer hover:text-red-500'
@@ -121,10 +130,10 @@ const RecipeView = ({
 
 const RecipeComponent = ({ data }) => {
   const { recipeId } = data;
-  const [recipeData, setRecipeData] = useState(null);
+  const [recipeData, setRecipeData] = useState<RecipeDataType | null>(null);
   const [checkedItems, setCheckedItems] = useState<string[]>([]);
-  const componentRefRecipe = useRef<HTMLDivElement>(null);
-  const componentRefShoppingList = useRef<HTMLDivElement>(null);
+  const componentRefRecipe = useRef<null | HTMLDivElement>(null);
+  const componentRefShoppingList = useRef<null | HTMLDivElement>(null);
 
   useEffect(() => {
     fetch(`${RECIPE_ROOT_DIR}/${recipeId}.json`)

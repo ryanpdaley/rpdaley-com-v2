@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import RecipeComponent from '../../components/Recipes/Recipe';
+import { RecipeProps, RecipeRoutesList } from '../../types';
 
 const RECIPE_ROOT_DIR = 'https://www.rpdaley.com/configs/recipes/root.json';
 
@@ -14,7 +15,7 @@ const ErrorView = ({ recipeId }) => (
   </div>
 );
 
-export default function Recipe(props) {
+export default function Recipe(props: RecipeProps) {
   const { recipeId, routes } = props;
   const validIds = routes.map((recipe) => recipe.route);
   if (validIds.indexOf(recipeId) === -1) {
@@ -36,10 +37,9 @@ export async function getStaticPaths() {
   return { paths, fallback: false };
 }
 
-// `getStaticPaths` requires using `getStaticProps`
 export async function getStaticProps({ params }) {
   const result = await fetch(RECIPE_ROOT_DIR);
-  const routes = await result.json();
+  const routes: RecipeRoutesList[] = await result.json();
   return {
     props: { recipeId: params.id, routes },
   };

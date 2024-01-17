@@ -1,3 +1,5 @@
+import { StaticImageData } from 'next/image';
+
 interface navData {
   isActive: boolean;
   relLink: string;
@@ -11,6 +13,28 @@ interface aboutData {
   logo: string;
   link: string;
 }
+
+export type RecipeRoute = {
+  title: string;
+  src: string;
+  route: string;
+};
+
+export type ResumeInfoType = {
+  title: string;
+  name: string;
+  link: string;
+  img: StaticImageData;
+};
+
+export type RecipeProps = {
+  recipeId: string;
+  routes: RecipeRoute[];
+};
+
+export type RecipeRoutesList = {
+  routes: RecipeRoute[];
+};
 
 export type NavBlockType = {
   navData: navData;

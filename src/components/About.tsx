@@ -1,17 +1,26 @@
 import Image from 'next/image';
-import { useEffect, useState } from 'react';
+import { Key, useEffect, useState } from 'react';
 import router from 'next/router';
 import { captureClick } from '../lib/rtools';
 import fetchConfig from '../lib/configs';
 import IconString from '../lib/icons';
 import { useMobile } from '../hooks/useMobile';
+import {
+  AboutComponentTypes,
+  AboutDescriptionList,
+  AboutItemData,
+  AboutItems,
+  AboutSelectedInfo,
+  DataListItem,
+  aboutLocation,
+} from './types';
 
 const flagMap = {
   canada: '🇨🇦',
   usa: '🇺🇸',
 };
 
-const parseDate = (dates) => {
+const parseDate = (dates: Number[]) => {
   if (dates.length === 1) {
     return dates[0];
   }
@@ -25,7 +34,7 @@ const parseDate = (dates) => {
   return [];
 };
 
-const parseLocation = (location) => {
+const parseLocation = (location: aboutLocation) => {
   const countryIcon = (
     <div className="inline-block px-1">
       {flagMap[location.country.toLowerCase()]}
@@ -48,7 +57,7 @@ const parseLocation = (location) => {
   );
 };
 
-const parseData = (dataList) =>
+const parseData = (dataList: DataListItem[]) =>
   dataList.map((dataListItem, index) => {
     switch (dataListItem.type) {
       case 'list-item':
@@ -71,7 +80,7 @@ const parseData = (dataList) =>
     }
   });
 
-const DescriptionBlock = ({ data }) =>
+const DescriptionBlock = ({ data }: AboutDescriptionList) =>
   data.map((descriptionItem, index) => {
     const { title, dataList, technologies, location } = descriptionItem;
     const parsedLocation = parseLocation(location);
@@ -108,7 +117,7 @@ const AboutBlock = ({
   setSelectedInfo,
 }) => {
   const { data } = aboutData;
-  return data.map((block, index) => {
+  return data.map((block: AboutItemData, index: Key) => {
     const { description, name, dates, logo, link } = block;
     const clickInfo = { name, link };
     const parsedDates = parseDate(dates);
@@ -190,7 +199,7 @@ const AboutBlock = ({
                   </a>
                 </div>
                 <div className="float-right font-oswald text-4xl">
-                  {parsedDates}
+                  {parsedDates.toString()}
                 </div>
               </div>
               <DescriptionBlock data={description} />
@@ -202,10 +211,16 @@ const AboutBlock = ({
   });
 };
 
-const AboutComponent = ({ section, selectedBlock, setSelectedBlock }) => {
-  const [aboutData, setAboutData] = useState(null);
-  const [selectedInfo, setSelectedInfo] = useState(null);
-  const isMobile = useMobile();
+const AboutComponent = ({
+  section,
+  selectedBlock,
+  setSelectedBlock,
+}: AboutComponentTypes) => {
+  const [aboutData, setAboutData] = useState<AboutItems | null>(null);
+  const [selectedInfo, setSelectedInfo] = useState<AboutSelectedInfo | null>(
+    null,
+  );
+  const isMobile: boolean = useMobile();
 
   useEffect(() => {
     fetchConfig(section).then((data) => {
