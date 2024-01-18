@@ -51,6 +51,11 @@ const App = ({ Component, pageProps }) => {
     });
   });
 
+  // workaround for static next.js not setting the lang attribute
+  useEffect(() => {
+    document.documentElement.lang = 'en';
+  }, []);
+
   return (
     <main
       className={`${oswald.variable} ${nunito.variable} ${lato.variable} font-sans`}
