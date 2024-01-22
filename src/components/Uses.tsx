@@ -1,5 +1,5 @@
 import { Key, useEffect, useState } from 'react';
-import fetchConfig from '../lib/configs';
+import { fetchConfig } from '../lib/configs';
 import { captureClick } from '../lib/rtools';
 
 interface UsesDataItem {

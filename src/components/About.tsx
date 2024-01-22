@@ -2,7 +2,7 @@ import Image from 'next/image';
 import { Key, useEffect, useState } from 'react';
 import router from 'next/router';
 import { captureClick } from '../lib/rtools';
-import fetchConfig from '../lib/configs';
+import { fetchConfig } from '../lib/configs';
 import IconString from '../lib/icons';
 import { useMobile } from '../hooks/useMobile';
 import {

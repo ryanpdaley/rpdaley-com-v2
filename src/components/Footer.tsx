@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import { useEffect, useState } from 'react';
 import { captureClick } from '../lib/rtools';
-import fetchConfig from '../lib/configs';
+import { fetchConfig } from '../lib/configs';
 
 type FooterData = {
   name: string;
