@@ -1,0 +1,116 @@
+{
+  "metaTags": [
+    {
+      "type": "pageTitle",
+      "content": "RP Daley.com | Recipes | Classic Waffles"
+    },
+    { "type": "charSet", "content": "utf-8" },
+    {
+      "type": "viewport",
+      "content": "width=device-width,initial-scale=1,shrink-to-fit=no"
+    },
+    { "type": "theme-color", "content": "#000000" },
+    { "type": "title", "content": "RP Daley.com" },
+    {
+      "type": "description",
+      "content": "Embark on a breakfast adventure with these Classic Waffles – a timeless recipe that turns the ordinary morning into a celebration of golden, crispy perfection. Delightfully fluffy on the inside and irresistibly crisp on the outside, these waffles are a testament to the art of crafting the perfect morning indulgence."
+    },
+    {
+      "type": "keywords",
+      "content": "Classic, Waffles, Recipe, RP Daley"
+    },
+    { "type": "author", "content": "RP Daley" },
+    { "type": "property", "propertyValue": "og:type", "content": "website" },
+    {
+      "type": "property",
+      "propertyValue": "og:url",
+      "content": "https://www.rpdaley.com/recipes/classicwaffles/"
+    },
+    {
+      "type": "property",
+      "propertyValue": "og:title",
+      "content": "RP Daley.com | Recipes | Classic Waffles"
+    },
+    {
+      "type": "property",
+      "propertyValue": "og:description",
+      "content": "Embark on a breakfast adventure with these Classic Waffles – a timeless recipe that turns the ordinary morning into a celebration of golden, crispy perfection. Delightfully fluffy on the inside and irresistibly crisp on the outside, these waffles are a testament to the art of crafting the perfect morning indulgence."
+    },
+    {
+      "type": "property",
+      "propertyValue": "og:image",
+      "content": "https://v2.rpdaley.com/images/metaImage.jpeg"
+    },
+    {
+      "type": "property",
+      "propertyValue": "twitter:card",
+      "content": "summary_large_image"
+    },
+    {
+      "type": "property",
+      "propertyValue": "twitter:title",
+      "content": "RP Daley.com | Recipes | Classic Waffles"
+    },
+    {
+      "type": "property",
+      "propertyValue": "twitter:description",
+      "content": "Embark on a breakfast adventure with these Classic Waffles – a timeless recipe that turns the ordinary morning into a celebration of golden, crispy perfection. Delightfully fluffy on the inside and irresistibly crisp on the outside, these waffles are a testament to the art of crafting the perfect morning indulgence."
+    },
+    {
+      "type": "property",
+      "propertyValue": "twitter:image",
+      "content": "https://v2.rpdaley.com/images/metaImage.jpeg"
+    }
+  ],
+  "structuredData": [
+    { "@context": "https://schema.org/" },
+    { "@type": "Recipe" },
+    { "name": "Classic Waffles" },
+    { "author": { "@type": "Person", "name": "Ryan Daley" } },
+    { "url": "https://www.rpdaley.com/recipes/classicwaffles/" },
+    { "image": "https://v2.rpdaley.com/images/metaImage.jpeg" },
+    {
+      "description": "Embark on a breakfast adventure with these Classic Waffles – a timeless recipe that turns the ordinary morning into a celebration of golden, crispy perfection. Delightfully fluffy on the inside and irresistibly crisp on the outside, these waffles are a testament to the art of crafting the perfect morning indulgence."
+    },
+    { "prepTime": "PT10M" },
+    { "cookTime": "PT15M" },
+    { "totalTime": "PT25M" },
+    { "recipeYield": "10 to 12 waffles" },
+    {
+      "recipeIngredient": [
+        "2 cups All-purpose flour",
+        "2 tablespoons White sugar",
+        "4 teaspoons Baking powder",
+        "1 teaspoon Salt",
+        "2 Eggs",
+        "1½ cups Milk (warm)",
+        "1 teaspoon Vanilla",
+        "⅓ cup Butter (melted)"
+      ]
+    },
+    {
+      "recipeInstructions": [
+        {
+          "@type": "HowToStep",
+          "text": "Preheat waffle iron to desired temperature"
+        },
+        {
+          "@type": "HowToStep",
+          "text": "In a large bowl, mix together flour, salt, baking powder and sugar; set aside"
+        },
+        {
+          "@type": "HowToStep",
+          "text": "In a separate bowl, beat the eggs. Stir in the milk, butter and vanilla"
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Pour the milk mixture into the flour mixture; beat until blended"
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Cook the waffles until golden and crisp"
+        }
+      ]
+    }
+  ]
+}

@@ -2,7 +2,7 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { Key, ReactElement, useEffect, useState } from 'react';
 import { FaChevronDown } from 'react-icons/fa';
-import fetchConfig from '../lib/configs';
+import { fetchConfig } from '../lib/configs';
 import { useMobile } from '../hooks/useMobile';
 
 type NavData = {

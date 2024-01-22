@@ -10,7 +10,7 @@
       "value": 25,
       "unit": "minutes"
     },
-    "description": "It's not news that I love a good sheet pan meal, and these recipes are some of the most frequently requested from y'all as well! Clean up is a breeze, minimal preparation is required and your meal prep for the week is taken care of…what more could you need?",
+    "description": "Tender chunks of succulent chicken, coated in a flavourful marinade of soy sauce, honey, and ginger, take centre stage on the sheet pan. This recipe transforms humble ingredients into a symphony of taste and texture, all cooked to perfection on a single sheet pan for easy cleanup and a stress-free dining experience.",
     "source": {
       "label": "Goodness with G",
       "url": "https://www.goodnesswithg.com/blog/sheet-pan-cashew-chicken"
@@ -138,63 +138,5 @@
     "Roast for 25 minutes, tossing halfway through",
     "Top chicken and veggies with remaining sauce, and toss",
     "Serve with rice of choice, and top with lime juice and cilantro"
-  ],
-  "structuredData": {
-    "@context": "https://schema.org/",
-    "@type": "Recipe",
-    "name": "Sheet Pan Cashew Chicken",
-    "author": { "@type": "Person", "name": "Ryan Daley" },
-    "description": "It's not news that I love a good sheet pan meal, and these recipes are some of the most frequently requested from y'all as well! Clean up is a breeze, minimal preparation is required and your meal prep for the week is taken care of…what more could you need?",
-    "prepTime": "PT30M",
-    "cookTime": "PT25M",
-    "totalTime": "PT55M",
-    "recipeYield": "4 servings",
-    "recipeIngredient": [
-      "3 boneless, skinless chicken breasts (cut into 1/2-1 inch pieces)",
-      "2 cups Broccoli florets",
-      "1 Red bell pepper (diced)",
-      "1 cup Unsalted cashews",
-      "[optional] cilantro",
-      "[optional] lime wedges",
-      "[optional] rice",
-      "3 tablespoons Sriracha",
-      "2 tablespoons Soy sauce (or coconut aminos)",
-      "2 tablespoons Rice vinegar",
-      "2 tablespoons Toasted sesame oil",
-      "1 tablespoon Honey",
-      "2 Garlic cloves (minced)",
-      "1 inch Fresh ginger (peeled & minced)"
-    ],
-    "recipeInstructions": [
-      { "@type": "HowToStep", "text": "Preheat oven to 425 degrees" },
-      {
-        "@type": "HowToStep",
-        "text": "Line a large baking sheet with parchment paper"
-      },
-      {
-        "@type": "HowToStep",
-        "text": "Add chicken, broccoli, bell pepper and cashews"
-      },
-      {
-        "@type": "HowToStep",
-        "text": "Mix together all of the sauce ingredients in a small bowl"
-      },
-      {
-        "@type": "HowToStep",
-        "text": "Pour 3/4 of the sauce on the chicken and veggies, and toss to coat evenly"
-      },
-      {
-        "@type": "HowToStep",
-        "text": "Roast for 25 minutes, tossing halfway through"
-      },
-      {
-        "@type": "HowToStep",
-        "text": "Top chicken and veggies with remaining sauce, and toss"
-      },
-      {
-        "@type": "HowToStep",
-        "text": "Serve with rice of choice, and top with lime juice and cilantro"
-      }
-    ]
-  }
+  ]
 }

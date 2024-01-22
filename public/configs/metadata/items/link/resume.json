@@ -1,0 +1,80 @@
+{
+  "metaTags": [
+    { "type": "pageTitle", "content": "RP Daley.com | Resume" },
+    { "type": "charSet", "content": "utf-8" },
+    {
+      "type": "viewport",
+      "content": "width=device-width,initial-scale=1,shrink-to-fit=no"
+    },
+    { "type": "theme-color", "content": "#000000" },
+    { "type": "title", "content": "RP Daley.com" },
+    {
+      "type": "description",
+      "content": "Ryan Daley (RP Daley) is a Software Developer who resides in Toronto, Canada."
+    },
+    {
+      "type": "keywords",
+      "content": "Daley, Ryan, RP, Shopify, BellMedia, Apple, Kobo, UBC, UofG, Toronto, Vancouver, Guelph, Cupertino"
+    },
+    { "type": "author", "content": "RP Daley" },
+    { "type": "property", "propertyValue": "og:type", "content": "website" },
+    {
+      "type": "property",
+      "propertyValue": "og:url",
+      "content": "https://www.rpdaley.com/link/resume/"
+    },
+    {
+      "type": "property",
+      "propertyValue": "og:title",
+      "content": "RP Daley.com | Resume"
+    },
+    {
+      "type": "property",
+      "propertyValue": "og:description",
+      "content": "Ryan Daley (RP Daley) is a Software Developer who resides in Toronto, Canada."
+    },
+    {
+      "type": "property",
+      "propertyValue": "og:image",
+      "content": "https://v2.rpdaley.com/images/metaImage.jpeg"
+    },
+    {
+      "type": "property",
+      "propertyValue": "twitter:card",
+      "content": "summary_large_image"
+    },
+    {
+      "type": "property",
+      "propertyValue": "twitter:title",
+      "content": "RP Daley.com | Resume"
+    },
+    {
+      "type": "property",
+      "propertyValue": "twitter:description",
+      "content": "Ryan Daley (RP Daley) is a Software Developer who resides in Toronto, Canada."
+    },
+    {
+      "type": "property",
+      "propertyValue": "twitter:image",
+      "content": "https://v2.rpdaley.com/images/metaImage.jpeg"
+    }
+  ],
+  "structuredData": [
+    { "@context": "http://schema.org" },
+    { "@type": "Person" },
+    { "name": "Ryan Daley" },
+    { "url": "https://www.rpdaley.com/link/resume/" },
+    {
+      "sameAs": [
+        "https://www.facebook.com/ryandaley",
+        "https://www.instagram.com/rdinca/",
+        "https://www.linkedin.com/in/ryandaley/",
+        "https://twitter.com/TweetRye/",
+        "https://www.x.com/TweetRye/",
+        "https://www.t.me/rdaley",
+        "https://www.github.com/ryanpdaley",
+        "https://www.threads.net/@rdinca"
+      ]
+    }
+  ]
+}

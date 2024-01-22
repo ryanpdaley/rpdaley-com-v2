@@ -1,99 +1,78 @@
 import Head from 'next/head';
 import { useRouter } from 'next/router';
 import { useEffect, useState } from 'react';
-import fetchConfig from '../lib/configs';
-import { capitalize } from '../lib/rtools';
+import { fetchMetaConfig } from '../lib/configs';
 
-const decodeUrl = (path) => {
-  const siteName = process.env.NEXT_PUBLIC_SITE_NAME;
-  const sub = path.split('/');
-  const subCount = sub.length;
-  if (subCount === 3) {
-    return `${siteName} - ${capitalize(sub[1])}`;
-  }
-  if (subCount === 4) {
-    return `${siteName} - ${capitalize(sub[1])}: ${capitalize(sub[2])}`;
-  }
-  return `${siteName}`;
+type MetaDataType = {
+  metaTags: {
+    type:
+      | 'pageTitle'
+      | 'charSet'
+      | 'viewport'
+      | 'theme-color'
+      | 'description'
+      | 'keywords'
+      | 'author'
+      | 'property';
+    propertyValue?: string;
+    content: string;
+  }[];
+  structuredData: object[];
 };
 
-const getPageDescription = (path, data) => {
-  if (Object.prototype.hasOwnProperty.call(data.metaDescriptions, path)) {
-    return data.metaDescriptions[path];
-  }
-  return data.metaDescriptions.default;
-};
-
-const getStructuredData = () => {
-  const structuredData = JSON.stringify({
-    '@context': 'http://schema.org',
-    '@type': 'Person',
-    name: 'Ryan Daley',
-    url: 'https://www.rpdaley.com',
-    sameAs: [
-      'https://www.facebook.com/ryandaley',
-      'https://www.instagram.com/rdinca/',
-      'https://www.linkedin.com/in/ryandaley/',
-      'https://twitter.com/TweetRye/',
-      'https://x.com/TweetRye/',
-      'https://t.me/rdaley',
-      'https://github.com/ryanpdaley',
-    ],
+const MetaData = (metadata: MetaDataType) => {
+  const { metaTags, structuredData } = metadata;
+  const metaElements = metaTags.map((metaTag, index) => {
+    if (metaTag.type === 'pageTitle') {
+      return <title key={index}>{metaTag.content}</title>;
+    }
+    if (metaTag.type === 'property') {
+      return (
+        <meta
+          key={index}
+          property={metaTag.propertyValue}
+          content={metaTag.content}
+        />
+      );
+    }
+    return <meta key={index} name={metaTag.type} content={metaTag.content} />;
   });
-  return structuredData;
+  const buildStructuredData = (data: object[]) => {
+    const sd = {};
+    data.forEach((element) => {
+      Object.assign(sd, element);
+    });
+    return (
+      <script
+        type="application/ld+json"
+        // eslint-disable-next-line react/no-danger
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(sd) }}
+        key="item-jsonld"
+      />
+    );
+  };
+  const structuredElement = buildStructuredData(structuredData);
+  return (
+    <Head>
+      {metaElements}
+      {structuredElement}
+    </Head>
+  );
 };
 
 const HeadRP = () => {
-  const [metaData, setMetaData] = useState(null);
-  const [pageDescription, setPageDescription] = useState(null);
+  const [metadata, setMetaData] = useState(null);
   const { asPath } = useRouter();
+  const metaPathStr = asPath.split('/').slice(1, -1).join('/');
+  const metaPath = metaPathStr === '' ? 'default' : metaPathStr;
 
   useEffect(() => {
-    fetchConfig('metadata').then((data) => {
+    fetchMetaConfig(metaPath).then((data) => {
       setMetaData(data);
-      setPageDescription(getPageDescription(asPath, data));
     });
-  }, [asPath]);
+  }, [metaPath]);
 
-  return (
-    <div>
-      {metaData && (
-        <Head>
-          <title>{decodeUrl(asPath)}</title>
-          <meta charSet="utf-8" />
-          <meta
-            name="viewport"
-            content="width=device-width,initial-scale=1,shrink-to-fit=no"
-          />
-          <meta name="theme-color" content="#000000" />
-
-          <meta name="title" content={metaData.metaTitle} />
-          <meta name="description" content={pageDescription} />
-          <meta
-            name="keywords"
-            content="Daley, Ryan, RP, Shopify, BellMedia, Apple, Kobo, UBC, UofG, Toronto, Vancouver, Guelph, Cupertino"
-          />
-          <meta name="author" content="RP Daley" />
-          <meta property="og:type" content="website" />
-          <meta property="og:url" content={metaData.metaUrl} />
-          <meta property="og:title" content={metaData.metaTitle} />
-          <meta property="og:description" content={pageDescription} />
-          <meta property="og:image" content={metaData.metaImage} />
-
-          <meta property="twitter:card" content="summary_large_image" />
-          <meta property="twitter:url" content={metaData.metaUrl} />
-          <meta property="twitter:title" content={metaData.metaTitle} />
-          <meta property="twitter:description" content={pageDescription} />
-          <meta property="twitter:image" content={metaData.metaImage} />
-          <script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{ __html: getStructuredData() }}
-            key="item-jsonld"
-          />
-        </Head>
-      )}
-    </div>
-  );
+  return <div>{metadata && <MetaData {...metadata} />}</div>;
 };
 
 export default HeadRP;

@@ -1,0 +1,120 @@
+{
+  "metaTags": [
+    {
+      "type": "pageTitle",
+      "content": "RP Daley.com | Recipes | Egg Roll in a Bowl"
+    },
+    { "type": "charSet", "content": "utf-8" },
+    {
+      "type": "viewport",
+      "content": "width=device-width,initial-scale=1,shrink-to-fit=no"
+    },
+    { "type": "theme-color", "content": "#000000" },
+    {
+      "type": "title",
+      "content": "RP Daley.com | Recipes | Egg Roll in a Bowl"
+    },
+    {
+      "type": "description",
+      "content": "Embark on a flavour-packed journey with this Egg Roll in a Bowl recipe – a deconstructed twist on the classic Asian favourite that brings all the savoury goodness without the fuss of rolling and frying. Packed with a colourful medley of crisp vegetables, savoury ground turkey, and a symphony of aromatic spices, this dish is a celebration of bold flavours and wholesome ingredients."
+    },
+    {
+      "type": "keywords",
+      "content": "Egg, Roll, Bowl, Recipe, RP Daley"
+    },
+    { "type": "author", "content": "RP Daley" },
+    { "type": "property", "propertyValue": "og:type", "content": "website" },
+    {
+      "type": "property",
+      "propertyValue": "og:url",
+      "content": "https://www.rpdaley.com/recipes/eggrollinabowl/"
+    },
+    {
+      "type": "property",
+      "propertyValue": "og:title",
+      "content": "RP Daley.com | Recipes | Egg Roll in a Bowl"
+    },
+    {
+      "type": "property",
+      "propertyValue": "og:description",
+      "content": "Embark on a flavour-packed journey with this Egg Roll in a Bowl recipe – a deconstructed twist on the classic Asian favourite that brings all the savoury goodness without the fuss of rolling and frying. Packed with a colourful medley of crisp vegetables, savoury ground turkey, and a symphony of aromatic spices, this dish is a celebration of bold flavours and wholesome ingredients."
+    },
+    {
+      "type": "property",
+      "propertyValue": "og:image",
+      "content": "https://v2.rpdaley.com/images/metaImage.jpeg"
+    },
+    {
+      "type": "property",
+      "propertyValue": "twitter:card",
+      "content": "summary_large_image"
+    },
+    {
+      "type": "property",
+      "propertyValue": "twitter:title",
+      "content": "RP Daley.com | Recipes | Egg Roll in a Bowl"
+    },
+    {
+      "type": "property",
+      "propertyValue": "twitter:description",
+      "content": "Embark on a flavour-packed journey with this Egg Roll in a Bowl recipe – a deconstructed twist on the classic Asian favourite that brings all the savoury goodness without the fuss of rolling and frying. Packed with a colourful medley of crisp vegetables, savoury ground turkey, and a symphony of aromatic spices, this dish is a celebration of bold flavours and wholesome ingredients."
+    },
+    {
+      "type": "property",
+      "propertyValue": "twitter:image",
+      "content": "https://v2.rpdaley.com/images/metaImage.jpeg"
+    }
+  ],
+  "structuredData": [
+    { "@context": "https://schema.org/" },
+    { "@type": "Recipe" },
+    { "name": "One Skillet 'Egg Roll in a Bowl'" },
+    { "author": { "@type": "Person", "name": "Ryan Daley" } },
+    { "url": "https://www.rpdaley.com/recipes/eggrollinabowl/" },
+    { "image": "https://v2.rpdaley.com/images/metaImage.jpeg" },
+    {
+      "description": "Embark on a flavour-packed journey with this Egg Roll in a Bowl recipe – a deconstructed twist on the classic Asian favourite that brings all the savoury goodness without the fuss of rolling and frying. Packed with a colourful medley of crisp vegetables, savoury ground turkey, and a symphony of aromatic spices, this dish is a celebration of bold flavours and wholesome ingredients."
+    },
+    { "prepTime": "PT5M" },
+    { "cookTime": "PT20M" },
+    { "totalTime": "PT25M" },
+    { "recipeYield": "Serves 4" },
+    {
+      "recipeIngredient": [
+        "1 pound Ground turkey breast (substitute with ground chicken, ground beef, or ground pork)",
+        "1 Sweet onion (diced)",
+        "1 tablespoon Sesame oil",
+        "1 tablespoon Rice vinegar",
+        "2 teaspoons Minced garlic",
+        "1 teaspoon Ground ginger",
+        "¼ cups Soy sauce (low sodium)",
+        "16 ounces Coleslaw mix (1 bag)",
+        "½ cup Grated carrots (or matchstick)",
+        "2 Green onions (thinly sliced)",
+        "[optional] Salt (to taste)",
+        "[optional] Pepper (to taste)",
+        "[optional]1 tablespoon Hoisin sauce"
+      ]
+    },
+    {
+      "recipeInstructions": [
+        {
+          "@type": "HowToStep",
+          "text": "Heat a large skillet over medium-high heat. Add ground meat and cook, stirring, until no longer pink. Drain; return meat to skillet."
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Add diced onion, sesame oil, and rice vinegar to the skillet. Cook, stirring, for a few more minutes (until onion is tender)."
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Add garlic, ginger, soy sauce, hoisin sauce (optional), coleslaw mix, and carrots to the skillet. Cook, stirring, for about 5-7 more minutes, or until cabbage is wilted."
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Remove skillet from the heat. Stir in green onions and season with salt and pepper, to taste."
+        }
+      ]
+    }
+  ]
+}

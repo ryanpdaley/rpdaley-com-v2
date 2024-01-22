@@ -1,0 +1,117 @@
+{
+  "metaTags": [
+    { "type": "pageTitle", "content": "RP Daley.com | Recipes | Shakshuka" },
+    { "type": "charSet", "content": "utf-8" },
+    {
+      "type": "viewport",
+      "content": "width=device-width,initial-scale=1,shrink-to-fit=no"
+    },
+    { "type": "theme-color", "content": "#000000" },
+    { "type": "title", "content": "RP Daley.com | Recipes | Shakshuka" },
+    {
+      "type": "description",
+      "content": "The star of the show is the vibrant tomato base, simmered to perfection with the warmth of bell peppers, onions, and aromatic spices like cumin and paprika. As the flavours meld together, a fragrant and savoury sauce emerges, creating the ideal bed for the crowning glory – perfectly poached eggs. The eggs, nestled in the spicy tomato embrace, cook gently until the whites are set but the yolks remain gloriously runny, creating a luscious and velvety finish to the dish."
+    },
+    {
+      "type": "keywords",
+      "content": "Shakshuka, Recipe, RP Daley"
+    },
+    { "type": "author", "content": "RP Daley" },
+    { "type": "property", "propertyValue": "og:type", "content": "website" },
+    {
+      "type": "property",
+      "propertyValue": "og:url",
+      "content": "https://www.rpdaley.com/recipes/shakshuka/"
+    },
+    {
+      "type": "property",
+      "propertyValue": "og:title",
+      "content": "RP Daley.com | Recipes | Shakshuka"
+    },
+    {
+      "type": "property",
+      "propertyValue": "og:description",
+      "content": "The star of the show is the vibrant tomato base, simmered to perfection with the warmth of bell peppers, onions, and aromatic spices like cumin and paprika. As the flavours meld together, a fragrant and savoury sauce emerges, creating the ideal bed for the crowning glory – perfectly poached eggs. The eggs, nestled in the spicy tomato embrace, cook gently until the whites are set but the yolks remain gloriously runny, creating a luscious and velvety finish to the dish."
+    },
+    {
+      "type": "property",
+      "propertyValue": "og:image",
+      "content": "https://v2.rpdaley.com/images/metaImage.jpeg"
+    },
+    {
+      "type": "property",
+      "propertyValue": "twitter:card",
+      "content": "summary_large_image"
+    },
+    {
+      "type": "property",
+      "propertyValue": "twitter:title",
+      "content": "RP Daley.com | Recipes | Shakshuka"
+    },
+    {
+      "type": "property",
+      "propertyValue": "twitter:description",
+      "content": "The star of the show is the vibrant tomato base, simmered to perfection with the warmth of bell peppers, onions, and aromatic spices like cumin and paprika. As the flavours meld together, a fragrant and savoury sauce emerges, creating the ideal bed for the crowning glory – perfectly poached eggs. The eggs, nestled in the spicy tomato embrace, cook gently until the whites are set but the yolks remain gloriously runny, creating a luscious and velvety finish to the dish."
+    },
+    {
+      "type": "property",
+      "propertyValue": "twitter:image",
+      "content": "https://v2.rpdaley.com/images/metaImage.jpeg"
+    }
+  ],
+  "structuredData": [
+    { "@context": "https://schema.org/" },
+    { "@type": "Recipe" },
+    { "name": "Shakshuka" },
+    { "author": { "@type": "Person", "name": "Ryan Daley" } },
+    { "url": "https://www.rpdaley.com/recipes/shakshuka/" },
+    { "image": "https://v2.rpdaley.com/images/metaImage.jpeg" },
+    {
+      "description": "The star of the show is the vibrant tomato base, simmered to perfection with the warmth of bell peppers, onions, and aromatic spices like cumin and paprika. As the flavours meld together, a fragrant and savoury sauce emerges, creating the ideal bed for the crowning glory – perfectly poached eggs. The eggs, nestled in the spicy tomato embrace, cook gently until the whites are set but the yolks remain gloriously runny, creating a luscious and velvety finish to the dish."
+    },
+    { "prepTime": "PT10M" },
+    { "cookTime": "PT20M" },
+    { "totalTime": "PT30M" },
+    { "recipeYield": "6 servings" },
+    {
+      "recipeIngredient": [
+        "2 tablespoons Olive oil",
+        "1 Medium onion (diced)",
+        "1 Red bell pepper (seeded and diced)",
+        "4 Cloves garlic (finely chopped)",
+        "2 teaspoons Paprika",
+        "1 teaspoon Cumin",
+        "¼ teaspoon Chili powder",
+        "1 28-ounce can tomatoes (whole peeled or diced)",
+        "6 Large eggs",
+        " Salt and Pepper",
+        "1 small bunch fresh cilantro (chopped)",
+        "1 small bunch fresh parsley (chopped)"
+      ]
+    },
+    {
+      "recipeInstructions": [
+        {
+          "@type": "HowToStep",
+          "text": "Heat olive oil in a large sauté pan on medium heat. Add the chopped bell pepper and onion and cook for 5 minutes or until the onion becomes translucent."
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Add garlic and spices and cook an additional minute."
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Pour the can of tomatoes and juice into the pan and break down the tomatoes using a large spoon. Season with salt and pepper and bring the sauce to a simmer."
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Use your large spoon to make small wells in the sauce and crack the eggs into each well. Cover the pan and cook for 5-8 minutes, or until the eggs are done to your liking."
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Garnish with chopped cilantro and parsley."
+        }
+      ]
+    }
+  ]
+}

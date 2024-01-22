@@ -10,7 +10,7 @@
       "value": 35,
       "unit": "minutes"
     },
-    "description": "It's Wacky Cake",
+    "description": "A moist and decadent chocolate cake that defies expectations - a classic that transcends generations with its simplicity and irresistibly rich flavour. Born out of ingenuity during times of rationing, this cake captures the essence of resourcefulness without compromising on taste.",
     "source": {
       "label": "Family Recipe",
       "url": null
@@ -146,63 +146,5 @@
     "For the frosting - Beat sugar, butter and cocoa with a bit of milk to desired consistency",
     "Mix in a bit of coffee into the frosting to taste",
     "Frost the cake when cool."
-  ],
-  "structuredData": {
-    "@context": "https://schema.org/",
-    "@type": "Recipe",
-    "name": "Wacky Cake",
-    "author": { "@type": "Person", "name": "Ryan Daley" },
-    "description": "It's Wacky Cake",
-    "prepTime": "PT15M",
-    "cookTime": "PT35M",
-    "totalTime": "PT50M",
-    "recipeIngredient": [
-      "1½ cups All-purpose flour",
-      "1 cup White sugar",
-      "1 teaspoon Baking powder",
-      "1 tablespoon Baking soda",
-      "½ teaspoon Salt",
-      "3 tablespoons Cocoa",
-      "1 tablespoon Vinegar",
-      "2 teaspoons Vanilla",
-      "5 tablespoons Butter (melted)",
-      "1 cup Water (tepid)",
-      "1½-2 cups Icing sugar",
-      "4 tablespoons Butter (softened or margarine)",
-      "2-4 tablespoons Cocoa",
-      " Milk",
-      "[optional] Ground coffee"
-    ],
-    "recipeInstructions": [
-      {
-        "@type": "HowToStep",
-        "text": "Sift dry ingredients into an 8x8-inch tin"
-      },
-      { "@type": "HowToStep", "text": "In one corner put vinegar" },
-      { "@type": "HowToStep", "text": "In another corner put the vanilla" },
-      {
-        "@type": "HowToStep",
-        "text": "In a third corner put the melted butter"
-      },
-      {
-        "@type": "HowToStep",
-        "text": "Pour the water evenly over the tin"
-      },
-      { "@type": "HowToStep", "text": "Mix thoroughly" },
-      {
-        "@type": "HowToStep",
-        "text": "Bake at 325° F for 30 to 35 minutes"
-      },
-      { "@type": "HowToStep", "text": "While baking, make the frosting" },
-      {
-        "@type": "HowToStep",
-        "text": "For the frosting - Beat sugar, butter and cocoa with a bit of milk to desired consistency"
-      },
-      {
-        "@type": "HowToStep",
-        "text": "Mix in a bit of coffee into the frosting to taste"
-      },
-      { "@type": "HowToStep", "text": "Frost the cake when cool." }
-    ]
-  }
+  ]
 }
