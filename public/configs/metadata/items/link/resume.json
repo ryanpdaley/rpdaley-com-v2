@@ -1,6 +1,6 @@
 {
   "metaTags": [
-    { "type": "pageTitle", "content": "RP Daley.com" },
+    { "type": "pageTitle", "content": "RP Daley.com | Resume" },
     { "type": "charSet", "content": "utf-8" },
     {
       "type": "viewport",
@@ -21,9 +21,13 @@
     {
       "type": "property",
       "propertyValue": "og:url",
-      "content": "https://www.rpdaley.com"
+      "content": "https://www.rpdaley.com/link/resume/"
     },
-    { "type": "property", "propertyValue": "og:title", "content": "RP Daley" },
+    {
+      "type": "property",
+      "propertyValue": "og:title",
+      "content": "RP Daley.com | Resume"
+    },
     {
       "type": "property",
       "propertyValue": "og:description",
@@ -42,7 +46,7 @@
     {
       "type": "property",
       "propertyValue": "twitter:title",
-      "content": "RP Daley"
+      "content": "RP Daley.com | Resume"
     },
     {
       "type": "property",
@@ -59,7 +63,7 @@
     { "@context": "http://schema.org" },
     { "@type": "Person" },
     { "name": "Ryan Daley" },
-    { "url": "https://www.rpdaley.com" },
+    { "url": "https://www.rpdaley.com/link/resume/" },
     {
       "sameAs": [
         "https://www.facebook.com/ryandaley",

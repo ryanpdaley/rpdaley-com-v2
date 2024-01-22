@@ -1,13 +1,13 @@
 {
   "metaTags": [
-    { "type": "pageTitle", "content": "RP Daley.com" },
+    { "type": "pageTitle", "content": "RP Daley.com | About" },
     { "type": "charSet", "content": "utf-8" },
     {
       "type": "viewport",
       "content": "width=device-width,initial-scale=1,shrink-to-fit=no"
     },
     { "type": "theme-color", "content": "#000000" },
-    { "type": "title", "content": "RP Daley.com" },
+    { "type": "title", "content": "RP Daley.com | About" },
     {
       "type": "description",
       "content": "Ryan Daley (RP Daley) is a Software Developer who resides in Toronto, Canada."
@@ -21,9 +21,13 @@
     {
       "type": "property",
       "propertyValue": "og:url",
-      "content": "https://www.rpdaley.com"
+      "content": "https://www.rpdaley.com/about/"
     },
-    { "type": "property", "propertyValue": "og:title", "content": "RP Daley" },
+    {
+      "type": "property",
+      "propertyValue": "og:title",
+      "content": "RP Daley.com | About"
+    },
     {
       "type": "property",
       "propertyValue": "og:description",
@@ -42,7 +46,7 @@
     {
       "type": "property",
       "propertyValue": "twitter:title",
-      "content": "RP Daley"
+      "content": "RP Daley.com | About"
     },
     {
       "type": "property",
@@ -59,7 +63,7 @@
     { "@context": "http://schema.org" },
     { "@type": "Person" },
     { "name": "Ryan Daley" },
-    { "url": "https://www.rpdaley.com" },
+    { "url": "https://www.rpdaley.com/about/" },
     {
       "sameAs": [
         "https://www.facebook.com/ryandaley",
