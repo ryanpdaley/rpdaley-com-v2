@@ -1,7 +1,7 @@
 import Head from 'next/head';
+import { useRouter } from 'next/router';
 import { useEffect, useState } from 'react';
-
-const META_ROOT_DIR = 'https://rpdaley.com/configs/metadata/';
+import { fetchMetaConfig } from '../lib/configs';
 
 type MetaDataType = {
   metaTags: {
@@ -62,13 +62,16 @@ const MetaData = (metadata: MetaDataType) => {
 
 const HeadRP = () => {
   const [metadata, setMetaData] = useState(null);
+  const { asPath } = useRouter();
+  const metaPathStr = asPath.split('/').slice(1, -1).join('/');
+  const metaPath = metaPathStr === '' ? 'default' : metaPathStr;
+
   useEffect(() => {
-    fetch(`${META_ROOT_DIR}/default.json`)
-      .then((response) => response.json())
-      .then((responseData) => {
-        setMetaData(responseData);
-      });
-  }, []);
+    fetchMetaConfig(metaPath).then((data) => {
+      setMetaData(data);
+    });
+  }, [metaPath]);
+
   return <div>{metadata && <MetaData {...metadata} />}</div>;
 };
 
