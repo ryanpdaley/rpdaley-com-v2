@@ -1,33 +1,40 @@
 {
   "metaTags": [
-    { "type": "pageTitle", "content": "RP Daley.com" },
+    {
+      "type": "pageTitle",
+      "content": "RP Daley.com | Recipes | Garden Gold Soup"
+    },
     { "type": "charSet", "content": "utf-8" },
     {
       "type": "viewport",
       "content": "width=device-width,initial-scale=1,shrink-to-fit=no"
     },
     { "type": "theme-color", "content": "#000000" },
-    { "type": "title", "content": "RP Daley.com" },
+    { "type": "title", "content": "RP Daley.com | Recipes | Garden Gold Soup" },
     {
       "type": "description",
-      "content": "Ryan Daley (RP Daley) is a Software Developer who resides in Toronto, Canada."
+      "content": "Indulge your taste buds in a symphony of flavours with this delightful Garden Gold Soup recipe. Bursting with the vibrant hues and wholesome goodness of fresh vegetables, this soup is a celebration of nature's bounty. Crafted with a medley of carrots, potatoes, celery, onions and a host of aromatic herbs, each spoonful is a journey through the rich tapestry of garden-fresh ingredients."
     },
     {
       "type": "keywords",
-      "content": "Daley, Ryan, RP, Shopify, BellMedia, Apple, Kobo, UBC, UofG, Toronto, Vancouver, Guelph, Cupertino"
+      "content": "Garden, Gold, Soup, Recipe, RP Daley"
     },
     { "type": "author", "content": "RP Daley" },
     { "type": "property", "propertyValue": "og:type", "content": "website" },
     {
       "type": "property",
       "propertyValue": "og:url",
-      "content": "https://www.rpdaley.com"
+      "content": "https://www.rpdaley.com/recipes/gardengoldsoup/"
     },
-    { "type": "property", "propertyValue": "og:title", "content": "RP Daley" },
+    {
+      "type": "property",
+      "propertyValue": "og:title",
+      "content": "RP Daley.com | Recipes | Garden Gold Soup"
+    },
     {
       "type": "property",
       "propertyValue": "og:description",
-      "content": "Ryan Daley (RP Daley) is a Software Developer who resides in Toronto, Canada."
+      "content": "Indulge your taste buds in a symphony of flavours with this delightful Garden Gold Soup recipe. Bursting with the vibrant hues and wholesome goodness of fresh vegetables, this soup is a celebration of nature's bounty. Crafted with a medley of carrots, potatoes, celery, onions and a host of aromatic herbs, each spoonful is a journey through the rich tapestry of garden-fresh ingredients."
     },
     {
       "type": "property",
@@ -42,12 +49,12 @@
     {
       "type": "property",
       "propertyValue": "twitter:title",
-      "content": "RP Daley"
+      "content": "RP Daley.com | Recipes | Garden Gold Soup"
     },
     {
       "type": "property",
       "propertyValue": "twitter:description",
-      "content": "Ryan Daley (RP Daley) is a Software Developer who resides in Toronto, Canada."
+      "content": "Indulge your taste buds in a symphony of flavours with this delightful Garden Gold Soup recipe. Bursting with the vibrant hues and wholesome goodness of fresh vegetables, this soup is a celebration of nature's bounty. Crafted with a medley of carrots, potatoes, celery, onions and a host of aromatic herbs, each spoonful is a journey through the rich tapestry of garden-fresh ingredients."
     },
     {
       "type": "property",
@@ -56,20 +63,65 @@
     }
   ],
   "structuredData": [
-    { "@context": "http://schema.org" },
-    { "@type": "Person" },
-    { "name": "Ryan Daley" },
-    { "url": "https://www.rpdaley.com" },
+    { "@context": "https://schema.org/" },
+    { "@type": "Recipe" },
+    { "name": "Garden Gold Soup" },
+    { "author": { "@type": "Person", "name": "Ryan Daley" } },
+    { "url": "https://www.rpdaley.com/recipes/gardengoldsoup/" },
+    { "image": "https://v2.rpdaley.com/images/metaImage.jpeg" },
     {
-      "sameAs": [
-        "https://www.facebook.com/ryandaley",
-        "https://www.instagram.com/rdinca/",
-        "https://www.linkedin.com/in/ryandaley/",
-        "https://twitter.com/TweetRye/",
-        "https://www.x.com/TweetRye/",
-        "https://www.t.me/rdaley",
-        "https://www.github.com/ryanpdaley",
-        "https://www.threads.net/@rdinca"
+      "description": "Indulge your taste buds in a symphony of flavours with this delightful Garden Gold Soup recipe. Bursting with the vibrant hues and wholesome goodness of fresh vegetables, this soup is a celebration of nature's bounty. Crafted with a medley of carrots, potatoes, celery, onions and a host of aromatic herbs, each spoonful is a journey through the rich tapestry of garden-fresh ingredients."
+    },
+    { "prepTime": "PT15M" },
+    { "cookTime": "PT1H" },
+    { "totalTime": "PT1H15M" },
+    { "recipeYield": "Serves 8" },
+    {
+      "recipeIngredient": [
+        "1 pound Carrots (medium sized)",
+        "3 Potatoes (medium; peeled)",
+        "3 Celery stalks (with leaves)",
+        "2 Onions (medium)",
+        "2½ teaspoons Salt",
+        "2 teaspoons Instant chicken bouillon granules",
+        "¼ teaspoon Dried dill weed",
+        "¼ teaspoon Pepper",
+        "2 cups Milk",
+        "¼ cup Butter (or margarine)",
+        "4 cups Water"
+      ]
+    },
+    {
+      "recipeInstructions": [
+        {
+          "@type": "HowToStep",
+          "text": "Cut up the carrots, potatoes, celery, and onions and place in 3-Quart saucepan"
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Add Salt, Instant chicken bouillon granules, Dried dill weed, Pepper and Water"
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Simmer covered for 45 - 60 minutes (or until tender)"
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Strain and reserve 2 cups of liquid"
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Using an immersion blender process until smooth"
+        },
+        { "@type": "HowToStep", "text": "Stir in Butter and Milk" },
+        {
+          "@type": "HowToStep",
+          "text": "Add some amount of reserve liquid to desired consistency"
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Cover and heat to desired serving temperature"
+        }
       ]
     }
   ]

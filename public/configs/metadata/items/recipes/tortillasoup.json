@@ -1,33 +1,40 @@
 {
   "metaTags": [
-    { "type": "pageTitle", "content": "RP Daley.com" },
+    {
+      "type": "pageTitle",
+      "content": "RP Daley.com | Recipes | Tortilla Soup"
+    },
     { "type": "charSet", "content": "utf-8" },
     {
       "type": "viewport",
       "content": "width=device-width,initial-scale=1,shrink-to-fit=no"
     },
     { "type": "theme-color", "content": "#000000" },
-    { "type": "title", "content": "RP Daley.com" },
+    { "type": "title", "content": "RP Daley.com | Recipes | Tortilla Soup" },
     {
       "type": "description",
-      "content": "Ryan Daley (RP Daley) is a Software Developer who resides in Toronto, Canada."
+      "content": "Gather your ingredients, let the soup simmer on the stove, and get ready to savour the authentic flavours of this Tortilla Soup. Whether enjoyed as a standalone meal or as part of a festive spread, this recipe is a testament to the joy of simple, hearty, and delicious homemade soups."
     },
     {
       "type": "keywords",
-      "content": "Daley, Ryan, RP, Shopify, BellMedia, Apple, Kobo, UBC, UofG, Toronto, Vancouver, Guelph, Cupertino"
+      "content": "Tortilla, Soup, Recipe, RP Daley"
     },
     { "type": "author", "content": "RP Daley" },
     { "type": "property", "propertyValue": "og:type", "content": "website" },
     {
       "type": "property",
       "propertyValue": "og:url",
-      "content": "https://www.rpdaley.com"
+      "content": "https://www.rpdaley.com/recipes/tortillasoup/"
     },
-    { "type": "property", "propertyValue": "og:title", "content": "RP Daley" },
+    {
+      "type": "property",
+      "propertyValue": "og:title",
+      "content": "RP Daley.com | Recipes | Tortilla Soup"
+    },
     {
       "type": "property",
       "propertyValue": "og:description",
-      "content": "Ryan Daley (RP Daley) is a Software Developer who resides in Toronto, Canada."
+      "content": "Gather your ingredients, let the soup simmer on the stove, and get ready to savour the authentic flavours of this Tortilla Soup. Whether enjoyed as a standalone meal or as part of a festive spread, this recipe is a testament to the joy of simple, hearty, and delicious homemade soups."
     },
     {
       "type": "property",
@@ -42,12 +49,12 @@
     {
       "type": "property",
       "propertyValue": "twitter:title",
-      "content": "RP Daley"
+      "content": "RP Daley.com | Recipes | Tortilla Soup"
     },
     {
       "type": "property",
       "propertyValue": "twitter:description",
-      "content": "Ryan Daley (RP Daley) is a Software Developer who resides in Toronto, Canada."
+      "content": "Gather your ingredients, let the soup simmer on the stove, and get ready to savour the authentic flavours of this Tortilla Soup. Whether enjoyed as a standalone meal or as part of a festive spread, this recipe is a testament to the joy of simple, hearty, and delicious homemade soups."
     },
     {
       "type": "property",
@@ -56,20 +63,63 @@
     }
   ],
   "structuredData": [
-    { "@context": "http://schema.org" },
-    { "@type": "Person" },
-    { "name": "Ryan Daley" },
-    { "url": "https://www.rpdaley.com" },
     {
-      "sameAs": [
-        "https://www.facebook.com/ryandaley",
-        "https://www.instagram.com/rdinca/",
-        "https://www.linkedin.com/in/ryandaley/",
-        "https://twitter.com/TweetRye/",
-        "https://www.x.com/TweetRye/",
-        "https://www.t.me/rdaley",
-        "https://www.github.com/ryanpdaley",
-        "https://www.threads.net/@rdinca"
+      "@context": "https://schema.org/"
+    },
+    { "@type": "Recipe" },
+    { "name": "Tortilla Soup" },
+    { "author": { "@type": "Person", "name": "Ryan Daley" } },
+    { "url": "https://www.rpdaley.com/recipes/tortillasoup/" },
+    { "image": "https://v2.rpdaley.com/images/metaImage.jpeg" },
+    {
+      "description": "Gather your ingredients, let the soup simmer on the stove, and get ready to savour the authentic flavours of this Tortilla Soup. Whether enjoyed as a standalone meal or as part of a festive spread, this recipe is a testament to the joy of simple, hearty, and delicious homemade soups."
+    },
+    { "prepTime": "PT10M" },
+    { "cookTime": "PT30M" },
+    { "totalTime": "PT40M" },
+    {
+      "recipeIngredient": [
+        "2 Chicken breasts (boneless skinless)",
+        "1 Onion (chopped)",
+        "3 Garlic cloves (minced)",
+        "1 tablespoon Olive oil",
+        "3 teaspoons Chili powder",
+        "1 teaspoon Dried oregano",
+        "3 teaspoons Cumin powder",
+        "1 can Crushed tomatoes (28oz)",
+        "1 L Chicken broth",
+        "1 can Corn",
+        "1 can Green chili peppers (4oz)",
+        "1 can Black beans (15oz; rinsed and drained)",
+        "¼ cup Cilantro (chopped)",
+        "Tortilla chips",
+        "Monterey jack cheese (Shredded)",
+        "1 Avocado",
+        "[optional] Sour cream"
+      ]
+    },
+    {
+      "recipeInstructions": [
+        {
+          "@type": "HowToStep",
+          "text": "Chop the chicken breasts into cubes and cook them. Put aside"
+        },
+        {
+          "@type": "HowToStep",
+          "text": "In a large pot, sauté onion in oil. Once onion is cooked add garlic, chili powder, oregano, cumin and stir."
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Add crushed tomatoes, chicken broth, corn, black beans, cilantro, cooked chicken, and bring to a boil."
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Turn heat down and simmer for 10-15 minutes, stirring every so often."
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Serve with chips, avocado, cheese and sour cream on top."
+        }
       ]
     }
   ]

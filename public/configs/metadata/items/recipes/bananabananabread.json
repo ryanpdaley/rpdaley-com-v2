@@ -16,24 +16,28 @@
     },
     {
       "type": "description",
-      "content": "This banana bread recipe creates the most delicious, moist loaf with loads of banana flavor. Why compromise the banana flavor? Friends and family love my recipe and say it's by far the best! It tastes wonderful toasted. Enjoy!"
+      "content": "Dive into a world of irresistible aroma and comforting sweetness with this Banana Banana Bread recipe – a homage to the beloved classic that transcends the ordinary. Overflowing with the natural sweetness of ripe bananas, this moist and tender bread promises to be a culinary masterpiece that will leave you reaching for seconds."
     },
     {
       "type": "keywords",
-      "content": "Daley, Ryan, RP, Shopify, BellMedia, Apple, Kobo, UBC, UofG, Toronto, Vancouver, Guelph, Cupertino"
+      "content": "Banana, Bread, Recipe, RP Daley"
     },
     { "type": "author", "content": "RP Daley" },
     { "type": "property", "propertyValue": "og:type", "content": "website" },
     {
       "type": "property",
       "propertyValue": "og:url",
-      "content": "https://www.rpdaley.com"
+      "content": "https://www.rpdaley.com/recipes/bananabananabread/"
     },
-    { "type": "property", "propertyValue": "og:title", "content": "RP Daley" },
+    {
+      "type": "property",
+      "propertyValue": "og:title",
+      "content": "RP Daley.com | Recipes | Banana Banana Bread"
+    },
     {
       "type": "property",
       "propertyValue": "og:description",
-      "content": "Ryan Daley (RP Daley) is a Software Developer who resides in Toronto, Canada."
+      "content": "Dive into a world of irresistible aroma and comforting sweetness with this Banana Banana Bread recipe – a homage to the beloved classic that transcends the ordinary. Overflowing with the natural sweetness of ripe bananas, this moist and tender bread promises to be a culinary masterpiece that will leave you reaching for seconds."
     },
     {
       "type": "property",
@@ -48,12 +52,12 @@
     {
       "type": "property",
       "propertyValue": "twitter:title",
-      "content": "RP Daley"
+      "content": "RP Daley.com | Recipes | Banana Banana Bread"
     },
     {
       "type": "property",
       "propertyValue": "twitter:description",
-      "content": "Ryan Daley (RP Daley) is a Software Developer who resides in Toronto, Canada."
+      "content": "Dive into a world of irresistible aroma and comforting sweetness with this Banana Banana Bread recipe – a homage to the beloved classic that transcends the ordinary. Overflowing with the natural sweetness of ripe bananas, this moist and tender bread promises to be a culinary masterpiece that will leave you reaching for seconds."
     },
     {
       "type": "property",
@@ -63,24 +67,10 @@
   ],
   "structuredData": [
     { "@context": "http://schema.org" },
-    { "@type": "Person" },
-    { "name": "Ryan Daley" },
-    { "url": "https://www.rpdaley.com/recipes/bananabananabread/" },
-    {
-      "sameAs": [
-        "https://www.facebook.com/ryandaley",
-        "https://www.instagram.com/rdinca/",
-        "https://www.linkedin.com/in/ryandaley/",
-        "https://twitter.com/TweetRye/",
-        "https://www.x.com/TweetRye/",
-        "https://www.t.me/rdaley",
-        "https://www.github.com/ryanpdaley",
-        "https://www.threads.net/@rdinca"
-      ]
-    },
     { "@type": "Recipe" },
     { "name": "Banana Banana Bread" },
     { "author": { "@type": "Person", "name": "Ryan Daley" } },
+    { "url": "https://www.rpdaley.com/recipes/bananabananabread/" },
     { "image": "https://v2.rpdaley.com/images/metaImage.jpeg" },
     {
       "description": "This banana bread recipe creates the most delicious, moist loaf with loads of banana flavor. Why compromise the banana flavor? Friends and family love my recipe and say it's by far the best! It tastes wonderful toasted. Enjoy!"
