@@ -1,16 +1,22 @@
 {
   "metaTags": [
-    { "type": "pageTitle", "content": "RP Daley.com" },
+    {
+      "type": "pageTitle",
+      "content": "RP Daley.com | Recipes | Banana Banana Bread"
+    },
     { "type": "charSet", "content": "utf-8" },
     {
       "type": "viewport",
       "content": "width=device-width,initial-scale=1,shrink-to-fit=no"
     },
     { "type": "theme-color", "content": "#000000" },
-    { "type": "title", "content": "RP Daley.com" },
+    {
+      "type": "title",
+      "content": "RP Daley.com | Recipes | Banana Banana Bread"
+    },
     {
       "type": "description",
-      "content": "Ryan Daley (RP Daley) is a Software Developer who resides in Toronto, Canada."
+      "content": "This banana bread recipe creates the most delicious, moist loaf with loads of banana flavor. Why compromise the banana flavor? Friends and family love my recipe and say it's by far the best! It tastes wonderful toasted. Enjoy!"
     },
     {
       "type": "keywords",
@@ -59,7 +65,7 @@
     { "@context": "http://schema.org" },
     { "@type": "Person" },
     { "name": "Ryan Daley" },
-    { "url": "https://www.rpdaley.com" },
+    { "url": "https://www.rpdaley.com/recipes/bananabananabread/" },
     {
       "sameAs": [
         "https://www.facebook.com/ryandaley",
@@ -70,6 +76,67 @@
         "https://www.t.me/rdaley",
         "https://www.github.com/ryanpdaley",
         "https://www.threads.net/@rdinca"
+      ]
+    },
+    { "@type": "Recipe" },
+    { "name": "Banana Banana Bread" },
+    { "author": { "@type": "Person", "name": "Ryan Daley" } },
+    { "image": "https://v2.rpdaley.com/images/metaImage.jpeg" },
+    {
+      "description": "This banana bread recipe creates the most delicious, moist loaf with loads of banana flavor. Why compromise the banana flavor? Friends and family love my recipe and say it's by far the best! It tastes wonderful toasted. Enjoy!"
+    },
+    { "prepTime": "PT15M" },
+    { "cookTime": "PT1H30M" },
+    { "totalTime": "PT1H45M" },
+    {
+      "recipeIngredient": [
+        "2 cups All-purpose flour",
+        "1 teaspoon Baking soda",
+        "¼ teaspoon Salt",
+        "¾ cup Brown sugar",
+        "½ cup Butter",
+        "2 Large Eggs (beaten)",
+        "2¼ cups Mashed overripe bananas"
+      ]
+    },
+    {
+      "recipeInstructions": [
+        {
+          "@type": "HowToStep",
+          "text": "Preheat the oven to 350 degrees F (175 degrees C)"
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Lightly grease a 9x5-inch loaf pan"
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Combine flour, baking soda, and salt in large bowl #1"
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Beat brown sugar and butter with an electric mixer in large bowl #2 until smooth"
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Stir eggs and mashed bananas into bowl #2 until well blended"
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Stir bowl #2 into bowl #1 until just combined"
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Pour batter into the prepared loaf pan"
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Bake in the preheated oven until a toothpick inserted into the center comes out clean - about 60 minutes."
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Let bread cool in pan for 10 minutes, then turn out onto a wire rack to cool completely."
+        }
       ]
     }
   ]
