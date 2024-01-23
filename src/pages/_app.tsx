@@ -5,6 +5,7 @@ import nProgress from 'nprogress';
 import '../external/index.css';
 import '../external/nprogress.css';
 import { Oswald, Nunito, Lato } from 'next/font/google';
+import { useReportWebVitals } from 'next/web-vitals';
 import * as gtag from '../lib/gtag';
 import Page from '../components/Page';
 
@@ -55,7 +56,9 @@ const App = ({ Component, pageProps }) => {
   useEffect(() => {
     document.documentElement.lang = 'en';
   }, []);
-
+  useReportWebVitals((metric) => {
+    gtag.webVitalEvent(metric);
+  });
   return (
     <main
       className={`${oswald.variable} ${nunito.variable} ${lato.variable} font-sans`}
