@@ -18,3 +18,11 @@ export const event = ({ action, category, label, value }) => {
     value,
   });
 };
+
+export const webVitalEvent = ({ name, value, id }) => {
+  window.gtag('event', name, {
+    value: Math.round(name === 'CLS' ? value * 1000 : value), // values must be integers
+    event_label: id, // id unique to current page load
+    non_interaction: true, // avoids affecting bounce rate.
+  });
+};
