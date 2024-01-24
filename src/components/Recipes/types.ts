@@ -15,7 +15,11 @@ export type RecipeInfo = {
   prepTime?: null | { value: number; unit: 'hours' | 'minutes' | 'seconds' };
   cookTime?: null | { value: number; unit: 'hours' | 'minutes' | 'seconds' };
   description?: null | string;
-  source?: null | { label: string; url: null | string };
+  source?: null | {
+    isModified?: boolean;
+    label: string;
+    url: null | string;
+  };
 };
 
 export type IngredientSection = {
