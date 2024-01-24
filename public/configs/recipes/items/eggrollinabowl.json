@@ -13,7 +13,8 @@
     "description": "Embark on a flavour-packed journey with this Egg Roll in a Bowl recipe – a deconstructed twist on the classic Asian favourite that brings all the savoury goodness without the fuss of rolling and frying. Packed with a colourful medley of crisp vegetables, savoury ground turkey, and a symphony of aromatic spices, this dish is a celebration of bold flavours and wholesome ingredients.",
     "source": {
       "label": "The Seasoned Mom",
-      "url": "https://www.theseasonedmom.com/egg-roll-in-a-bowl/"
+      "url": "https://www.theseasonedmom.com/egg-roll-in-a-bowl/",
+      "isModified": true
     }
   },
   "ingredients": [
@@ -23,7 +24,7 @@
           "name": "Ground turkey breast",
           "measurement": 1,
           "measurementUnit": "pound",
-          "qualifierString": "substitute with ground chicken, ground beef, or ground pork",
+          "qualifierString": null,
           "isConvertibleUnit": true
         },
         {
@@ -56,8 +57,8 @@
         },
         {
           "name": "Ground ginger",
-          "measurement": 1,
-          "measurementUnit": "teaspoon",
+          "measurement": 3,
+          "measurementUnit": "dashes",
           "qualifierString": null,
           "isConvertibleUnit": true
         },
@@ -65,7 +66,7 @@
           "name": "Soy sauce",
           "measurement": 0.25,
           "measurementUnit": "cups",
-          "qualifierString": "low sodium",
+          "qualifierString": null,
           "isConvertibleUnit": false
         },
         {
@@ -80,7 +81,8 @@
           "measurement": 0.5,
           "measurementUnit": "cup",
           "qualifierString": "or matchstick",
-          "isConvertibleUnit": true
+          "isConvertibleUnit": true,
+          "isOptional": true
         },
         {
           "name": "Green onions",
@@ -104,22 +106,14 @@
           "qualifierString": "to taste",
           "isConvertibleUnit": false,
           "isOptional": true
-        },
-        {
-          "name": "Hoisin sauce",
-          "measurement": 1,
-          "measurementUnit": "tablespoon",
-          "qualifierString": null,
-          "isConvertibleUnit": true,
-          "isOptional": true
         }
       ]
     }
   ],
   "directions": [
-    "Heat a large skillet over medium-high heat. Add ground meat and cook, stirring, until no longer pink. Drain; return meat to skillet.",
+    "Heat a large skillet over medium-high heat. Add ground turkey and cook, stirring, until no longer pink. Drain; return meat to skillet.",
     "Add diced onion, sesame oil, and rice vinegar to the skillet. Cook, stirring, for a few more minutes (until onion is tender).",
-    "Add garlic, ginger, soy sauce, hoisin sauce (optional), coleslaw mix, and carrots to the skillet. Cook, stirring, for about 5-7 more minutes, or until cabbage is wilted.",
-    "Remove skillet from the heat. Stir in green onions and season with salt and pepper, to taste."
+    "Add garlic, ginger, soy sauce, coleslaw mix, and optional carrots to the skillet. Cook, stirring, for about 5-7 more minutes, or until cabbage is wilted.",
+    "Remove skillet from the heat. Stir in green onions and season with salt and pepper to taste."
   ]
 }

@@ -13,7 +13,8 @@
     "description": "The star of the show is the vibrant tomato base, simmered to perfection with the warmth of bell peppers, onions, and aromatic spices like cumin and paprika. As the flavours meld together, a fragrant and savoury sauce emerges, creating the ideal bed for the crowning glory – perfectly poached eggs. The eggs, nestled in the spicy tomato embrace, cook gently until the whites are set but the yolks remain gloriously runny, creating a luscious and velvety finish to the dish.",
     "source": {
       "label": "downshiftology",
-      "url": "https://downshiftology.com/recipes/shakshuka/"
+      "url": "https://downshiftology.com/recipes/shakshuka/",
+      "isModified": true
     }
   },
   "ingredients": [
@@ -95,14 +96,16 @@
           "measurement": 1,
           "measurementUnit": null,
           "qualifierString": "chopped",
-          "isConvertibleUnit": false
+          "isConvertibleUnit": false,
+          "isOptional": true
         },
         {
           "name": "small bunch fresh parsley",
           "measurement": 1,
           "measurementUnit": null,
           "qualifierString": "chopped",
-          "isConvertibleUnit": false
+          "isConvertibleUnit": false,
+          "isOptional": true
         }
       ]
     }

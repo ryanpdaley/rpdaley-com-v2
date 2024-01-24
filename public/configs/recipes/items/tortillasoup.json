@@ -13,7 +13,8 @@
     "description": "Gather your ingredients, let the soup simmer on the stove, and get ready to savour the authentic flavours of this Tortilla Soup. Whether enjoyed as a standalone meal or as part of a festive spread, this recipe is a testament to the joy of simple, hearty, and delicious homemade soups.",
     "source": {
       "label": "Becki and Chris",
-      "url": "https://www.beckiandchris.com/blog/tortilla-soup"
+      "url": "https://www.beckiandchris.com/blog/tortilla-soup",
+      "isModified": false
     }
   },
   "ingredients": [

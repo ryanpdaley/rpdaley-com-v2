@@ -81,19 +81,18 @@
     { "recipeYield": "Serves 4" },
     {
       "recipeIngredient": [
-        "1 pound Ground turkey breast (substitute with ground chicken, ground beef, or ground pork)",
+        "1 pound Ground turkey breast",
         "1 Sweet onion (diced)",
         "1 tablespoon Sesame oil",
         "1 tablespoon Rice vinegar",
         "2 teaspoons Minced garlic",
         "1 teaspoon Ground ginger",
-        "¼ cups Soy sauce (low sodium)",
+        "¼ cups Soy sauce",
         "16 ounces Coleslaw mix (1 bag)",
-        "½ cup Grated carrots (or matchstick)",
+        "[optional] ½ cup Grated carrots (or matchstick)",
         "2 Green onions (thinly sliced)",
         "[optional] Salt (to taste)",
-        "[optional] Pepper (to taste)",
-        "[optional]1 tablespoon Hoisin sauce"
+        "[optional] Pepper (to taste)"
       ]
     },
     {
@@ -108,11 +107,11 @@
         },
         {
           "@type": "HowToStep",
-          "text": "Add garlic, ginger, soy sauce, hoisin sauce (optional), coleslaw mix, and carrots to the skillet. Cook, stirring, for about 5-7 more minutes, or until cabbage is wilted."
+          "text": "Add garlic, ginger, soy sauce, coleslaw mix, and optional carrots to the skillet. Cook, stirring, for about 5-7 more minutes, or until cabbage is wilted."
         },
         {
           "@type": "HowToStep",
-          "text": "Remove skillet from the heat. Stir in green onions and season with salt and pepper, to taste."
+          "text": "Remove skillet from the heat. Stir in green onions and season with salt and pepper to taste."
         }
       ]
     }
