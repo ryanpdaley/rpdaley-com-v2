@@ -20,7 +20,10 @@ const RecipeListView = (recipeListData: RecipeListType) => {
           const link = `recipes/${element.route}`;
           return (
             <li key={index} className="-indent-8 px-8">
-              <Link href={link} className="hover:text-red-500">
+              <Link
+                href={link}
+                className="underline hover:text-red-500 hover:no-underline"
+              >
                 {element.title}
               </Link>
             </li>
