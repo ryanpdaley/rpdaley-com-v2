@@ -65,9 +65,12 @@ const SourceBlock = ({ recipeInfo }: RecipeInfoProps) => {
   const sourceURL = recipeInfo.source?.url;
   if (sourceLabel === undefined) return '';
   const clickInfo = { sourceLabel, sourceURL };
+  const sourceString = recipeInfo.source.isModified
+    ? 'Modified from source:'
+    : 'Source:';
   return (
     <div className="w-full text-right px-5">
-      <strong>Source: </strong>
+      <strong>{`${sourceString} `}</strong>
       {sourceURL === null || sourceURL === undefined ? (
         <div className="inline-block">{sourceLabel}</div>
       ) : (
@@ -78,7 +81,9 @@ const SourceBlock = ({ recipeInfo }: RecipeInfoProps) => {
           }}
           target="_blank"
         >
-          <div className="inline-block">{sourceLabel}</div>
+          <div className="inline-block underline hover:text-red-500 hover:no-underline">
+            {sourceLabel}
+          </div>
         </Link>
       )}
     </div>
