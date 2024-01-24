@@ -13,7 +13,8 @@
     "description": "Tender chunks of succulent chicken, coated in a flavourful marinade of soy sauce, honey, and ginger, take centre stage on the sheet pan. This recipe transforms humble ingredients into a symphony of taste and texture, all cooked to perfection on a single sheet pan for easy cleanup and a stress-free dining experience.",
     "source": {
       "label": "Goodness with G",
-      "url": "https://www.goodnesswithg.com/blog/sheet-pan-cashew-chicken"
+      "url": "https://www.goodnesswithg.com/blog/sheet-pan-cashew-chicken",
+      "isModified": true
     }
   },
   "ingredients": [
@@ -57,14 +58,6 @@
           "isOptional": true
         },
         {
-          "name": "lime wedges",
-          "measurement": null,
-          "measurementUnit": null,
-          "qualifierString": null,
-          "isConvertibleUnit": false,
-          "isOptional": true
-        },
-        {
           "name": "rice",
           "measurement": null,
           "measurementUnit": null,
@@ -88,7 +81,7 @@
           "name": "Soy sauce",
           "measurement": 2,
           "measurementUnit": "tablespoons",
-          "qualifierString": "or coconut aminos",
+          "qualifierString": null,
           "isConvertibleUnit": true
         },
         {
@@ -120,11 +113,11 @@
           "isConvertibleUnit": false
         },
         {
-          "name": "Fresh ginger",
-          "measurement": 1,
-          "measurementUnit": "inch",
-          "qualifierString": "peeled & minced",
-          "isConvertibleUnit": true
+          "name": "Ginger",
+          "measurement": 3,
+          "measurementUnit": "dashes",
+          "qualifierString": "ground",
+          "isConvertibleUnit": false
         }
       ]
     }
@@ -137,6 +130,6 @@
     "Pour 3/4 of the sauce on the chicken and veggies, and toss to coat evenly",
     "Roast for 25 minutes, tossing halfway through",
     "Top chicken and veggies with remaining sauce, and toss",
-    "Serve with rice of choice, and top with lime juice and cilantro"
+    "Serve with rice of choice and top with cilantro"
   ]
 }

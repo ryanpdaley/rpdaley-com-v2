@@ -13,7 +13,8 @@
     "description": "Embark on a breakfast adventure with these Classic Waffles – a timeless recipe that turns the ordinary morning into a celebration of golden, crispy perfection. Delightfully fluffy on the inside and irresistibly crisp on the outside, these waffles are a testament to the art of crafting the perfect morning indulgence.",
     "source": {
       "label": "allrecipes.com",
-      "url": "https://www.allrecipes.com/recipe/20513/classic-waffles/"
+      "url": "https://www.allrecipes.com/recipe/20513/classic-waffles/",
+      "isModified": false
     }
   },
   "ingredients": [

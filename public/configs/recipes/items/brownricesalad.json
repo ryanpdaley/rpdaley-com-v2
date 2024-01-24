@@ -13,7 +13,8 @@
     "description": "This Brown Rice Salad is not only a feast for the taste buds but also a nutritional powerhouse. Packed with fibre, vitamins, and antioxidants, it's a wholesome dish that nourishes the body and delights the senses. The beauty of this recipe lies in its versatility – a satisfying side dish, a light lunch, or a star attraction at your next gathering.",
     "source": {
       "label": "Lost Instagram recipe",
-      "url": null
+      "url": null,
+      "isModified": false
     }
   },
   "ingredients": [

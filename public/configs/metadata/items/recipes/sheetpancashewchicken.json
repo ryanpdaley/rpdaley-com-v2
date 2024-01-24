@@ -88,15 +88,14 @@
         "1 Red bell pepper (diced)",
         "1 cup Unsalted cashews",
         "[optional] cilantro",
-        "[optional] lime wedges",
         "[optional] rice",
         "3 tablespoons Sriracha",
-        "2 tablespoons Soy sauce (or coconut aminos)",
+        "2 tablespoons Soy sauce",
         "2 tablespoons Rice vinegar",
         "2 tablespoons Toasted sesame oil",
         "1 tablespoon Honey",
         "2 Garlic cloves (minced)",
-        "1 inch Fresh ginger (peeled & minced)"
+        "3 dashes Ginger (ground)"
       ]
     },
     {
@@ -128,7 +127,7 @@
         },
         {
           "@type": "HowToStep",
-          "text": "Serve with rice of choice, and top with lime juice and cilantro"
+          "text": "Serve with rice of choice and top with cilantro"
         }
       ]
     }
