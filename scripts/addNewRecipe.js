@@ -3,6 +3,7 @@ const fs = require('node:fs');
 const xml2js = require('xml2js');
 
 const RECIPE_METADATA_DIR = '../public/configs/metadata/items/recipes';
+const META_ROOT_LIST = '../public/configs/metadata/root.json';
 const RECIPE_ROOT = `../public/configs/recipes/root.json`;
 const SITEMAP = '../public/sitemap.xml';
 const RECIPE_WEB_ROOT = 'https://www.rpdaley.com/recipes';
@@ -297,6 +298,15 @@ const addRecipeToSitemap = (recipeId) => {
   });
 };
 
+const addRecipeToMetaList = (recipeId) => {
+  const currentData = fs.readFileSync(META_ROOT_LIST);
+  const jsonData = JSON.parse(currentData);
+  const newData = `recipes/${recipeId}`;
+  jsonData.push(newData);
+  fs.writeFileSync(META_ROOT_LIST, JSON.stringify(jsonData));
+  console.log('... created entry in configs/metadata/root.json');
+};
+
 const addRecipe = (parsedArgs) => {
   if (parsedArgs.length === 1) {
     const recipeFilePath = parsedArgs[0];
@@ -312,6 +322,7 @@ const addRecipe = (parsedArgs) => {
       );
       addRecipeToRecipeList(recipeData, recipeId);
       addRecipeToSitemap(recipeId);
+      addRecipeToMetaList(recipeId);
     }
   } else {
     console.log('Unknown command - should be just the path to the recipe file');
