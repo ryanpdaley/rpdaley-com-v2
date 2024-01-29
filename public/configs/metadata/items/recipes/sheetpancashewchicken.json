@@ -100,7 +100,7 @@
     },
     {
       "recipeInstructions": [
-        { "@type": "HowToStep", "text": "Preheat oven to 425 degrees" },
+        { "@type": "HowToStep", "text": "Preheat oven to 425°F" },
         {
           "@type": "HowToStep",
           "text": "Line a large baking sheet with parchment paper"

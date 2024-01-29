@@ -93,7 +93,7 @@
       "recipeInstructions": [
         {
           "@type": "HowToStep",
-          "text": "Preheat the oven to 350 degrees F (175 degrees C)"
+          "text": "Preheat the oven to 350°F (175°C)"
         },
         {
           "@type": "HowToStep",

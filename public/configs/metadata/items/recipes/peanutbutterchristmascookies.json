@@ -92,7 +92,7 @@
       "30 Hershey Kisses (for decoration)"
     ],
     "recipeInstructions": [
-      { "@type": "HowToStep", "text": "Preheat oven to 375°" },
+      { "@type": "HowToStep", "text": "Preheat oven to 375°F" },
       {
         "@type": "HowToStep",
         "text": "Line two large baking sheets with parchment paper."
