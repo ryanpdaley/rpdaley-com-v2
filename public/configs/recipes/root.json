@@ -4,11 +4,7 @@
     "src": "gardengoldsoup.json",
     "route": "gardengoldsoup"
   },
-  {
-    "title": "Wacky Cake",
-    "src": "wackycake.json",
-    "route": "wackycake"
-  },
+  { "title": "Wacky Cake", "src": "wackycake.json", "route": "wackycake" },
   {
     "title": "Banana Banana Bread",
     "src": "bananabananabread.json",
@@ -24,11 +20,7 @@
     "src": "brownricesalad.json",
     "route": "brownricesalad"
   },
-  {
-    "title": "Shakshuka",
-    "src": "shakshuka.json",
-    "route": "shakshuka"
-  },
+  { "title": "Shakshuka", "src": "shakshuka.json", "route": "shakshuka" },
   {
     "title": "Classic Waffles",
     "src": "classicwaffles.json",
@@ -43,5 +35,10 @@
     "title": "Tortilla Soup",
     "src": "tortillasoup.json",
     "route": "tortillasoup"
+  },
+  {
+    "title": "Peanut Butter Christmas Cookies",
+    "src": "peanutbutterchristmascookies.json",
+    "route": "peanutbutterchristmascookies"
   }
 ]
