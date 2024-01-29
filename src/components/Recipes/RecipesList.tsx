@@ -10,13 +10,16 @@ type RecipeListType = {
 
 const RecipeListView = (recipeListData: RecipeListType) => {
   const recipeList = Object.values(recipeListData);
+  const sortedRecipeList = recipeList.sort((a, b) =>
+    a.title > b.title ? 1 : -1,
+  );
   return (
     <div>
       <div className="text-3xl inline-block align-middle font-oswald">
         Recipes:
       </div>
       <ul className="list-disc list-inside pl-10">
-        {recipeList.map((element, index) => {
+        {sortedRecipeList.map((element, index) => {
           const link = `recipes/${element.route}`;
           return (
             <li key={index} className="-indent-8 px-8">
