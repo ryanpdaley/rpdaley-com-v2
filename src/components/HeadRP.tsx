@@ -38,20 +38,14 @@ const MetaData = (metadata: MetaDataType) => {
     }
     return <meta key={index} name={metaTag.type} content={metaTag.content} />;
   });
-  const buildStructuredData = (data: object[]) => {
-    const sd = {};
-    data.forEach((element) => {
-      Object.assign(sd, element);
-    });
-    return (
-      <script
-        type="application/ld+json"
-        // eslint-disable-next-line react/no-danger
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(sd) }}
-        key="item-jsonld"
-      />
-    );
-  };
+  const buildStructuredData = (data: object[]) => (
+    <script
+      type="application/ld+json"
+      // eslint-disable-next-line react/no-danger
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }}
+      key="item-jsonld"
+    />
+  );
   const structuredElement = buildStructuredData(structuredData);
   return (
     <Head>
