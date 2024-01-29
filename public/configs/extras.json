@@ -55,7 +55,7 @@
     },
     {
       "name": "HarvardX",
-      "dates": [2024, 0],
+      "dates": [2024],
       "logo": "/images/t_harvard.webp",
       "link": "https://learning.edx.org/course/course-v1:HarvardX+CS50CS+Cybersecurity/home",
       "description": [
