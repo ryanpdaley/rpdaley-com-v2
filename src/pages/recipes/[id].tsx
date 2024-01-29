@@ -2,7 +2,11 @@ import Link from 'next/link';
 import RecipeComponent from '../../components/Recipes/Recipe';
 import { RecipeProps, RecipeRoutesList } from '../../types';
 
+const fs = require('node:fs');
+
 const RECIPE_ROOT_DIR = 'https://www.rpdaley.com/configs/recipes/root.json';
+const LOCAL_ROOT_DIR =
+  '/Users/rpd/github/rpdaley-com-v2/public/configs/recipes/root.json';
 
 const ErrorView = ({ recipeId }) => (
   <div>
@@ -29,8 +33,7 @@ export default function Recipe(props: RecipeProps) {
 }
 
 export async function getStaticPaths() {
-  const result = await fetch(RECIPE_ROOT_DIR);
-  const routes = await result.json();
+  const routes = JSON.parse(fs.readFileSync(LOCAL_ROOT_DIR, 'utf8'));
   const paths = routes.map((element) => ({
     params: { id: element.route.toString() },
   }));
