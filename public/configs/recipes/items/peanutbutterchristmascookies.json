@@ -1,0 +1,121 @@
+{
+  "info": {
+    "title": "Peanut Butter Christmas Cookies",
+    "makes": "30 cookies",
+    "prepTime": {
+      "value": 10,
+      "unit": "minutes"
+    },
+    "cookTime": {
+      "value": 10,
+      "unit": "minutes"
+    },
+    "description": "A golden brown, crinkled peanut butter cookie, its edges perfectly crisp while the center remains irresistibly chewy. As if that weren't enough, each cookie is adorned with a Hershey's Kiss, nestled into the warm and gooey surface just moments after emerging from the oven.",
+    "source": {
+      "label": "A forgotten website!",
+      "url": null,
+      "isModified": false
+    }
+  },
+  "ingredients": [
+    {
+      "subHeading": null,
+      "items": [
+        {
+          "name": "All-purpose flour",
+          "measurement": 1.75,
+          "measurementUnit": "cups",
+          "qualifierString": null,
+          "isConvertibleUnit": true
+        },
+        {
+          "name": "Baking soda",
+          "measurement": 1,
+          "measurementUnit": "teaspoon",
+          "qualifierString": null,
+          "isConvertibleUnit": true
+        },
+        {
+          "name": "Kosher Salt",
+          "measurement": 0.5,
+          "measurementUnit": "teaspoon",
+          "qualifierString": null,
+          "isConvertibleUnit": true
+        },
+        {
+          "name": "Butter",
+          "measurement": 0.5,
+          "measurementUnit": "cup",
+          "qualifierString": "softened",
+          "isConvertibleUnit": true
+        },
+        {
+          "name": "Peanut Butter",
+          "measurement": 0.5,
+          "measurementUnit": "cup",
+          "qualifierString": "smooth",
+          "isConvertibleUnit": true
+        },
+        {
+          "name": "Brown sugar",
+          "measurement": 0.5,
+          "measurementUnit": "cup",
+          "qualifierString": "packed",
+          "isConvertibleUnit": true
+        },
+        {
+          "name": "Granulated Sugar",
+          "measurement": 0.25,
+          "measurementUnit": "cup",
+          "qualifierString": "for recipe",
+          "isConvertibleUnit": false
+        },
+        {
+          "name": "Granulated Sugar",
+          "measurement": 0.16,
+          "measurementUnit": "cup",
+          "qualifierString": "for decoration",
+          "isConvertibleUnit": false
+        },
+        {
+          "name": "Egg",
+          "measurement": 1,
+          "measurementUnit": null,
+          "qualifierString": null,
+          "isConvertibleUnit": false
+        },
+        {
+          "name": "Milk",
+          "measurement": 2,
+          "measurementUnit": "tablespoons",
+          "qualifierString": null,
+          "isConvertibleUnit": true
+        },
+        {
+          "name": "Pure Vanilla Extract",
+          "measurement": 1,
+          "measurementUnit": "teaspoon",
+          "qualifierString": null,
+          "isConvertibleUnit": true
+        },
+        {
+          "name": "Hershey Kisses",
+          "measurement": 30,
+          "measurementUnit": null,
+          "qualifierString": "for decoration",
+          "isConvertibleUnit": null
+        }
+      ]
+    }
+  ],
+  "directions": [
+    "Preheat oven to 375°",
+    "Line two large baking sheets with parchment paper.",
+    "In small bowl, whisk flour, baking soda, and salt until combined.",
+    "In a large bowl using a hand mixer, beat butter and peanut butter until smooth. Add sugars and beat until light in color and fluffy. Beat in egg, then add milk and vanilla and mix until combined.",
+    "Gradually add flour mixture to large bowl, stirring on low, until just combined.",
+    "Roll a tablespoonful of cookie dough into a ball, then roll in sugar. Place on baking sheet and repeat with remaining dough, spacing cookies at least 2\" apart.",
+    "Bake until cookies have poofed and no longer look raw, about 8 to 10 minutes. (They won't brown!)",
+    "Immediately top with Hershey Kisses before serving."
+  ]
+}

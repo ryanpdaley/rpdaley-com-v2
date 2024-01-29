@@ -18,10 +18,11 @@ type MetaDataType = {
     content: string;
   }[];
   structuredData: object[];
+  canonicalUrl: string;
 };
 
 const MetaData = (metadata: MetaDataType) => {
-  const { metaTags, structuredData } = metadata;
+  const { metaTags, structuredData, canonicalUrl } = metadata;
   const metaElements = metaTags.map((metaTag, index) => {
     if (metaTag.type === 'pageTitle') {
       return <title key={index}>{metaTag.content}</title>;
@@ -54,6 +55,7 @@ const MetaData = (metadata: MetaDataType) => {
   const structuredElement = buildStructuredData(structuredData);
   return (
     <Head>
+      <link rel="canonical" href={canonicalUrl} />
       {metaElements}
       {structuredElement}
     </Head>
