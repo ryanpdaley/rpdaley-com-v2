@@ -54,58 +54,6 @@
       ]
     },
     {
-      "name": "HarvardX",
-      "dates": [2024],
-      "logo": "/images/t_harvard.webp",
-      "link": "https://learning.edx.org/course/course-v1:HarvardX+CS50CS+Cybersecurity/home",
-      "description": [
-        {
-          "title": "CS50's Introduction to Cybersecurity",
-          "dataList": [
-            {
-              "type": "list-item",
-              "message": "Taught by: David J. Malan"
-            },
-            {
-              "type": "list-item",
-              "message": "Online course from Harvard University via edX."
-            },
-            {
-              "type": "list-item",
-              "message": "Sections include:"
-            },
-            {
-              "type": "indent",
-              "message": "Securing Accounts"
-            },
-            {
-              "type": "indent",
-              "message": "Securing Data"
-            },
-            {
-              "type": "indent",
-              "message": "Securing Systems"
-            },
-            {
-              "type": "indent",
-              "message": "Securing Software"
-            },
-            {
-              "type": "indent",
-              "message": "Preserving Privacy"
-            }
-          ],
-          "technologies": [],
-          "location": {
-            "isRemote": true,
-            "city": "Toronto",
-            "provState": "Ontario",
-            "country": "Canada"
-          }
-        }
-      ]
-    },
-    {
       "name": "Epic React",
       "dates": [2024, 0],
       "logo": "/images/t_epicreact.webp",
@@ -157,6 +105,58 @@
             {
               "type": "indent",
               "message": "Build an Epic React App"
+            }
+          ],
+          "technologies": [],
+          "location": {
+            "isRemote": true,
+            "city": "Toronto",
+            "provState": "Ontario",
+            "country": "Canada"
+          }
+        }
+      ]
+    },
+    {
+      "name": "HarvardX",
+      "dates": [2023, 2024],
+      "logo": "/images/t_harvard.webp",
+      "link": "https://learning.edx.org/course/course-v1:HarvardX+CS50CS+Cybersecurity/home",
+      "description": [
+        {
+          "title": "CS50's Introduction to Cybersecurity",
+          "dataList": [
+            {
+              "type": "list-item",
+              "message": "Taught by: David J. Malan"
+            },
+            {
+              "type": "list-item",
+              "message": "Online course from Harvard University via edX."
+            },
+            {
+              "type": "list-item",
+              "message": "Sections include:"
+            },
+            {
+              "type": "indent",
+              "message": "Securing Accounts"
+            },
+            {
+              "type": "indent",
+              "message": "Securing Data"
+            },
+            {
+              "type": "indent",
+              "message": "Securing Systems"
+            },
+            {
+              "type": "indent",
+              "message": "Securing Software"
+            },
+            {
+              "type": "indent",
+              "message": "Preserving Privacy"
             }
           ],
           "technologies": [],
