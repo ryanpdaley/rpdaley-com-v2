@@ -12,7 +12,7 @@ type FooterData = {
 const SocialItems = ({ socialData }) =>
   socialData.map((socialLink: FooterData) => (
     <div
-      className="p-1 float-right h-full rounded hover:bg-white"
+      className="p-1 float-right h-10 rounded hover:bg-white align-middle"
       key={socialLink.name}
     >
       <a
@@ -44,7 +44,7 @@ const Footer = () => {
   }, []);
 
   return (
-    <div className="fixed bottom-0 left-0 w-full h-12 bg-black">
+    <div className="fixed bottom-0 left-0 w-full h-14 bg-black">
       <div className="pt-2 pr-2 float-right block">
         {footerData && <SocialItems socialData={footerData} />}
       </div>
