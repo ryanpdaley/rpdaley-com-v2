@@ -96,7 +96,13 @@ const Nav = () => {
 
   return (
     <div className="fixed bg-red-500 w-full top-24 h-9 block">
-      {navData && <NavItems navData={navData} isMobile={isMobile} />}
+      <div
+        className={
+          isMobile ? 'h-full' : 'h-full flex justify-center items-center'
+        }
+      >
+        {navData && <NavItems navData={navData} isMobile={isMobile} />}
+      </div>
     </div>
   );
 };
