@@ -35,9 +35,8 @@ const SocialItems = ({ socialData }) =>
     </div>
   ));
 
-const Footer = () => {
+const Footer = ({ darkMode, setDarkMode }) => {
   const [footerData, setFooterData] = useState<FooterData | null>(null);
-  const [darkMode, setDarkMode] = useState(false);
 
   useEffect(() => {
     localStorage.setItem('darkMode', JSON.stringify(darkMode));

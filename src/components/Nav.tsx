@@ -11,15 +11,13 @@ type NavData = {
   isActive: boolean;
 };
 
-const NavItems = ({ navData, isMobile }) => {
+const NavItems = ({ navData, isMobile, darkMode }) => {
   const router = useRouter();
   const [isMenuOpen, setMenuOpen] = useState(false);
   const styles = {
     default: {
-      default:
-        'bg-red-500 text-2xl text-white text-center h-full px-6 inline-block hover:bg-black font-oswald',
-      active:
-        'bg-white text-2xl text-black text-center h-full px-6 inline-block hover:bg-black hover:text-white font-oswald',
+      default: `${darkMode ? 'hover:bg-white text-black' : 'text-white hover:bg-black'} bg-red-500 text-2xl text-center h-full px-6 inline-block  font-oswald`,
+      active: `${darkMode ? 'bg-black text-white hover:bg-white hover:text-black' : 'bg-white text-black hover:bg-black hover:text-white'}  text-2xl  text-center h-full px-6 inline-block font-oswald`,
     },
     mobile: {
       default: 'bg-red-500 text-2xl text-white h-full px-12 w-1/2 font-oswald',
@@ -84,7 +82,7 @@ const NavItems = ({ navData, isMobile }) => {
   );
 };
 
-const Nav = () => {
+const Nav = (darkMode) => {
   const [navData, setNavData] = useState<NavData | null>(null);
   const isMobile = useMobile();
 
@@ -101,7 +99,9 @@ const Nav = () => {
           isMobile ? 'h-full' : 'h-full flex justify-center items-center'
         }
       >
-        {navData && <NavItems navData={navData} isMobile={isMobile} />}
+        {navData && (
+          <NavItems navData={navData} isMobile={isMobile} {...darkMode} />
+        )}
       </div>
     </div>
   );
