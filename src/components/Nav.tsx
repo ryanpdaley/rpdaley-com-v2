@@ -16,7 +16,7 @@ const NavItems = ({ navData, isMobile, darkMode }) => {
   const [isMenuOpen, setMenuOpen] = useState(false);
   const styles = {
     default: {
-      default: `${darkMode ? 'hover:bg-white text-black' : 'text-white hover:bg-black'} bg-red-500 text-2xl text-center h-full px-6 inline-block  font-oswald`,
+      default: `${darkMode ? 'hover:bg-white hover:text-black' : 'hover:bg-black'} text-white bg-red-500 text-2xl text-center h-full px-6 inline-block  font-oswald`,
       active: `${darkMode ? 'bg-black text-white hover:bg-white hover:text-black' : 'bg-white text-black hover:bg-black hover:text-white'}  text-2xl  text-center h-full px-6 inline-block font-oswald`,
     },
     mobile: {
