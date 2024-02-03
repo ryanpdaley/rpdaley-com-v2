@@ -52,7 +52,7 @@ const Footer = ({ darkMode, setDarkMode }) => {
     <div className="fixed bottom-0 left-0 w-full h-14 bg-black block">
       <button
         type="button"
-        className="inline-block text-white text-3xl pt-3 pl-3 hover:text-red-500"
+        className={`inline-block text-white text-3xl pt-3 pl-3 ${darkMode ? 'hover:text-yellow-500' : 'hover:text-blue-500'}`}
         onClick={() => setDarkMode(!darkMode)}
       >
         {darkMode ? <RxSun /> : <RxMoon />}
