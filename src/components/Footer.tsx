@@ -2,6 +2,7 @@ import Image from 'next/image';
 import { useEffect, useState } from 'react';
 import { RxMoon, RxSun } from 'react-icons/rx';
 import { captureClick } from '../lib/rtools';
+import { event as gaEvent } from '../lib/gtag';
 import { fetchConfig } from '../lib/configs';
 
 type FooterData = {
@@ -53,7 +54,16 @@ const Footer = ({ darkMode, setDarkMode }) => {
       <button
         type="button"
         className={`inline-block text-white text-3xl pt-3 pl-3 ${darkMode ? 'hover:text-yellow-500' : 'hover:text-blue-500'}`}
-        onClick={() => setDarkMode(!darkMode)}
+        onClick={() => {
+          const newDarModeValue = !darkMode;
+          setDarkMode(newDarModeValue);
+          gaEvent({
+            action: 'DarkMode Toggled',
+            category: 'User Action',
+            label: 'DarkMode',
+            value: newDarModeValue ? 'light' : 'dark',
+          });
+        }}
       >
         {darkMode ? <RxSun /> : <RxMoon />}
       </button>
