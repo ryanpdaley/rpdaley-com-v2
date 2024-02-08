@@ -89,7 +89,11 @@ const App = ({ Component, pageProps }) => {
         }}
       />
       <Page darkMode={darkMode} setDarkMode={setDarkMode}>
-        <Component {...pageProps} />
+        <Component
+          {...pageProps}
+          darkMode={darkMode}
+          setDarkMode={setDarkMode}
+        />
       </Page>
     </main>
   );
