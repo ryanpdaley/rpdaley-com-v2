@@ -19,14 +19,14 @@ const ErrorView = ({ recipeId }) => (
 );
 
 export default function Recipe(props: RecipeProps) {
-  const { recipeId, routes } = props;
+  const { recipeId, routes, darkMode } = props;
   const validIds = routes.map((recipe) => recipe.route);
   if (validIds.indexOf(recipeId) === -1) {
     return <ErrorView recipeId={recipeId} />;
   }
   return (
     <div className="h-full">
-      <RecipeComponent data={props} />
+      <RecipeComponent data={props} darkMode={darkMode} />
     </div>
   );
 }
@@ -41,7 +41,7 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params }) {
   const routes: RecipeRoutesList[] = JSON.parse(
-    fs.readFileSync(LOCAL_ROOT_DIR, 'utf8'),
+    fs.readFileSync(LOCAL_ROOT_DIR, 'utf8')
   );
   return {
     props: { recipeId: params.id, routes },

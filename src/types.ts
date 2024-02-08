@@ -30,6 +30,7 @@ export type ResumeInfoType = {
 export type RecipeProps = {
   recipeId: string;
   routes: RecipeRoute[];
+  darkMode: boolean;
 };
 
 export type RecipeRoutesList = {
