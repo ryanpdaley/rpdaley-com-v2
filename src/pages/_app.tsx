@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import Script from 'next/script';
 import { useRouter, Router } from 'next/router';
 import nProgress from 'nprogress';
@@ -31,6 +31,7 @@ Router.events.on('routeChangeError', () => nProgress.done());
 
 const App = ({ Component, pageProps }) => {
   const router = useRouter();
+  const [darkMode, setDarkMode] = useState(false);
   useEffect(() => {
     const handleRouteChange = (url: string) => {
       gtag.pageview(url);
@@ -59,9 +60,13 @@ const App = ({ Component, pageProps }) => {
   useReportWebVitals((metric) => {
     gtag.webVitalEvent(metric);
   });
+
+  const basicDarkModeStyles = darkMode
+    ? 'bg-black text-white'
+    : 'bg-white text-black';
   return (
     <main
-      className={`${oswald.variable} ${nunito.variable} ${lato.variable} font-sans`}
+      className={`${oswald.variable} ${nunito.variable} ${lato.variable} ${basicDarkModeStyles} font-sans min-h-screen`}
     >
       {/* Global Site Tag (gtag.js) - Google Analytics */}
       <Script
@@ -83,8 +88,12 @@ const App = ({ Component, pageProps }) => {
           `,
         }}
       />
-      <Page>
-        <Component {...pageProps} />
+      <Page darkMode={darkMode} setDarkMode={setDarkMode}>
+        <Component
+          {...pageProps}
+          darkMode={darkMode}
+          setDarkMode={setDarkMode}
+        />
       </Page>
     </main>
   );
@@ -95,7 +104,6 @@ App.getInitialProps = async function ({ Component, ctx }) {
   if (Component.getInitialProps) {
     pageProps = await Component.getInitialProps(ctx);
   }
-
   return { pageProps };
 };
 
