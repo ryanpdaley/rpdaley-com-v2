@@ -41,7 +41,7 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params }) {
   const routes: RecipeRoutesList[] = JSON.parse(
-    fs.readFileSync(LOCAL_ROOT_DIR, 'utf8')
+    fs.readFileSync(LOCAL_ROOT_DIR, 'utf8'),
   );
   return {
     props: { recipeId: params.id, routes },
