@@ -53,7 +53,7 @@ const RecipeView = ({
 
   const reactToPrintTriggerRecipe = useCallback(
     () => (
-      <div className="block text-xl border-solid border-2 rounded-md px-2 m-1 cursor-pointer hover:text-red-500">
+      <div className="flex items-center text-xl border-solid border-2 rounded-md px-2 m-1 cursor-pointer hover:text-red-500">
         <div className="inline-block px-1 align-middle">
           <MdMenuBook />
         </div>
@@ -70,7 +70,7 @@ const RecipeView = ({
       <button
         type="button"
         disabled={!shoppingListIsActive}
-        className={`block text-xl border-solid border-2 rounded-md px-2 m-1 ${shoppingListActiveElements} `}
+        className={`flex items-center text-xl border-solid border-2 rounded-md content-center px-2 m-1 ${shoppingListActiveElements} `}
       >
         <div className="inline-block px-1 align-middle">
           <FaShoppingBasket />
@@ -128,7 +128,7 @@ const RecipeView = ({
   );
 };
 
-const RecipeComponent = ({ data }) => {
+const RecipeComponent = ({ data, darkMode }) => {
   const { recipeId } = data;
   const [recipeData, setRecipeData] = useState<RecipeDataType | null>(null);
   const [checkedItems, setCheckedItems] = useState<string[]>([]);
