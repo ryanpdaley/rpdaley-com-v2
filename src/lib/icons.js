@@ -11,6 +11,7 @@ import {
   FaJira,
   FaGithub,
   FaTerminal,
+  FaVuejs,
 } from 'react-icons/fa';
 import { GrGraphQl } from 'react-icons/gr';
 import {
@@ -25,6 +26,8 @@ import {
   SiRaspberrypi,
   SiPivotaltracker,
   SiBlackberry,
+  SiPostgresql,
+  SiApacheairflow,
 } from 'react-icons/si';
 import { DiRuby } from 'react-icons/di';
 import { captureClick } from './rtools';
@@ -154,6 +157,21 @@ const iconMap = {
     icon: SiBlackberry,
     label: 'BlackBerry',
     url: 'https://www.blackberry.com/',
+  },
+  vue: {
+    icon: FaVuejs,
+    label: 'Vue',
+    url: 'https://vuejs.org/',
+  },
+  postgres: {
+    icon: SiPostgresql,
+    label: 'PostgreSQL',
+    url: 'https://www.postgresql.org/',
+  },
+  airflow: {
+    icon: SiApacheairflow,
+    label: 'Airflow',
+    url: 'https://airflow.apache.org/',
   },
 };
 
