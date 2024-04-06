@@ -1,7 +1,6 @@
 # rpdaley-com-v2
 
-www.rpdaley.com - v2.0: randomly deployed to v2.rpdaley.com
-
+www.rpdaley.com - v2.0
 As usual, I am using my own personal website to expand my experience with some technologies:
 
 - React
