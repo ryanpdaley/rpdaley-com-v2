@@ -2,6 +2,47 @@
   "title": "Work",
   "data": [
     {
+      "name": "City of Toronto",
+      "dates": [2024],
+      "logo": "/images/t_cot.webp",
+      "link": "https://www.toronto.ca/",
+      "description": [
+        {
+          "title": "Data Specialist (Full-Stack)",
+          "dataList": [
+            {
+              "type": "list-item",
+              "message": "Member of the MOVE digital product team at the City of Toronto."
+            },
+            {
+              "type": "list-item",
+              "message": "MOVE is an internal web application and data platform used by the City of Toronto to make sense of vehicle, cyclist, and pedestrian traffic volumes and collisions."
+            },
+            {
+              "type": "technologies",
+              "message": "JavaScript, Vue, node.js, PostgreSQL, Shell, Sass, Airflow, and python"
+            }
+          ],
+          "technologies": [
+            "javascript",
+            "vue",
+            "node",
+            "postgres",
+            "shell",
+            "sass",
+            "airflow",
+            "python"
+          ],
+          "location": {
+            "isRemote": false,
+            "city": "Toronto",
+            "provState": "Ontario",
+            "country": "Canada"
+          }
+        }
+      ]
+    },
+    {
       "name": "Shopify",
       "dates": [2022, 2023],
       "logo": "/images/t_shopify.webp",
