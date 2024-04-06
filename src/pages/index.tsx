@@ -1,7 +1,11 @@
 export default function Home() {
   return (
     <div className="space-y-4">
-      <p>Ryan Daley (RP Daley) is a Software Developer in Toronto.</p>
+      <p>
+        Ryan Daley (RP Daley) is a Full-Stack Developer with the City of Toronto
+        working on the{' '}
+        <a href="https://medium.com/move-project">MOVE Project</a>.
+      </p>
       <p>
         He was previously a Developer at Shopify working in data and analytics,
         and a Web Application Developer at Bell Media, where he created the
