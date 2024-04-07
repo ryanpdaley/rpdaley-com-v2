@@ -10,7 +10,7 @@ import RecipePrintViews from './components/RecipePrintViews';
 import { event as gaEvent } from '../../lib/gtag';
 import { RecipeDataType, SetCheckedItems } from './types';
 
-const RECIPE_ROOT_DIR = 'https://rpdaley.com/configs/recipes/items';
+const RECIPE_ROOT_DIR = `/configs/recipes/items`;
 
 type RecipeViewsType = {
   recipeData: RecipeDataType;

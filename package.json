@@ -4,8 +4,9 @@
   "description": "Rewrite of rpdaley.com using React, Next.js,",
   "main": "index.js",
   "scripts": {
-    "dev": "export NEXT_PUBLIC_APP_VERSION=$(git rev-parse --short HEAD) && next",
-    "build": "export NEXT_PUBLIC_APP_VERSION=$(git rev-parse --short HEAD) && next build",
+    "dev": "export NEXT_PUBLIC_APP_VERSION=$(git rev-parse --short HEAD) && NODE_ENV=development next",
+    "build": "export NEXT_PUBLIC_APP_VERSION=$(git rev-parse --short HEAD) && NODE_ENV=production next build",
+    "stage": "export NEXT_PUBLIC_APP_VERSION=$(git rev-parse --short HEAD) && NODE_ENV=staging next build",
     "start": "export NEXT_PUBLIC_APP_VERSION=$(git rev-parse --short HEAD) && next start",
     "static": "export NEXT_PUBLIC_APP_VERSION=$(git rev-parse --short HEAD) && next build && next export",
     "analyze": "export NEXT_PUBLIC_APP_VERSION=$(git rev-parse --short HEAD) && ANALYZE=true next build",

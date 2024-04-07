@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
 
-const RECIPE_ROOT_CONFIG = 'https://rpdaley.com/configs/recipes/root.json';
+const RECIPE_ROOT_CONFIG = `/configs/recipes/root.json`;
 type RecipeListType = {
   title: string;
   src: string;

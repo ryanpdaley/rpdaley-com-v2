@@ -275,7 +275,7 @@ const addRecipeToRecipeList = (recipe, recipeId) => {
   const newRecipe = {
     title: recipe.info.title,
     src: `${recipeId}.json`,
-    route: recipeId,
+    route: `${recipeId}`,
   };
   jsonData.push(newRecipe);
   fs.writeFileSync(RECIPE_ROOT, JSON.stringify(jsonData));
@@ -283,7 +283,7 @@ const addRecipeToRecipeList = (recipe, recipeId) => {
 };
 
 const addRecipeToSitemap = (recipeId) => {
-  const newRecipeUrl = `${RECIPE_WEB_ROOT}/${recipeId}`;
+  const newRecipeUrl = `${RECIPE_WEB_ROOT}/${recipeId}/`;
   const currentSitemap = fs.readFileSync(SITEMAP);
   xml2js.parseString(currentSitemap, (err, result) => {
     if (err) {
@@ -301,7 +301,7 @@ const addRecipeToSitemap = (recipeId) => {
 const addRecipeToMetaList = (recipeId) => {
   const currentData = fs.readFileSync(META_ROOT_LIST);
   const jsonData = JSON.parse(currentData);
-  const newData = `recipes/${recipeId}`;
+  const newData = `recipes/${recipeId}/`;
   jsonData.push(newData);
   fs.writeFileSync(META_ROOT_LIST, JSON.stringify(jsonData));
   console.log('... created entry in configs/metadata/root.json');
