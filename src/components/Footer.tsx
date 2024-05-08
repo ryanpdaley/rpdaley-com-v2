@@ -53,6 +53,7 @@ const Footer = ({ darkMode, setDarkMode }) => {
     <div className="fixed bottom-0 left-0 w-full h-14 bg-black block">
       <button
         type="button"
+        aria-label={`Dark mode button - ${!darkMode ? 'light' : 'dark'}`}
         className={`inline-block text-white text-3xl pt-3 pl-3 ${darkMode ? 'hover:text-yellow-500' : 'hover:text-blue-500'}`}
         onClick={() => {
           const newDarModeValue = !darkMode;
