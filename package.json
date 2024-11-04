@@ -14,7 +14,7 @@
   "author": "RP Daley <rpdaley@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "@next/bundle-analyzer": "^14.2.13",
+    "@next/bundle-analyzer": "^15.0.2",
     "babel-core": "^7.0.0-bridge.0",
     "babel-plugin-styled-components": "^2.1.4",
     "minimist-lite": "^2.2.1",
