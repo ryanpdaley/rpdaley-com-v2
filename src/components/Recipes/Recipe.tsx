@@ -1,7 +1,7 @@
 import { RefObject, useCallback, useEffect, useRef, useState } from 'react';
 import Link from 'next/link';
 import { IoArrowBack } from 'react-icons/io5';
-import ReactToPrint from 'react-to-print';
+import { useReactToPrint } from 'react-to-print';
 import { FaShoppingBasket } from 'react-icons/fa';
 import { MdMenuBook } from 'react-icons/md';
 import RecipeInfo from './components/RecipeInfo';
@@ -31,57 +31,16 @@ const RecipeView = ({
   const shoppingListActiveElements = shoppingListIsActive
     ? 'cursor-pointer hover:text-red-500'
     : 'cursor-not-allowed text-gray-400';
-  const reactToPrintContentRecipe = useCallback(() => {
-    gaEvent({
-      action: 'Recipe Printed',
-      category: 'User Action',
-      label: 'Recipe',
-      value: recipeData.info.title,
-    });
-    return componentRefRecipe.current;
-  }, [componentRefRecipe, recipeData.info.title]);
 
-  const reactToPrintContentShoppingList = useCallback(() => {
-    gaEvent({
-      action: 'Shopping List Printed',
-      category: 'User Action',
-      label: 'Recipe',
-      value: recipeData.info.title,
-    });
-    return componentRefShoppingList.current;
-  }, [componentRefShoppingList, recipeData.info.title]);
+  const shoppingListPrintFn = useReactToPrint({
+    contentRef: componentRefShoppingList,
+    documentTitle: `${recipeData.info.title.replace(/[^a-zA-Z]/g, '')}-ShoppingList`,
+  });
 
-  const reactToPrintTriggerRecipe = useCallback(
-    () => (
-      <div className="flex items-center text-xl border-solid border-2 rounded-md px-2 m-1 cursor-pointer hover:text-red-500">
-        <div className="inline-block px-1 align-middle">
-          <MdMenuBook />
-        </div>
-        <div className="inline-block align-middle font-oswald">
-          Print Recipe
-        </div>
-      </div>
-    ),
-    [],
-  );
-
-  const reactToPrintTriggerShoppingList = useCallback(
-    () => (
-      <button
-        type="button"
-        disabled={!shoppingListIsActive}
-        className={`flex items-center text-xl border-solid border-2 rounded-md content-center px-2 m-1 ${shoppingListActiveElements} `}
-      >
-        <div className="inline-block px-1 align-middle">
-          <FaShoppingBasket />
-        </div>
-        <div className="inline-block align-middle font-oswald">
-          Print Shopping List
-        </div>
-      </button>
-    ),
-    [shoppingListActiveElements, shoppingListIsActive],
-  );
+  const RecipePrintFn = useReactToPrint({
+    contentRef: componentRefRecipe,
+    documentTitle: `${recipeData.info.title.replace(/[^a-zA-Z]/g, '')}`,
+  });
 
   return (
     <div className="block pb-2">
@@ -107,21 +66,49 @@ const RecipeView = ({
       </div>
       <div className="block text-right">
         <div className="inline-block">
-          <ReactToPrint
-            content={reactToPrintContentRecipe}
-            documentTitle={recipeData.info.title.replace(/\s/g, '')}
-            trigger={reactToPrintTriggerRecipe}
-          />
+          <button
+            type="button"
+            disabled={!shoppingListIsActive}
+            onClick={() => {
+              shoppingListPrintFn();
+              gaEvent({
+                action: 'Shopping List Printed',
+                category: 'User Action',
+                label: 'Recipe',
+                value: recipeData.info.title,
+              });
+            }}
+            className={`flex items-center text-xl border-solid border-2 rounded-md content-center px-2 m-1 ${shoppingListActiveElements} `}
+          >
+            <div className="inline-block px-1 align-middle">
+              <FaShoppingBasket />
+            </div>
+            <div className="inline-block align-middle font-oswald">
+              Print Shopping List
+            </div>
+          </button>
         </div>
         <div className="inline-block">
-          <ReactToPrint
-            content={reactToPrintContentShoppingList}
-            documentTitle={`${recipeData.info.title.replace(
-              /\s/g,
-              '',
-            )}-ShoppingList`}
-            trigger={reactToPrintTriggerShoppingList}
-          />
+          <button
+            type="button"
+            onClick={() => {
+              RecipePrintFn();
+              gaEvent({
+                action: 'Recipe Printed',
+                category: 'User Action',
+                label: 'Recipe',
+                value: recipeData.info.title,
+              });
+            }}
+            className={`flex items-center text-xl border-solid border-2 rounded-md content-center px-2 m-1`}
+          >
+            <div className="inline-block px-1 align-middle">
+              <MdMenuBook />
+            </div>
+            <div className="inline-block align-middle font-oswald">
+              Print Recipe
+            </div>
+          </button>
         </div>
       </div>
     </div>
