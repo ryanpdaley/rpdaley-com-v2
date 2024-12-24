@@ -1,0 +1,103 @@
+{
+  "info": {
+    "title": "Christmas Chocolate Balls",
+    "makes": null,
+    "prepTime": {
+      "value": 2.75,
+      "unit": "hours"
+    },
+    "cookTime": {
+      "value": 15,
+      "unit": "mins"
+    },
+    "description": "Christmas Chocolate Balls!",
+    "source": {
+      "label": "A forgotten website!",
+      "url": null,
+      "isModified": false
+    }
+  },
+  "ingredients": [
+    {
+      "subHeading": null,
+      "items": [
+        {
+          "name": "All-purpose flour",
+          "measurement": 2.75,
+          "measurementUnit": "cups",
+          "qualifierString": null,
+          "isConvertibleUnit": true
+        },
+        {
+          "name": "Unsweetened cocoa powder",
+          "measurement": 0.75,
+          "measurementUnit": "cups",
+          "qualifierString": null,
+          "isConvertibleUnit": true
+        },
+        {
+          "name": "Baking powder",
+          "measurement": 1,
+          "measurementUnit": "teaspoon",
+          "qualifierString": null,
+          "isConvertibleUnit": true
+        },
+        {
+          "name": "Baking soda",
+          "measurement": 0.75,
+          "measurementUnit": "teaspoon",
+          "qualifierString": null,
+          "isConvertibleUnit": true
+        },
+        {
+          "name": "Kosher Salt",
+          "measurement": 1,
+          "measurementUnit": "teaspoon",
+          "qualifierString": null,
+          "isConvertibleUnit": true
+        },
+        {
+          "name": "Brown sugar",
+          "measurement": 0.5,
+          "measurementUnit": "cup",
+          "qualifierString": null,
+          "isConvertibleUnit": true
+        },
+        {
+          "name": "Butter",
+          "measurement": 0.5,
+          "measurementUnit": "cup",
+          "qualifierString": "melted",
+          "isConvertibleUnit": true
+        },
+        {
+          "name": "Large eggs",
+          "measurement": 3,
+          "measurementUnit": null,
+          "qualifierString": null,
+          "isConvertibleUnit": false
+        },
+        {
+          "name": "Powdered sugar",
+          "measurement": null,
+          "measurementUnit": null,
+          "qualifierString": null,
+          "isConvertibleUnit": false
+        }
+      ]
+    }
+  ],
+  "directions": [
+    "In a large bowl, combine flour, cocoa powder, salt, baking powder, and baking soda.",
+    "In a medium bowl, whisk together melted butter, sugars, and eggs until well combined.",
+    "Pour into dry ingredients and mix until just combined.",
+    "Cover bowl with plastic wrap and refrigerate for 2 hours.",
+    "Preheat oven to 350°F (175°C) and line 2 large baking sheets with parchment.",
+    "Place powdered sugar in a small bowl.",
+    "Scoop about 2 tablespoons of dough and roll into a ball.",
+    "Roll dough into powdered sugar, coating well and then place on prepared baking sheet 2\" apart.",
+    "After rolling all the dough in powdered sugar, roll each piece again in powdered sugar.",
+    "Bake cookies until cookies puff and crack - about 15 minutes.",
+    "Let cool on baking sheet."
+  ]
+}

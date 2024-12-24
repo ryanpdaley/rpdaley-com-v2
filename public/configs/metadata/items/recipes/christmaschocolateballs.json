@@ -1,0 +1,129 @@
+{
+  "metaTags": [
+    {
+      "type": "pageTitle",
+      "content": "RP Daley.com | Recipes | Christmas Chocolate Balls"
+    },
+    { "type": "charSet", "content": "utf-8" },
+    {
+      "type": "viewport",
+      "content": "width=device-width,initial-scale=1,shrink-to-fit=no"
+    },
+    { "type": "theme-color", "content": "#000000" },
+    {
+      "type": "title",
+      "content": "RP Daley.com | Recipes | Christmas Chocolate Balls"
+    },
+    { "type": "description", "content": "Christmas Chocolate Balls!" },
+    {
+      "type": "keywords",
+      "content": "Christmas, Chocolate, Balls, Recipe, RP Daley"
+    },
+    { "type": "author", "content": "RP Daley" },
+    { "type": "property", "propertyValue": "og:type", "content": "website" },
+    {
+      "type": "property",
+      "propertyValue": "og:url",
+      "content": "https://www.rpdaley.com/recipes/christmaschocolateballs/"
+    },
+    {
+      "type": "property",
+      "propertyValue": "og:title",
+      "content": "RP Daley.com | Recipes | Christmas Chocolate Balls"
+    },
+    {
+      "type": "property",
+      "propertyValue": "og:description",
+      "content": "Christmas Chocolate Balls!"
+    },
+    {
+      "type": "property",
+      "propertyValue": "og:image",
+      "content": "https://v2.rpdaley.com/images/metaImage.jpeg"
+    },
+    {
+      "type": "property",
+      "propertyValue": "twitter:card",
+      "content": "summary_large_image"
+    },
+    {
+      "type": "property",
+      "propertyValue": "twitter:title",
+      "content": "RP Daley.com | Recipes | Christmas Chocolate Balls"
+    },
+    {
+      "type": "property",
+      "propertyValue": "twitter:description",
+      "content": "Christmas Chocolate Balls!"
+    },
+    {
+      "type": "property",
+      "propertyValue": "twitter:image",
+      "content": "https://v2.rpdaley.com/images/metaImage.jpeg"
+    }
+  ],
+  "structuredData": {
+    "@context": "https://schema.org/",
+    "@type": "Recipe",
+    "name": "Christmas Chocolate Balls",
+    "author": { "@type": "Person", "name": "Ryan Daley" },
+    "url": "https://www.rpdaley.com/recipes/christmaschocolateballs/",
+    "image": "https://v2.rpdaley.com/images/metaImage.jpeg",
+    "description": "Christmas Chocolate Balls!",
+    "prepTime": "PT3H30M",
+    "cookTime": "PT",
+    "totalTime": "PT3H30M",
+    "recipeIngredient": [
+      "2¾ cups All-purpose flour",
+      "¾ cups Unsweetened cocoa powder",
+      "1 teaspoon Baking powder",
+      "¾ teaspoon Baking soda",
+      "1 teaspoon Kosher Salt",
+      "½ cup Brown sugar",
+      "½ cup Butter (melted)",
+      "3 Large eggs",
+      "Powdered sugar"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "In a large bowl, combine flour, cocoa powder, salt, baking powder, and baking soda."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "In a medium bowl, whisk together melted butter, sugars, and eggs until well combined."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Pour into dry ingredients and mix until just combined."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Cover bowl with plastic wrap and refrigerate for 2 hours."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Preheat oven to 350°F (175°C) and line 2 large baking sheets with parchment."
+      },
+      { "@type": "HowToStep", "text": "Place powdered sugar in a small bowl." },
+      {
+        "@type": "HowToStep",
+        "text": "Scoop about 2 tablespoons of dough and roll into a ball."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Roll dough into powdered sugar, coating well and then place on prepared baking sheet 2\" apart."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "After rolling all the dough in powdered sugar, roll each piece again in powdered sugar."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Bake cookies until cookies puff and crack - about 15 minutes."
+      },
+      { "@type": "HowToStep", "text": "Let cool on baking sheet." }
+    ]
+  },
+  "canonicalUrl": "https://www.rpdaley.com/recipes/christmaschocolateballs/"
+}
