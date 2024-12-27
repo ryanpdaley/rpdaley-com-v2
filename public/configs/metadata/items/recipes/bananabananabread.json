@@ -1,1 +1,122 @@
-{"metaTags":[{"type":"pageTitle","content":"RP Daley.com | Recipes | Banana Banana Bread"},{"type":"charSet","content":"utf-8"},{"type":"viewport","content":"width=device-width,initial-scale=1,shrink-to-fit=no"},{"type":"theme-color","content":"#000000"},{"type":"title","content":"RP Daley.com | Recipes | Banana Banana Bread"},{"type":"description","content":"Dive into a world of irresistible aroma and comforting sweetness with this Banana Banana Bread recipe – a homage to the beloved classic that transcends the ordinary. Overflowing with the natural sweetness of ripe bananas, this moist and tender bread promises to be a culinary masterpiece that will leave you reaching for seconds."},{"type":"keywords","content":"Banana, Banana, Bread, Recipe, RP Daley"},{"type":"author","content":"RP Daley"},{"type":"property","propertyValue":"og:type","content":"website"},{"type":"property","propertyValue":"og:url","content":"https://www.rpdaley.com/recipes/bananabananabread/"},{"type":"property","propertyValue":"og:title","content":"RP Daley.com | Recipes | Banana Banana Bread"},{"type":"property","propertyValue":"og:description","content":"Dive into a world of irresistible aroma and comforting sweetness with this Banana Banana Bread recipe – a homage to the beloved classic that transcends the ordinary. Overflowing with the natural sweetness of ripe bananas, this moist and tender bread promises to be a culinary masterpiece that will leave you reaching for seconds."},{"type":"property","propertyValue":"og:image","content":"https://v2.rpdaley.com/images/metaImage.jpeg"},{"type":"property","propertyValue":"twitter:card","content":"summary_large_image"},{"type":"property","propertyValue":"twitter:title","content":"RP Daley.com | Recipes | Banana Banana Bread"},{"type":"property","propertyValue":"twitter:description","content":"Dive into a world of irresistible aroma and comforting sweetness with this Banana Banana Bread recipe – a homage to the beloved classic that transcends the ordinary. Overflowing with the natural sweetness of ripe bananas, this moist and tender bread promises to be a culinary masterpiece that will leave you reaching for seconds."},{"type":"property","propertyValue":"twitter:image","content":"https://v2.rpdaley.com/images/metaImage.jpeg"}],"structuredData":{"@context":"https://schema.org/","@type":"Recipe","name":"Banana Banana Bread","author":{"@type":"Person","name":"Ryan Daley"},"url":"https://www.rpdaley.com/recipes/bananabananabread/","image":"https://v2.rpdaley.com/images/metaImage.jpeg","description":"Dive into a world of irresistible aroma and comforting sweetness with this Banana Banana Bread recipe – a homage to the beloved classic that transcends the ordinary. Overflowing with the natural sweetness of ripe bananas, this moist and tender bread promises to be a culinary masterpiece that will leave you reaching for seconds.","prepTime":"PT15M","cookTime":"PT1H30M","totalTime":"PT1H45M","recipeIngredient":["2 cups All-purpose flour","1 teaspoon Baking soda","¼ teaspoon Salt","¾ cup Brown sugar","½ cup Butter","2 Large Eggs (beaten)","2¼ cups Mashed overripe bananas"],"recipeInstructions":[{"@type":"HowToStep","text":"Preheat the oven to 350°F (175°C)"},{"@type":"HowToStep","text":"Lightly grease a 9x5-inch loaf pan"},{"@type":"HowToStep","text":"Combine flour, baking soda, and salt in large bowl #1"},{"@type":"HowToStep","text":"Beat brown sugar and butter with an electric mixer in large bowl #2 until smooth"},{"@type":"HowToStep","text":"Stir eggs and mashed bananas into bowl #2 until well blended"},{"@type":"HowToStep","text":"Stir bowl #2 into bowl #1 until just combined"},{"@type":"HowToStep","text":"Pour batter into the prepared loaf pan"},{"@type":"HowToStep","text":"Bake in the preheated oven until a toothpick inserted into the center comes out clean - about 60 minutes."},{"@type":"HowToStep","text":"Let bread cool in pan for 10 minutes, then turn out onto a wire rack to cool completely."}]},"canonicalUrl":"https://www.rpdaley.com/recipes/bananabananabread/"}
+{
+  "metaTags": [
+    {
+      "type": "pageTitle",
+      "content": "RP Daley.com | Recipes | Banana Banana Bread"
+    },
+    { "type": "charSet", "content": "utf-8" },
+    {
+      "type": "viewport",
+      "content": "width=device-width,initial-scale=1,shrink-to-fit=no"
+    },
+    { "type": "theme-color", "content": "#000000" },
+    {
+      "type": "title",
+      "content": "RP Daley.com | Recipes | Banana Banana Bread"
+    },
+    {
+      "type": "description",
+      "content": "Dive into a world of irresistible aroma and comforting sweetness with this Banana Banana Bread recipe – a homage to the beloved classic that transcends the ordinary. Overflowing with the natural sweetness of ripe bananas, this moist and tender bread promises to be a culinary masterpiece that will leave you reaching for seconds."
+    },
+    {
+      "type": "keywords",
+      "content": "Banana, Banana, Bread, Recipe, RP Daley"
+    },
+    { "type": "author", "content": "RP Daley" },
+    { "type": "property", "propertyValue": "og:type", "content": "website" },
+    {
+      "type": "property",
+      "propertyValue": "og:url",
+      "content": "https://www.rpdaley.com/recipes/bananabananabread/"
+    },
+    {
+      "type": "property",
+      "propertyValue": "og:title",
+      "content": "RP Daley.com | Recipes | Banana Banana Bread"
+    },
+    {
+      "type": "property",
+      "propertyValue": "og:description",
+      "content": "Dive into a world of irresistible aroma and comforting sweetness with this Banana Banana Bread recipe – a homage to the beloved classic that transcends the ordinary. Overflowing with the natural sweetness of ripe bananas, this moist and tender bread promises to be a culinary masterpiece that will leave you reaching for seconds."
+    },
+    {
+      "type": "property",
+      "propertyValue": "og:image",
+      "content": "https://www.rpdaley.com/images/rpd.jpeg"
+    },
+    {
+      "type": "property",
+      "propertyValue": "twitter:card",
+      "content": "summary_large_image"
+    },
+    {
+      "type": "property",
+      "propertyValue": "twitter:title",
+      "content": "RP Daley.com | Recipes | Banana Banana Bread"
+    },
+    {
+      "type": "property",
+      "propertyValue": "twitter:description",
+      "content": "Dive into a world of irresistible aroma and comforting sweetness with this Banana Banana Bread recipe – a homage to the beloved classic that transcends the ordinary. Overflowing with the natural sweetness of ripe bananas, this moist and tender bread promises to be a culinary masterpiece that will leave you reaching for seconds."
+    },
+    {
+      "type": "property",
+      "propertyValue": "twitter:image",
+      "content": "https://www.rpdaley.com/images/rpd.jpeg"
+    }
+  ],
+  "structuredData": {
+    "@context": "https://schema.org/",
+    "@type": "Recipe",
+    "name": "Banana Banana Bread",
+    "author": { "@type": "Person", "name": "Ryan Daley" },
+    "url": "https://www.rpdaley.com/recipes/bananabananabread/",
+    "image": "https://www.rpdaley.com/images/rpd.jpeg",
+    "description": "Dive into a world of irresistible aroma and comforting sweetness with this Banana Banana Bread recipe – a homage to the beloved classic that transcends the ordinary. Overflowing with the natural sweetness of ripe bananas, this moist and tender bread promises to be a culinary masterpiece that will leave you reaching for seconds.",
+    "prepTime": "PT15M",
+    "cookTime": "PT1H30M",
+    "totalTime": "PT1H45M",
+    "recipeIngredient": [
+      "2 cups All-purpose flour",
+      "1 teaspoon Baking soda",
+      "¼ teaspoon Salt",
+      "¾ cup Brown sugar",
+      "½ cup Butter",
+      "2 Large Eggs (beaten)",
+      "2¼ cups Mashed overripe bananas"
+    ],
+    "recipeInstructions": [
+      { "@type": "HowToStep", "text": "Preheat the oven to 350°F (175°C)" },
+      { "@type": "HowToStep", "text": "Lightly grease a 9x5-inch loaf pan" },
+      {
+        "@type": "HowToStep",
+        "text": "Combine flour, baking soda, and salt in large bowl #1"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Beat brown sugar and butter with an electric mixer in large bowl #2 until smooth"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Stir eggs and mashed bananas into bowl #2 until well blended"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Stir bowl #2 into bowl #1 until just combined"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Pour batter into the prepared loaf pan"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Bake in the preheated oven until a toothpick inserted into the center comes out clean - about 60 minutes."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Let bread cool in pan for 10 minutes, then turn out onto a wire rack to cool completely."
+      }
+    ]
+  },
+  "canonicalUrl": "https://www.rpdaley.com/recipes/bananabananabread/"
+}

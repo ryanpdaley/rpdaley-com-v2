@@ -39,7 +39,7 @@
     {
       "type": "property",
       "propertyValue": "og:image",
-      "content": "https://v2.rpdaley.com/images/metaImage.jpeg"
+      "content": "https://www.rpdaley.com/images/rpd.jpeg"
     },
     {
       "type": "property",
@@ -59,7 +59,7 @@
     {
       "type": "property",
       "propertyValue": "twitter:image",
-      "content": "https://v2.rpdaley.com/images/metaImage.jpeg"
+      "content": "https://www.rpdaley.com/images/rpd.jpeg"
     }
   ],
   "structuredData": {
@@ -68,7 +68,7 @@
     "name": "Christmas Chocolate Balls",
     "author": { "@type": "Person", "name": "Ryan Daley" },
     "url": "https://www.rpdaley.com/recipes/christmaschocolateballs/",
-    "image": "https://v2.rpdaley.com/images/metaImage.jpeg",
+    "image": "https://www.rpdaley.com/images/rpd.jpeg",
     "description": "Christmas Chocolate Balls!",
     "prepTime": "PT3H30M",
     "cookTime": "PT",

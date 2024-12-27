@@ -1,1 +1,128 @@
-{"metaTags":[{"type":"pageTitle","content":"RP Daley.com | Recipes | Sheet Pan Cashew Chicken"},{"type":"charSet","content":"utf-8"},{"type":"viewport","content":"width=device-width,initial-scale=1,shrink-to-fit=no"},{"type":"theme-color","content":"#000000"},{"type":"title","content":"RP Daley.com | Recipes | Sheet Pan Cashew Chicken"},{"type":"description","content":"Tender chunks of succulent chicken, coated in a flavourful marinade of soy sauce, honey, and ginger, take centre stage on the sheet pan. This recipe transforms humble ingredients into a symphony of taste and texture, all cooked to perfection on a single sheet pan for easy cleanup and a stress-free dining experience."},{"type":"keywords","content":"Sheet, Pan, Cashew, Chicken, Recipe, RP Daley"},{"type":"author","content":"RP Daley"},{"type":"property","propertyValue":"og:type","content":"website"},{"type":"property","propertyValue":"og:url","content":"https://www.rpdaley.com/recipes/sheetpancashewchicken/"},{"type":"property","propertyValue":"og:title","content":"RP Daley.com | Recipes | Sheet Pan Cashew Chicken"},{"type":"property","propertyValue":"og:description","content":"Tender chunks of succulent chicken, coated in a flavourful marinade of soy sauce, honey, and ginger, take centre stage on the sheet pan. This recipe transforms humble ingredients into a symphony of taste and texture, all cooked to perfection on a single sheet pan for easy cleanup and a stress-free dining experience."},{"type":"property","propertyValue":"og:image","content":"https://v2.rpdaley.com/images/metaImage.jpeg"},{"type":"property","propertyValue":"twitter:card","content":"summary_large_image"},{"type":"property","propertyValue":"twitter:title","content":"RP Daley.com | Recipes | Sheet Pan Cashew Chicken"},{"type":"property","propertyValue":"twitter:description","content":"Tender chunks of succulent chicken, coated in a flavourful marinade of soy sauce, honey, and ginger, take centre stage on the sheet pan. This recipe transforms humble ingredients into a symphony of taste and texture, all cooked to perfection on a single sheet pan for easy cleanup and a stress-free dining experience."},{"type":"property","propertyValue":"twitter:image","content":"https://v2.rpdaley.com/images/metaImage.jpeg"}],"structuredData":{"@context":"https://schema.org/","@type":"Recipe","name":"Sheet Pan Cashew Chicken","author":{"@type":"Person","name":"Ryan Daley"},"url":"https://www.rpdaley.com/recipes/sheetpancashewchicken/","image":"https://v2.rpdaley.com/images/metaImage.jpeg","description":"Tender chunks of succulent chicken, coated in a flavourful marinade of soy sauce, honey, and ginger, take centre stage on the sheet pan. This recipe transforms humble ingredients into a symphony of taste and texture, all cooked to perfection on a single sheet pan for easy cleanup and a stress-free dining experience.","prepTime":"PT30M","cookTime":"PT25M","totalTime":"PT55M","recipeYield":"4 servings","recipeIngredient":["3 boneless, skinless chicken breasts (cut into 1/2-1 inch pieces)","2 cups Broccoli florets","1 Red bell pepper (diced)","1 cup Unsalted cashews","[optional] cilantro","[optional] rice","3 tablespoons Sriracha","2 tablespoons Soy sauce","2 tablespoons Rice vinegar","2 tablespoons Toasted sesame oil","1 tablespoon Honey","2 Garlic cloves (minced)","3 dashes Ginger (ground)"],"recipeInstructions":[{"@type":"HowToStep","text":"Preheat oven to 425°F"},{"@type":"HowToStep","text":"Line a large baking sheet with parchment paper"},{"@type":"HowToStep","text":"Add chicken, broccoli, bell pepper and cashews"},{"@type":"HowToStep","text":"Mix together all of the sauce ingredients in a small bowl"},{"@type":"HowToStep","text":"Pour 3/4 of the sauce on the chicken and veggies, and toss to coat evenly"},{"@type":"HowToStep","text":"Roast for 25 minutes, tossing halfway through"},{"@type":"HowToStep","text":"Top chicken and veggies with remaining sauce, and toss"},{"@type":"HowToStep","text":"Serve with rice of choice and top with cilantro"}]},"canonicalUrl":"https://www.rpdaley.com/recipes/sheetpancashewchicken/"}
+{
+  "metaTags": [
+    {
+      "type": "pageTitle",
+      "content": "RP Daley.com | Recipes | Sheet Pan Cashew Chicken"
+    },
+    { "type": "charSet", "content": "utf-8" },
+    {
+      "type": "viewport",
+      "content": "width=device-width,initial-scale=1,shrink-to-fit=no"
+    },
+    { "type": "theme-color", "content": "#000000" },
+    {
+      "type": "title",
+      "content": "RP Daley.com | Recipes | Sheet Pan Cashew Chicken"
+    },
+    {
+      "type": "description",
+      "content": "Tender chunks of succulent chicken, coated in a flavourful marinade of soy sauce, honey, and ginger, take centre stage on the sheet pan. This recipe transforms humble ingredients into a symphony of taste and texture, all cooked to perfection on a single sheet pan for easy cleanup and a stress-free dining experience."
+    },
+    {
+      "type": "keywords",
+      "content": "Sheet, Pan, Cashew, Chicken, Recipe, RP Daley"
+    },
+    { "type": "author", "content": "RP Daley" },
+    { "type": "property", "propertyValue": "og:type", "content": "website" },
+    {
+      "type": "property",
+      "propertyValue": "og:url",
+      "content": "https://www.rpdaley.com/recipes/sheetpancashewchicken/"
+    },
+    {
+      "type": "property",
+      "propertyValue": "og:title",
+      "content": "RP Daley.com | Recipes | Sheet Pan Cashew Chicken"
+    },
+    {
+      "type": "property",
+      "propertyValue": "og:description",
+      "content": "Tender chunks of succulent chicken, coated in a flavourful marinade of soy sauce, honey, and ginger, take centre stage on the sheet pan. This recipe transforms humble ingredients into a symphony of taste and texture, all cooked to perfection on a single sheet pan for easy cleanup and a stress-free dining experience."
+    },
+    {
+      "type": "property",
+      "propertyValue": "og:image",
+      "content": "https://www.rpdaley.com/images/rpd.jpeg"
+    },
+    {
+      "type": "property",
+      "propertyValue": "twitter:card",
+      "content": "summary_large_image"
+    },
+    {
+      "type": "property",
+      "propertyValue": "twitter:title",
+      "content": "RP Daley.com | Recipes | Sheet Pan Cashew Chicken"
+    },
+    {
+      "type": "property",
+      "propertyValue": "twitter:description",
+      "content": "Tender chunks of succulent chicken, coated in a flavourful marinade of soy sauce, honey, and ginger, take centre stage on the sheet pan. This recipe transforms humble ingredients into a symphony of taste and texture, all cooked to perfection on a single sheet pan for easy cleanup and a stress-free dining experience."
+    },
+    {
+      "type": "property",
+      "propertyValue": "twitter:image",
+      "content": "https://www.rpdaley.com/images/rpd.jpeg"
+    }
+  ],
+  "structuredData": {
+    "@context": "https://schema.org/",
+    "@type": "Recipe",
+    "name": "Sheet Pan Cashew Chicken",
+    "author": { "@type": "Person", "name": "Ryan Daley" },
+    "url": "https://www.rpdaley.com/recipes/sheetpancashewchicken/",
+    "image": "https://www.rpdaley.com/images/rpd.jpeg",
+    "description": "Tender chunks of succulent chicken, coated in a flavourful marinade of soy sauce, honey, and ginger, take centre stage on the sheet pan. This recipe transforms humble ingredients into a symphony of taste and texture, all cooked to perfection on a single sheet pan for easy cleanup and a stress-free dining experience.",
+    "prepTime": "PT30M",
+    "cookTime": "PT25M",
+    "totalTime": "PT55M",
+    "recipeYield": "4 servings",
+    "recipeIngredient": [
+      "3 boneless, skinless chicken breasts (cut into 1/2-1 inch pieces)",
+      "2 cups Broccoli florets",
+      "1 Red bell pepper (diced)",
+      "1 cup Unsalted cashews",
+      "[optional] cilantro",
+      "[optional] rice",
+      "3 tablespoons Sriracha",
+      "2 tablespoons Soy sauce",
+      "2 tablespoons Rice vinegar",
+      "2 tablespoons Toasted sesame oil",
+      "1 tablespoon Honey",
+      "2 Garlic cloves (minced)",
+      "3 dashes Ginger (ground)"
+    ],
+    "recipeInstructions": [
+      { "@type": "HowToStep", "text": "Preheat oven to 425°F" },
+      {
+        "@type": "HowToStep",
+        "text": "Line a large baking sheet with parchment paper"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Add chicken, broccoli, bell pepper and cashews"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Mix together all of the sauce ingredients in a small bowl"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Pour 3/4 of the sauce on the chicken and veggies, and toss to coat evenly"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Roast for 25 minutes, tossing halfway through"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Top chicken and veggies with remaining sauce, and toss"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Serve with rice of choice and top with cilantro"
+      }
+    ]
+  },
+  "canonicalUrl": "https://www.rpdaley.com/recipes/sheetpancashewchicken/"
+}

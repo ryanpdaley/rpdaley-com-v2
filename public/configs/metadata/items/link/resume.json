@@ -36,7 +36,7 @@
     {
       "type": "property",
       "propertyValue": "og:image",
-      "content": "https://v2.rpdaley.com/images/metaImage.jpeg"
+      "content": "https://www.rpdaley.com/images/rpd.jpeg"
     },
     {
       "type": "property",
@@ -56,7 +56,7 @@
     {
       "type": "property",
       "propertyValue": "twitter:image",
-      "content": "https://v2.rpdaley.com/images/metaImage.jpeg"
+      "content": "https://www.rpdaley.com/images/rpd.jpeg"
     }
   ],
   "structuredData": [

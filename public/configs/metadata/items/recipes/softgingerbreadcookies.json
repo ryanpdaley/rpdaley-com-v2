@@ -1,1 +1,128 @@
-{"metaTags":[{"type":"pageTitle","content":"RP Daley.com | Recipes | Soft Gingerbread Cookies"},{"type":"charSet","content":"utf-8"},{"type":"viewport","content":"width=device-width,initial-scale=1,shrink-to-fit=no"},{"type":"theme-color","content":"#000000"},{"type":"title","content":"RP Daley.com | Recipes | Soft Gingerbread Cookies"},{"type":"description","content":"Soft Gingersnap Cookies are chewy, delicious and the perfect cookie for the holidays! This Gingerbread Cookie recipe is full of the flavors of cinnamon, ginger and molasses and the best part about these cookies is that they stay soft for several days!"},{"type":"keywords","content":"Soft, Gingerbread, Cookies, Recipe, RP Daley"},{"type":"author","content":"RP Daley"},{"type":"property","propertyValue":"og:type","content":"website"},{"type":"property","propertyValue":"og:url","content":"https://www.rpdaley.com/recipes/softgingerbreadcookies/"},{"type":"property","propertyValue":"og:title","content":"RP Daley.com | Recipes | Soft Gingerbread Cookies"},{"type":"property","propertyValue":"og:description","content":"Soft Gingersnap Cookies are chewy, delicious and the perfect cookie for the holidays! This Gingerbread Cookie recipe is full of the flavors of cinnamon, ginger and molasses and the best part about these cookies is that they stay soft for several days!"},{"type":"property","propertyValue":"og:image","content":"https://v2.rpdaley.com/images/metaImage.jpeg"},{"type":"property","propertyValue":"twitter:card","content":"summary_large_image"},{"type":"property","propertyValue":"twitter:title","content":"RP Daley.com | Recipes | Soft Gingerbread Cookies"},{"type":"property","propertyValue":"twitter:description","content":"Soft Gingersnap Cookies are chewy, delicious and the perfect cookie for the holidays! This Gingerbread Cookie recipe is full of the flavors of cinnamon, ginger and molasses and the best part about these cookies is that they stay soft for several days!"},{"type":"property","propertyValue":"twitter:image","content":"https://v2.rpdaley.com/images/metaImage.jpeg"}],"structuredData":{"@context":"https://schema.org/","@type":"Recipe","name":"Soft Gingerbread Cookies","author":{"@type":"Person","name":"Ryan Daley"},"url":"https://www.rpdaley.com/recipes/softgingerbreadcookies/","image":"https://v2.rpdaley.com/images/metaImage.jpeg","description":"Soft Gingersnap Cookies are chewy, delicious and the perfect cookie for the holidays! This Gingerbread Cookie recipe is full of the flavors of cinnamon, ginger and molasses and the best part about these cookies is that they stay soft for several days!","prepTime":"PT","cookTime":"PT","recipeIngredient":["2 cups All-purpose flour","½ teaspoon Kosher Salt","2 teaspoons Baking soda","½ teaspoon Cinnamon","½ teaspoon Ginger","¾ cup Butter (melted)","1 cup Sugar","1 Large egg","¼ cup Molasses","¼ cup Sugar"],"recipeInstructions":[{"@type":"HowToStep","text":"In a medium bowl, combine the flour, salt, baking soda, cinnamon, and ginger together."},{"@type":"HowToStep","text":"In a large bowl, whisk together melted butter, sugar, egg, and molasses until well combined."},{"@type":"HowToStep","text":"Pour into dry ingredients and mix until combined."},{"@type":"HowToStep","text":"Preheat oven to 350°F (175°C) and line 2 large baking sheets with parchment."},{"@type":"HowToStep","text":"Use a cookie scoop to scoop out tablespoon sized balls and roll them into shape between your hands."},{"@type":"HowToStep","text":"Place decorating sugar in a small bowl."},{"@type":"HowToStep","text":"Roll dough into decorating sugar, coating all sides"},{"@type":"HowToStep","text":"Place cookie dough balls on prepared baking sheet 2\" apart and lightly flatten with the palm of your hand"},{"@type":"HowToStep","text":"Bake cookies at 350°F for 10 minutes."},{"@type":"HowToStep","text":"Let cool on baking sheet."}]},"canonicalUrl":"https://www.rpdaley.com/recipes/softgingerbreadcookies/"}
+{
+  "metaTags": [
+    {
+      "type": "pageTitle",
+      "content": "RP Daley.com | Recipes | Soft Gingerbread Cookies"
+    },
+    { "type": "charSet", "content": "utf-8" },
+    {
+      "type": "viewport",
+      "content": "width=device-width,initial-scale=1,shrink-to-fit=no"
+    },
+    { "type": "theme-color", "content": "#000000" },
+    {
+      "type": "title",
+      "content": "RP Daley.com | Recipes | Soft Gingerbread Cookies"
+    },
+    {
+      "type": "description",
+      "content": "Soft Gingersnap Cookies are chewy, delicious and the perfect cookie for the holidays! This Gingerbread Cookie recipe is full of the flavors of cinnamon, ginger and molasses and the best part about these cookies is that they stay soft for several days!"
+    },
+    {
+      "type": "keywords",
+      "content": "Soft, Gingerbread, Cookies, Recipe, RP Daley"
+    },
+    { "type": "author", "content": "RP Daley" },
+    { "type": "property", "propertyValue": "og:type", "content": "website" },
+    {
+      "type": "property",
+      "propertyValue": "og:url",
+      "content": "https://www.rpdaley.com/recipes/softgingerbreadcookies/"
+    },
+    {
+      "type": "property",
+      "propertyValue": "og:title",
+      "content": "RP Daley.com | Recipes | Soft Gingerbread Cookies"
+    },
+    {
+      "type": "property",
+      "propertyValue": "og:description",
+      "content": "Soft Gingersnap Cookies are chewy, delicious and the perfect cookie for the holidays! This Gingerbread Cookie recipe is full of the flavors of cinnamon, ginger and molasses and the best part about these cookies is that they stay soft for several days!"
+    },
+    {
+      "type": "property",
+      "propertyValue": "og:image",
+      "content": "https://www.rpdaley.com/images/rpd.jpeg"
+    },
+    {
+      "type": "property",
+      "propertyValue": "twitter:card",
+      "content": "summary_large_image"
+    },
+    {
+      "type": "property",
+      "propertyValue": "twitter:title",
+      "content": "RP Daley.com | Recipes | Soft Gingerbread Cookies"
+    },
+    {
+      "type": "property",
+      "propertyValue": "twitter:description",
+      "content": "Soft Gingersnap Cookies are chewy, delicious and the perfect cookie for the holidays! This Gingerbread Cookie recipe is full of the flavors of cinnamon, ginger and molasses and the best part about these cookies is that they stay soft for several days!"
+    },
+    {
+      "type": "property",
+      "propertyValue": "twitter:image",
+      "content": "https://www.rpdaley.com/images/rpd.jpeg"
+    }
+  ],
+  "structuredData": {
+    "@context": "https://schema.org/",
+    "@type": "Recipe",
+    "name": "Soft Gingerbread Cookies",
+    "author": { "@type": "Person", "name": "Ryan Daley" },
+    "url": "https://www.rpdaley.com/recipes/softgingerbreadcookies/",
+    "image": "https://www.rpdaley.com/images/rpd.jpeg",
+    "description": "Soft Gingersnap Cookies are chewy, delicious and the perfect cookie for the holidays! This Gingerbread Cookie recipe is full of the flavors of cinnamon, ginger and molasses and the best part about these cookies is that they stay soft for several days!",
+    "prepTime": "PT",
+    "cookTime": "PT",
+    "recipeIngredient": [
+      "2 cups All-purpose flour",
+      "½ teaspoon Kosher Salt",
+      "2 teaspoons Baking soda",
+      "½ teaspoon Cinnamon",
+      "½ teaspoon Ginger",
+      "¾ cup Butter (melted)",
+      "1 cup Sugar",
+      "1 Large egg",
+      "¼ cup Molasses",
+      "¼ cup Sugar"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "In a medium bowl, combine the flour, salt, baking soda, cinnamon, and ginger together."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "In a large bowl, whisk together melted butter, sugar, egg, and molasses until well combined."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Pour into dry ingredients and mix until combined."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Preheat oven to 350°F (175°C) and line 2 large baking sheets with parchment."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Use a cookie scoop to scoop out tablespoon sized balls and roll them into shape between your hands."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Place decorating sugar in a small bowl."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Roll dough into decorating sugar, coating all sides"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Place cookie dough balls on prepared baking sheet 2\" apart and lightly flatten with the palm of your hand"
+      },
+      { "@type": "HowToStep", "text": "Bake cookies at 350°F for 10 minutes." },
+      { "@type": "HowToStep", "text": "Let cool on baking sheet." }
+    ]
+  },
+  "canonicalUrl": "https://www.rpdaley.com/recipes/softgingerbreadcookies/"
+}

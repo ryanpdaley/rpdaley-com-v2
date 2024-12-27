@@ -1,1 +1,127 @@
-{"metaTags":[{"type":"pageTitle","content":"RP Daley.com | Recipes | Peanut Butter Christmas Cookies"},{"type":"charSet","content":"utf-8"},{"type":"viewport","content":"width=device-width,initial-scale=1,shrink-to-fit=no"},{"type":"theme-color","content":"#000000"},{"type":"title","content":"RP Daley.com | Recipes | Peanut Butter Christmas Cookies"},{"type":"description","content":"A golden brown, crinkled peanut butter cookie, its edges perfectly crisp while the center remains irresistibly chewy. As if that weren't enough, each cookie is adorned with a Hershey's Kiss, nestled into the warm and gooey surface just moments after emerging from the oven."},{"type":"keywords","content":"Peanut, Butter, Christmas, Cookies, Recipe, RP Daley"},{"type":"author","content":"RP Daley"},{"type":"property","propertyValue":"og:type","content":"website"},{"type":"property","propertyValue":"og:url","content":"https://www.rpdaley.com/recipes/peanutbutterchristmascookies/"},{"type":"property","propertyValue":"og:title","content":"RP Daley.com | Recipes | Peanut Butter Christmas Cookies"},{"type":"property","propertyValue":"og:description","content":"A golden brown, crinkled peanut butter cookie, its edges perfectly crisp while the center remains irresistibly chewy. As if that weren't enough, each cookie is adorned with a Hershey's Kiss, nestled into the warm and gooey surface just moments after emerging from the oven."},{"type":"property","propertyValue":"og:image","content":"https://v2.rpdaley.com/images/metaImage.jpeg"},{"type":"property","propertyValue":"twitter:card","content":"summary_large_image"},{"type":"property","propertyValue":"twitter:title","content":"RP Daley.com | Recipes | Peanut Butter Christmas Cookies"},{"type":"property","propertyValue":"twitter:description","content":"A golden brown, crinkled peanut butter cookie, its edges perfectly crisp while the center remains irresistibly chewy. As if that weren't enough, each cookie is adorned with a Hershey's Kiss, nestled into the warm and gooey surface just moments after emerging from the oven."},{"type":"property","propertyValue":"twitter:image","content":"https://v2.rpdaley.com/images/metaImage.jpeg"}],"structuredData":{"@context":"https://schema.org/","@type":"Recipe","name":"Peanut Butter Christmas Cookies","author":{"@type":"Person","name":"Ryan Daley"},"url":"https://www.rpdaley.com/recipes/peanutbutterchristmascookies/","image":"https://v2.rpdaley.com/images/metaImage.jpeg","description":"A golden brown, crinkled peanut butter cookie, its edges perfectly crisp while the center remains irresistibly chewy. As if that weren't enough, each cookie is adorned with a Hershey's Kiss, nestled into the warm and gooey surface just moments after emerging from the oven.","prepTime":"PT10M","cookTime":"PT10M","totalTime":"PT20M","recipeYield":"30 cookies","recipeIngredient":["1¾ cups All-purpose flour","1 teaspoon Baking soda","½ teaspoon Kosher Salt","½ cup Butter (softened)","½ cup Peanut Butter (smooth)","½ cup Brown sugar (packed)","¼ cup Granulated Sugar (for recipe)","⅙ cup Granulated Sugar (for decoration)","1 Egg","2 tablespoons Milk","1 teaspoon Pure Vanilla Extract","30 Hershey Kisses (for decoration)"],"recipeInstructions":[{"@type":"HowToStep","text":"Preheat oven to 375°F"},{"@type":"HowToStep","text":"Line two large baking sheets with parchment paper."},{"@type":"HowToStep","text":"In small bowl, whisk flour, baking soda, and salt until combined."},{"@type":"HowToStep","text":"In a large bowl using a hand mixer, beat butter and peanut butter until smooth. Add sugars and beat until light in color and fluffy. Beat in egg, then add milk and vanilla and mix until combined."},{"@type":"HowToStep","text":"Gradually add flour mixture to large bowl, stirring on low, until just combined."},{"@type":"HowToStep","text":"Roll a tablespoonful of cookie dough into a ball, then roll in sugar. Place on baking sheet and repeat with remaining dough, spacing cookies at least 2\" apart."},{"@type":"HowToStep","text":"Bake until cookies have poofed and no longer look raw, about 8 to 10 minutes. (They won't brown!)"},{"@type":"HowToStep","text":"Immediately top with Hershey Kisses before serving."}]},"canonicalUrl":"https://www.rpdaley.com/recipes/peanutbutterchristmascookies/"}
+{
+  "metaTags": [
+    {
+      "type": "pageTitle",
+      "content": "RP Daley.com | Recipes | Peanut Butter Christmas Cookies"
+    },
+    { "type": "charSet", "content": "utf-8" },
+    {
+      "type": "viewport",
+      "content": "width=device-width,initial-scale=1,shrink-to-fit=no"
+    },
+    { "type": "theme-color", "content": "#000000" },
+    {
+      "type": "title",
+      "content": "RP Daley.com | Recipes | Peanut Butter Christmas Cookies"
+    },
+    {
+      "type": "description",
+      "content": "A golden brown, crinkled peanut butter cookie, its edges perfectly crisp while the center remains irresistibly chewy. As if that weren't enough, each cookie is adorned with a Hershey's Kiss, nestled into the warm and gooey surface just moments after emerging from the oven."
+    },
+    {
+      "type": "keywords",
+      "content": "Peanut, Butter, Christmas, Cookies, Recipe, RP Daley"
+    },
+    { "type": "author", "content": "RP Daley" },
+    { "type": "property", "propertyValue": "og:type", "content": "website" },
+    {
+      "type": "property",
+      "propertyValue": "og:url",
+      "content": "https://www.rpdaley.com/recipes/peanutbutterchristmascookies/"
+    },
+    {
+      "type": "property",
+      "propertyValue": "og:title",
+      "content": "RP Daley.com | Recipes | Peanut Butter Christmas Cookies"
+    },
+    {
+      "type": "property",
+      "propertyValue": "og:description",
+      "content": "A golden brown, crinkled peanut butter cookie, its edges perfectly crisp while the center remains irresistibly chewy. As if that weren't enough, each cookie is adorned with a Hershey's Kiss, nestled into the warm and gooey surface just moments after emerging from the oven."
+    },
+    {
+      "type": "property",
+      "propertyValue": "og:image",
+      "content": "https://www.rpdaley.com/images/rpd.jpeg"
+    },
+    {
+      "type": "property",
+      "propertyValue": "twitter:card",
+      "content": "summary_large_image"
+    },
+    {
+      "type": "property",
+      "propertyValue": "twitter:title",
+      "content": "RP Daley.com | Recipes | Peanut Butter Christmas Cookies"
+    },
+    {
+      "type": "property",
+      "propertyValue": "twitter:description",
+      "content": "A golden brown, crinkled peanut butter cookie, its edges perfectly crisp while the center remains irresistibly chewy. As if that weren't enough, each cookie is adorned with a Hershey's Kiss, nestled into the warm and gooey surface just moments after emerging from the oven."
+    },
+    {
+      "type": "property",
+      "propertyValue": "twitter:image",
+      "content": "https://www.rpdaley.com/images/rpd.jpeg"
+    }
+  ],
+  "structuredData": {
+    "@context": "https://schema.org/",
+    "@type": "Recipe",
+    "name": "Peanut Butter Christmas Cookies",
+    "author": { "@type": "Person", "name": "Ryan Daley" },
+    "url": "https://www.rpdaley.com/recipes/peanutbutterchristmascookies/",
+    "image": "https://www.rpdaley.com/images/rpd.jpeg",
+    "description": "A golden brown, crinkled peanut butter cookie, its edges perfectly crisp while the center remains irresistibly chewy. As if that weren't enough, each cookie is adorned with a Hershey's Kiss, nestled into the warm and gooey surface just moments after emerging from the oven.",
+    "prepTime": "PT10M",
+    "cookTime": "PT10M",
+    "totalTime": "PT20M",
+    "recipeYield": "30 cookies",
+    "recipeIngredient": [
+      "1¾ cups All-purpose flour",
+      "1 teaspoon Baking soda",
+      "½ teaspoon Kosher Salt",
+      "½ cup Butter (softened)",
+      "½ cup Peanut Butter (smooth)",
+      "½ cup Brown sugar (packed)",
+      "¼ cup Granulated Sugar (for recipe)",
+      "⅙ cup Granulated Sugar (for decoration)",
+      "1 Egg",
+      "2 tablespoons Milk",
+      "1 teaspoon Pure Vanilla Extract",
+      "30 Hershey Kisses (for decoration)"
+    ],
+    "recipeInstructions": [
+      { "@type": "HowToStep", "text": "Preheat oven to 375°F" },
+      {
+        "@type": "HowToStep",
+        "text": "Line two large baking sheets with parchment paper."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "In small bowl, whisk flour, baking soda, and salt until combined."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "In a large bowl using a hand mixer, beat butter and peanut butter until smooth. Add sugars and beat until light in color and fluffy. Beat in egg, then add milk and vanilla and mix until combined."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Gradually add flour mixture to large bowl, stirring on low, until just combined."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Roll a tablespoonful of cookie dough into a ball, then roll in sugar. Place on baking sheet and repeat with remaining dough, spacing cookies at least 2\" apart."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Bake until cookies have poofed and no longer look raw, about 8 to 10 minutes. (They won't brown!)"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Immediately top with Hershey Kisses before serving."
+      }
+    ]
+  },
+  "canonicalUrl": "https://www.rpdaley.com/recipes/peanutbutterchristmascookies/"
+}

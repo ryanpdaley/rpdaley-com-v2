@@ -48,7 +48,7 @@ const getMeasurementString = (measurement) => {
   }
   if (Array.isArray(measurement) && measurement.length === 2) {
     return `${convertDecimals(measurement[0])}-${convertDecimals(
-      measurement[1],
+      measurement[1]
     )}`;
   }
   if (typeof measurement === 'number') {
@@ -170,7 +170,7 @@ const buildStructuredRecipe = (recipe, recipeUrl) => {
       name: 'Ryan Daley',
     },
     url: recipeUrl,
-    image: 'https://v2.rpdaley.com/images/metaImage.jpeg',
+    image: 'https://www.rpdaley.com/images/rpd.jpeg',
   };
   structuredRecipe = appendDescription(recipe, structuredRecipe);
   structuredRecipe = appendCookTimes(recipe, structuredRecipe);
@@ -231,7 +231,7 @@ const buildMetaTags = (recipe, recipeUrl) => {
     {
       type: 'property',
       propertyValue: 'og:image',
-      content: 'https://v2.rpdaley.com/images/metaImage.jpeg',
+      content: 'https://www.rpdaley.com/images/rpd.jpeg',
     },
     {
       type: 'property',
@@ -251,7 +251,7 @@ const buildMetaTags = (recipe, recipeUrl) => {
     {
       type: 'property',
       propertyValue: 'twitter:image',
-      content: 'https://v2.rpdaley.com/images/metaImage.jpeg',
+      content: 'https://www.rpdaley.com/images/rpd.jpeg',
     },
   ];
   return metaTags;
@@ -318,7 +318,7 @@ const addRecipe = (parsedArgs) => {
       const recipeData = JSON.parse(fs.readFileSync(recipeFilePath, 'utf8'));
       const recipeId = buildMetadata(recipeData);
       console.log(
-        `... build structured data (and create configs/metadata/items/recipes/${recipeId}.json`,
+        `... build structured data (and create configs/metadata/items/recipes/${recipeId}.json`
       );
       addRecipeToRecipeList(recipeData, recipeId);
       addRecipeToSitemap(recipeId);
