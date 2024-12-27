@@ -1,0 +1,114 @@
+{
+  "info": {
+    "title": "Soft Gingerbread Cookies",
+    "makes": null,
+    "prepTime": {
+      "value": 10,
+      "unit": "mins"
+    },
+    "cookTime": {
+      "value": 10,
+      "unit": "mins"
+    },
+    "description": "Soft Gingersnap Cookies are chewy, delicious and the perfect cookie for the holidays! This Gingerbread Cookie recipe is full of the flavors of cinnamon, ginger and molasses and the best part about these cookies is that they stay soft for several days!",
+    "source": {
+      "label": "familycookierecipes.com",
+      "url": "https://familycookierecipes.com/soft-gingerbread-cookies/",
+      "isModified": true
+    }
+  },
+  "ingredients": [
+    {
+      "subHeading": "Cookies",
+      "items": [
+        {
+          "name": "All-purpose flour",
+          "measurement": 2,
+          "measurementUnit": "cups",
+          "qualifierString": null,
+          "isConvertibleUnit": true
+        },
+        {
+          "name": "Kosher Salt",
+          "measurement": 0.5,
+          "measurementUnit": "teaspoon",
+          "qualifierString": null,
+          "isConvertibleUnit": true
+        },
+        {
+          "name": "Baking soda",
+          "measurement": 2,
+          "measurementUnit": "teaspoons",
+          "qualifierString": null,
+          "isConvertibleUnit": true
+        },
+        {
+          "name": "Cinnamon",
+          "measurement": 0.5,
+          "measurementUnit": "teaspoon",
+          "qualifierString": null,
+          "isConvertibleUnit": true
+        },
+        {
+          "name": "Ginger",
+          "measurement": 0.5,
+          "measurementUnit": "teaspoon",
+          "qualifierString": null,
+          "isConvertibleUnit": true
+        },
+        {
+          "name": "Butter",
+          "measurement": 0.75,
+          "measurementUnit": "cup",
+          "qualifierString": "melted",
+          "isConvertibleUnit": true
+        },
+        {
+          "name": "Sugar",
+          "measurement": 1,
+          "measurementUnit": "cup",
+          "qualifierString": null,
+          "isConvertibleUnit": true
+        },
+        {
+          "name": "Large egg",
+          "measurement": 1,
+          "measurementUnit": null,
+          "qualifierString": null,
+          "isConvertibleUnit": false
+        },
+        {
+          "name": "Molasses",
+          "measurement": 0.25,
+          "measurementUnit": "cup",
+          "qualifierString": null,
+          "isConvertibleUnit": true
+        }
+      ]
+    },
+    {
+      "subHeading": "Decoration",
+      "items": [
+        {
+          "name": "Sugar",
+          "measurement": 0.25,
+          "measurementUnit": "cup",
+          "qualifierString": null,
+          "isConvertibleUnit": true
+        }
+      ]
+    }
+  ],
+  "directions": [
+    "In a medium bowl, combine the flour, salt, baking soda, cinnamon, and ginger together.",
+    "In a large bowl, whisk together melted butter, sugar, egg, and molasses until well combined.",
+    "Pour into dry ingredients and mix until combined.",
+    "Preheat oven to 350°F (175°C) and line 2 large baking sheets with parchment.",
+    "Use a cookie scoop to scoop out tablespoon sized balls and roll them into shape between your hands.",
+    "Place decorating sugar in a small bowl.",
+    "Roll dough into decorating sugar, coating all sides",
+    "Place cookie dough balls on prepared baking sheet 2\" apart and lightly flatten with the palm of your hand",
+    "Bake cookies at 350°F for 10 minutes.",
+    "Let cool on baking sheet."
+  ]
+}
