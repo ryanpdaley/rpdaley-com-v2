@@ -1,0 +1,77 @@
+{
+  "info": {
+    "title": "Mint Chocolate Fudge",
+    "makes": null,
+    "prepTime": {
+      "value": 5,
+      "unit": "mins"
+    },
+    "cookTime": {
+      "value": 5,
+      "unit": "mins"
+    },
+    "description": "Mint Chocolate Fudge is such a decadent treat. With only 5 ingredients, this chocolate peppermint fudge is so quick and easy to make!",
+    "source": {
+      "label": "Sum of Yum",
+      "url": "https://sumofyum.com/recipe/mint-chocolate-fudge/",
+      "isModified": true
+    }
+  },
+  "ingredients": [
+    {
+      "subHeading": null,
+      "items": [
+        {
+          "name": "Dark chocolate chips",
+          "measurement": 2,
+          "measurementUnit": "cups",
+          "qualifierString": null,
+          "isConvertibleUnit": true
+        },
+        {
+          "name": "Semi sweet chocolate chips ",
+          "measurement": 1,
+          "measurementUnit": "cup",
+          "qualifierString": null,
+          "isConvertibleUnit": true
+        },
+        {
+          "name": "Sweetened condensed milk",
+          "measurement": 415,
+          "measurementUnit": "milliliters",
+          "qualifierString": null,
+          "isConvertibleUnit": true
+        },
+        {
+          "name": "Butter",
+          "measurement": 1,
+          "measurementUnit": "tablespoon",
+          "qualifierString": null,
+          "isConvertibleUnit": true
+        },
+        {
+          "name": "Peppermint extract",
+          "measurement": 1.5,
+          "measurementUnit": "teaspoons",
+          "qualifierString": null,
+          "isConvertibleUnit": true
+        },
+        {
+          "name": "Vanilla extract",
+          "measurement": 1,
+          "measurementUnit": "teaspoon",
+          "qualifierString": null,
+          "isConvertibleUnit": true
+        }
+      ]
+    }
+  ],
+  "directions": [
+    "Line a pan (8x8 or 9x9) with parchment paper",
+    "Combine all of the ingredients in a medium saucepan over low heat.",
+    "Stir constantly until the mixture is completely melted - do not boil.",
+    "Remove it from the heat, pour it into the prepared pan, and spread evenly.",
+    "Cover and refrigerate for at least 2 hours or until the fudge is completely set.",
+    "Cut into squares, and serve"
+  ]
+}
